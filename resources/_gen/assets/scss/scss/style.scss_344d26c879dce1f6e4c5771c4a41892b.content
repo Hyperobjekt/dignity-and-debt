@@ -363,18 +363,6 @@ template {
   margin-left: auto;
 }
 
-@media (min-width: 480px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1440px;
-  }
-}
-
 .container-fluid {
   width: 100%;
   padding-right: 15px;
@@ -12357,7 +12345,15 @@ nav.navbar-light .navbar-nav .nav-link.active, nav.navbar-light .navbar-nav .nav
   padding-top: 2.6rem;
 }
 
+nav.navbar-light .navbar-nav .nav-link:last-child {
+  margin-bottom: 2.4rem;
+}
+
 @media (max-width: 767.98px) {
+  nav.navbar-light .collapse .navbar-nav,
+  nav.navbar-light .collapsing .navbar-nav {
+    height: auto;
+  }
   nav.navbar-light .collapse .navbar-nav .nav-link,
   nav.navbar-light .collapse .navbar-nav .nav-link:hover,
   nav.navbar-light .collapsing .navbar-nav .nav-link,
@@ -12366,10 +12362,6 @@ nav.navbar-light .navbar-nav .nav-link.active, nav.navbar-light .navbar-nav .nav
     border-top: none;
     padding-top: 3.4rem;
     padding-right: 0;
-  }
-  nav.navbar-light .collapse.show,
-  nav.navbar-light .collapsing.show {
-    height: 180px !important;
   }
 }
 
@@ -12639,7 +12631,6 @@ body.home .jumbotron div.h2 {
 
 body.home #main {
   background-color: #ffffff;
-  overflow-x: hidden;
 }
 
 body.home .col-intro {

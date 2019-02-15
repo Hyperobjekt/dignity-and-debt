@@ -45,7 +45,7 @@
     
     
     
-    <link rel="stylesheet" href="/style.min.38e7c1fab2cf550bab9350136b1eaead8826659601e489b2bb2f72b340630e8b.css">
+    <link rel="stylesheet" href="/style.min.3cd268c047d87dd7ad737ab571a9dd5a8ae6cd665d2c57cc1cfae765135e75de.css">
   
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
@@ -59,6 +59,7 @@
   
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.typekit.net/ayl0mep.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   
   
   
@@ -79,9 +80,6 @@
   .home .container.parent {
     background-color: rgba(10, 61, 95, 0.24) !important;
     background-blend-mode: multiply;
-    background-size: 1440px auto;
-    background-position: 43% 0;
-    background-repeat: no-repeat;
   }
   .home.scroll-top nav {
     background-image: transparent;
@@ -109,13 +107,15 @@
 #home-jumbotron {
   background-color: rgba(10, 61, 95, 0.24);
   background-blend-mode: multiply;
-  background-position: 43% -68px;
-  background-size: 1440px auto;
+  background-position: 43% 0;
+  background-size: cover;
   background-repeat: no-repeat;
+  margin-top: -68px;
 }
 @media (max-width: 768px) {
   #home-jumbotron {
-    background-position: 67% -40px;
+    background-position: 67% 0;
+    margin-top: 0;
   }
 }
 </style>

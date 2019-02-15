@@ -96,6 +96,10 @@ nav.navbar-light {
         border-top: .8rem solid $aqua;
         padding-top: 2.6rem;
       }
+
+      &:last-child {
+        margin-bottom: 2.4rem;
+      }
     }
   }
 
@@ -103,6 +107,7 @@ nav.navbar-light {
   .collapsing {
     @include media-breakpoint-down(sm) {
       .navbar-nav {
+        height: auto;
         .nav-link,
         .nav-link:hover {
           text-align: right;
@@ -113,7 +118,7 @@ nav.navbar-light {
       }
 
       &.show {
-        height: 180px !important;
+        // height: 140px !important;
       }
     }
   }
@@ -405,7 +410,7 @@ body.home {
 
   #main {
     background-color: $white;
-    overflow-x: hidden;
+    // overflow-x: hidden;
   }
 
   .col-intro {
@@ -811,8 +816,8 @@ h3.who-we-are,
 ////// About
 body.about {
 
-    
-  
+
+
   .row {
     &.about-hero {
       max-width: 1280px;
@@ -880,7 +885,7 @@ body.about {
           font-size: 7rem;
           color: $aqualink;
         }
-      
+
         @include media-breakpoint-up(md) {
           max-width: 3%;
           margin-right: 3.2rem;
@@ -929,7 +934,7 @@ body.about {
 
       @media (max-width: 768px) {
         .figure {
-          
+
         }
       }
     }
@@ -937,7 +942,7 @@ body.about {
       &.about-obj-index-1 {
         .number {
           order: 1;
-          margin-left: 82%; 
+          margin-left: 82%;
           width: 8%;
         }
       }
@@ -959,7 +964,7 @@ body.about {
 
         .descr {
           order: 1;
-          
+
         }
       }
     }
@@ -1359,7 +1364,7 @@ body.type-meetings.kind-section {
       }
     }
   }
-} 
+}
 
 .news-banner {
   &.staytuned {
@@ -1409,7 +1414,7 @@ body.type-meetings.kind-section {
     //   padding: 4.0rem;
     // }
 
-    
+
 
     &.whydignity {
       .column {
