@@ -7,9 +7,9 @@
         // If the scroll is at the top, add class.
         // Transition comes farther down the page for
         // the the front page.
-        if (y <= 649) {
+        if (y <= 600) {
             $('body').addClass('scroll-top');
-        } else if (y >= 650) {
+        } else if (y >= 601) {
             $('body').removeClass('scroll-top');
         }
       } else {
