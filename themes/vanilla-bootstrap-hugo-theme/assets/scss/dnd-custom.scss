@@ -309,6 +309,12 @@ img {
       // transform: translate(1px, 1px);
       color: #fff;
     }
+    svg.fa-external-link-square-alt {
+      width: 13px;
+      position: relative;
+      top: 2px;
+      margin-left: 10px;
+    }
 }
 
 // Sticky top fix for safari
@@ -839,8 +845,13 @@ body.about {
       background-size: cover;
       margin-bottom: 6.4rem;
       background-position-x: center;
+      
       @include media-breakpoint-up(mmd) {
         height: 350px;
+      }
+      
+      @include media-breakpoint-up(lg) {
+        height: 400px;
       }
     }
 
@@ -856,7 +867,10 @@ body.about {
         h2 {
           font-family: $brandongrotesque-bold;
           // line-height: 2.6rem;
-          font-size: 4rem;
+          font-size: 2.8rem;
+          @include media-breakpoint-up(md) {
+            font-size: 4rem;
+          }
           text-transform: uppercase;
         }
 
@@ -872,7 +886,9 @@ body.about {
     &.about-objective {
       margin-bottom: 11.6rem;
       display: inline-block;
-      @include media-breakpoint-down(md) {
+      padding-left: 1px;
+      padding-right: 1px;
+      @include media-breakpoint-up(md) {
         padding-left: 4rem;
         padding-right: 4rem;
       }
@@ -882,7 +898,10 @@ body.about {
       .number {
         span {
           font-family: $brandongrotesque-bold;
-          font-size: 7rem;
+          font-size: 6rem;
+          @include media-breakpoint-up(md) {
+            font-size: 7rem;
+          }
           color: $aqualink;
         }
 
@@ -891,7 +910,7 @@ body.about {
           margin-right: 3.2rem;
         }
         @include media-breakpoint-down(sm) {
-          width: 35%;
+          width: 31%;
           max-width: 46%;
           /* width: 300px; */
           display: inline-block;
@@ -904,7 +923,13 @@ body.about {
       .descr {
         h3 {
           font-family: $brandongrotesque-bold;
-          font-size: 2.8rem;
+          font-size: 2.4rem;
+          margin-bottom: 1.6rem;
+          margin-top: 3.2rem;
+          @include media-breakpoint-up(md) {
+            font-size: 2.8rem;
+            margin-top: 0;
+          }
           line-height: 3.2rem;
           color: $dnd-navy;
           text-transform: uppercase;
@@ -999,7 +1024,10 @@ body.about {
       margin-bottom: 5.2rem;
       h2 {
         font-family: $brandongrotesque-bold;
-        font-size: 4rem;
+        font-size: 2.8rem;
+          @include media-breakpoint-up(md) {
+            font-size: 4rem;
+          }
         // line-height: 3.2rem;
         color: $dnd-navy;
         text-transform: uppercase;
@@ -1009,6 +1037,14 @@ body.about {
     }
 
     &.about-director {
+      @include media-breakpoint-down(sm) {
+        .col.col-6.offset-3 {
+          max-width: 100%;
+          /* display: block; */
+          flex: 0 0 100%;
+          margin-left: 0;
+         }
+        }
       .pic {
         text-align: center;
         margin-bottom: 2.4rem;
@@ -1239,6 +1275,9 @@ body.type-projects.kind-section {
       @include media-breakpoint-up(mmd) {
         height: 350px;
       }
+      @include media-breakpoint-up(lg) {
+        height: 400px;
+      }
     }
 
     h2,
@@ -1249,7 +1288,10 @@ body.type-projects.kind-section {
 
     h2 {
       font-family: $brandongrotesque-bold;
-      font-size: 3.2rem;
+      font-size: 2.4rem;
+          @include media-breakpoint-up(md) {
+            font-size: 3.2rem;
+          }
       color: $dnd-navy;
       line-height: 4rem;
       text-transform: uppercase;
@@ -1362,6 +1404,9 @@ body.type-meetings.kind-section {
       @include media-breakpoint-up(mmd) {
         height: 350px;
       }
+      @include media-breakpoint-up(lg) {
+        height: 400px;
+      }
     }
   }
 }
@@ -1392,7 +1437,10 @@ body.type-meetings.kind-section {
 
     h3 {
       font-family: $brandongrotesque-bold;
-      font-size: 4rem;
+      font-size: 2.8rem;
+          @include media-breakpoint-up(md) {
+            font-size: 4rem;
+          }
       text-transform: uppercase;
       color: $dnd-navy;
       margin-bottom: 0.8rem;
@@ -1454,7 +1502,11 @@ body.type-meetings.kind-section {
       .text {
         h3 {
           font-family: $brandongrotesque-bold;
-          font-size: 4rem;
+          font-size: 2.8rem;
+          margin-bottom: 1.6rem;
+          @include media-breakpoint-up(md) {
+            font-size: 3.2rem;
+          }
           color: $dnd-navy;
           text-transform: uppercase;
         }
@@ -1473,7 +1525,11 @@ body.type-meetings.kind-section {
       .column {
 
         h3 {
-          font-size: 4rem;
+          font-size: 2.8rem;
+          margin-bottom: 1.6rem;
+          @include media-breakpoint-up(md) {
+            font-size: 3.2rem;
+          }
         }
         span {
           font-family: $font-family-base;
@@ -1524,7 +1580,10 @@ body.type-meetings.kind-section {
     &.heading {
       h2 {
         font-family: $brandongrotesque-bold;
-        font-size: 4rem;
+        font-size: 2.8rem;
+          @include media-breakpoint-up(md) {
+            font-size: 4rem;
+          }
         color: $dnd-navy;
         text-align: center;
         width: 100%;
