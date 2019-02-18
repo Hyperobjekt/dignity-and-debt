@@ -1577,6 +1577,60 @@ body.type-meetings.kind-section {
 // Program page
 .kind-section.type-2018-program {
   .row {
+    &.content {
+    h2 {
+      font-family: $brandongrotesque-bold;
+      font-size: 2.4rem;
+          @include media-breakpoint-up(md) {
+            font-size: 3.2rem;
+          }
+      color: $dnd-navy;
+      line-height: 4rem;
+      text-transform: uppercase;
+      &:after {
+        content: "";
+        display: block;
+        width: 4.8rem;
+        border-bottom: solid 8px $dnd-aqua;
+        margin: 2.4rem 0 3.6rem;
+      }
+    }
+    h3 {
+      font-family: $brandongrotesque-bold;
+      font-size: 2.4rem;
+      margin-bottom: 1.6rem;
+      margin-top: 3.2rem;
+      @include media-breakpoint-up(md) {
+        font-size: 2.8rem;
+        margin-top: 3.8rem;
+        margin-bottom: 3.2rem;
+      }
+      line-height: 3.2rem;
+      color: $dnd-navy;
+      // text-transform: uppercase;
+    }
+
+    p, ul {
+      font-family: $font-family-base;
+      font-size: 1.8rem;
+      line-height: 2.6rem;
+      color: $dnd-navy;
+    }
+
+    ul:last-child {
+      margin-bottom: 9.6rem;
+    }
+
+    hr {
+      margin-top: 4.8rem;
+      margin-bottom: 6.4rem;
+      border: 0;
+      border-top: 1px solid #C9E9EA;
+    }
+  
+  }
+
+
     &.heading {
       h2 {
         font-family: $brandongrotesque-bold;
@@ -1602,6 +1656,7 @@ body.type-meetings.kind-section {
     }
     &.logistics {
       text-align: center;
+      
 
       span {
         display: block;
