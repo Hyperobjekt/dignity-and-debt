@@ -13907,10 +13907,6 @@ body.type-meetings.kind-section .row.jumbotron {
   margin-bottom: 7.2rem;
 }
 
-.kind-section.type-2018-program .row.content ul {
-  margin-left: 2.4rem;
-}
-
 .kind-section.type-2018-program .row.content hr {
   margin-top: 4.8rem;
   margin-bottom: 6.4rem;
