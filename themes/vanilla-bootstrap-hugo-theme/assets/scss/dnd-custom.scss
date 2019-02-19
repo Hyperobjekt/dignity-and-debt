@@ -1619,6 +1619,7 @@ body.type-meetings.kind-section {
     h2 {
       font-family: $brandongrotesque-bold;
       font-size: 2.4rem;
+      margin-top: 4rem;
           @include media-breakpoint-up(md) {
             font-size: 3.2rem;
             margin-top: 7.2rem;

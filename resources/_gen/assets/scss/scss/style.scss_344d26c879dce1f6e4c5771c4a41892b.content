@@ -13859,6 +13859,7 @@ body.type-meetings.kind-section .row.jumbotron {
 .kind-section.type-2018-program .row.content h2 {
   font-family: "BrandonGrotesque-Bold", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-size: 2.4rem;
+  margin-top: 4rem;
   color: #003E62;
   line-height: 4rem;
   text-transform: uppercase;
