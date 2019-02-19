@@ -1575,7 +1575,45 @@ body.type-meetings.kind-section {
 }
 
 // Program page
+
+.col-flex {
+  display: flex;
+  margin-top: 3.2rem;
+  .row {
+    &.content {
+      h3 {
+        margin-top: 0 !important;
+        }
+      }
+    }
+}
+
+.one-third {
+  max-width: 33%;
+}
+
+.two-thirds {
+  max-width: 66%;
+}
+
+.alt-bg {
+    background: #f6f9f9;
+    // background: #f7fbfb;
+}
 .kind-section.type-2018-program {
+  .row {
+    &.content {
+  .col-flex {
+    display: flex;
+    margin-top: 3.2rem;
+    
+        h3 {
+          margin-top: 0px !important;
+          }
+        }
+     
+      }
+  }  
   .row {
     &.content {
     h2 {
@@ -1583,6 +1621,7 @@ body.type-meetings.kind-section {
       font-size: 2.4rem;
           @include media-breakpoint-up(md) {
             font-size: 3.2rem;
+            margin-top: 7.2rem;
           }
       color: $dnd-navy;
       line-height: 4rem;
@@ -1599,7 +1638,7 @@ body.type-meetings.kind-section {
       font-family: $brandongrotesque-bold;
       font-size: 2.4rem;
       margin-bottom: 1.6rem;
-      margin-top: 3.2rem;
+     margin-top: 3.2rem;
       @include media-breakpoint-up(md) {
         font-size: 2.8rem;
         margin-top: 3.8rem;
@@ -1618,7 +1657,11 @@ body.type-meetings.kind-section {
     }
 
     ul:last-child {
-      margin-bottom: 9.6rem;
+      margin-bottom: 7.2rem;
+    }
+
+    ul {
+      margin-left: 2.4rem;
     }
 
     hr {
@@ -1656,6 +1699,7 @@ body.type-meetings.kind-section {
     }
     &.logistics {
       text-align: center;
+      margin-bottom: 5.6rem;
       
 
       span {

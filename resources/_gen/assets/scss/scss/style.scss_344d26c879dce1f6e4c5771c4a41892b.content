@@ -13826,6 +13826,36 @@ body.type-meetings.kind-section .row.jumbotron {
   margin-bottom: 4.6rem;
 }
 
+.col-flex {
+  display: flex;
+  margin-top: 3.2rem;
+}
+
+.col-flex .row.content h3 {
+  margin-top: 0 !important;
+}
+
+.one-third {
+  max-width: 33%;
+}
+
+.two-thirds {
+  max-width: 66%;
+}
+
+.alt-bg {
+  background: #f6f9f9;
+}
+
+.kind-section.type-2018-program .row.content .col-flex {
+  display: flex;
+  margin-top: 3.2rem;
+}
+
+.kind-section.type-2018-program .row.content .col-flex h3 {
+  margin-top: 0px !important;
+}
+
 .kind-section.type-2018-program .row.content h2 {
   font-family: "BrandonGrotesque-Bold", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-size: 2.4rem;
@@ -13837,6 +13867,7 @@ body.type-meetings.kind-section .row.jumbotron {
 @media (min-width: 768px) {
   .kind-section.type-2018-program .row.content h2 {
     font-size: 3.2rem;
+    margin-top: 7.2rem;
   }
 }
 
@@ -13873,7 +13904,11 @@ body.type-meetings.kind-section .row.jumbotron {
 }
 
 .kind-section.type-2018-program .row.content ul:last-child {
-  margin-bottom: 9.6rem;
+  margin-bottom: 7.2rem;
+}
+
+.kind-section.type-2018-program .row.content ul {
+  margin-left: 2.4rem;
 }
 
 .kind-section.type-2018-program .row.content hr {
@@ -13911,6 +13946,7 @@ body.type-meetings.kind-section .row.jumbotron {
 
 .kind-section.type-2018-program .row.logistics {
   text-align: center;
+  margin-bottom: 5.6rem;
 }
 
 .kind-section.type-2018-program .row.logistics span {
