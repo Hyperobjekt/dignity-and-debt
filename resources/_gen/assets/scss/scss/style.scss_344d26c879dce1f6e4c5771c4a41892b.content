@@ -13826,6 +13826,95 @@ body.type-meetings.kind-section .row.jumbotron {
   margin-bottom: 4.6rem;
 }
 
+.col-flex {
+  display: flex;
+  margin-top: 3.2rem;
+}
+
+.col-flex .row.content h3 {
+  margin-top: 0 !important;
+}
+
+.one-third {
+  max-width: 33%;
+}
+
+.two-thirds {
+  max-width: 66%;
+}
+
+.alt-bg {
+  background: #f6f9f9;
+}
+
+.kind-section.type-2018-program .row.content .col-flex {
+  display: flex;
+  margin-top: 3.2rem;
+}
+
+.kind-section.type-2018-program .row.content .col-flex h3 {
+  margin-top: 0px !important;
+}
+
+.kind-section.type-2018-program .row.content h2 {
+  font-family: "BrandonGrotesque-Bold", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-size: 2.4rem;
+  margin-top: 4rem;
+  color: #003E62;
+  line-height: 4rem;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .kind-section.type-2018-program .row.content h2 {
+    font-size: 3.2rem;
+    margin-top: 7.2rem;
+  }
+}
+
+.kind-section.type-2018-program .row.content h2:after {
+  content: "";
+  display: block;
+  width: 4.8rem;
+  border-bottom: solid 8px #C9E9EA;
+  margin: 2.4rem 0 3.6rem;
+}
+
+.kind-section.type-2018-program .row.content h3 {
+  font-family: "BrandonGrotesque-Bold", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+  margin-top: 3.2rem;
+  line-height: 3.2rem;
+  color: #003E62;
+}
+
+@media (min-width: 768px) {
+  .kind-section.type-2018-program .row.content h3 {
+    font-size: 2.8rem;
+    margin-top: 3.8rem;
+    margin-bottom: 3.2rem;
+  }
+}
+
+.kind-section.type-2018-program .row.content p, .kind-section.type-2018-program .row.content ul {
+  font-family: "adobe-caslon-pro", "Crimson Text", serif;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  color: #003E62;
+}
+
+.kind-section.type-2018-program .row.content ul:last-child {
+  margin-bottom: 7.2rem;
+}
+
+.kind-section.type-2018-program .row.content hr {
+  margin-top: 4.8rem;
+  margin-bottom: 6.4rem;
+  border: 0;
+  border-top: 1px solid #C9E9EA;
+}
+
 .kind-section.type-2018-program .row.heading h2 {
   font-family: "BrandonGrotesque-Bold", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-size: 2.8rem;
@@ -13854,6 +13943,7 @@ body.type-meetings.kind-section .row.jumbotron {
 
 .kind-section.type-2018-program .row.logistics {
   text-align: center;
+  margin-bottom: 5.6rem;
 }
 
 .kind-section.type-2018-program .row.logistics span {
