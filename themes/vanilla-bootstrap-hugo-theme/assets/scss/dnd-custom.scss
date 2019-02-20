@@ -396,7 +396,7 @@ img {
 
 body.home {
   .jumbotron {
-    max-height: 652px;
+    max-height: 640px;
     height: 100vh;
 
     img {
@@ -845,11 +845,11 @@ body.about {
       background-size: cover;
       margin-bottom: 6.4rem;
       background-position-x: center;
-      
+
       @include media-breakpoint-up(mmd) {
         height: 350px;
       }
-      
+
       @include media-breakpoint-up(lg) {
         height: 400px;
       }
