@@ -13,7 +13,7 @@
     {{ $img := strings.TrimPrefix "/uploads/" .Page.Params.who_we_are_image }}
     {{ with $.Site.GetPage "page" "uploads/_index.md" }}
         {{ with .Resources.GetMatch $img }}
-              {{$img400 := .Fill "296x243 Center"}}
+              {{$img400 := .Fill "313x186 Center"}}
               <img class="flex-child" src="{{ .RelPermalink }}" width="" height="" alt="Gathering of people talking">
         {{ end }}
     {{ end }}

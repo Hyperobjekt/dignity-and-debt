@@ -12682,6 +12682,7 @@ h3.who-we-are,
   padding-top: 6.4rem;
   padding-bottom: 4.8rem;
   text-align: center;
+  color: #0A3D5F;
 }
 
 .container.parent > #main > .row.who-we-are {
@@ -12714,7 +12715,7 @@ h3.who-we-are,
 
 .container.parent > #main > .row.who-we-are img.flex-child {
   margin-right: 0;
-  flex: 0 0 2.96rem;
+  flex: 0 0 3.13rem;
   max-width: 100%;
   height: auto;
 }
@@ -12731,7 +12732,7 @@ h3.who-we-are,
 @media (min-width: 768px) {
   .container.parent > #main > .row.who-we-are img.flex-child {
     margin-right: 32px;
-    width: 296px;
+    width: 313px;
   }
 }
 
@@ -12743,6 +12744,7 @@ h3.who-we-are,
 
 .container.parent > #main > .row.who-we-are .text.flex-child {
   flex: 1 1 3.6rem;
+  color: #0A3D5F;
   font-family: "BrandonGrotesque-Med", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-size: 2.2rem;
   line-height: 2.8rem;
@@ -13055,6 +13057,7 @@ h3.who-we-are,
   margin-bottom: 7.2rem;
   font-family: "BrandonGrotesque-Med", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-size: 3.2rem;
+  color: #0A3D5F;
 }
 
 .row.sponsors .org-tile {
