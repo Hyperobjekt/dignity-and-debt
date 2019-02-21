@@ -66,7 +66,10 @@ a {
 
 // Header
 nav.navbar-light {
-  padding: 0 3.2rem;
+  padding: 0 1.6rem;
+  @include media-breakpoint-up(sm) {
+    padding: 0 3.2rem;
+  }
 
   .navbar-brand {
     padding-top: 1.6rem;
@@ -874,7 +877,10 @@ body.about {
       margin-bottom: 14rem;
       .col {
         background-color: $aqua;
-        padding: 4rem;
+        padding: 4rem 2.4rem;
+        @include media-breakpoint-up(sm) {
+          padding: 4rem;
+        }
 
         h2 {
           font-family: $brandongrotesque-bold;
@@ -1442,6 +1448,9 @@ body.type-meetings.kind-section {
   .column {
     background-color: $aqua;
     justify-content: flex-start;
+    @include media-breakpoint-down(sm) {
+      padding: 4rem 2.4rem;
+    }
     padding: 4rem;
     margin-right: auto;
     margin-left: auto;
@@ -1493,10 +1502,16 @@ body.type-meetings.kind-section {
 
     &.the-roundtable {
       margin-top: 9.4rem;
+      @include media-breakpoint-down(sm) {
+        margin-top: 7.2rem;
+      }
       .img-parent {
         min-width: 212px;
         @media (max-width: 996px) {
           margin-bottom: 4.6rem;
+        }
+        @include media-breakpoint-down(sm) {
+          margin-bottom: 7.2rem;
         }
       }
       .pic {
@@ -1555,6 +1570,9 @@ body.type-meetings.kind-section {
     &.hearfrom {
       text-align: center;
       margin-top: 14.4rem;
+      @include media-breakpoint-down(sm) {
+        margin-top: 7.2rem;
+      }
 
       &>div {
         -webkit-flex: 0;
@@ -1563,11 +1581,17 @@ body.type-meetings.kind-section {
 
       iframe {
         width: 460px;
+        @include media-breakpoint-down(sm) {
+          width: 350px;
+        }
         height: 258px;
       }
 
       span.desc {
         width: 460px;
+        @include media-breakpoint-down(sm) {
+          width: 350px;
+        }
         display: block;
         margin: 2.4rem auto 6.4rem;
         text-align: left;
