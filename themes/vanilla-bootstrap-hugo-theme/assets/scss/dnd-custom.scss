@@ -645,6 +645,9 @@ h3.who-we-are,
       background-size: cover;
       //background-color: rgba(0, 0, 0, 0.3);
       //background-blend-mode: multiply;
+      &:hover {
+        
+      }
     }
     &.link-meetings {
       background-image: url("/images/meetings-gateway-blue-920w.jpg");
@@ -654,6 +657,9 @@ h3.who-we-are,
     }
     &:hover {
       text-decoration: none;
+      background-color: rgba(255, 255, 255, 0.045);
+      background-blend-mode: overlay;
+      transition: background-color .3s ease;
     }
 
     span {
@@ -1494,7 +1500,7 @@ body.type-meetings.kind-section {
         }
       }
       .pic {
-        margin-bottom: 4.8rem;
+        margin-bottom: 3.2rem;
       }
       .pic,
       .morelink-parent {

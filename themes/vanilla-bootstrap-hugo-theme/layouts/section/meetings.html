@@ -28,13 +28,13 @@
 <div class="row the-roundtable">
   <div class="col-lg-3 col-md-4 col-sm-10 offset-lg-1 offset-md-1 offset-sm-1 order-lg-0 order-md-0 img-parent">
     <div class="pic">
-      {{ $img := strings.TrimPrefix "/uploads/" .Page.Params.roundtable_image }}
+      <!--{{ $img := strings.TrimPrefix "/uploads/" .Page.Params.roundtable_image }}
       {{ with $.Site.GetPage "page" "uploads/_index.md" }}
         {{ with .Resources.GetMatch $img }}
-          {{$imgDir := .Fill "232x232 Center"}}
-          <img class="" src="{{ $imgDir.RelPermalink }}" width="232" height="232" alt="Director" tabindex="0">
-        {{ end }}
-      {{ end }}
+          {{$imgDir := .Fill "232x232 Center"}}-->
+          <img class="" src="/images/roundtable-circle.jpg" width="212" height="212" alt="Roundtable" tabindex="0">
+       <!-- {{ end }}
+      {{ end }}-->
     </div>
     <div class="morelink-parent">
       <a href="{{ "/meetings/2018-program/" | absURL }}" class="btn btn-custom" tabindex="0" aria-label="VIEW 2018 PROGRAM">VIEW 2018 PROGRAM</a>
