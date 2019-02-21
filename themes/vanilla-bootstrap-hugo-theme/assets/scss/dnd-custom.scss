@@ -483,7 +483,7 @@ h3.who-we-are,
 
   }
   @include media-breakpoint-up(sm) {
-    max-width: 1004px;
+    max-width: 904px;
     margin: auto;
     padding: 0 2.4rem;
   }
@@ -495,7 +495,7 @@ h3.who-we-are,
 
   img.flex-child {
     margin-right: 0;
-    flex: 0 0 3.13rem;
+    flex: 0 0 2.96rem;
     max-width: 100%;
     height: auto;
 
@@ -509,7 +509,7 @@ h3.who-we-are,
 
     @include media-breakpoint-up(md) {
       margin-right: 32px;
-      width: 313px;
+      width: 296px;
     }
 
     @include media-breakpoint-up(xl) {
@@ -771,6 +771,10 @@ h3.who-we-are,
       margin-bottom: 8rem;
       width: unset !important;
       height: auto;
+      @include media-breakpoint-up(md) {
+        margin-left: 0;
+        margin-right: 0;
+      }
     }
     a.link-news {
       margin: 3.2rem 0 0.8rem 0;

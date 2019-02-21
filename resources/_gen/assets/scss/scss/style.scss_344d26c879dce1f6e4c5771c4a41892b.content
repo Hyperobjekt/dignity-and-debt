@@ -12699,7 +12699,7 @@ h3.who-we-are,
 
 @media (min-width: 480px) {
   .container.parent > #main > .row.who-we-are {
-    max-width: 1004px;
+    max-width: 904px;
     margin: auto;
     padding: 0 2.4rem;
   }
@@ -12715,7 +12715,7 @@ h3.who-we-are,
 
 .container.parent > #main > .row.who-we-are img.flex-child {
   margin-right: 0;
-  flex: 0 0 3.13rem;
+  flex: 0 0 2.96rem;
   max-width: 100%;
   height: auto;
 }
@@ -12732,7 +12732,7 @@ h3.who-we-are,
 @media (min-width: 768px) {
   .container.parent > #main > .row.who-we-are img.flex-child {
     margin-right: 32px;
-    width: 313px;
+    width: 296px;
   }
 }
 
@@ -13013,6 +13013,13 @@ h3.who-we-are,
   margin-bottom: 8rem;
   width: unset !important;
   height: auto;
+}
+
+@media (min-width: 768px) {
+  .row.news-blocks .news-one-col .event-tile {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 .row.news-blocks .news-one-col a.link-news {
