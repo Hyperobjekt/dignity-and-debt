@@ -641,16 +641,16 @@ h3.who-we-are,
     }
 
     &.link-projects {
-      background-image: url("/images/projects-gateway-920w.jpg");
+      background-image: url("/images/projects-gateway-teal-920w.jpg");
       background-size: cover;
-      background-color: rgba(0, 0, 0, 0.3);
-      background-blend-mode: multiply;
+      //background-color: rgba(0, 0, 0, 0.3);
+      //background-blend-mode: multiply;
     }
     &.link-meetings {
-      background-image: url("/images/roundtable-1-460w.jpg");
+      background-image: url("/images/meetings-gateway-blue-920w.jpg");
       background-size: cover;
-      background-color: rgba(0, 0, 0, 0.24);
-      background-blend-mode: multiply;
+      // background-color: rgba(0, 0, 0, 0.24);
+      // background-blend-mode: multiply;
     }
     &:hover {
       text-decoration: none;
