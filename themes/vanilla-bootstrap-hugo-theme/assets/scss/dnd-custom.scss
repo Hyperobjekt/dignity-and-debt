@@ -65,6 +65,9 @@ a {
 }
 
 // Header
+.nav-wrapper {
+  max-width: 1440px;
+}
 nav.navbar-light {
   padding: 0 1.6rem;
   @include media-breakpoint-up(sm) {

@@ -12311,6 +12311,10 @@ a:hover {
   margin-left: 0;
 }
 
+.nav-wrapper {
+  max-width: 1440px;
+}
+
 nav.navbar-light {
   padding: 0 1.6rem;
 }
