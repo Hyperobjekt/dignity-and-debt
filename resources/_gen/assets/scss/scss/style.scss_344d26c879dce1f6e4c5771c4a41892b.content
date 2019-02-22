@@ -13161,6 +13161,11 @@ body.about .row.about-objective {
   padding-right: 1px;
 }
 
+body.about .row.about-objective img.flex-child {
+  max-width: 100%;
+  height: auto;
+}
+
 @media (min-width: 768px) {
   body.about .row.about-objective {
     padding-left: 4rem;

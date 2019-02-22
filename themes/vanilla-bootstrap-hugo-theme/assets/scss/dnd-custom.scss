@@ -909,6 +909,10 @@ body.about {
       display: inline-block;
       padding-left: 1px;
       padding-right: 1px;
+      img.flex-child {
+        max-width: 100%;
+        height: auto;
+      }
       @include media-breakpoint-up(md) {
         padding-left: 4rem;
         padding-right: 4rem;
