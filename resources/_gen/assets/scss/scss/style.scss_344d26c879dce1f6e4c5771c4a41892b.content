@@ -13282,14 +13282,14 @@ body.about .row.about-objective .figure {
 @media (min-width: 1280px) {
   body.about .row.about-obj-index-1 .number {
     order: 3;
-    margin-left: 0;
+    margin-left: -1.6rem;
   }
   body.about .row.about-obj-index-1 .figure {
     order: 2;
   }
   body.about .row.about-obj-index-1 .descr {
     order: 1;
-    margin-left: 8.33333333%;
+    margin-left: 16.66666667%;
   }
 }
 

@@ -23,7 +23,7 @@
 
 
 <div class="row about-descr">
-  <div class="col col-lg-7 col-md-8 col-sm-12 offset-lg-1 offset-md-1">
+  <div class="col col-lg-8 col-md-8 col-sm-12 offset-lg-2 offset-md-1">
     <h2 tabindex="0">{{ .Page.Params.display_title }}</h2>
     <p tabindex="0">{{ .Content }}</p>
   </div>
@@ -31,7 +31,7 @@
 
 {{ range .Site.Data.objectives }}
     <div class="row about-objective about-obj-index-{{ .index }}">
-      <div class="col number col-1 offset-lg-1 col-lg-1 offset-md-0 col-md-11 offset-sm-1 col-sm-1">
+      <div class="col number col-1 offset-lg-2 col-lg-1 offset-md-1 col-md-11 offset-sm-1 col-sm-1">
         <span tabindex="0">{{ .display_number }}.</span>
       </div>
       <div class="col figure col-lg-2 offset-lg-0 col-md-3 offset-md-1 offset-sm-1 col-sm-8">
@@ -43,7 +43,7 @@
           {{ end }}
         {{ end }}
       </div>
-      <div class="descr col-lg-7 offset-lg-0 col-md-7 offset-md-0 col-sm-10 offset-sm-1">
+      <div class="descr col-lg-5 offset-lg-0 col-md-7 offset-md-0 col-sm-10 offset-sm-1">
         <h3 tabindex="0">{{ .title }}</h3>
         <p tabindex="0">{{ .blurb }}</p>
       </div>
