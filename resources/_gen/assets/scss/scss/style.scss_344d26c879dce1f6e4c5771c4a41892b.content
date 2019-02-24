@@ -12384,16 +12384,22 @@ button.navbar-toggler {
 }
 
 .breadcrumb-parent {
-  margin-top: 3.6rem;
+  background-color: #f6f9f9;
+  background-color: #0A3D5F;
+  height: 64px;
 }
 
 .breadcrumb-parent .breadcrumb {
   font-family: "BrandonGrotesque-Med", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-size: 1.8rem;
   color: #1C6F81;
+  color: #fff;
   text-decoration: none;
   padding-left: 3.6rem;
   padding-top: 0;
+  padding-bottom: 0;
+  align-content: center;
+  margin-bottom: 0;
 }
 
 .breadcrumb-parent .breadcrumb a,
@@ -13643,7 +13649,8 @@ body.type-projects.kind-page .row h2 {
   color: #003E62;
   line-height: 4rem;
   text-transform: uppercase;
-  margin-top: 3.2rem;
+  margin-top: 3.4rem;
+  margin-top: 5rem;
   margin-bottom: 3.2rem;
 }
 

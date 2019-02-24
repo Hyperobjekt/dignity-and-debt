@@ -140,15 +140,22 @@ button.navbar-toggler {
 
 // Breadcrumbs
 .breadcrumb-parent {
-  margin-top: 3.6rem;
+  //margin-top: 3.6rem;
+  background-color: #f6f9f9;
+  background-color: #0A3D5F;
+  height: 64px;
 
   .breadcrumb {
     font-family: $brandongrotesque-med;
     font-size: 1.8rem;
     color: $dnd-darkgreen;
+    color: #fff;
     text-decoration: none;
     padding-left: 3.6rem;
     padding-top: 0;
+    padding-bottom: 0;
+    align-content: center;
+    margin-bottom: 0;
 
     a,
     .sep {
@@ -1382,7 +1389,8 @@ body.type-projects {
         line-height: 4rem;
         text-transform: uppercase;
         // margin-left: 20rem;
-        margin-top: 3.2rem;
+        margin-top: 3.4rem;
+        margin-top: 5rem;
         margin-bottom: 3.2rem;
       }
       &.content {
