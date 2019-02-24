@@ -12385,7 +12385,6 @@ button.navbar-toggler {
 
 .breadcrumb-parent {
   background-color: #f6f9f9;
-  background-color: #0A3D5F;
   height: 64px;
 }
 
@@ -12393,7 +12392,6 @@ button.navbar-toggler {
   font-family: "BrandonGrotesque-Med", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-size: 1.8rem;
   color: #1C6F81;
-  color: #fff;
   text-decoration: none;
   padding-left: 3.6rem;
   padding-top: 0;
@@ -12890,7 +12888,7 @@ h3.who-we-are,
 }
 
 .row.biglinks a.link-meetings {
-  background-image: url("/images/meetings-gateway-blue-920w.jpg");
+  background-image: url("/images/meetings-gateway-blue2-920w.jpg");
   background-size: cover;
 }
 
@@ -13639,7 +13637,7 @@ body.type-projects.kind-page .row.jumbotron_fw img {
 
 body.type-projects.kind-page .row img.content_well {
   max-width: 90%;
-  margin: 3.2rem auto;
+  margin: 4.8rem auto;
   display: block;
 }
 
