@@ -152,6 +152,9 @@ button.navbar-toggler {
     //color: #fff;
     text-decoration: none;
     padding-left: 3.6rem;
+    @include media-breakpoint-down(sm) {
+      padding-left: 1.6rem;
+    }
     padding-top: 0;
     padding-bottom: 0;
     align-content: center;
@@ -197,7 +200,11 @@ img {
     max-width: 960px;
   }
   h3 {
-    text-align: left;
+    text-align: center;
+    @include media-breakpoint-up(md) {
+      text-align: left;
+    }
+    
     color: #fff;
     a {
       font-family: $brandongrotesque-med;
@@ -217,6 +224,14 @@ img {
     padding-left: 0;
       display: flex;
       justify-content: space-between;
+      @include media-breakpoint-down(sm) {
+        margin-top: 2.4rem;
+        flex-direction: column;
+        li {
+          margin-bottom: 1.6rem;
+          text-align: center;
+        }
+      }
 
     li {
       font-size: 1.6rem;
@@ -239,7 +254,10 @@ img {
     }
   }
   .social-and-copy {
-    margin-top: 3.2rem;
+    margin-top: 0;
+    @include media-breakpoint-up(md) {
+      margin-top: 3.2rem;
+    }
     text-align: left;
     font-size: 1.2rem;
     padding-bottom: 6.4rem;
@@ -248,6 +266,10 @@ img {
       font-family: $brandongrotesque-med;
       color: #C9E9EA;
       text-decoration: underline;
+      @include media-breakpoint-down(sm) {
+        display: flex;
+        justify-content: center;
+      }
 
       &.social-icon {
         min-height: 3.2rem;
@@ -274,7 +296,10 @@ img {
       align-self: flex-start;
     }
     .siteby {
-      text-align: right;
+      text-align: center;
+      @include media-breakpoint-up(md) {
+        text-align: right;
+      }
     }
   }
   .contact-and-menu {
@@ -1345,6 +1370,9 @@ body.type-projects.kind-section {
 
     .morelink-parent {
       margin-bottom: 5.6rem;
+      @include media-breakpoint-down(sm) {
+        margin-bottom: 2.4rem;
+      }
       a {
         margin-top: 4.2rem;
       }
@@ -1359,6 +1387,10 @@ body.type-projects.kind-section {
     }
   }
 }
+.row.projects.project:last-child .morelink-parent:after {
+  border-bottom: none;
+}
+
 // Single pages in section
 body.type-projects {
   &.kind-page {
@@ -1392,6 +1424,10 @@ body.type-projects {
         margin-top: 3.4rem;
         margin-top: 5rem;
         margin-bottom: 3.2rem;
+        @include media-breakpoint-down(sm) {
+          font-size: 2.8rem;
+          margin-top: 4rem;
+        }
       }
       &.content {
         font-family: $font-family-base;
@@ -1434,6 +1470,9 @@ body.type-meetings.kind-section {
       background-repeat: no-repeat;
       background-size: cover;
       margin-bottom: 6.4rem;
+      @include media-breakpoint-down(sm) {
+        background-position-x: 36%;
+      }
       @include media-breakpoint-up(mmd) {
         height: 350px;
       }
@@ -1455,6 +1494,9 @@ body.type-meetings.kind-section {
   &.projectstitle {
     margin-top: -104px;
     margin-bottom: 7.2rem;
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 5.6rem;
+    }
     /* @include media-breakpoint-up(mmd) {
       text-align: center;
       display: block;
@@ -1596,7 +1638,7 @@ body.type-meetings.kind-section {
 
       iframe {
         width: 460px;
-        @include media-breakpoint-down(sm) {
+        @include media-breakpoint-down(md) {
           width: 350px;
         }
         height: 258px;
@@ -1604,7 +1646,7 @@ body.type-meetings.kind-section {
 
       span.desc {
         width: 460px;
-        @include media-breakpoint-down(sm) {
+        @include media-breakpoint-down(md) {
           width: 350px;
         }
         display: block;
