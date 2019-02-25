@@ -40,8 +40,6 @@ image: ""
 <li>Mitchell Duneier (Chair, Sociology, Princeton University)</li>
 </ul>
 </div>
-
-
 </div>
 
 <div class="row content">

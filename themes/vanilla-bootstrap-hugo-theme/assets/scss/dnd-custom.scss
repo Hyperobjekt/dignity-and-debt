@@ -64,6 +64,8 @@ a {
   margin-left: 0;
 }
 
+
+
 // Header
 .nav-wrapper {
   max-width: 1440px;
@@ -143,6 +145,7 @@ button.navbar-toggler {
   //margin-top: 3.6rem;
   background-color: #f6f9f9;
   // background-color: #0A3D5F;
+  // background-color: #DBE0E4;
   height: 64px;
 
   .breadcrumb {
@@ -461,6 +464,9 @@ body.home {
     position: relative;
     height: auto;
     top: 24rem;
+    @include media-breakpoint-down(sm) {
+      top: 30rem;
+    }
   }
 
   @include media-breakpoint-up(sm) {
@@ -1046,7 +1052,7 @@ body.about {
 
         .descr {
           order: 1;
-
+          margin-left: 8.333333%;
         }
       }
     }
@@ -1322,6 +1328,10 @@ body.about {
 ////// Projects
 // Projects section page
 body.type-projects.kind-section {
+  .row > * {
+    max-width: 840px;
+    margin: auto;
+  }
   .row {
     &.jumbotron {
       height: 310px;
@@ -1694,6 +1704,10 @@ body.type-meetings.kind-section {
     // background: #f7fbfb;
 }
 .kind-section.type-2018-program {
+  .row.content > * {
+    max-width: 840px;
+    margin: auto;
+  }
   .row {
     &.content {
   .col-flex {

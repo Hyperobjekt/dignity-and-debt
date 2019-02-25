@@ -12702,6 +12702,12 @@ body.home .col-intro {
   top: 24rem;
 }
 
+@media (max-width: 767.98px) {
+  body.home .col-intro {
+    top: 30rem;
+  }
+}
+
 @media (min-width: 480px) {
   body.home .col-intro {
     left: 6rem;
@@ -13321,6 +13327,7 @@ body.about .row.about-objective .figure {
   }
   body.about .row.about-obj-index-1 .descr {
     order: 1;
+    margin-left: 8.333333%;
   }
 }
 
@@ -13593,6 +13600,11 @@ body.about .modal .modal-dialog button.close span {
     border: 1px solid #ffffff;
     color: #ffffff;
   }
+}
+
+body.type-projects.kind-section .row > * {
+  max-width: 840px;
+  margin: auto;
 }
 
 body.type-projects.kind-section .row.jumbotron {
@@ -13987,6 +13999,11 @@ body.type-meetings.kind-section .row.jumbotron {
 
 .alt-bg {
   background: #f6f9f9;
+}
+
+.kind-section.type-2018-program .row.content > * {
+  max-width: 840px;
+  margin: auto;
 }
 
 .kind-section.type-2018-program .row.content .col-flex {
