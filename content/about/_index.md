@@ -5,7 +5,7 @@ is_index: true
 display_title: "About the Network"
 subtitle: "This is the about page subtitle"
 date: "2019-01-25"
-hero_image: "/uploads/close_up_2_men.jpg"
+hero_image: "/uploads/2-men-field-2880-sat.jpg"
 image: "/uploads/wherry-group-2-1484w.jpg"
 bio_image: "/uploads/ffwherry_bio.jpg"
 ---

@@ -3,7 +3,7 @@
 {{ $meetings_hero_img := strings.TrimPrefix "/uploads/" .Page.Params.hero_image }}
 {{ with $.Site.GetPage "page" "uploads/_index.md" }}
 {{ with .Resources.GetMatch $meetings_hero_img }}
-{{$meetings_hero := .Fill "1440x436 TopLeft"}}
+{{$meetings_hero := .Fill "2880x874 TopLeft"}}
 <div id="meetings-hero" class="jumbotron row" style="background-image: url('{{ $meetings_hero.RelPermalink }}');">
 </div>
 {{ end }}

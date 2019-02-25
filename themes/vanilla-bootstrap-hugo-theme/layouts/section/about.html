@@ -15,7 +15,7 @@
 {{ $about_hero_img := strings.TrimPrefix "/uploads/" .Page.Params.hero_image }}
 {{ with $.Site.GetPage "page" "uploads/_index.md" }}
 {{ with .Resources.GetMatch $about_hero_img }}
-{{$about_hero := .Fill "1440x436 BottomRight"}}
+{{$about_hero := .Fill "2880x874 BottomRight"}}
 <div id="" class="jumbotron row" style="background-image: url('{{ $about_hero.RelPermalink }}');">
 </div>
 {{ end }}

@@ -10,7 +10,7 @@
 {{ with $.Site.GetPage "page" "uploads/_index.md" }}
   {{ with .Resources.GetMatch $img }}
     /* {{$img1280 := .Fill "1280x640 TopLeft"}} */
-    {{$img1440 := .Fill "1440x720 TopLeft"}}
+    {{$img1440 := .Fill "2880x1440 TopLeft"}}
     #home-jumbotron {
       background-image: url('{{ $img1440.RelPermalink }}');
     }
