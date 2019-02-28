@@ -12782,12 +12782,17 @@ h3.who-we-are,
   height: auto;
 }
 
+@media (max-width: 767.98px) {
+  .container.parent > #main > .row.who-we-are img.flex-child {
+    margin: auto;
+  }
+}
+
 @media (min-width: 480px) {
   .container.parent > #main > .row.who-we-are img.flex-child {
     height: 100%;
     width: 360px;
     display: block;
-    margin: auto;
   }
 }
 
@@ -13412,7 +13417,7 @@ body.about .row.about-director .bio {
   font-size: 1.8rem;
   color: #003E62;
   line-height: 2.6rem;
-  text-align: center;
+  text-align: left;
   margin-bottom: 2.4rem;
 }
 
