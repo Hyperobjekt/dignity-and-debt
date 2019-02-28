@@ -12761,7 +12761,7 @@ h3.who-we-are,
 
 @media (min-width: 480px) {
   .container.parent > #main > .row.who-we-are {
-    max-width: 904px;
+    max-width: 1008px;
     margin: auto;
     padding: 0 2.4rem;
   }
