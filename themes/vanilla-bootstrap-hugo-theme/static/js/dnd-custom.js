@@ -1,3 +1,5 @@
+
+
 (function($) {
     var jQuery = $.noConflict(true);
     var $ = jQuery;
@@ -61,4 +63,16 @@
           });
         }
     });
+
+    $(window).on('scroll', function() {
+      $('.target').each(function() {
+          if($(window).scrollTop() >= $(this).offset().top -500) {
+              var id = $(this).attr('id');
+              $('h2').removeClass('active');
+              $('h2').addClass('active');
+          }
+      });
+    });
+    
 })(jQuery);
+
