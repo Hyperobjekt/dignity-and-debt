@@ -13513,8 +13513,46 @@ body.about .row.about-partners {
   margin-bottom: 1.8rem;
 }
 
+@media (min-width: 768px) {
+  body.about .row.about-partners.flex-parent {
+    max-height: 640px;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  body.about .row.about-partners.flex-parent .name, body.about .row.about-partners.flex-parent .title {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  body.about .row.about-partners.flex-parent {
+    margin-left: 6.4rem !important;
+    margin-right: 6.4rem !important;
+    max-height: 570px;
+  }
+}
+
 body.about .row.about-finance {
   margin-bottom: 11.6rem;
+}
+
+@media (min-width: 768px) {
+  body.about .row.about-finance.flex-parent {
+    max-height: 200px;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  body.about .row.about-finance.flex-parent .name, body.about .row.about-finance.flex-parent .title {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  body.about .row.about-finance.flex-parent {
+    margin-left: 6.4rem !important;
+    margin-right: 6.4rem !important;
+    max-height: 150px;
+  }
 }
 
 body.about .row.about-finance .name {

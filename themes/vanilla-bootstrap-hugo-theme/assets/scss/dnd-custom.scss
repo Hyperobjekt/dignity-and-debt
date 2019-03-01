@@ -1239,8 +1239,42 @@ body.about {
     &.about-partners {
       margin-bottom: 1.8rem;
     }
+    &.about-partners {  
+      &.flex-parent {
+        @include media-breakpoint-up(md) {
+          max-height: 640px;
+          flex-flow: column wrap;
+          align-items: center;
+          .name, .title {
+            text-align: center;
+          }
+        }
+        @include media-breakpoint-up(mmd) {
+          margin-left: 6.4rem !important;
+          margin-right: 6.4rem !important;
+          max-height: 570px;
+        }
+      
+      }
+    }
     &.about-finance {
       margin-bottom: 11.6rem;
+      &.flex-parent {
+        @include media-breakpoint-up(md) {
+          max-height: 200px;
+          flex-flow: column wrap;
+          align-items: center;
+          .name, .title {
+            text-align: center;
+          }
+        }
+        @include media-breakpoint-up(mmd) {
+          margin-left: 6.4rem !important;
+          margin-right: 6.4rem !important;
+          max-height: 150px;
+        }
+      
+      }
       .name {
         line-height: 2.8rem;
       }
