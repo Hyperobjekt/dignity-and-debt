@@ -10,13 +10,9 @@
 
 <h3 class="who-we-are" tabindex="0">Why Dignity?</h3>
 <div class="row who-we-are flex-parent">
-    {{ $img := strings.TrimPrefix "/uploads/" .Page.Params.who_we_are_image }}
-    {{ with $.Site.GetPage "page" "uploads/_index.md" }}
-        {{ with .Resources.GetMatch $img }}
-              {{$img400 := .Fill "313x186 Center"}}
-              <img class="flex-child" src="{{ .RelPermalink }}" width="" height="" alt="Gathering of people talking">
-        {{ end }}
-    {{ end }}
+   
+      <img class="flex-child" src="/images/close_up_2_men-sm.jpg" width="" height="" alt="Two men shaking hands in a field">
+      
     <div class="flex-child text">
       <div class="blurb" tabindex="0">{{ .Page.Params.who_we_are }}</div>
     </div>
