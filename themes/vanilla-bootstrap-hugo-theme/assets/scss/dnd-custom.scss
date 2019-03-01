@@ -1148,7 +1148,7 @@ body.about {
       }
     }
     &.about-staff {
-      margin-bottom: 11.6rem;
+      margin-bottom: 1.8rem;
     }
     h3.about-staff,
     h3.about-partners {
@@ -1163,7 +1163,8 @@ body.about {
     }
 
     &.about-partners,
-    &.about-staff {
+    &.about-staff,
+    &.about-finance {
       // width: 90%;
       // margin-left: auto !important;
       // margin-right: auto !important;
@@ -1214,7 +1215,10 @@ body.about {
     }
 
     &.about-partners {
-      margin-bottom: 9.6rem;
+      margin-bottom: 1.8rem;
+    }
+    &.about-finance {
+      margin-bottom: 11.6rem;
     }
   } // end .row
 
