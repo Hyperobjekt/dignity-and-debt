@@ -12930,7 +12930,7 @@ h3.who-we-are,
   }
 }
 
-@media (max-width: 996px) {
+@media (max-width: 1023px) {
   .row.biglinks a {
     float: none !important;
     margin-left: auto;
