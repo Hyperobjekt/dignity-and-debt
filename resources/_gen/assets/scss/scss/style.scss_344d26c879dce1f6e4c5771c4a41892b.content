@@ -13434,7 +13434,7 @@ body.about .row h3.about-partners {
   font-family: "BrandonGrotesque-Bold", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-size: 2.8rem;
   color: #003E62;
-  line-height: 100%;
+  line-height: 140%;
   text-align: center;
   margin-top: 5.8rem;
   margin-bottom: 8.8rem;
@@ -13496,6 +13496,10 @@ body.about .row.about-partners {
 
 body.about .row.about-finance {
   margin-bottom: 11.6rem;
+}
+
+body.about .row.about-finance .name {
+  line-height: 2.8rem;
 }
 
 body.about .modal-backdrop {

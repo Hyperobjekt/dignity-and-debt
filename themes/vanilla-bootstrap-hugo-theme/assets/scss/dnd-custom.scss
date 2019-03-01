@@ -1155,7 +1155,7 @@ body.about {
       font-family: $brandongrotesque-bold;
       font-size: 2.8rem;
       color: $dnd-navy;
-      line-height: 100%;
+      line-height: 140%;
       text-align: center;
       margin-top: 5.8rem;
       margin-bottom: 8.8rem;
@@ -1219,6 +1219,9 @@ body.about {
     }
     &.about-finance {
       margin-bottom: 11.6rem;
+      .name {
+        line-height: 2.8rem;
+      }
     }
   } // end .row
 
