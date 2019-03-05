@@ -12878,18 +12878,33 @@ h3.who-we-are,
   flex: 1 1 100px;
   margin-left: 2.8rem;
   margin-top: 3.6rem;
+  margin-right: 4.4rem;
 }
 
 .row.news-banner .flex-parent .flex-child.text h3 {
   font-family: "brandon-grotesque", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-size: 28px;
   font-weight: 700;
+  color: #0A3D5F;
+  text-align: center;
 }
 
 .row.news-banner .flex-parent .flex-child.text span {
   font-family: "adobe-caslon-pro", "Crimson Text", serif;
   font-size: 18px;
   color: #0A3D5F;
+}
+
+.row.news-banner .flex-parent .flex-child.text span#banner-subheading {
+  font-family: "brandon-grotesque", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-size: 28px;
+  font-weight: 700;
+  color: #0A3D5F;
+  text-align: center;
+  display: block;
+  margin-top: 0.8rem;
+  margin-bottom: 0.4rem;
+  line-height: 136%;
 }
 
 .row.news-banner .flex-parent .flex-child.arrow {

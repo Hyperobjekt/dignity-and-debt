@@ -22,22 +22,6 @@
     </div>
 </div>
 
-<!--<div class="row news-banner ">
-  <div class="flex-parent col col-md-7 col-sm-10">
-      {{ $img := strings.TrimPrefix "/uploads/" .Page.Params.who_we_are_image }}
-      {{ with $.Site.GetPage "page" "uploads/_index.md" }}
-          {{ with .Resources.GetMatch $img }}
-                {{$img102 := .Fill "102x102 Center"}}
-                <img class="flex-child" src="{{ $img102.RelPermalink }}" width="102" height="102" alt="News banner image" tabindex="0">
-          {{ end }}
-      {{ end }}
-      <div class="flex-child text">
-        <h3 tabindex="0">{{ .Page.Params.news_banner_heading }}</h3>
-        <span tabindex="0">{{ safeHTML .Page.Params.news_banner_blurb }}</span>
-      </div>
-      <a href="{{ .Page.Params.news_banner_link }}" class="flex-child arrow" aria-label="Go to News" tabindex="0"></a>
-    </div>
-</div>-->
 
 <div class="row biglinks">
   <div class="projects col">
@@ -51,6 +35,25 @@
     </a>
   </div>
 </div>
+
+
+<div class="row news-banner ">
+    <div class="flex-parent col col-md-7 col-sm-10">
+        {{ $img := strings.TrimPrefix "/uploads/" .Page.Params.who_we_are_image }}
+        {{ with $.Site.GetPage "page" "uploads/_index.md" }}
+            {{ with .Resources.GetMatch $img }}
+                  {{$img102 := .Fill "102x102 Center"}}
+                  <!--<img class="flex-child" src="{{ $img102.RelPermalink }}" width="102" height="102" alt="News banner image" tabindex="0">-->
+            {{ end }}
+        {{ end }}
+        <div class="flex-child text">
+          <h3 tabindex="0">{{ safeHTML .Page.Params.news_banner_heading }}</h3>
+          <span id="banner-subheading" tabindex="0">{{ safeHTML .Page.Params.news_banner_subhead }}</span>
+          <span tabindex="0">{{ safeHTML .Page.Params.news_banner_blurb }}</span>
+        </div>
+        <!--<a href="{{ .Page.Params.news_banner_link }}" class="flex-child arrow" aria-label="Go to News" tabindex="0"></a>-->
+      </div>
+  </div>
 
 
 <div class="row news-blocks">
