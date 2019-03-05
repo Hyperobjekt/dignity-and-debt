@@ -12397,7 +12397,7 @@ button.navbar-toggler {
   padding-left: 3.6rem;
   padding-top: 0;
   padding-bottom: 0;
-  align-content: center;
+  align-items: center;
   margin-bottom: 0;
 }
 
