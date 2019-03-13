@@ -12874,7 +12874,7 @@ h3.who-we-are,
 
 @media (min-width: 480px) {
   .container.parent > #main > .row.who-we-are img.flex-child {
-    height: 100%;
+    height: auto;
     width: 360px;
     display: block;
   }
