@@ -12435,6 +12435,82 @@ img.float-left {
   margin-right: 3.2rem;
 }
 
+.newsletter-signup {
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+  background-color: #e7ebef;
+}
+
+.newsletter-signup.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.newsletter-signup .content-inner {
+  margin: auto;
+}
+
+.newsletter-signup p {
+  font-family: "brandon-grotesque", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-size: 2.1rem;
+  /* text-transform: uppercase; */
+  font-weight: 500;
+  color: #003f5e;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .newsletter-signup p {
+    text-align: left;
+  }
+}
+
+.newsletter-signup .signup-form {
+  display: flex;
+}
+
+.newsletter-signup .form-control {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.newsletter-signup .btn.btn-primary {
+  font-size: 10px;
+  margin-bottom: 0;
+}
+
+.newsletter-signup input#mce-EMAIL {
+  font-size: 1.4rem;
+  padding-top: 7px;
+  padding-left: 14px;
+}
+
+.newsletter-signup input#mce-EMAIL::placeholder {
+  color: #4c4c4c;
+}
+
+.newsletter-signup input#mc-embedded-subscribe {
+  margin-left: 0.8rem;
+  padding-top: 6px;
+}
+
+@media (min-width: 1024px) {
+  .newsletter-signup .newsletter-col {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 1024px) {
+  .newsletter-signup .newsletter-text {
+    margin-right: 0.8rem;
+  }
+}
+
+.newsletter-signup div#mc_embed_signup {
+  min-width: 320px;
+}
+
 #footer {
   background-color: #0A3D5F;
   font-family: "brandon-grotesque", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
