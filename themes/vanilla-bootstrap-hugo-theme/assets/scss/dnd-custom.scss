@@ -202,7 +202,7 @@ img {
 
 // Newsletter Signup
 // ---
-.newsletter-signup {
+.newsletter-signup, .contact-wrapper {
   padding-top: 2.4rem;
     padding-bottom: 2.4rem;
     background-color: #e7ebef;
@@ -243,11 +243,14 @@ img {
     margin-bottom: 0;
  
   }
-  input#mce-EMAIL {
-    font-size: 1.4rem;
-    padding-top: 7px;
-    padding-left: 14px;
+  input.contact, textarea.contact {
+    font-size: 1.6rem !important;
+    padding-top: 7px !important;
+    padding-left: 14px !important;
 }
+  textarea.contact {
+    min-height: 120px;
+  }
   input#mce-EMAIL::placeholder {
     color: #4c4c4c;
   }
@@ -268,6 +271,13 @@ img {
   }
   div#mc_embed_signup {
     min-width: 320px;
+  }
+}
+
+.contact-wrapper {
+  background-color: #fff;
+  input, textarea {
+    margin-bottom: 0.8rem !important;
   }
 }
 
