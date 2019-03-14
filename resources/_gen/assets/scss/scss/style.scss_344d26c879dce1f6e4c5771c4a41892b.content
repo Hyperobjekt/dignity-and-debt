@@ -12857,7 +12857,7 @@ h3.who-we-are,
 @media (min-width: 480px) {
   .container.parent > #main > .row.who-we-are {
     max-width: 1008px;
-    max-width: 918px;
+    max-width: 908px;
     margin: auto;
     padding: 0 2.4rem;
   }
@@ -12895,7 +12895,7 @@ h3.who-we-are,
 @media (min-width: 768px) {
   .container.parent > #main > .row.who-we-are img.flex-child {
     margin-right: 32px;
-    width: 296px;
+    width: 317px;
   }
 }
 
