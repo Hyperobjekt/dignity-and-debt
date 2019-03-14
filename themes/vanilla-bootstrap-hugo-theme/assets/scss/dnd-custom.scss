@@ -202,6 +202,12 @@ img {
 
 // Newsletter Signup
 // ---
+
+.newsletter-signup input#mce-EMAIL {
+  font-size: 1.6rem;
+  padding-bottom: 0px;
+}
+
 .newsletter-signup, .contact-wrapper {
   padding-top: 2.4rem;
     padding-bottom: 2.4rem;
@@ -244,9 +250,9 @@ img {
  
   }
   input.contact, textarea.contact {
-    font-size: 1.6rem !important;
-    padding-top: 7px !important;
-    padding-left: 14px !important;
+    font-size: 1.6rem ;
+    padding-top: 7px ;
+    padding-left: 14px;
 }
   textarea.contact {
     min-height: 120px;
@@ -254,6 +260,7 @@ img {
   input#mce-EMAIL::placeholder {
     color: #4c4c4c;
   }
+  
   input#mc-embedded-subscribe {
     margin-left: 0.8rem;
     padding-top: 6px;

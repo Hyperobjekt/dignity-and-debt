@@ -12435,6 +12435,11 @@ img.float-left {
   margin-right: 3.2rem;
 }
 
+.newsletter-signup input#mce-EMAIL {
+  font-size: 1.6rem;
+  padding-bottom: 0px;
+}
+
 .newsletter-signup, .contact-wrapper {
   padding-top: 2.4rem;
   padding-bottom: 2.4rem;
@@ -12480,9 +12485,9 @@ img.float-left {
 }
 
 .newsletter-signup input.contact, .newsletter-signup textarea.contact, .contact-wrapper input.contact, .contact-wrapper textarea.contact {
-  font-size: 1.6rem !important;
-  padding-top: 7px !important;
-  padding-left: 14px !important;
+  font-size: 1.6rem;
+  padding-top: 7px;
+  padding-left: 14px;
 }
 
 .newsletter-signup textarea.contact, .contact-wrapper textarea.contact {
