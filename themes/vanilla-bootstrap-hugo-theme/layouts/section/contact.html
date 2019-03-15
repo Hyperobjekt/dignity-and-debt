@@ -26,17 +26,17 @@
         <div class="row">
             <div class="col-xs-12 col-md-6 mx-auto">
                 <h2 tabindex="0">Contact Us:</h2>
-                Just Netlify Form:
                 <form name="ddcontact" data-netlify="true" method="POST">
-                    <input value="" name="NAME" class="contact form-control light" id="" placeholder="Name" required="" type="text">
-                    <input value="" name="TITLE" class="contact form-control light" id="" placeholder="Title" required="" type="text">
-                    <input value="" name="ORGANIZATION" class="contact form-control light" id="" placeholder="Organization" required="" type="text">
-                    <input value="" name="COUNTRY" class="contact form-control light" id="" placeholder="Country" required="" type="text">
-                    <input value="" name="EMAIL" class="contact form-control light" id="" placeholder="Email address" required="" type="email">
-                    <textarea name="message" class="contact form-control light" placeholder="Message or Question" required="true"></textarea>
-                    <input value="" name="LINK" class="contact form-control light" id="" placeholder="Link to data or images" type="text">
-                    <input type="checkbox" value="1" name="newsletter" id="newsletter-check">
-                    <!--<label class="form-check-label" for="newsletter-check">Sign up for our newsletter</label>--><br>
+                    <input value="" name="NAME" class="contact form-control light" id="" placeholder="Name (required)" required="true" type="text"> 
+                    <input value="" name="TITLE" class="contact form-control light" id="" placeholder="Title" type="text">
+                    <input value="" name="ORGANIZATION" class="contact form-control light" id="" placeholder="Organization" type="text">
+                    <input value="" name="COUNTRY" class="contact form-control light" id="" placeholder="Country" type="text">
+                    <input value="" name="EMAIL" class="contact form-control light" id="" placeholder="Email address (required)" required="true" type="email"> 
+                    <textarea name="message" class="contact form-control light" placeholder="Message or Question (required)" required="true"></textarea> 
+                    <p>Have data or images to share? Add a link here:</p>
+                    <input value="" name="LINK" class="contact form-control light" id="" placeholder="Link to data / images" type="text">
+                    
+                    <p class="checkbox-signup"><input type="checkbox" value="add" name="newsletter" id="newsletter-check"><label class="form-check-label" for="newsletter-check">Sign up for our newsletter</label></p><br>
     
                     <input class="btn btn-custom" value="SUBMIT" name="subscribe" id="" class="btn btn-primary" type="submit">
                 </form>    

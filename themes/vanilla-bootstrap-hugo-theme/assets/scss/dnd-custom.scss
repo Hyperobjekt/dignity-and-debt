@@ -287,6 +287,48 @@ img {
     margin-bottom: 0.8rem !important;
   }
 }
+body.contact {
+  .newsletter-signup {
+    display: none;
+  }
+  h2 {
+    font-family: $brandongrotesque-bold;
+    font-weight: 700;
+    font-size: 2.4rem;
+        @include media-breakpoint-up(md) {
+          font-size: 3.2rem;
+        }
+    color: $dnd-navy;
+    line-height: 4rem;
+    text-transform: uppercase;
+    margin-top: 2.4rem;
+    &:after {
+      content: "";
+      display: block;
+      width: 4.8rem;
+      border-bottom: solid 8px $dnd-aqua;
+      margin: 2.4rem 0 3.6rem;
+    }
+  }
+  p {
+    font-family: $font-family-base;
+    font-size: 1.8rem;
+    color: $dnd-navy;
+    line-height: 2.6rem;
+    margin-top: 1.6rem;
+    text-align: left !important;
+    &.checkbox-signup {
+      margin-top: 1.6rem;
+    }
+  }
+  input#newsletter-check {
+    margin-right: 0.8rem;
+  }
+  input.btn.btn-custom {
+    padding-top: 5px;
+    margin-bottom: 6.4rem !important;
+  }
+}
 
 // Footer
 #footer {
