@@ -40,8 +40,8 @@
   <meta property="og:description" content="{{ $.Scratch.Get "socialDescription" }}" />
   <meta property="og:url" content="{{ "/" | absURL }}" />
   <meta property="og:site_name" content="{{ .Site.Title }}" />
-  <meta property="og:image" content="{{ $.Scratch.Get "socialImage" }}" />
-  <meta property="og:image:secure_url" content="{{ $.Scratch.Get "socialImage" }}" />
+  <meta property="og:image" content="{{ .Site.Data.social.social_image }}" />
+  <meta property="og:image:secure_url" content="https://www.dignityanddebt.org{{ .Site.Data.social.social_image }}" />
   <!-- Twitter metadata -->
   <meta name="twitter:card" content="summary_large_image" />
   {{ if .Site.Data.social.twitter_via }}
