@@ -21,7 +21,7 @@
     {{ end }}
   {{ else }}
     <!-- Otherwise use the default social image -->
-    {{ $img := strings.TrimPrefix "/uploads/" .Site.Data.social.social_image }}
+    {{ $img := .Site.Data.social.social_image }}
     {{ with $.Site.GetPage "page" "uploads/_index.md" }}
       {{ with .Resources.GetMatch $img }}
         {{$img400 := .Fill "400x Center"}}
@@ -49,7 +49,7 @@
   {{ end }}
   <meta name="twitter:title" content="{{ .Title }} | Dignity + Debt" />
   <meta name="twitter:description" content="{{ $.Scratch.Get "socialDescription" }}" />
-  <meta name="twitter:image" content="{{ $.Scratch.Get "socialImage" }}" />
+  <meta name="twitter:image" content="https://www.dignityanddebt.org{{ .Site.Data.social.social_image }}" />
 
   {{ .Hugo.Generator }}
   <!-- Original bootstrap stylesheet -->
