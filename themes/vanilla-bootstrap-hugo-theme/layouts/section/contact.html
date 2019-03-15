@@ -4,22 +4,44 @@
 <div class="container contact-wrapper">
     <div class="row">
         <div class="col-xs-12 col-md-6 mx-auto">
-            <form name="ddcontact" method="POST" data-netlify="true">
+            Dual Form:
+            <form name="ddcontact" method="POST" data-netlify="true" action="https://princeton.us19.list-manage.com/subscribe/post?u=50398265acbaf59b81375de23&amp;id=e939a07fab" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <input value="" name="NAME" class="contact form-control light" id="" placeholder="Name" required="" type="text">
                 <input value="" name="TITLE" class="contact form-control light" id="" placeholder="Title" required="" type="text">
                 <input value="" name="ORGANIZATION" class="contact form-control light" id="" placeholder="Organization" required="" type="text">
                 <input value="" name="COUNTRY" class="contact form-control light" id="" placeholder="Country" required="" type="text">
-                <input value="" name="EMAIL" class="contact form-control light" id="" placeholder="Email address" required="" type="email">
+                <input value="" name="EMAIL" class="contact form-control light" id="mce-EMAIL" placeholder="Email address" required="" type="email">
                 <textarea name="message" class="contact form-control light" placeholder="Message or Question" required="true"></textarea>
                 <input value="" name="LINK" class="contact form-control light" id="" placeholder="Link to data or images" type="text">
                 <input type="checkbox" value="1" name="newsletter" id="newsletter-check">
                 <!--<label class="form-check-label" for="newsletter-check">Sign up for our newsletter</label>--><br>
 
-                <input class="btn btn-custom" value="SUBMIT" name="subscribe" id="" class="btn btn-primary" type="submit">
+                <input class="btn btn-custom" value="SUBMIT" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary" type="submit">
             </form>    
         </div>
     </div>
 </div>
+
+<div class="container contact-wrapper">
+        <div class="row">
+            <div class="col-xs-12 col-md-6 mx-auto">
+                Just Netlify Form:
+                <form name="ddcontact" data-netlify="true" method="POST">
+                    <input value="" name="NAME" class="contact form-control light" id="" placeholder="Name" required="" type="text">
+                    <input value="" name="TITLE" class="contact form-control light" id="" placeholder="Title" required="" type="text">
+                    <input value="" name="ORGANIZATION" class="contact form-control light" id="" placeholder="Organization" required="" type="text">
+                    <input value="" name="COUNTRY" class="contact form-control light" id="" placeholder="Country" required="" type="text">
+                    <input value="" name="EMAIL" class="contact form-control light" id="" placeholder="Email address" required="" type="email">
+                    <textarea name="message" class="contact form-control light" placeholder="Message or Question" required="true"></textarea>
+                    <input value="" name="LINK" class="contact form-control light" id="" placeholder="Link to data or images" type="text">
+                    <input type="checkbox" value="1" name="newsletter" id="newsletter-check">
+                    <!--<label class="form-check-label" for="newsletter-check">Sign up for our newsletter</label>--><br>
+    
+                    <input class="btn btn-custom" value="SUBMIT" name="subscribe" id="" class="btn btn-primary" type="submit">
+                </form>    
+            </div>
+        </div>
+    </div>
    
 
 {{ end }}
