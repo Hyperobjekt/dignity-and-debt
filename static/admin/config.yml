@@ -54,31 +54,31 @@ collections:
             name: "body"
             widget: "markdown"
             buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
-          - label: "Image"
-            name: "image"
-            widget: "image"
-            default: "/uploads/wherry-group-2-1484w.jpg"
-            media_library:
-              config:
-                multiple: false
-          - label: "Hero Image"
-            name: "hero_image"
-            widget: "image"
-            default: "/uploads/close_up_2_men.jpg"
-            media_library:
-              config:
-                multiple: false
-          - label: "Director Bio Image"
-            name: "bio_image"
-            widget: "image"
-            default: "/uploads/ffwherry_bio.jpg"
-            media_library:
-              config:
-                multiple: false
-          - label: "Body"
-            name: "body"
-            widget: "markdown"
-            buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
+          #- label: "Image"
+          #  name: "image"
+          #  widget: "image"
+          #  default: "/uploads/wherry-group-2-1484w.jpg"
+          #  media_library:
+          #    config:
+          #      multiple: false
+          #- label: "Hero Image"
+          #  name: "hero_image"
+          #  widget: "image"
+          #  default: "/uploads/close_up_2_men.jpg"
+          #  media_library:
+          #    config:
+          #      multiple: false
+          #- label: "Director Bio Image"
+          #  name: "bio_image"
+          #  widget: "image"
+          #  default: "/uploads/ffwherry_bio.jpg"
+          #  media_library:
+          #    config:
+          #      multiple: false
+          #- label: "Body"
+          #  name: "body"
+          #  widget: "markdown"
+          #  buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
       - label: "Projects Page"
         name: "projects"
         file: "content/projects/_index.md"
