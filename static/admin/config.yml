@@ -20,29 +20,30 @@ collections:
           - {label: Site Description, name: description, widget: text}
           - {label: Who We Are Block Text, name: who_we_are, widget: text}
           - {label: News Banner Heading, name: news_banner_heading, widget: string}
+          - {label: News Banner Subhead, name: news_banner_subhead, widget: string}
           - {label: News Banner Blurb, name: news_banner_blurb, widget: string}
           - {label: News Banner Link, name: news_banner_link, widget: string}
-          - label: "Who We Are Image"
-            name: "who_we_are_image"
-            widget: "image"
-            default: "/uploads/wherry-group-592w.jpg"
-            media_library:
-              config:
-                multiple: false
-          - label: "Hero Image"
-            name: "hero_image"
-            widget: "image"
-            default: "/uploads/dnd-hero-3400w.jpg"
-            media_library:
-              config:
-                multiple: false
-          - label: "News Banner Image"
-            name: "news_banner_image"
-            widget: "image"
-            default: "/uploads/wherry-seminar-table.png"
-            media_library:
-              config:
-                multiple: false
+          #- label: "Who We Are Image"
+          #  name: "who_we_are_image"
+          #  widget: "image"
+          #  default: "/uploads/wherry-group-592w.jpg"
+          #  media_library:
+          #    config:
+          #      multiple: false
+          #- label: "Hero Image"
+          #  name: "hero_image"
+          #  widget: "image"
+          #  default: "/uploads/dnd-hero-3400w.jpg"
+          #  media_library:
+          #    config:
+          #      multiple: false
+          #- label: "News Banner Image"
+          #  name: "news_banner_image"
+          #  widget: "image"
+          #  default: "/uploads/wherry-seminar-table.png"
+          #  media_library:
+          #    config:
+          #      multiple: false
       - label: "About Page"
         name: "about"
         file: "content/about/_index.md"
