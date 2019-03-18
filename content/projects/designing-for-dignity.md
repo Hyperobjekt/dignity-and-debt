@@ -2,7 +2,7 @@
 title: Designing For Dignity
 is_index: false
 description: >-
-  Collaborating with the <a href="https://kellercenter.princeton.edu/"
+  In collaboration with the <a href="https://kellercenter.princeton.edu/"
   target="_blank">Keller Center</a> at Princeton, this project would innovate on
   the <a href="https://tigerchallenge.princeton.edu/" target="_blank">Tiger
   Challenge</a> model to assemble undergraduate and graduate students alongside
