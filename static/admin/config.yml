@@ -84,13 +84,18 @@ collections:
         file: "content/projects/_index.md"
         extension: "md"
         fields:
-          - label: "Hero Image"
-            name: "hero_image"
-            widget: "image"
-            default: "/uploads/projects-streetscene.jpg"
-            media_library:
-              config:
-                multiple: false
+          - {label: Display Title, name: display_title, widget: string}
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
+            buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
+          #- label: "Hero Image"
+          #  name: "hero_image"
+          #  widget: "image"
+          #  default: "/uploads/projects-streetscene.jpg"
+          #  media_library:
+          #    config:
+          #      multiple: false
       - label: "Social Media Metadata"
         name: "social"
         file: "data/social.yaml"
