@@ -49,6 +49,9 @@ collections:
         file: "content/about/_index.md"
         extension: "md"
         fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Type, name: type, widget: hidden}
+          - {label: Is Index, name: is_index, widget: hidden. default: true}
           - {label: Display Title, name: display_title, widget: string}
           - label: "Body"
             name: "body"
