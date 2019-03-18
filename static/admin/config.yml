@@ -23,27 +23,27 @@ collections:
           - {label: News Banner Subhead, name: news_banner_subhead, widget: string}
           - {label: News Banner Blurb, name: news_banner_blurb, widget: string}
           - {label: News Banner Link, name: news_banner_link, widget: string}
-          #- label: "Who We Are Image"
-          #  name: "who_we_are_image"
-          #  widget: "image"
-          #  default: "/uploads/wherry-group-592w.jpg"
-          #  media_library:
-          #    config:
-          #      multiple: false
-          #- label: "Hero Image"
-          #  name: "hero_image"
-          #  widget: "image"
-          #  default: "/uploads/dnd-hero-3400w.jpg"
-          #  media_library:
-          #    config:
-          #      multiple: false
-          #- label: "News Banner Image"
-          #  name: "news_banner_image"
-          #  widget: "image"
-          #  default: "/uploads/wherry-seminar-table.png"
-          #  media_library:
-          #    config:
-          #      multiple: false
+          - label: "Who We Are Image"
+            name: "who_we_are_image"
+            widget: "hidden"
+            default: "/uploads/wherry-group-592w.jpg"
+            media_library:
+              config:
+                multiple: false
+          - label: "Hero Image"
+            name: "hero_image"
+            widget: "hidden"
+            default: "/uploads/dnd-hero-3400w.jpg"
+            media_library:
+              config:
+                multiple: false
+          - label: "News Banner Image"
+            name: "news_banner_image"
+            widget: "hidden"
+            default: "/uploads/wherry-seminar-table.png"
+            media_library:
+              config:
+                multiple: false
       - label: "About Page"
         name: "about"
         file: "content/about/_index.md"
@@ -54,31 +54,31 @@ collections:
             name: "body"
             widget: "markdown"
             buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
-          #- label: "Image"
-          #  name: "image"
-          #  widget: "image"
-          #  default: "/uploads/wherry-group-2-1484w.jpg"
-          #  media_library:
-          #    config:
-          #      multiple: false
-          #- label: "Hero Image"
-          #  name: "hero_image"
-          #  widget: "image"
-          #  default: "/uploads/close_up_2_men.jpg"
-          #  media_library:
-          #    config:
-          #      multiple: false
-          #- label: "Director Bio Image"
-          #  name: "bio_image"
-          #  widget: "image"
-          #  default: "/uploads/ffwherry_bio.jpg"
-          #  media_library:
-          #    config:
-          #      multiple: false
-          #- label: "Body"
-          #  name: "body"
-          #  widget: "markdown"
-          #  buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
+          - label: "Image"
+            name: "image"
+            widget: "hidden"
+            default: "/uploads/wherry-group-2-1484w.jpg"
+            media_library:
+              config:
+                multiple: false
+          - label: "Hero Image"
+            name: "hero_image"
+            widget: "hidden"
+            default: "/uploads/close_up_2_men.jpg"
+            media_library:
+              config:
+                multiple: false
+          - label: "Director Bio Image"
+            name: "bio_image"
+            widget: "hidden"
+            default: "/uploads/ffwherry_bio.jpg"
+            media_library:
+              config:
+                multiple: false
+          - label: "Body"
+            name: "body"
+            widget: "hidden"
+            buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
       - label: "Projects Page"
         name: "projects"
         file: "content/projects/_index.md"
@@ -89,13 +89,13 @@ collections:
             name: "body"
             widget: "markdown"
             buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
-          #- label: "Hero Image"
-          #  name: "hero_image"
-          #  widget: "image"
-          #  default: "/uploads/projects-streetscene.jpg"
-          #  media_library:
-          #    config:
-          #      multiple: false
+          - label: "Hero Image"
+            name: "hero_image"
+            widget: "hidden"
+            default: "/uploads/projects-streetscene.jpg"
+            media_library:
+              config:
+                multiple: false
       - label: "Social Media Metadata"
         name: "social"
         file: "data/social.yaml"
