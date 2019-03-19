@@ -12931,6 +12931,7 @@ h3.who-we-are,
   flex: 0 0 2.96rem;
   max-width: 100%;
   height: auto;
+  margin-top: 4px;
 }
 
 @media (max-width: 767.98px) {
