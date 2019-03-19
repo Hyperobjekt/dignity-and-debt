@@ -683,6 +683,7 @@ h3.who-we-are,
     flex: 0 0 2.96rem;
     max-width: 100%;
     height: auto;
+    
 
     @include media-breakpoint-down(sm) {
       margin: auto;
@@ -698,6 +699,7 @@ h3.who-we-are,
     @include media-breakpoint-up(md) {
       margin-right: 32px;
       width: 317px;
+      margin-top: 4px;
       // width: 350px;
       // clip-path: inset(0px 0px 80px 0px);
     }

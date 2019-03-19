@@ -12951,6 +12951,7 @@ h3.who-we-are,
   .container.parent > #main > .row.who-we-are img.flex-child {
     margin-right: 32px;
     width: 317px;
+    margin-top: 4px;
   }
 }
 
