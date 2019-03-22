@@ -242,7 +242,7 @@ collections:
     name: "people2"
     files:
       - label: "Director"
-        file: "site/data/people2/director.yaml"
+        file: "data/people2/director.yml"
         name: "director"
         delete: false
         create: true
@@ -256,6 +256,13 @@ collections:
               - {label: Title or Organization, name: memberTitle, widget: string}   
               - {label: Image, name: memberImage, widget: image} 
               - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
+      - label: "Associates"
+        name: associates
+        file: "data/people2/associates.yml"
+        fields:
+          - {label: Team Member Name, name: memberName, widget: string}
+        
+
 
   # PROJECT ITEMS QA'D not tested             
   - label: "Project Items"
