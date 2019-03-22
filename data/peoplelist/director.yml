@@ -1,5 +1,5 @@
-teamList:
-  - memberName: Frederick Wherry
-    memberTitle: Principal Investigator
-    memberImage:
+memberList:
+  - name: Frederick Wherry
+    mtitle: Principal Investigator
+    image:
     bio: lorem ipsum
