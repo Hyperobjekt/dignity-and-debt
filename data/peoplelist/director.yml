@@ -1,5 +1,5 @@
-memberList:
-  - name: Frederick Wherry
-    mtitle: Principal Investigator
-    image:
-    bio: lorem ipsum
+name: Frederick Wherry
+title: Principal Investigator
+role:
+image:
+blurb: lorem ipsum
