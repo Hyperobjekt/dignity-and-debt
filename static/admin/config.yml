@@ -241,19 +241,15 @@ collections:
   - label: "People2"
     name: "people2"   
     files:
-      - name: "objective-01"
-        label: "Objective 1"
-        file: "data/objectives/objective-01.yaml"
-        extension: "yaml"
+      - name: "director"
+        label: "Director"
+        file: "data/peoples/director.yml"
+        extension: "yml"
         fields:
-          - label: "Index (zero-based display order)"
-            name: "index"
-            widget: "number"
-            default: 0
-            valueType: "int"
-            min: 0
-            max: 2
-            step: 1      
+          - label: "Director Name"
+            name: "directorName"
+            widget: "string"
+                
     
         
 
