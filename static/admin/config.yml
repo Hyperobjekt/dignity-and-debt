@@ -247,7 +247,7 @@ collections:
         extension: "yaml"
         fields:
           - label: "Index (zero-based display order)"
-            name: "index"
+            name: "membername"
             widget: "string"
                
     
