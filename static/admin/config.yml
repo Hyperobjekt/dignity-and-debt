@@ -243,8 +243,8 @@ collections:
     files:
       - name: "director"
         label: "Director"
-        file: "data/peoplelist/director.yaml"
-        extension: "yaml"
+        file: "data/peoplelist/director.yml"
+        extension: "yml"
         fields:
           - label: "Director Name"
             name: "membername"
