@@ -268,14 +268,16 @@ collections:
       - label: "Global Research Associates"
         name: associates
         file: "data/peoplelist/associates.yml"
-        widget: list
-        create: true
         fields: 
-          - {label: Team Member Name, name: name, widget: string}
-          - {label: Title or Organization, name: title, widget: string} 
-          - {label: Role, name: role, widget: hidden}    
-          - {label: Image, name: image, widget: hidden} 
-          - {label: Bio, name: blurb, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}       
+          - label: Research Associate
+            name: memberName
+            widget: list
+            fields:
+            - {label: Research Associate Name, name: name, widget: string}
+            - {label: Title or Organization, name: title, widget: string} 
+            - {label: Role, name: role, widget: hidden}    
+            - {label: Image, name: image, widget: hidden} 
+            - {label: Bio, name: blurb, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}       
           
           
                
