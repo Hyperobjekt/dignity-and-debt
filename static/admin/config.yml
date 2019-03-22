@@ -241,14 +241,14 @@ collections:
   - label: "People List"
     name: "peopleList"   
     files:
-      - name: "director"
-        label: "Director"
-        file: "data/peoplelist/director.yml"
+      - name: "Team Members"
+        label: "teamMembers"
         extension: "yml"
-        fields:
+        files:
           - label: Director 
             name: memberList
             create: true
+            file: "data/peoplelist/director.yml"
             widget: list
             fields: 
               - {label: Team Member Name, name: name, widget: string}
