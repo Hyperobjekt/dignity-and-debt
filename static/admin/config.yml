@@ -242,8 +242,8 @@ collections:
     name: "people2"
     folder: "data/peoples"
     extension: "yaml"
-      - name: director
-        label: Director
+      - name: "director"
+        label: "Director"
         file: "data/peoples/director.yml"
         fields: 
           - {label: Team Member Name, name: memberName, widget: string}    
