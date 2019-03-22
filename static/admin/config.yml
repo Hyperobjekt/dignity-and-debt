@@ -248,6 +248,7 @@ collections:
         fields:
           - label: Director Info
             name: teamList
+            create: true
             widget: list
             fields: 
               - {label: Team Member Name, name: teamName, widget: string}
