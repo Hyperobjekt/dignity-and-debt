@@ -251,9 +251,9 @@ collections:
             create: true
             widget: list
             fields: 
-              - {label: Team Member Name, name: teamName, widget: string}
-              - {label: Title or Organization, name: teamTitle, widget: string}   
-              - {label: Image, name: teamImage, widget: image} 
+              - {label: Team Member Name, name: memberName, widget: string}
+              - {label: Title or Organization, name: memberTitle, widget: string}   
+              - {label: Image, name: memberImage, widget: image} 
               - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
 
   # PROJECT ITEMS QA'D not tested             
