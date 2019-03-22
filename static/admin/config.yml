@@ -245,7 +245,6 @@ collections:
         label: "Director"
         extension: "yml"
         file: "data/peoplelist/director.yml"
-        widget: list
         fields: 
           - {label: Team Member Name, name: name, widget: string}
           - {label: Title or Organization, name: title, widget: string} 
