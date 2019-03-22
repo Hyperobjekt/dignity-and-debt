@@ -243,7 +243,7 @@ collections:
     files:
       - name: "director"
         label: "Director"
-        file: "data/objectives/objective-01.yaml"
+        file: "data/objectives/director.yaml"
         extension: "yaml"
         fields:
           - label: "Index (zero-based display order)"
