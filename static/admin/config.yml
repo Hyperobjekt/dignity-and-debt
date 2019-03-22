@@ -239,14 +239,21 @@ collections:
             multiple: false
   # PEOPLE V2 WIP 
   - label: "People2"
-    name: "people2"
+    name: "people2"   
     files:
-      - name: "director"
-        label: "Director"
-        file: "data/peoples/director.yml"
-        extension: "yml"
-        fields: 
-          - {label: Team Member Name, name: memberName, widget: string}    
+      - name: "objective-01"
+        label: "Objective 1"
+        file: "data/objectives/objective-01.yaml"
+        extension: "yaml"
+        fields:
+          - label: "Index (zero-based display order)"
+            name: "index"
+            widget: "number"
+            default: 0
+            valueType: "int"
+            min: 0
+            max: 2
+            step: 1      
     
         
 
