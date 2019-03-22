@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: cms-test # Branch to update (optional; defaults to master)
+  branch: master # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
 
@@ -243,10 +243,10 @@ collections:
     files:
       - name: "director"
         label: "Director"
-        file: "data/objectives/objective-01.yaml"
+        file: "data/peoplelist/director.yaml"
         extension: "yaml"
         fields:
-          - label: "Index (zero-based display order)"
+          - label: "Director Name"
             name: "membername"
             widget: "string"
                
