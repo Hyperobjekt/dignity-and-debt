@@ -240,7 +240,7 @@ collections:
   # PEOPLE V2 WIP 
   - label: "People2"
     name: "people2"
-    fields:
+    files:
       - label: "Director"
         file: "data/people2/director.yaml"
         name: "director"
