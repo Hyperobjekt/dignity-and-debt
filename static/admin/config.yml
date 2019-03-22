@@ -242,6 +242,7 @@ collections:
     name: "people2"
     folder: "data/peoples"
     extension: "yaml"
+    files:
       - name: "director"
         label: "Director"
         file: "data/peoples/director.yml"
