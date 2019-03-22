@@ -241,8 +241,8 @@ collections:
   - label: "People List"
     name: "peopleList"   
     files:
-      - name: "Director"
-        label: "teamMembers"
+      - name: "director"
+        label: "Director"
         extension: "yml"
         file: "data/peoplelist/director.yml"
         widget: list
@@ -256,6 +256,7 @@ collections:
         name: staff
         file: "data/peoplelist/staff.yml"
         widget: list
+        create: true
         fields: 
           - {label: Team Member Name, name: name, widget: string}
           - {label: Title or Organization, name: title, widget: string} 
@@ -266,6 +267,7 @@ collections:
         name: associates
         file: "data/peoplelist/associates.yml"
         widget: list
+        create: true
         fields: 
           - {label: Team Member Name, name: name, widget: string}
           - {label: Title or Organization, name: title, widget: string} 
