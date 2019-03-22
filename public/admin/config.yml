@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  branch: cms-test # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
 
@@ -20,25 +20,26 @@ collections:
           - {label: Site Description, name: description, widget: text}
           - {label: Who We Are Block Text, name: who_we_are, widget: text}
           - {label: News Banner Heading, name: news_banner_heading, widget: string}
+          - {label: News Banner Subhead, name: news_banner_subhead, widget: string}
           - {label: News Banner Blurb, name: news_banner_blurb, widget: string}
           - {label: News Banner Link, name: news_banner_link, widget: string}
           - label: "Who We Are Image"
             name: "who_we_are_image"
-            widget: "image"
+            widget: "hidden"
             default: "/uploads/wherry-group-592w.jpg"
             media_library:
               config:
                 multiple: false
           - label: "Hero Image"
             name: "hero_image"
-            widget: "image"
+            widget: "hidden"
             default: "/uploads/dnd-hero-3400w.jpg"
             media_library:
               config:
                 multiple: false
           - label: "News Banner Image"
             name: "news_banner_image"
-            widget: "image"
+            widget: "hidden"
             default: "/uploads/wherry-seminar-table.png"
             media_library:
               config:
@@ -48,6 +49,9 @@ collections:
         file: "content/about/_index.md"
         extension: "md"
         fields:
+          - {label: Title, name: title, widget: hidden, default: "About"}
+          - {label: Type, name: type, widget: hidden, default: "about"}
+          - {label: Is Index, name: is_index, widget: hidden, default: true}
           - {label: Display Title, name: display_title, widget: string}
           - label: "Body"
             name: "body"
@@ -55,37 +59,42 @@ collections:
             buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
           - label: "Image"
             name: "image"
-            widget: "image"
+            widget: "hidden"
             default: "/uploads/wherry-group-2-1484w.jpg"
             media_library:
               config:
                 multiple: false
           - label: "Hero Image"
             name: "hero_image"
-            widget: "image"
+            widget: "hidden"
             default: "/uploads/close_up_2_men.jpg"
             media_library:
               config:
                 multiple: false
           - label: "Director Bio Image"
             name: "bio_image"
-            widget: "image"
+            widget: "hidden"
             default: "/uploads/ffwherry_bio.jpg"
             media_library:
               config:
                 multiple: false
           - label: "Body"
             name: "body"
-            widget: "markdown"
+            widget: "hidden"
             buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
       - label: "Projects Page"
         name: "projects"
         file: "content/projects/_index.md"
         extension: "md"
         fields:
+          - {label: Display Title, name: display_title, widget: string}
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
+            buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
           - label: "Hero Image"
             name: "hero_image"
-            widget: "image"
+            widget: "hidden"
             default: "/uploads/projects-streetscene.jpg"
             media_library:
               config:
