@@ -245,6 +245,7 @@ collections:
         file: "site/data/people2/director.yaml"
         name: "director"
         delete: false
+        create: true
         fields:
           - label: Director Info
             name: teamList
