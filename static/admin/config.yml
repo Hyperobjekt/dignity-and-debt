@@ -240,9 +240,7 @@ collections:
   # PEOPLE V2 WIP 
   - label: "People2"
     name: "people2"
-    folder: "data/peoples"
     file: "data/peoples/director.yml"
-    extension: yml
     fields: 
       - {label: Team Member Name, name: memberName, widget: string}    
     
