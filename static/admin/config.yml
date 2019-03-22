@@ -255,8 +255,6 @@ collections:
       - label: "Princeton Research Team"
         name: staff
         file: "data/peoplelist/staff.yml"
-        widget: list
-        create: true
         fields: 
           label: Research Team Member 
           name: memberName
