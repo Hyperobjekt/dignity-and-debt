@@ -242,7 +242,7 @@ collections:
     name: "people2"
     files:
       - label: "Director"
-        file: "data/people2/director.yaml"
+        file: "site/data/people2/director.yaml"
         name: "director"
         delete: false
         fields:
