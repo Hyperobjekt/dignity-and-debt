@@ -44,6 +44,7 @@ collections:
             media_library:
               config:
                 multiple: false
+      # ABOUT PAGE - QA'D          
       - label: "About Page"
         name: "about"
         file: "content/about/_index.md"
@@ -82,11 +83,15 @@ collections:
             name: "body"
             widget: "hidden"
             buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
+      # PROJECTS PAGE - QA'D not tested 
       - label: "Projects Page"
         name: "projects"
         file: "content/projects/_index.md"
         extension: "md"
         fields:
+          - {label: Title, name: title, widget: hidden}
+          - {label: Type, name: type, widget: hidden}
+          - {label: Is Index, name: is_index, widget: hidden, default: true}
           - {label: Display Title, name: display_title, widget: string}
           - label: "Body"
             name: "body"
@@ -99,6 +104,7 @@ collections:
             media_library:
               config:
                 multiple: false
+      # SOCIAL MEDIA METADATA - QA'D not tested        
       - label: "Social Media Metadata"
         name: "social"
         file: "data/social.yaml"
@@ -116,6 +122,7 @@ collections:
           - {label: Twitter Link, name: twitter_via, widget: string}
           - {label: LinkedIn Link, name: linkedin_link, widget: string}
           - {label: Instagram Link, name: instagram_link, widget: string}
+  # OBJECTIVES - QA'D not tested
   - label: "Objectives"
     name: "objecties"
     files:
@@ -209,6 +216,7 @@ collections:
               config:
                 multiple: false
           - {label: blurb, name: blurb, widget: text}
+  # PEOPLE QA'D not tested         
   - label: "People"
     name: "people"
     folder: "data/people"
@@ -229,6 +237,7 @@ collections:
         media_library:
           config:
             multiple: false
+  # PROJECT ITEMS QA'D not tested             
   - label: "Project Items"
     name: "projects" # Used in routes, e.g., /admin/collections/blog
     folder: "content/projects" # The path to the folder where the documents are stored
@@ -276,6 +285,7 @@ collections:
         name: "body"
         widget: "markdown"
         buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
+    # NEWS ITEMS QA'D not tested   
   - label: "News Items"
     name: "news"
     folder: "content/news" # The path to the folder where the documents are stored
@@ -302,6 +312,7 @@ collections:
         name: "body"
         widget: "markdown"
         buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
+  # EVENTS 
   - label: "Upcoming Events"
     name: "events"
     folder: "content/events" # The path to the folder where the documents are stored
