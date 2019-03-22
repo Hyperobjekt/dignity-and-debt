@@ -243,13 +243,17 @@ collections:
     files:
       - name: "director"
         label: "Director"
-        file: "data/peoples/director.yml"
-        extension: "yml"
+        file: "data/objectives/objective-01.yaml"
+        extension: "yaml"
         fields:
-          - label: "Director Name"
-            name: "directorName"
-            widget: "string"
-                
+          - label: "Index (zero-based display order)"
+            name: "index"
+            widget: "number"
+            default: 0
+            valueType: "int"
+            min: 0
+            max: 2
+            step: 1      
     
         
 
