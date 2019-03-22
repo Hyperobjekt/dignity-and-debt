@@ -245,7 +245,7 @@ collections:
       - {label: Team Member Name, name: memberName, widget: string}    
     files:
       - label: "Director"
-        file: "data/people2/director.yml"
+        file: "data/peoples/director.yml"
         name: "director"
         delete: false
         create: true
