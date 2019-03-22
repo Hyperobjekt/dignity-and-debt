@@ -241,29 +241,10 @@ collections:
   - label: "People2"
     name: "people2"
     file: "data/peoples/director.yml"
+    extension: yml
     fields: 
       - {label: Team Member Name, name: memberName, widget: string}    
-    files:
-      - label: "Director"
-        file: "data/peoples/director.yml"
-        name: "director"
-        delete: false
-        create: true
-        fields:
-          - label: Director Info
-            name: teamList
-            create: true
-            widget: list
-            fields: 
-              - {label: Team Member Name, name: memberName, widget: string}
-              - {label: Title or Organization, name: memberTitle, widget: string}   
-              - {label: Image, name: memberImage, widget: image} 
-              - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
-      - label: "Associates"
-        name: associates
-        file: "data/people2/associates.yml"
-        fields:
-          - {label: Team Member Name, name: memberName, widget: string}
+    
         
 
 
