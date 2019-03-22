@@ -243,17 +243,13 @@ collections:
     files:
       - name: "director"
         label: "Director"
-        file: "data/objectives/objective-01.yaml"
+        file: "data/objectives/director.yaml"
         extension: "yaml"
         fields:
           - label: "Index (zero-based display order)"
             name: "index"
-            widget: "number"
-            default: 0
-            valueType: "int"
-            min: 0
-            max: 2
-            step: 1      
+            widget: "string"
+               
     
         
 
