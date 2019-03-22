@@ -247,7 +247,7 @@ collections:
         file: "data/peoplelist/director.yml"
         fields: 
           - {label: Team Member Name, name: name, widget: string}
-          - {label: Title or Organization, name: title, widget: string} 
+          - {label: Title or Organization, name: title, required: false, widget: string} 
           - {label: Role, name: role, widget: hidden}  
           - {label: Image, name: image, widget: hidden} 
           - {label: Bio, name: blurb, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
@@ -260,7 +260,7 @@ collections:
             widget: list
             fields:
               - {label: Team Member Name, name: name, widget: string}
-              - {label: Title or Organization, name: title, widget: string} 
+              - {label: Title or Organization, name: title, required: false, widget: string} 
               - {label: Role, name: role, widget: hidden}    
               - {label: Image, name: image, widget: hidden} 
               - {label: Bio, name: blurb, widget: hidden} 
@@ -273,10 +273,23 @@ collections:
             widget: list
             fields:
             - {label: Research Associate Name, name: name, widget: string}
-            - {label: Title or Organization, name: title, widget: string} 
+            - {label: Title or Organization, name: title, required: false, widget: string} 
             - {label: Role, name: role, widget: hidden}    
             - {label: Image, name: image, widget: hidden} 
-            - {label: Bio, name: blurb, widget: hidden}       
+            - {label: Bio, name: blurb, widget: hidden}     
+      - label: "Financial Inclusion Organizations"
+        name: fios
+        file: "data/peoplelist/fios.yml"
+        fields: 
+          - label: Organization
+            name: memberName
+            widget: list
+            fields:
+            - {label: Organization Name, name: name, widget: string}
+            - {label: Title or Organization, name: title, required: false, widget: string} 
+            - {label: Role, name: role, widget: hidden}    
+            - {label: Image, name: image, widget: hidden} 
+            - {label: Bio, name: blurb, widget: hidden}             
           
           
                
