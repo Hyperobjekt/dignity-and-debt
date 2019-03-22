@@ -240,16 +240,17 @@ collections:
   # PEOPLE V2 WIP 
   - label: "People2"
     name: "people2"
-    - label: "Director"
-      file: "data/people2/director.yaml"
-      name: director
-      delete: false
-      widget: list
-      fields: 
-        - {label: Team Member Name, name: teamName, widget: string}
-        - {label: Title or Organization, name: teamTitle, widget: string}   
-        - {label: Image, name: teamImage, widget: image} 
-        - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
+    files:
+      - label: "Director"
+        file: "data/people2/director.yaml"
+        name: director
+        delete: false
+        widget: list
+        fields: 
+          - {label: Team Member Name, name: teamName, widget: string}
+          - {label: Title or Organization, name: teamTitle, widget: string}   
+          - {label: Image, name: teamImage, widget: image} 
+          - {label: Bio, name: bio, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
 
   # PROJECT ITEMS QA'D not tested             
   - label: "Project Items"
