@@ -238,12 +238,12 @@ collections:
           config:
             multiple: false
   # PEOPLE V2 WIP 
-  - label: "People2"
-    name: "people2"   
+  - label: "People List"
+    name: "peopleList"   
     files:
       - name: "director"
         label: "Director"
-        file: "data/objectives/director.yaml"
+        file: "data/objectives/objective-01.yaml"
         extension: "yaml"
         fields:
           - label: "Index (zero-based display order)"
