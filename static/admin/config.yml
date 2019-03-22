@@ -240,8 +240,6 @@ collections:
   # PEOPLE V2 WIP 
   - label: "People2"
     name: "people2"
-    folder: "data/peoples"
-    extension: "yaml"
     files:
       - name: "director"
         label: "Director"
