@@ -55,18 +55,13 @@
 </div>
 
 <div class="row about-director">
-{{ range .Site.Data.people }}
-  {{ if eq .role "director" }}
+{{ with .Site.Data.peoplelist.director }}
+  
   <div class="col col-6 offset-3">
     <div class="pic">
-      {{ $img := strings.TrimPrefix "/uploads/" .image }}
-      {{ $name := .name }}
-      {{ with $.Site.GetPage "page" "uploads/_index.md" }}
-        {{ with .Resources.GetMatch $img }}
-          {{$imgDir := .Fill "232x232 Center"}}
-          <img class="flex-child" src="/uploads/ffwherry_bio.jpg" width="232" height="232" alt="Director {{ $name }}" tabindex="0">
-        {{ end }}
-      {{ end }}
+      
+          <img class="flex-child" src="/uploads/ffwherry_bio.jpg" width="232" height="232" alt="Frederick F. Wherry" tabindex="0">
+       
     </div>
     <div class="name">{{ .name }}</div>
     <div class="title"> {{ .title }}</div>
@@ -75,7 +70,7 @@
       <!-- <a class="btn btn-custom" href="{{ '#' | absURL }}" tabindex="0" aria-label="Go to About">MORE INFO</a> -->
     </div>
   </div>
-  {{ end }}
+
 {{ end }}
 </div>
 
