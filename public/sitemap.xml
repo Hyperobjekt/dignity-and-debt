@@ -33,16 +33,6 @@
   </url>
   
   <url>
-    <loc>/news/future-item-01/</loc>
-    <lastmod>2020-02-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/news/future-item-03/</loc>
-    <lastmod>2019-04-25T13:03:03-06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/events/future-item-03/</loc>
     <lastmod>2019-04-25T13:03:03-06:00</lastmod>
   </url>
@@ -55,11 +45,6 @@
   <url>
     <loc>/events/future-item-05/</loc>
     <lastmod>2019-04-25T13:03:03-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/news/future-item-02/</loc>
-    <lastmod>2019-03-25T13:02:59-06:00</lastmod>
   </url>
   
   <url>
@@ -93,11 +78,6 @@
   </url>
   
   <url>
-    <loc>/news/new-item-04/</loc>
-    <lastmod>2019-01-24T12:08:10-06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/contact/</loc>
     <lastmod>2019-01-24T00:00:00+00:00</lastmod>
   </url>
@@ -105,21 +85,6 @@
   <url>
     <loc>/</loc>
     <lastmod>2019-01-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/news/anothe-news-item/</loc>
-    <lastmod>2019-01-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/news/new-test-news/</loc>
-    <lastmod>2019-01-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/news/third-news-item/</loc>
-    <lastmod>2019-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -144,7 +109,7 @@
   
   <url>
     <loc>/news/</loc>
-    <lastmod>2020-02-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-25T12:11:13-06:00</lastmod>
     <priority>0</priority>
   </url>
   

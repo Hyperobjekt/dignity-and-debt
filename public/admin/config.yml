@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: cms-test # Branch to update (optional; defaults to master)
+  branch: master # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
 
@@ -17,6 +17,7 @@ collections:
         extension: "md"
         fields:
           - {label: Display Title, name: display_title, widget: string}
+          - {label: Page Title, name: title, widget: hidden}
           - {label: Site Description, name: description, widget: text}
           - {label: Who We Are Block Text, name: who_we_are, widget: text}
           - {label: News Banner Heading, name: news_banner_heading, widget: string}
@@ -118,10 +119,10 @@ collections:
             media_library:
               config:
                 multiple: false
-          - {label: Facebook Link, name: facebook_link, widget: string}
-          - {label: Twitter Link, name: twitter_via, widget: string}
-          - {label: LinkedIn Link, name: linkedin_link, widget: string}
-          - {label: Instagram Link, name: instagram_link, widget: string}
+          - {label: Facebook Link, name: facebook_link, widget: string, required: false}
+          - {label: Twitter Link, name: twitter_via, widget: string, required: false}
+          - {label: LinkedIn Link, name: linkedin_link, widget: string, required: false}
+          - {label: Instagram Link, name: instagram_link, widget: string, required: false}
   # OBJECTIVES - QA'D not tested
   - label: "Objectives"
     name: "objecties"
@@ -216,40 +217,63 @@ collections:
               config:
                 multiple: false
           - {label: blurb, name: blurb, widget: text}
-  # PEOPLE QA'D not tested         
-  - label: "People"
-    name: "people"
-    folder: "data/people"
-    extension: "yaml"
-    create: true
-    fields:
-      - {label: Name, name: name, widget: string}
-      - {label: title, name: title, widget: string}
-      - {label: blurb, name: blurb, widget: text}
-      - label: "Role"
-        name: "role"
-        widget: "select"
-        options: ["director", "staff", "partner"]
-      - label: "Social Image"
-        name: "social_image"
-        widget: "image"
-        default: ""
-        media_library:
-          config:
-            multiple: false
+
   # PEOPLE V2 WIP 
-  - label: "People2"
-    name: "people2"   
+  - label: "People List"
+    name: "peopleList"   
     files:
       - name: "director"
         label: "Director"
-        file: "data/peoples/director.yml"
         extension: "yml"
-        fields:
-          - label: "Director Name"
-            name: "directorName"
-            widget: "string"
-                
+        file: "data/peoplelist/director.yml"
+        fields: 
+          - {label: Team Member Name, name: name, widget: string}
+          - {label: Title or Organization, name: title, required: false, widget: string} 
+          - {label: Role, name: role, widget: hidden}  
+          - {label: Image, name: image, widget: hidden} 
+          - {label: Bio, name: blurb, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
+      - label: "Princeton Research Team"
+        name: staff
+        file: "data/peoplelist/staff.yml"
+        fields: 
+          - label: Research Team Member 
+            name: memberName
+            widget: list
+            fields:
+              - {label: Team Member Name, name: name, widget: string}
+              - {label: Title or Organization, name: title, required: false, widget: string} 
+              - {label: Role, name: role, widget: hidden}    
+              - {label: Image, name: image, widget: hidden} 
+              - {label: Bio, name: blurb, widget: hidden} 
+      - label: "Global Research Associates"
+        name: associates
+        file: "data/peoplelist/associates.yml"
+        fields: 
+          - label: Research Associate
+            name: memberName
+            widget: list
+            fields:
+            - {label: Research Associate Name, name: name, widget: string}
+            - {label: Title or Organization, name: title, required: false, widget: string} 
+            - {label: Role, name: role, widget: hidden}    
+            - {label: Image, name: image, widget: hidden} 
+            - {label: Bio, name: blurb, widget: hidden}     
+      - label: "Financial Inclusion Organizations"
+        name: fios
+        file: "data/peoplelist/fios.yml"
+        fields: 
+          - label: Organization
+            name: memberName
+            widget: list
+            fields:
+            - {label: Organization Name, name: name, widget: string}
+            - {label: Title or Organization, name: title, required: false, widget: string} 
+            - {label: Role, name: role, widget: hidden}    
+            - {label: Image, name: image, widget: hidden} 
+            - {label: Bio, name: blurb, widget: hidden}             
+          
+          
+               
     
         
 
@@ -294,6 +318,7 @@ collections:
         name: "hero_image"
         widget: "image"
         default: "/uploads/projects.png"
+        required: false
         media_library:
           config:
             multiple: false
@@ -306,11 +331,11 @@ collections:
   - label: "News Items"
     name: "news"
     folder: "content/news" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+    create: false # Allow users to create new documents in this collection
     slug: "YYYY-MM-DD-title.md" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - {label: Title, name: title, widget: string}
-      - {label: Author, name: author, widget: string}
+      - {label: Author, name: author, widget: string, required: false}
       # image
       - label: "News Item Image"
         name: "image"
@@ -330,34 +355,34 @@ collections:
         widget: "markdown"
         buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
   # EVENTS 
-  - label: "Upcoming Events"
-    name: "events"
-    folder: "content/events" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "YYYY-MM-DD-title.md" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields:
-      - {label: Title, name: title, widget: string}
-      - {label: Author, name: author, widget: string}
+  #- label: "Upcoming Events"
+  #  name: "events"
+  #  folder: "content/events" # The path to the folder where the documents are stored
+  #  create: true # Allow users to create new documents in this collection
+  #  slug: "YYYY-MM-DD-title.md" # Filename template, e.g., YYYY-MM-DD-title.md
+  #  fields:
+  #    - {label: Title, name: title, widget: string}
+  #    - {label: Author, name: author, widget: string}
       # image
-      - label: "Event Item Image"
-        name: "image"
-        widget: "image"
-        default: "/uploads/wherry-seminar-table.jpg"
-        media_library:
-          config:
-            multiple: false
+  #    - label: "Event Item Image"
+  #      name: "image"
+  #      widget: "image"
+  #      default: "/uploads/wherry-seminar-table.jpg"
+  #      media_library:
+  #        config:
+  #          multiple: false
       # date
-      - label: "Start Datetime"
-        name: "start_datetime"
-        widget: "datetime"
-        default: ""
-        format: "LLL"
-      - label: "End Datetime"
-        name: "end_datetime"
-        widget: "datetime"
-        default: ""
-        format: "LLL"
-      - label: "Body"
-        name: "body"
-        widget: "markdown"
-        buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
+  #    - label: "Start Datetime"
+  #      name: "start_datetime"
+  #      widget: "datetime"
+  #      default: ""
+  #      format: "LLL"
+  #    - label: "End Datetime"
+  #      name: "end_datetime"
+  #      widget: "datetime"
+  #      default: ""
+  #      format: "LLL"
+  #    - label: "Body"
+  #      name: "body"
+  #      widget: "markdown"
+  #      buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
