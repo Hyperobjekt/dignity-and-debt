@@ -13971,6 +13971,12 @@ body.type-projects.kind-page .row.content p {
   bottom: 1.8rem;
 }
 
+body.type-projects.kind-page .row.content p img {
+  max-width: 90%;
+  display: block;
+  margin: 4.8rem auto;
+}
+
 body.type-projects.kind-page .row.content h1,
 body.type-projects.kind-page .row.content h2,
 body.type-projects.kind-page .row.content h3,
