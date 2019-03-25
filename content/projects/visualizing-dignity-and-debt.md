@@ -27,6 +27,8 @@ For example, Dr. Sibel Kusimba at American University is one of our Network memb
 
 <img class="content_well" src="/uploads/sibel-drawings.jpg" />
 
+![](/uploads/international_finance.jpg)
+
 {{% breaker image="/uploads/man_in_city.jpg" %}}
 
 Collaborating with the <a href="http://vizelab.princeton.edu/" target="_blank">VizE Lab for Ethnographic Data Visualization</a> in the Department of Anthropology, we will also produce data visualizations to help reveal patterns in big data collections of consumer complaints, or maps of how value circulates in a number of forms.
