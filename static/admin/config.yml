@@ -373,34 +373,34 @@ collections:
         widget: "markdown"
         buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
   # EVENTS 
-  - label: "Upcoming Events"
-    name: "events"
-    folder: "content/events" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "YYYY-MM-DD-title.md" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields:
-      - {label: Title, name: title, widget: string}
-      - {label: Author, name: author, widget: string}
+  #- label: "Upcoming Events"
+  #  name: "events"
+  #  folder: "content/events" # The path to the folder where the documents are stored
+  #  create: true # Allow users to create new documents in this collection
+  #  slug: "YYYY-MM-DD-title.md" # Filename template, e.g., YYYY-MM-DD-title.md
+  #  fields:
+  #    - {label: Title, name: title, widget: string}
+  #    - {label: Author, name: author, widget: string}
       # image
-      - label: "Event Item Image"
-        name: "image"
-        widget: "image"
-        default: "/uploads/wherry-seminar-table.jpg"
-        media_library:
-          config:
-            multiple: false
+  #    - label: "Event Item Image"
+  #      name: "image"
+  #      widget: "image"
+  #      default: "/uploads/wherry-seminar-table.jpg"
+  #      media_library:
+  #        config:
+  #          multiple: false
       # date
-      - label: "Start Datetime"
-        name: "start_datetime"
-        widget: "datetime"
-        default: ""
-        format: "LLL"
-      - label: "End Datetime"
-        name: "end_datetime"
-        widget: "datetime"
-        default: ""
-        format: "LLL"
-      - label: "Body"
-        name: "body"
-        widget: "markdown"
-        buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
+  #    - label: "Start Datetime"
+  #      name: "start_datetime"
+  #      widget: "datetime"
+  #      default: ""
+  #      format: "LLL"
+  #    - label: "End Datetime"
+  #      name: "end_datetime"
+  #      widget: "datetime"
+  #      default: ""
+  #      format: "LLL"
+  #    - label: "Body"
+  #      name: "body"
+  #      widget: "markdown"
+  #      buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
