@@ -27,7 +27,7 @@ For example, Dr. Sibel Kusimba at American University is one of our Network memb
 
 <img class="content_well" src="/uploads/sibel-drawings.jpg" />
 
-![](/uploads/international_finance.jpg)
+![](/uploads/wherry-group-2-1484w.jpg)
 
 {{% breaker image="/uploads/man_in_city.jpg" %}}
 
