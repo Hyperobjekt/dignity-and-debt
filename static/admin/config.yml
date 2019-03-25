@@ -119,10 +119,10 @@ collections:
             media_library:
               config:
                 multiple: false
-          - {label: Facebook Link, name: facebook_link, widget: string}
-          - {label: Twitter Link, name: twitter_via, widget: string}
-          - {label: LinkedIn Link, name: linkedin_link, widget: string}
-          - {label: Instagram Link, name: instagram_link, widget: string}
+          - {label: Facebook Link, name: facebook_link, widget: string, required: false}
+          - {label: Twitter Link, name: twitter_via, widget: string, required: false}
+          - {label: LinkedIn Link, name: linkedin_link, widget: string, required: false}
+          - {label: Instagram Link, name: instagram_link, widget: string, required: false}
   # OBJECTIVES - QA'D not tested
   - label: "Objectives"
     name: "objecties"
