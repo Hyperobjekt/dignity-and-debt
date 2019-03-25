@@ -217,27 +217,7 @@ collections:
               config:
                 multiple: false
           - {label: blurb, name: blurb, widget: text}
-  # PEOPLE QA'D not tested         
-  - label: "People"
-    name: "people"
-    folder: "data/people"
-    extension: "yaml"
-    create: true
-    fields:
-      - {label: Name, name: name, widget: string}
-      - {label: title, name: title, widget: string}
-      - {label: blurb, name: blurb, widget: text}
-      - label: "Role"
-        name: "role"
-        widget: "select"
-        options: ["director", "staff", "partner"]
-      - label: "Social Image"
-        name: "social_image"
-        widget: "image"
-        default: ""
-        media_library:
-          config:
-            multiple: false
+
   # PEOPLE V2 WIP 
   - label: "People List"
     name: "peopleList"   
