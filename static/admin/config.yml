@@ -216,28 +216,27 @@ collections:
               config:
                 multiple: false
           - {label: blurb, name: blurb, widget: text}
-  # PEOPLE QA'D not tested   
-       
-  #- label: "People"
-  #  name: "people"
-  #  folder: "data/people"
-  #  extension: "yaml"
-  #  create: true
-  #  fields:
-  #    - {label: Name, name: name, widget: string}
-  #    - {label: title, name: title, widget: string}
-  #    - {label: blurb, name: blurb, widget: text}
-  #    - label: "Role"
-  #      name: "role"
-  #      widget: "select"
-  #      options: ["director", "staff", "partner"]
-  #    - label: "Social Image"
-  #      name: "social_image"
-  #      widget: "image"
-  #      default: ""
-  #      media_library:
-  #        config:
-  #          multiple: false
+  # PEOPLE QA'D not tested         
+  - label: "People"
+    name: "people"
+    folder: "data/people"
+    extension: "yaml"
+    create: true
+    fields:
+      - {label: Name, name: name, widget: string}
+      - {label: title, name: title, widget: string}
+      - {label: blurb, name: blurb, widget: text}
+      - label: "Role"
+        name: "role"
+        widget: "select"
+        options: ["director", "staff", "partner"]
+      - label: "Social Image"
+        name: "social_image"
+        widget: "image"
+        default: ""
+        media_library:
+          config:
+            multiple: false
   # PEOPLE V2 WIP 
   - label: "People List"
     name: "peopleList"   
@@ -290,7 +289,13 @@ collections:
             - {label: Title or Organization, name: title, required: false, widget: string} 
             - {label: Role, name: role, widget: hidden}    
             - {label: Image, name: image, widget: hidden} 
-            - {label: Bio, name: blurb, widget: hidden}                 
+            - {label: Bio, name: blurb, widget: hidden}             
+          
+          
+               
+    
+        
+
 
   # PROJECT ITEMS QA'D not tested             
   - label: "Project Items"
@@ -368,34 +373,34 @@ collections:
         widget: "markdown"
         buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
   # EVENTS 
-  #- label: "Upcoming Events"
-  #  name: "events"
-  #  folder: "content/events" # The path to the folder where the documents are stored
-  #  create: true # Allow users to create new documents in this collection
-  #  slug: "YYYY-MM-DD-title.md" # Filename template, e.g., YYYY-MM-DD-title.md
-  #  fields:
-  #    - {label: Title, name: title, widget: string}
-  #    - {label: Author, name: author, widget: string}
-  #    # image
-  #    - label: "Event Item Image"
-  #      name: "image"
-  #      widget: "image"
-  #      default: "/uploads/wherry-seminar-table.jpg"
-  #      media_library:
-  #        config:
-  #          multiple: false
+  - label: "Upcoming Events"
+    name: "events"
+    folder: "content/events" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "YYYY-MM-DD-title.md" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Author, name: author, widget: string}
+      # image
+      - label: "Event Item Image"
+        name: "image"
+        widget: "image"
+        default: "/uploads/wherry-seminar-table.jpg"
+        media_library:
+          config:
+            multiple: false
       # date
-  #    - label: "Start Datetime"
-  #      name: "start_datetime"
-  #      widget: "datetime"
-  #      default: ""
-  #      format: "LLL"
-  #    - label: "End Datetime"
-  #      name: "end_datetime"
-  #      widget: "datetime"
-  #      default: ""
-  #      format: "LLL"
-  #    - label: "Body"
-  #      name: "body"
-  #      widget: "markdown"
-  #      buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
+      - label: "Start Datetime"
+        name: "start_datetime"
+        widget: "datetime"
+        default: ""
+        format: "LLL"
+      - label: "End Datetime"
+        name: "end_datetime"
+        widget: "datetime"
+        default: ""
+        format: "LLL"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
