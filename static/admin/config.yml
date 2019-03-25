@@ -353,7 +353,7 @@ collections:
     slug: "YYYY-MM-DD-title.md" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - {label: Title, name: title, widget: string}
-      - {label: Author, name: author, widget: string}
+      - {label: Author, name: author, widget: string, required: false}
       # image
       - label: "News Item Image"
         name: "image"
