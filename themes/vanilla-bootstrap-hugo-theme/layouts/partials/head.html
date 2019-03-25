@@ -6,7 +6,7 @@
   {{ if .Page.Params.description }}
     {{ $.Scratch.Set "socialDescription" .Page.Params.description }}
   {{ else }}
-    {{ $.Scratch.Set "socialDescription" .Site.Data.social_description }}
+    {{ $.Scratch.Set "socialDescription" .Site.Data.social.social_description }}
   {{ end }}
 
   <!-- Fetch an image for metadata -->
