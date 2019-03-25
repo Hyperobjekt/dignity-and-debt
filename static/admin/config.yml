@@ -17,6 +17,7 @@ collections:
         extension: "md"
         fields:
           - {label: Display Title, name: display_title, widget: string}
+          - {label: Page Title, name: title, widget: hidden}
           - {label: Site Description, name: description, widget: text}
           - {label: Who We Are Block Text, name: who_we_are, widget: text}
           - {label: News Banner Heading, name: news_banner_heading, widget: string}
