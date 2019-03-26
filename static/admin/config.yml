@@ -272,7 +272,7 @@ collections:
             - {label: Image, name: image, widget: hidden} 
             - {label: Bio, name: blurb, widget: hidden}             
           
-  # PROJECT ITEMS QA'D not tested             
+  # PROJECT ITEMS QA'D AND TESTED             
   - label: "Project Items"
     name: "projects" # Used in routes, e.g., /admin/collections/blog
     folder: "content/projects" # The path to the folder where the documents are stored
@@ -326,7 +326,9 @@ collections:
         name: "body"
         widget: "markdown"
         buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
-    # NEWS ITEMS QA'D not tested   
+ 
+ 
+  # NEWS ITEMS QA'D not tested   
   - label: "News Items"
     name: "news"
     folder: "content/news" # The path to the folder where the documents are stored
@@ -353,6 +355,31 @@ collections:
         name: "body"
         widget: "markdown"
         buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
+
+  # MEETINGS PAGE
+  - label: "Meetings Main Page"
+    name: meetings
+    file: "content/meetings/_index.md"
+    fields:
+      - {label: Title, name: title, widget: string, default: "Meetings"}
+      - {label: Name, name: name, widget: hidden, default: "Meetings"}
+      - {label: Type, name: type, widget: hidden, default: "meetings"}
+      - {label: Is Index, name: is_index, widget: hidden, default: true}
+      - {label: Hero Image, name: hero_image, widget: hidden, default: "/uploads/woman_in_city2.jpg"}
+      - {label: Display Title, name: display_title, widget: string}
+      - {label: Display Subheading, name: display_subtitle, widget: string}
+      - {label: Roundtable Image, name: roundtable_image, widget: hidden, default: "/uploads/wherry-seminar-table.jpg"}
+      - {label: Roundtable Heading, name: heading, widget: string, default: "THE ROUNDTABLE"}
+      - {label: The Roundtable Text, name: the_roundtable, widget: markdown}
+      - {label: Video 1 Caption, name: video_one, widget: string}
+      - {label: Video 2 Caption, name: video_two, widget: string}
+      - {label: Video 3 Caption, name: video_three, widget: string}
+      - {label: Video 4 Caption, name: video_four, widget: string}
+      - {label: Dignity Roundtable Heading, name: dignity_roundtable_heading, widget: string}
+      - {label: Dignity Roundtable Text, name: dignity_roundtable_text, widget: markdown}
+
+      
+
   # EVENTS 
   #- label: "Upcoming Events"
   #  name: "events"
