@@ -359,6 +359,7 @@ collections:
   # MEETINGS PAGE
   - label: "Meetings Main Page"
     name: meetings
+    files:
       - label: Meetings Content
         name: meetings_content    
         file: "content/meetings/_index.md"
