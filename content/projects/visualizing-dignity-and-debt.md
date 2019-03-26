@@ -1,7 +1,6 @@
 ---
 weight: 1
-title: "Visualizing Dignity and Debt"
-subtitle: ""
+title: Visualizing Dignity and Debt
 type: "projects"
 date: "2019-01-25"
 hero_image:

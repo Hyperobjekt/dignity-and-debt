@@ -285,7 +285,7 @@ collections:
         widget: "string"
 
       - {label: "Is Index", name: "is_index", widget: "hidden", default: false}
-
+      - {label: "Type", name: "type", widget: "hidden", default: projects}
       - label: "Description"
         name: "description"
         widget: "text"
