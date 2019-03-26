@@ -1,11 +1,7 @@
 ---
-weight: 1
 title: Visualizing Dignity and Debt
-type: "projects"
-date: "2019-01-25"
-hero_image:
-hero_image_fw: "/uploads/growing-money-2880.jpg"
 is_index: false
+weight: 1
 description: >-
   The visualization initiative explores images of how people understand and 
   sense debt. We will gather the mental images people construct on paper, in
