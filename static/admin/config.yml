@@ -272,12 +272,6 @@ collections:
             - {label: Image, name: image, widget: hidden} 
             - {label: Bio, name: blurb, widget: hidden}             
           
-          
-               
-    
-        
-
-
   # PROJECT ITEMS QA'D not tested             
   - label: "Project Items"
     name: "projects" # Used in routes, e.g., /admin/collections/blog
@@ -309,12 +303,12 @@ collections:
         required: false
         widget: "datetime"
 
-      - label: "Links Out"
+      - label: "Links Out (from main projects page to individual page"
         name: "link_out"
         widget: "boolean"
         default: false
 
-      - label: "Hero Image"
+      - label: "Standard Hero Image"
         name: "hero_image"
         widget: "image"
         default: "/uploads/projects.png"
@@ -322,6 +316,14 @@ collections:
         media_library:
           config:
             multiple: false
+      - label: "Full Width Hero Image"
+        name: "hero_image_fw"
+        widget: "image"
+        default: "/uploads/projects.png"
+        required: false
+        media_library:
+          config:
+            multiple: false      
 
       - label: "Body"
         name: "body"
