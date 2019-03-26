@@ -20,6 +20,7 @@ description: >-
 weight: 1
 date: '2019-01-25'
 link_out: 'true'
+hero_image: /uploads/1984991.png
 hero_image_fw: /uploads/growing-money-2880.jpg
 ---
 The visualization initiative will explore how people see, sense, and depict debt. We will digitize the mental images people construct on paper, in art, in song, in interviews, in testimony, in complaint, and through in vivo as well as virtual observations. This project will allow researchers and practitioners to ask how people experience, interpret, and embody different forms of debt. Why do some debts hurt more than others, even when they are mathematically equivalent? And what might be dignity enhancing versus degrading in the experience of debt that is seen, understood, and deeply felt?
