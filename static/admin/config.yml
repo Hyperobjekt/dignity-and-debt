@@ -323,8 +323,12 @@ collections:
         required: false
         media_library:
           config:
-            multiple: false      
-
+            multiple: false  
+      - label: "Hero Image Alt Text and Title"
+        name: alts
+        fields:
+          - {label: "Alt Text", name: hero_alt, widget: string, required: false}          
+          - {label: "Title", name: hero_title, widget: string, required: false}          
       - label: "Body"
         name: "body"
         widget: "markdown"
