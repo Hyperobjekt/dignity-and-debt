@@ -1,7 +1,6 @@
 ---
 title: Visualizing Dignity and Debt
 is_index: false
-weight: 1
 description: >-
   The visualization initiative explores images of how people understand and 
   sense debt. We will gather the mental images people construct on paper, in
