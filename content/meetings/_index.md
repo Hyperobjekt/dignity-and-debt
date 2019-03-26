@@ -11,7 +11,7 @@ display_subtitle: >-
 roundtable_image: /uploads/wherry-seminar-table.jpg
 heading: THE ROUNDTABLE
 the_roundtable: >-
-  The Dignity Roundtable included a program of about forty-five scholars and
+  **The Dignity Roundtable** included a program of about forty-five scholars and
   practitioners working in a dozen countries on issues of financial inclusion,
   household finance, and/or the human values implicated in economic action. The
   Network’s Director, Frederick Wherry, opened with the question of why
