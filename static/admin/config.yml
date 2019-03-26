@@ -307,15 +307,6 @@ collections:
         name: "link_out"
         widget: "boolean"
         default: false
-
-      - label: "Standard Hero Image"
-        name: "hero_image"
-        widget: "image"
-        default: "/uploads/projects.png"
-        required: false
-        media_library:
-          config:
-            multiple: false
       - label: "Full Width Hero Image"
         name: "hero_image_fw"
         widget: "image"
