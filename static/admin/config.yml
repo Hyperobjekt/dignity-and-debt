@@ -327,7 +327,7 @@ collections:
       - label: "Hero Image Alt Text and Title"
         name: alts
         widget: list
-        create: false
+        allow_add: false
         fields:
           - {label: "Alt Text", name: hero_alt, widget: string, required: false}          
           - {label: "Title", name: hero_title, widget: string, required: false}          
