@@ -6,7 +6,7 @@ type: "projects"
 date: "2019-01-25"
 hero_image:
 hero_image_fw: "/uploads/growing-money-2880.jpg"
-link_out: true
+link_out: "true"
 is_index: false
 description: >-
   The visualization initiative explores images of how people understand and 
