@@ -10,6 +10,8 @@ public_folder: "/uploads" # The src attribute for uploaded media will begin with
 collections:
   - label: "Individual Pages & Settings"
     name: "pages"
+    editor:
+      preview: false
     files:
       - label: "Home Page"
         name: "home"
