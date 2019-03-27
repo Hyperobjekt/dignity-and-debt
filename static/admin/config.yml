@@ -17,6 +17,8 @@ collections:
         name: "home"
         file: "content/_index.md"
         extension: "md"
+        editor:
+          preview: false
         fields:
           - {label: Display Title, name: display_title, widget: string}
           - {label: Page Title, name: title, widget: hidden}
