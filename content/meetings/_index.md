@@ -15,9 +15,9 @@ the_roundtable: >-
   practitioners working in a 
 
 
-  * dozen countries on issues of financial inclusion, 
+  1. dozen countries on issues of financial inclusion, 
 
-  * household finance,
+  2. household finance,
 
    and/or the human values implicated in economic action. The Network’s Director, Frederick Wherry, opened with the question of why questions of dignity and respect are central to understanding debt. Social Science Research Council President, Alondra Nelson, explained the importance of anticipatory social science for predicting and solving critical problems. And Princeton University President, Christopher Eisgruber, made the case for inequality as a strategic priority for research, teaching, and service.
 video_one: >-
