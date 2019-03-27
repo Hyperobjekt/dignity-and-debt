@@ -47,6 +47,7 @@ collections:
                 multiple: false
       # ABOUT PAGE - QA'D          
       - label: "About Page"
+        preview_path: about/
         name: "about"
         file: "content/about/_index.md"
         extension: "md"
@@ -87,6 +88,7 @@ collections:
       # PROJECTS PAGE - QA'D not tested 
       - label: "Projects Page"
         name: "projects"
+        preview_path: projects/
         file: "content/projects/_index.md"
         extension: "md"
         fields:
@@ -126,6 +128,7 @@ collections:
   # OBJECTIVES - QA'D not tested
   - label: "Objectives"
     name: "objecties"
+    preview_path: about/
     files:
       - name: "objective-01"
         label: "Objective 1"
@@ -220,7 +223,8 @@ collections:
 
   # PEOPLE V2 WIP 
   - label: "People List"
-    name: "peopleList"   
+    name: "peopleList" 
+    preview_path: about/  
     files:
       - name: "director"
         label: "Director"
@@ -277,6 +281,7 @@ collections:
     name: "projects" # Used in routes, e.g., /admin/collections/blog
     folder: "content/projects" # The path to the folder where the documents are stored
     filter: {field: "is_index", value: false}
+    preview_path: projects/
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -359,6 +364,7 @@ collections:
   # MEETINGS PAGE
   - label: "Meetings"
     name: meetings
+    preview_path: meetings/
     files:
       - label: Meetings Main Page Content
         name: meetings_content    
