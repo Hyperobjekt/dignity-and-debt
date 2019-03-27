@@ -10,15 +10,11 @@ public_folder: "/uploads" # The src attribute for uploaded media will begin with
 collections:
   - label: "Individual Pages & Settings"
     name: "pages"
-    editor:
-      preview: false
     files:
       - label: "Home Page"
         name: "home"
         file: "content/_index.md"
         extension: "md"
-        editor:
-          preview: false
         fields:
           - {label: Display Title, name: display_title, widget: string}
           - {label: Page Title, name: title, widget: hidden}
