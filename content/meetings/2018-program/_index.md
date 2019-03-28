@@ -1,10 +1,10 @@
 ---
-title: "2018 Program"
-type: "2018-program"
-layout: "2018-program"
-subtitle: "ROUNDTABLE PARTICIPANTS AND PROGRAM"
-date: "2019-01-25"
-image: ""
+title: 2018 Program
+type: 2018-program
+layout: 2018-program
+subtitle: ROUNDTABLE PARTICIPANTS AND PROGRAM
+date: '2019-01-25'
+image: ''
 ---
 
 <div class="row content alt-bg ">
@@ -18,21 +18,20 @@ image: ""
 
 
 
-    <h3> The Dignity Roundtable </h3>
+<h3> The Dignity Roundtable </h3>
+
+<ul>
+<li>Kathryn Edin (Princeton University), Dignity: What the Earned Income Tax Credit Teaches Us</li>
+<li>Julia Elyachar (Princeton University), A Social History of Debt</li>
+<li>Jonathan Morduch (New York University and Financial Access Initiative), Why Debt: Rethinking the Microfinance Revolution</li>
+<li>Isabelle Guérin (Université Paris Diderot), Debt as Degrading or Emancipatory</li>
+<li>Eldar Shafir (Kahneman-Treisman Center for Behavioral Science and Public Policy, Princeton University), Affirming Experiences in Debt Collection</li>
+</ul>
 
 
-    <ul>
-        <li>Kathryn Edin (Princeton University), Dignity: What the Earned Income Tax Credit Teaches Us</li>
-        <li>Julia Elyachar (Princeton University), A Social History of Debt</li>
-        <li>Jonathan Morduch (New York University and Financial Access Initiative), Why Debt: Rethinking the Microfinance Revolution</li>
-        <li>Isabelle Guérin (Université Paris Diderot), Debt as Degrading or Emancipatory</li>
-        <li>Eldar Shafir (Kahneman-Treisman Center for Behavioral Science and Public Policy, Princeton University), Affirming Experiences in Debt Collection</li>
-    </ul>
 
 
-
-
-    <h3>Dignity, Inequality, and the Humanizing Mission: The Mission of the University, the Possibilities for Social & Computational Science</h3>
+<h3>Dignity, Inequality, and the Humanizing Mission: The Mission of the University, the Possibilities for Social & Computational Science</h3>
 
 <ul>
 <li>Christopher L. Eisgruber (President, Princeton University)</li>
