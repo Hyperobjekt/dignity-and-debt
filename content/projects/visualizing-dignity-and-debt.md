@@ -28,6 +28,8 @@ The visualization initiative will explore how people see, sense, and depict debt
 
 For example, Dr. Sibel Kusimba at American University is one of our Network members who examines how women in Kenya visualize their money and their financial obligations, including debt, in relation to social networks. Her work was recently published in Economic Anthropology and one of the images from her fieldwork is on the cover of the journal’s issue. We are in conversations with Kusimba to explore how these women imagine monetary transactions and what kinds of values present themselves in these financial decisions and transactions (see <a href="https://anthrosource.onlinelibrary.wiley.com/doi/pdf/10.1002/sea2.12121" target="_blank">Kusimba 2018</a>):
 
+{{% breaker image="/uploads/man_in_city.jpg" %}}
+
 ![Sibel Kusimba's visualization of money and debt in Kenya](/uploads/sibel-drawings.jpg)
 
 Collaborating with the <a href="http://vizelab.princeton.edu/" target="_blank">VizE Lab for Ethnographic Data Visualization</a> in the Department of Anthropology, we will also produce data visualizations to help reveal patterns in big data collections of consumer complaints, or maps of how value circulates in a number of forms.
