@@ -39,7 +39,7 @@
         {{ with $.Site.GetPage "page" "uploads/_index.md" }}
           {{ with .Resources.GetMatch $img }}
             {{$imgFill := .Fill "324x390 Center"}}
-            <img class="flex-child" src="{{ $imgFill.RelPermalink }}" width="166" height="195" alt="Objective icon" tabindex="-1">
+            <img class="flex-child" src="{{ $imgFill.RelPermalink }}" width="166" height="195" alt="" tabindex="-1">
           {{ end }}
         {{ end }}
       </div>
