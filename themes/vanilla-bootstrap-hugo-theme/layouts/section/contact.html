@@ -27,16 +27,17 @@
             <div class="col-xs-12 col-md-6 mx-auto">
                 <h2 tabindex="0">Contact Us:</h2>
                 <form name="ddcontact" data-netlify="true" method="POST">
-                    <input value="" name="NAME" class="contact form-control light" id="" placeholder="Name (required)" required="true" type="text"> 
-                    <input value="" name="TITLE" class="contact form-control light" id="" placeholder="Title" type="text">
-                    <input value="" name="ORGANIZATION" class="contact form-control light" id="" placeholder="Organization" type="text">
-                    <input value="" name="COUNTRY" class="contact form-control light" id="" placeholder="Country" type="text">
-                    <input value="" name="EMAIL" class="contact form-control light" id="" placeholder="Email address (required)" required="true" type="email"> 
-                    <textarea name="message" class="contact form-control light" placeholder="Message or Question (required)" required="true"></textarea> 
+                    <input value="" aria-label="Name (required)" name="NAME" class="contact form-control light" id="" placeholder="Name (required)" required="true" type="text"> 
+                    <input value="" aria-label="Title" name="TITLE" class="contact form-control light" id="" placeholder="Title" type="text">
+                    <input value="" aria-label="Organization" name="ORGANIZATION" class="contact form-control light" id="" placeholder="Organization" type="text">
+                    <input value="" aria-label="City" name="CITY" class="contact form-control light" id="" placeholder="City" type="text">
+                    <input value="" aria-label="Country" name="COUNTRY" class="contact form-control light" id="" placeholder="Country" type="text">
+                    <input value="" aria-label="Email Address" name="EMAIL" class="contact form-control light" id="" placeholder="Email address (required)" required="true" type="email"> 
+                    <textarea name="message" aria-label="Message or Question (required)" class="contact form-control light" placeholder="Message or Question (required)" required="true"></textarea> 
                     <p>Have data or images to share? Add a link here:</p>
-                    <input value="" name="LINK" class="contact form-control light" id="" placeholder="Link to data / images" type="text">
+                    <input value="" aria-label="Link to data / images" name="LINK" class="contact form-control light" id="" placeholder="Link to data / images" type="text">
                     
-                    <p class="checkbox-signup"><input type="checkbox" value="add" name="newsletter" id="newsletter-check"><label class="form-check-label" for="newsletter-check">Sign up for our newsletter</label></p><br>
+                    <p class="checkbox-signup"><input type="checkbox" aria-label="Check box to sign up for newsletter" value="add" name="newsletter" id="newsletter-check"><label class="form-check-label" for="newsletter-check">Sign up for our newsletter</label></p><br>
     
                     <input class="btn btn-custom" value="SUBMIT" name="subscribe" id="" class="btn btn-primary" type="submit">
                 </form>    
