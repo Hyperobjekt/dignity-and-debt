@@ -12703,7 +12703,7 @@ body.contact input.btn.btn-custom {
 
 #footer .social-and-copy .copy,
 #footer .social-and-copy .siteby {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: #ffffff;
   align-self: flex-start;
 }
