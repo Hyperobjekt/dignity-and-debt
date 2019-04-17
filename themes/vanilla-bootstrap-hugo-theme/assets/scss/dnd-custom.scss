@@ -334,13 +334,33 @@ body.contact {
 #footer {
   background-color: #0A3D5F;
   font-family: $brandongrotesque-reg;
+
+
+  &.text-muted {
+    color: #ffffff !important;
+    font-size: 1.1rem;
+  }
   .container {
     max-width: 960px;
   }
+  .school-logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2.4rem;
+    @include media-breakpoint-up(md) {
+     // margin-bottom: 0;
+      align-items: flex-start;
+    }
+  }
   h3 {
     text-align: center;
+    font-size: 2.1rem;
+    padding-top: 3.2rem;
+    width: 100%;
     @include media-breakpoint-up(md) {
-      text-align: left;
+      text-align: right;
+      width: auto;
     }
     
     color: #fff;
@@ -353,6 +373,7 @@ body.contact {
   }
   .row.menu-row {
     margin: 0;
+    justify-content: flex-end;
   }
   .col.menu-col {
     padding: 0;
@@ -387,9 +408,10 @@ body.contact {
   }
   img.princeton-logo {
     width: 192px;
-    margin-bottom: 2.4rem;
+    margin-bottom: 0;
     @include media-breakpoint-up(md) {
-      margin-bottom: 0;
+      margin-bottom: 0px;
+      //margin-bottom: 2.4rem;
     }
   }
   .social-and-copy {
