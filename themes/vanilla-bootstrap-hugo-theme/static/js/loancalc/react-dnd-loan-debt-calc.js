@@ -115355,7 +115355,7 @@ var LoanForm_LoanForm = function LoanForm(_ref) {
     { className: 'row timeline-form' },
     external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
       'div',
-      { className: 'offset-2 col-8 offset-sm-3 col-sm-6 col-md-4 offset-md-1' },
+      { className: 'offset-2 col-8 col-md-4 offset-md-1' },
       external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
         'form',
         { noValidate: true, onSubmit: function onSubmit(e) {
@@ -115409,10 +115409,10 @@ var LoanForm_LoanForm = function LoanForm(_ref) {
         )
       )
     ),
-    external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement('div', { className: 'offset-2 col-8 offset-sm-3 col-sm-6 col-md-4 offset-md-1' }),
+    external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement('div', { className: 'offset-2 col-8 col-md-4 offset-md-1' }),
     external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
       'div',
-      { className: 'offset-2 col-8 offset-sm-3 col-sm-6 col-md-4 offset-md-1 orig-loan-details' },
+      { className: 'offset-2 col-8 col-md-4 offset-md-1 orig-loan-details' },
       external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
         'form',
         null,
@@ -115504,7 +115504,7 @@ var LoanForm_LoanForm = function LoanForm(_ref) {
     ),
     external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
       'div',
-      { className: 'offset-2 col-8 offset-sm-3 col-sm-6 col-md-4 offset-md-1 orig-loan-details' },
+      { className: 'offset-2 col-8 col-md-4 offset-md-1 orig-loan-details' },
       external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
         'form',
         null,
@@ -116826,7 +116826,7 @@ var src_DndLoanDebt = function (_Component) {
         { className: 'row payoff-amount payoff' },
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'div',
-          { className: 'offset-1 col-10 col-md-9' },
+          { className: 'offset-0 col-12 offset-sm-1 col-sm-10 offset-md-1 col-md-9' },
           external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(src_PayoffSchedule, {
             offsets: this.state.offsets,
             paths: this.state.paths,
@@ -116839,7 +116839,7 @@ var src_DndLoanDebt = function (_Component) {
         { className: 'row payoff-timeline payoff' },
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'div',
-          { className: 'offset-1 col-10 col-md-9' },
+          { className: 'offset-0 col-10 offset-sm-1 col-sm-10 offset-md-1 col-md-9' },
           external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(src_PayoffAmt, {
             getCurrencyFormat: this.getCurrencyFormat,
             principal: this.state.loans.user,

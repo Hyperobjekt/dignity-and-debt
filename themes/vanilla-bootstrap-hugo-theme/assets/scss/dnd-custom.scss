@@ -2172,6 +2172,7 @@ $cssTextureHispanic: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAU
 $cssTextureUser: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAACbUlEQVQ4jT2UQW4jVxBDSVb9ljQOfJUcI9fPUWY2ltX9i8xCRnYFLgrkA0H++/c/ziYl0o5jILHt3etOQNLr9QVAKiTqBZBUUZ1MbDBRgSAYh5SqkRjxHqkA2DtB4QCE5NrfHYBSbABJYpMEQAjIz62OB5BEUgASHPcPzT7j6T4cI7E3ye5FCiQAkLMvAN0HRVGkSNi7KZGqXj7HsdRSBZh9VS+pVKtqdR2Unl9/AtxuH+Pr+fVbx7pX9cxFFsV4EhPodUviOHZs+5q5juPRfUhlj9TtGEBmqg8abAJMTJJk902qbNtzXV8k13ok9uzuo+15RwpAQKo3pJm995lEqqqGSh4Ae78AlBqq7lrX6wmyElBJkkhax2PmOs9nbKl6HZSQAKCkXgB0XWfiqmXPzAkEcBAg1cf9/tdx+0US4LEe3QeQ2VecOE2x+kicRBSAvS/7e617kgDOVK+qnn32uvW6AfE4diMhYLt6BdlzJXk34d2qUlWt2Eb2nByCfPvXeT5BPn59rnX/CU4dx4PS+8vt9vHOCQDBzL7Op20kfRwPBPZQJWnmkmq8SZEkf5R1PEie59Me1apqkP14fJ7n1/P5p+qoXlUVGw6E7lsyMxuIPd23vc/r+q5q9EGgbUt93D7i8QyQqv6/JwDXuts7iTNzvarWWrd4oGp7v9lQFW+98cRkJwEEQurE+3qp1jrupJ5fv7tvjWDPa1+vte6lRSIIAHuqBPI6v+3ddZBSMcm+nlVHkA5ctQKoGgiSt3+qKHlGVK1HMqWW2pkkQAgpwHV9X6/ndX3b9nsVAHt7DOT++FSVPfa8Z6eqSEn1H+pK6p0mPOQKAAAAAElFTkSuQmCC');
 
 #DndLoanDebt {
+  overflow: hidden;
 
   // Basic font styling
   .row {
@@ -2503,6 +2504,14 @@ $cssTextureUser: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIA
           line-height: 2.1rem;
           color: $input-gray;
         }
+        @-moz-document url-prefix() {
+          &:before {
+            top: 14px;
+          }
+          .amount {
+            top: 14px;
+          }
+        }
         &.currency {
           &:before {
             content: "$";
@@ -2665,6 +2674,10 @@ $cssTextureUser: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIA
     box-shadow: none !important;
   }
 
+  input[type=number] {
+    -moz-appearance:textfield;
+  }
+
   .invalid-feedback {
     display: block;
     visibility: hidden;
@@ -2701,9 +2714,24 @@ $cssTextureUser: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIA
 
   .echarts-for-react {
     // height: 120px !important;
+    // min-width: 400px;
+    // overflow-x: scroll;
+  }
+
+  @include media-breakpoint-down(xs) {
+    .payoff-amount,
+    .payoff-timeline {
+      // overflow-x: scroll;
+      // overflow-y: visible;
+    }
   }
 }
 
+@-moz-document url-prefix() {
+  #DndLoanDebt .form .form-group .symbol-wrapper::before {
+    top: 30px;
+  }
+}
 
 
 ////// News

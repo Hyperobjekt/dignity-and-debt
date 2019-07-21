@@ -14467,6 +14467,7 @@ body.type-meetings.kind-section .row.jumbotron {
 }
 
 #DndLoanDebt {
+  overflow: hidden;
   /* For Firefox */
   /* Webkit browsers like Safari and Chrome */
 }
@@ -14820,6 +14821,17 @@ body.type-meetings.kind-section .row.jumbotron {
   color: #D2D2D2;
 }
 
+@-moz-document url-prefix() {
+  #DndLoanDebt form .form-group .symbol-wrapper:before,
+  #DndLoanDebt .form .form-group .symbol-wrapper:before {
+    top: 14px;
+  }
+  #DndLoanDebt form .form-group .symbol-wrapper .amount,
+  #DndLoanDebt .form .form-group .symbol-wrapper .amount {
+    top: 14px;
+  }
+}
+
 #DndLoanDebt form .form-group .symbol-wrapper.currency:before,
 #DndLoanDebt .form .form-group .symbol-wrapper.currency:before {
   content: "$";
@@ -14994,6 +15006,10 @@ body.type-meetings.kind-section .row.jumbotron {
   box-shadow: none !important;
 }
 
+#DndLoanDebt input[type='number'] {
+  -moz-appearance: textfield;
+}
+
 #DndLoanDebt .invalid-feedback {
   display: block;
   visibility: hidden;
@@ -15024,6 +15040,12 @@ body.type-meetings.kind-section .row.jumbotron {
 
 #DndLoanDebt .payoff-timeline {
   padding-bottom: 3rem;
+}
+
+@-moz-document url-prefix() {
+  #DndLoanDebt .form .form-group .symbol-wrapper::before {
+    top: 30px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

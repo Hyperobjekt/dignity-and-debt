@@ -74,9 +74,6 @@
     </script>
     <link rel="stylesheet" href="{{ ($style | minify | fingerprint).RelPermalink }}">
   {{ end }}
-  {{ if eq .Page.Title "Blah Student Loan Debt Visualization"}}
-    <link rel="stylesheet" href="{{ "css/loancalc/main.8aa31ad4.chunk.css" | relURL }}">
-  {{ end }}
   <link rel="apple-touch-icon" sizes="180x180" href="{{ "images/apple-touch-icon.png" | relURL }}">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ "images/favicon-32x32.png" | relURL }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ "images/favicon-16x16.png" | relURL }}">
