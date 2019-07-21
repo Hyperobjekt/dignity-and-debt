@@ -14617,7 +14617,6 @@ body.type-meetings.kind-section .row.jumbotron {
   }
   #DndLoanDebt .spiral svg path.user-loan-total {
     stroke: #D33149;
-    stroke: url(#userStroke);
   }
 }
 
