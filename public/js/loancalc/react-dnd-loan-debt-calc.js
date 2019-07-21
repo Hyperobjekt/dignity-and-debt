@@ -1,5 +1,5 @@
 /*!
- * react-dnd-loan-debt-calc v1.0.5
+ * react-dnd-loan-debt-calc v1.0.6
  * MIT Licensed
  */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -115085,13 +115085,14 @@ var SpiralForm_SpiralForm = function SpiralForm(_ref) {
   var _onSubmit = _ref.onSubmit,
       getCurrencyFormat = _ref.getCurrencyFormat,
       handleInputChange = _ref.handleInputChange,
+      _onClick = _ref.onClick,
       _onFocus = _ref.onFocus,
       _onBlur = _ref.onBlur,
       myBalanceRef = _ref.myBalanceRef,
       userLoan = _ref.userLoan,
       strings = _ref.strings,
       inputs = _ref.inputs,
-      props = SpiralForm_objectWithoutProperties(_ref, ['onSubmit', 'getCurrencyFormat', 'handleInputChange', 'onFocus', 'onBlur', 'myBalanceRef', 'userLoan', 'strings', 'inputs']);
+      props = SpiralForm_objectWithoutProperties(_ref, ['onSubmit', 'getCurrencyFormat', 'handleInputChange', 'onClick', 'onFocus', 'onBlur', 'myBalanceRef', 'userLoan', 'strings', 'inputs']);
 
   // Set up classes for validation feedback.
   var amtGroupClass = classnames_default()('form-group amtGroupClass', {
@@ -115143,6 +115144,9 @@ var SpiralForm_SpiralForm = function SpiralForm(_ref) {
           className: 'curr',
           maxLength: '7',
           'aria-label': 'Enter ' + strings.fields.loanBalance,
+          onClick: function onClick(e) {
+            return _onClick(e);
+          },
           onFocus: function onFocus(e) {
             return _onFocus(e);
           },
@@ -116484,6 +116488,17 @@ var src_DndLoanDebt = function (_Component) {
       }
     };
 
+    _this.onClick = function (e) {
+      console.log('onClick');
+      var isMSEdge = window.navigator.userAgent.toLowerCase().indexOf('edge') > -1;
+      if (isMSEdge) {
+        console.log('is edge');
+        _this.onFocus(e);
+      } else {
+        console.log('not edge');
+      }
+    };
+
     _this.onFocus = function (event) {
       // console.log('onFocus');
       // console.log(event);
@@ -116791,6 +116806,7 @@ var src_DndLoanDebt = function (_Component) {
             onSubmit: this.onSubmit,
             getCurrencyFormat: this.getCurrencyFormat,
             handleInputChange: this.handleInputChange,
+            onClick: this.onClick,
             onFocus: this.onFocus,
             onBlur: this.onBlur,
             myBalanceRef: this.myBalanceRef,
