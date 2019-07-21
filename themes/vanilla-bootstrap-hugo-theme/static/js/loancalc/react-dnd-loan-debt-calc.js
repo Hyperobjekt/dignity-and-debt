@@ -1,5 +1,5 @@
 /*!
- * react-dnd-loan-debt-calc v1.0.3
+ * react-dnd-loan-debt-calc v1.0.4
  * MIT Licensed
  */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -115641,7 +115641,7 @@ var PayoffAmt_PayoffAmt = function PayoffAmt(_ref) {
     show: false,
     animation: true,
     title: {
-      show: user.deviceWidth <= 360 ? true : false,
+      show: user.deviceWidth <= 460 ? true : false,
       text: "OLD AND NEW TOTALS",
       textStyle: {
         fontFamily: 'Vasarely',
@@ -115652,7 +115652,7 @@ var PayoffAmt_PayoffAmt = function PayoffAmt(_ref) {
     },
     tooltip: {
       trigger: 'axis',
-      show: user.deviceWidth >= 361 ? true : false,
+      show: user.deviceWidth >= 461 ? true : false,
       axisPointer: {
         type: 'none'
       },
@@ -115687,9 +115687,9 @@ var PayoffAmt_PayoffAmt = function PayoffAmt(_ref) {
     },
     grid: {
       left: 0,
-      top: user.deviceWidth >= 361 ? 20 : 40,
+      top: user.deviceWidth >= 461 ? 20 : 40,
       width: '100%',
-      height: user.deviceWidth >= 361 ? 70 : 120,
+      height: user.deviceWidth >= 461 ? 70 : 120,
       containLabel: true
     },
     xAxis: {
@@ -115699,7 +115699,7 @@ var PayoffAmt_PayoffAmt = function PayoffAmt(_ref) {
     yAxis: {
       type: 'category',
       data: ['NEW TOTAL PAID', 'OLD TOTAL PAID'],
-      show: user.deviceWidth >= 361 ? true : false,
+      show: user.deviceWidth >= 461 ? true : false,
       axisLine: {
         show: false
       },
@@ -115708,7 +115708,7 @@ var PayoffAmt_PayoffAmt = function PayoffAmt(_ref) {
         alignWithLabel: true
       },
       axisLabel: {
-        show: user.deviceWidth >= 361 ? true : false,
+        show: user.deviceWidth >= 461 ? true : false,
         fontFamily: 'Vasarely',
         fontSize: 18,
         verticalAlign: 'middle',
@@ -115844,7 +115844,7 @@ var PayoffAmt_PayoffAmt = function PayoffAmt(_ref) {
   };
 
   // opts={{renderer: 'svg'}}
-  var height = user.deviceWidth >= 361 ? '100px' : '140px';
+  var height = user.deviceWidth >= 461 ? '100px' : '140px';
   return external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
     'div',
     { className: 'payoff-amt-parent' },
@@ -115882,17 +115882,13 @@ var PayoffSchedule_PayoffSchedule = function PayoffSchedule(_ref) {
   var payoffDateCurr = user.payoffDateCurr ? user.payoffDateCurr : '';
   var payoffDateNew = user.payoffDateNew ? user.payoffDateNew : '';
 
-  // const svgClasses = classNames('svg-bars',
-  //   { 'unset': (!offsets.paid.original && !offsets.paid.new) }
-  // );
-
   var echartPayoffDateCurr = user.nperCurr ? user.nperCurr : 0;
   var echartPayoffDateNew = user.nperNew ? user.nperNew : 0;
 
   var options = {
     id: "payoffSchedule",
     title: {
-      show: user.deviceWidth <= 360 ? true : false,
+      show: user.deviceWidth <= 460 ? true : false,
       text: "OLD AND NEW TIMELINE",
       textStyle: {
         fontFamily: 'Vasarely',
@@ -115904,7 +115900,7 @@ var PayoffSchedule_PayoffSchedule = function PayoffSchedule(_ref) {
     tooltip: {
       trigger: 'axis',
       confine: false,
-      show: user.deviceWidth >= 361 ? true : false,
+      show: user.deviceWidth >= 461 ? true : false,
       axisPointer: {
         type: 'none'
       },
@@ -115934,9 +115930,9 @@ var PayoffSchedule_PayoffSchedule = function PayoffSchedule(_ref) {
     },
     grid: {
       left: 0,
-      top: user.deviceWidth >= 361 ? 20 : 40,
+      top: user.deviceWidth >= 461 ? 20 : 40,
       width: '100%',
-      height: user.deviceWidth >= 361 ? 70 : 120,
+      height: user.deviceWidth >= 461 ? 70 : 120,
       containLabel: true
     },
     xAxis: {
@@ -115954,7 +115950,7 @@ var PayoffSchedule_PayoffSchedule = function PayoffSchedule(_ref) {
         show: false
       },
       axisLabel: {
-        show: user.deviceWidth >= 361 ? true : false,
+        show: user.deviceWidth >= 461 ? true : false,
         fontFamily: 'Vasarely',
         fontSize: 18,
         verticalAlign: 'middle',
@@ -116030,7 +116026,7 @@ var PayoffSchedule_PayoffSchedule = function PayoffSchedule(_ref) {
   };
 
   // opts={{renderer: 'svg'}}
-  var height = user.deviceWidth >= 361 ? '100px' : '140px';
+  var height = user.deviceWidth >= 461 ? '100px' : '140px';
   return external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
     'div',
     { className: 'payoff-sched-parent' },
