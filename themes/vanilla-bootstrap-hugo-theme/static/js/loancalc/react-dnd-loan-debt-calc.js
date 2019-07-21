@@ -1,5 +1,5 @@
 /*!
- * react-dnd-loan-debt-calc v1.0.6
+ * react-dnd-loan-debt-calc v1.0.7
  * MIT Licensed
  */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -115297,12 +115297,13 @@ var LoanForm_LoanForm = function LoanForm(_ref) {
   var _onSubmit = _ref.onSubmit,
       getCurrencyFormat = _ref.getCurrencyFormat,
       handleInputChange = _ref.handleInputChange,
+      _onClick = _ref.onClick,
       _onFocus = _ref.onFocus,
       _onBlur = _ref.onBlur,
       userLoan = _ref.userLoan,
       strings = _ref.strings,
       inputs = _ref.inputs,
-      props = LoanForm_objectWithoutProperties(_ref, ['onSubmit', 'getCurrencyFormat', 'handleInputChange', 'onFocus', 'onBlur', 'userLoan', 'strings', 'inputs']);
+      props = LoanForm_objectWithoutProperties(_ref, ['onSubmit', 'getCurrencyFormat', 'handleInputChange', 'onClick', 'onFocus', 'onBlur', 'userLoan', 'strings', 'inputs']);
 
   // Set up classes for validation feedback.
   var amtGroupClass = classnames_default()('form-group amtGroupClass', {
@@ -115388,6 +115389,9 @@ var LoanForm_LoanForm = function LoanForm(_ref) {
               autoComplete: 'off',
               className: 'loanTotalCurr2',
               maxLength: '7',
+              onClick: function onClick(e) {
+                return _onClick(e);
+              },
               onFocus: function onFocus(e) {
                 return _onFocus(e);
               },
@@ -115438,6 +115442,9 @@ var LoanForm_LoanForm = function LoanForm(_ref) {
               maxLength: '6',
               autoComplete: 'off',
               className: 'loanRateCurr',
+              onClick: function onClick(e) {
+                return _onClick(e);
+              },
               onFocus: function onFocus(e) {
                 return _onFocus(e);
               },
@@ -115480,6 +115487,9 @@ var LoanForm_LoanForm = function LoanForm(_ref) {
               maxLength: '5',
               autoComplete: 'off',
               className: 'loanPmtCurr',
+              onClick: function onClick(e) {
+                return _onClick(e);
+              },
               onFocus: function onFocus(e) {
                 return _onFocus(e);
               },
@@ -115530,6 +115540,9 @@ var LoanForm_LoanForm = function LoanForm(_ref) {
               type: 'number',
               maxLength: '6',
               autoComplete: 'off',
+              onClick: function onClick(e) {
+                return _onClick(e);
+              },
               onFocus: function onFocus(e) {
                 return _onFocus(e);
               },
@@ -115572,6 +115585,9 @@ var LoanForm_LoanForm = function LoanForm(_ref) {
               className: 'loanPmtNew',
               maxLength: '5',
               autoComplete: 'off',
+              onClick: function onClick(e) {
+                return _onClick(e);
+              },
               onFocus: function onFocus(e) {
                 return _onFocus(e);
               },
@@ -116489,13 +116505,13 @@ var src_DndLoanDebt = function (_Component) {
     };
 
     _this.onClick = function (e) {
-      console.log('onClick');
+      // console.log('onClick');
       var isMSEdge = window.navigator.userAgent.toLowerCase().indexOf('edge') > -1;
       if (isMSEdge) {
-        console.log('is edge');
+        // console.log('is edge');
         _this.onFocus(e);
       } else {
-        console.log('not edge');
+        // console.log('not edge');
       }
     };
 
@@ -116844,6 +116860,7 @@ var src_DndLoanDebt = function (_Component) {
         onSubmit: this.onSubmit,
         getCurrencyFormat: this.getCurrencyFormat,
         handleInputChange: this.handleInputChange,
+        onClick: this.onClick,
         onFocus: this.onFocus,
         onBlur: this.onBlur,
         userLoan: this.state.loans.user,
