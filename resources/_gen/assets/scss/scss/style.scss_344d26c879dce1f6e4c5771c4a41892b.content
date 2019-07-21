@@ -14477,6 +14477,8 @@ body.type-meetings.kind-section .row.jumbotron {
   line-height: 2.1rem;
   text-transform: uppercase;
   color: #000;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 #DndLoanDebt .heading {
