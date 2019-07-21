@@ -1,5 +1,5 @@
 /*!
- * react-dnd-loan-debt-calc v1.0.0
+ * react-dnd-loan-debt-calc v1.0.1
  * MIT Licensed
  */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -115082,7 +115082,8 @@ function SpiralForm_objectWithoutProperties(obj, keys) { var target = {}; for (v
 
 
 var SpiralForm_SpiralForm = function SpiralForm(_ref) {
-  var getCurrencyFormat = _ref.getCurrencyFormat,
+  var _onSubmit = _ref.onSubmit,
+      getCurrencyFormat = _ref.getCurrencyFormat,
       handleInputChange = _ref.handleInputChange,
       _onFocus = _ref.onFocus,
       _onBlur = _ref.onBlur,
@@ -115090,7 +115091,7 @@ var SpiralForm_SpiralForm = function SpiralForm(_ref) {
       userLoan = _ref.userLoan,
       strings = _ref.strings,
       inputs = _ref.inputs,
-      props = SpiralForm_objectWithoutProperties(_ref, ['getCurrencyFormat', 'handleInputChange', 'onFocus', 'onBlur', 'myBalanceRef', 'userLoan', 'strings', 'inputs']);
+      props = SpiralForm_objectWithoutProperties(_ref, ['onSubmit', 'getCurrencyFormat', 'handleInputChange', 'onFocus', 'onBlur', 'myBalanceRef', 'userLoan', 'strings', 'inputs']);
 
   // Set up classes for validation feedback.
   var amtGroupClass = classnames_default()('form-group amtGroupClass', {
@@ -115115,7 +115116,9 @@ var SpiralForm_SpiralForm = function SpiralForm(_ref) {
 
   return external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
     'form',
-    { noValidate: true },
+    { noValidate: true, id: 'form1', onSubmit: function onSubmit(e) {
+        return _onSubmit(e);
+      } },
     external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
       'div',
       { className: amtGroupClass },
@@ -115287,14 +115290,15 @@ function LoanForm_objectWithoutProperties(obj, keys) { var target = {}; for (var
 
 
 var LoanForm_LoanForm = function LoanForm(_ref) {
-  var getCurrencyFormat = _ref.getCurrencyFormat,
+  var _onSubmit = _ref.onSubmit,
+      getCurrencyFormat = _ref.getCurrencyFormat,
       handleInputChange = _ref.handleInputChange,
       _onFocus = _ref.onFocus,
       _onBlur = _ref.onBlur,
       userLoan = _ref.userLoan,
       strings = _ref.strings,
       inputs = _ref.inputs,
-      props = LoanForm_objectWithoutProperties(_ref, ['getCurrencyFormat', 'handleInputChange', 'onFocus', 'onBlur', 'userLoan', 'strings', 'inputs']);
+      props = LoanForm_objectWithoutProperties(_ref, ['onSubmit', 'getCurrencyFormat', 'handleInputChange', 'onFocus', 'onBlur', 'userLoan', 'strings', 'inputs']);
 
   // Set up classes for validation feedback.
   var amtGroupClass = classnames_default()('form-group amtGroupClass', {
@@ -115354,7 +115358,9 @@ var LoanForm_LoanForm = function LoanForm(_ref) {
       { className: 'offset-2 col-8 offset-sm-3 col-sm-6 col-md-4 offset-md-1' },
       external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
         'form',
-        { noValidate: true },
+        { noValidate: true, onSubmit: function onSubmit(e) {
+            return _onSubmit(e);
+          } },
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'div',
           { className: amtGroupClass },
@@ -116407,6 +116413,14 @@ var src_DndLoanDebt = function (_Component) {
       }
     };
 
+    _this.onSubmit = function (e) {
+      // if (e.keyCode === 13) {
+      console.log('hit enter');
+      e.preventDefault();
+      return false;
+      // }
+    };
+
     _this.onInputUpdateUserState = function (node, val) {
       // console.log('onInputUpdateUserState()');
       // If updating current loan amt, separate thing.
@@ -116712,7 +116726,7 @@ var src_DndLoanDebt = function (_Component) {
       this.setState({
         timer: setTimeout(function () {
           _this3.onInputUpdateUserState(target.name, Number(target.value));
-        }, 1000)
+        }, 500)
       });
     } else {
       // console.log('not valid');
@@ -116741,6 +116755,7 @@ var src_DndLoanDebt = function (_Component) {
             strings: this.state.strings
           }),
           external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(src_SpiralForm, _extends({
+            onSubmit: this.onSubmit,
             getCurrencyFormat: this.getCurrencyFormat,
             handleInputChange: this.handleInputChange,
             onFocus: this.onFocus,
@@ -116777,6 +116792,7 @@ var src_DndLoanDebt = function (_Component) {
         )
       ),
       external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(src_LoanForm, _extends({
+        onSubmit: this.onSubmit,
         getCurrencyFormat: this.getCurrencyFormat,
         handleInputChange: this.handleInputChange,
         onFocus: this.onFocus,
