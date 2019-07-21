@@ -1,5 +1,5 @@
 /*!
- * react-dnd-loan-debt-calc v1.0.1
+ * react-dnd-loan-debt-calc v1.0.2
  * MIT Licensed
  */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -114970,32 +114970,32 @@ var Spiral_Spiral = function Spiral(_ref) {
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           "pattern",
           { id: "overallStroke", patternUnits: "userSpaceOnUse", width: "100", height: "100", x: "0", y: "0" },
-          external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement("image", { href: textureOverall, x: "0", y: "0", width: "100", height: "100" })
+          external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement("image", { xlinkHref: textureOverall, x: "0", y: "0", width: "100", height: "100" })
         ),
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           "pattern",
           { id: "blackStroke", patternUnits: "userSpaceOnUse", width: "20", height: "20", x: "0", y: "0" },
-          external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement("image", { href: textureBlack, x: "0", y: "0", width: "20", height: "20" })
+          external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement("image", { xlinkHref: textureBlack, x: "0", y: "0", width: "20", height: "20" })
         ),
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           "pattern",
           { id: "whiteStroke", patternUnits: "userSpaceOnUse", width: "20", height: "20", x: "0", y: "0" },
-          external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement("image", { href: textureWhite, x: "0", y: "0", width: "20", height: "20" })
+          external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement("image", { xlinkHref: textureWhite, x: "0", y: "0", width: "20", height: "20" })
         ),
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           "pattern",
           { id: "asianStroke", patternUnits: "userSpaceOnUse", width: "20", height: "20", x: "0", y: "0" },
-          external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement("image", { href: textureAsian, x: "0", y: "0", width: "20", height: "20" })
+          external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement("image", { xlinkHref: textureAsian, x: "0", y: "0", width: "20", height: "20" })
         ),
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           "pattern",
           { id: "hispanicStroke", patternUnits: "userSpaceOnUse", width: "20", height: "20", x: "0", y: "0" },
-          external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement("image", { href: textureHispanic, x: "0", y: "0", width: "20", height: "20" })
+          external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement("image", { xlinkHref: textureHispanic, x: "0", y: "0", width: "20", height: "20" })
         ),
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           "pattern",
           { id: "userStroke", patternUnits: "userSpaceOnUse", width: "20", height: "20", x: "0", y: "0" },
-          external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement("image", { href: textureUser, x: "0", y: "0", width: "20", height: "20" })
+          external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement("image", { xlinkHref: textureUser, x: "0", y: "0", width: "20", height: "20" })
         )
       ),
       external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement("path", {

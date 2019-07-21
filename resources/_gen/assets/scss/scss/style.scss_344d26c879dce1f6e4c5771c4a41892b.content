@@ -14593,34 +14593,6 @@ body.type-meetings.kind-section .row.jumbotron {
   stroke: url(#userStroke);
 }
 
-@supports (-webkit-overflow-scrolling: touch) {
-  #DndLoanDebt .spiral svg {
-    /* CSS specific to iOS devices */
-  }
-  #DndLoanDebt .spiral svg path {
-    transition: stroke-dashoffset 0.75s ease-in-out;
-    stroke-width: 15px !important;
-  }
-  #DndLoanDebt .spiral svg path.overall-avg {
-    stroke: #F8D4D0;
-  }
-  #DndLoanDebt .spiral svg path.black-avg {
-    stroke: #B8BDDB;
-  }
-  #DndLoanDebt .spiral svg path.white-avg {
-    stroke: #DFB698;
-  }
-  #DndLoanDebt .spiral svg path.asian-avg {
-    stroke: #FAC830;
-  }
-  #DndLoanDebt .spiral svg path.hispanic-avg {
-    stroke: #F8EFE8;
-  }
-  #DndLoanDebt .spiral svg path.user-loan-total {
-    stroke: #D33149;
-  }
-}
-
 #DndLoanDebt table tr td.th, #DndLoanDebt table tr td.amt {
   font-size: 1.8rem;
   line-height: 2.1rem;
