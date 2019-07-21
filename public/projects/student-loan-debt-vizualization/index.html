@@ -347,7 +347,8 @@
 
     <script>
       const domContainer = document.querySelector('#DndLoanDebt');
-      ReactDOM.render(React.createElement(DndLoanDebt, {...domContainer.dataset}), domContainer);
+      
+      ReactDOM.render(React.createElement(DndLoanDebt, Object.assign({}, domContainer.dataset)), domContainer);
     </script>
   
 
