@@ -1,5 +1,5 @@
 /*!
- * react-dnd-loan-debt-calc v1.0.2
+ * react-dnd-loan-debt-calc v1.0.3
  * MIT Licensed
  */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -115642,7 +115642,7 @@ var PayoffAmt_PayoffAmt = function PayoffAmt(_ref) {
     animation: true,
     title: {
       show: user.deviceWidth <= 360 ? true : false,
-      text: "CURRENT AND NEW TOTALS PAID",
+      text: "OLD AND NEW TOTALS",
       textStyle: {
         fontFamily: 'Vasarely',
         fontSize: 16,
@@ -115893,7 +115893,7 @@ var PayoffSchedule_PayoffSchedule = function PayoffSchedule(_ref) {
     id: "payoffSchedule",
     title: {
       show: user.deviceWidth <= 360 ? true : false,
-      text: "CURRENT AND NEW PAYOFF SCHEDULE",
+      text: "OLD AND NEW TIMELINE",
       textStyle: {
         fontFamily: 'Vasarely',
         fontSize: 16,
