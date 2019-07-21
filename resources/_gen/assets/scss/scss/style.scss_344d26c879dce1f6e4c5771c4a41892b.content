@@ -14528,10 +14528,22 @@ body.type-meetings.kind-section .row.jumbotron {
 }
 
 #DndLoanDebt .spiral {
-  padding-top: 3rem;
+  padding-top: 6rem;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  #DndLoanDebt .spiral {
+    padding-top: 12rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  #DndLoanDebt .spiral {
+    padding-top: 6rem;
+  }
 }
 
 #DndLoanDebt .spiral svg {

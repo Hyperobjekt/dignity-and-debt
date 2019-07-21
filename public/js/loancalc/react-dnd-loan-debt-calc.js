@@ -1,5 +1,5 @@
 /*!
- * react-dnd-loan-debt-calc v1.0.4
+ * react-dnd-loan-debt-calc v1.0.5
  * MIT Licensed
  */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -116207,9 +116207,10 @@ var src_DndLoanDebt = function (_Component) {
     var _this = _possibleConstructorReturn(this, _Component.call(this, props));
 
     _this.setDeviceWidth = function () {
+      // console.log('setDeviceWidth');
       var deviceWidth = Math.max(window.screen.width, window.innerWidth);
-      console.log('deviceWidth:');
-      console.log(deviceWidth);
+      // console.log('deviceWidth:');
+      // console.log(deviceWidth);
       var _user = _this.state.user;
       _user.deviceWidth = deviceWidth;
       _this.setState({
@@ -116444,11 +116445,9 @@ var src_DndLoanDebt = function (_Component) {
     };
 
     _this.onSubmit = function (e) {
-      // if (e.keyCode === 13) {
-      console.log('hit enter');
+      // console.log('onSubmit');
       e.preventDefault();
       return false;
-      // }
     };
 
     _this.onInputUpdateUserState = function (node, val) {
