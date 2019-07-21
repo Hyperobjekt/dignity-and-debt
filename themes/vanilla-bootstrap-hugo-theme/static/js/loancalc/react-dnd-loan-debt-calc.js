@@ -115640,8 +115640,19 @@ var PayoffAmt_PayoffAmt = function PayoffAmt(_ref) {
     id: 'payoffAmt',
     show: false,
     animation: true,
+    title: {
+      show: user.deviceWidth <= 360 ? true : false,
+      text: "CURRENT AND NEW TOTALS PAID",
+      textStyle: {
+        fontFamily: 'Vasarely',
+        fontSize: 16,
+        color: '#000'
+      },
+      top: 0
+    },
     tooltip: {
       trigger: 'axis',
+      show: user.deviceWidth >= 361 ? true : false,
       axisPointer: {
         type: 'none'
       },
@@ -115676,9 +115687,9 @@ var PayoffAmt_PayoffAmt = function PayoffAmt(_ref) {
     },
     grid: {
       left: 0,
-      top: 20,
+      top: user.deviceWidth >= 361 ? 20 : 40,
       width: '100%',
-      height: 70,
+      height: user.deviceWidth >= 361 ? 70 : 120,
       containLabel: true
     },
     xAxis: {
@@ -115688,7 +115699,7 @@ var PayoffAmt_PayoffAmt = function PayoffAmt(_ref) {
     yAxis: {
       type: 'category',
       data: ['NEW TOTAL PAID', 'OLD TOTAL PAID'],
-      show: true,
+      show: user.deviceWidth >= 361 ? true : false,
       axisLine: {
         show: false
       },
@@ -115697,6 +115708,7 @@ var PayoffAmt_PayoffAmt = function PayoffAmt(_ref) {
         alignWithLabel: true
       },
       axisLabel: {
+        show: user.deviceWidth >= 361 ? true : false,
         fontFamily: 'Vasarely',
         fontSize: 18,
         verticalAlign: 'middle',
@@ -115832,13 +115844,13 @@ var PayoffAmt_PayoffAmt = function PayoffAmt(_ref) {
   };
 
   // opts={{renderer: 'svg'}}
-
+  var height = user.deviceWidth >= 361 ? '100px' : '140px';
   return external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
     'div',
     { className: 'payoff-amt-parent' },
     external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(echarts_for_react_lib_default.a, {
       option: options,
-      style: { height: '100px', width: '100%' }
+      style: { height: height, width: '100%' }
     })
   );
 };
@@ -115879,9 +115891,20 @@ var PayoffSchedule_PayoffSchedule = function PayoffSchedule(_ref) {
 
   var options = {
     id: "payoffSchedule",
+    title: {
+      show: user.deviceWidth <= 360 ? true : false,
+      text: "CURRENT AND NEW PAYOFF SCHEDULE",
+      textStyle: {
+        fontFamily: 'Vasarely',
+        fontSize: 16,
+        color: '#000'
+      },
+      top: 0
+    },
     tooltip: {
       trigger: 'axis',
       confine: false,
+      show: user.deviceWidth >= 361 ? true : false,
       axisPointer: {
         type: 'none'
       },
@@ -115900,7 +115923,6 @@ var PayoffSchedule_PayoffSchedule = function PayoffSchedule(_ref) {
         fontFamily: 'Vasarely',
         fontSize: 16,
         color: '#000'
-
       },
       backgroundColor: '#FFEBAE',
       borderColor: '#000',
@@ -115912,9 +115934,9 @@ var PayoffSchedule_PayoffSchedule = function PayoffSchedule(_ref) {
     },
     grid: {
       left: 0,
-      top: 20,
+      top: user.deviceWidth >= 361 ? 20 : 40,
       width: '100%',
-      height: 70,
+      height: user.deviceWidth >= 361 ? 70 : 120,
       containLabel: true
     },
     xAxis: {
@@ -115932,6 +115954,7 @@ var PayoffSchedule_PayoffSchedule = function PayoffSchedule(_ref) {
         show: false
       },
       axisLabel: {
+        show: user.deviceWidth >= 361 ? true : false,
         fontFamily: 'Vasarely',
         fontSize: 18,
         verticalAlign: 'middle',
@@ -116007,13 +116030,13 @@ var PayoffSchedule_PayoffSchedule = function PayoffSchedule(_ref) {
   };
 
   // opts={{renderer: 'svg'}}
-
+  var height = user.deviceWidth >= 361 ? '100px' : '140px';
   return external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
     'div',
     { className: 'payoff-sched-parent' },
     external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(echarts_for_react_lib_default.a, {
       option: options,
-      style: { height: '100px', width: '100%' }
+      style: { height: height, width: '100%' }
     })
   );
 };
@@ -116186,6 +116209,17 @@ var src_DndLoanDebt = function (_Component) {
     _classCallCheck(this, DndLoanDebt);
 
     var _this = _possibleConstructorReturn(this, _Component.call(this, props));
+
+    _this.setDeviceWidth = function () {
+      var deviceWidth = Math.max(window.screen.width, window.innerWidth);
+      console.log('deviceWidth:');
+      console.log(deviceWidth);
+      var _user = _this.state.user;
+      _user.deviceWidth = deviceWidth;
+      _this.setState({
+        user: _user
+      });
+    };
 
     _this.onUpdateOffsets = function (s) {
       // console.log('onUpdateOffsets');
@@ -116543,7 +116577,8 @@ var src_DndLoanDebt = function (_Component) {
         totalIntNew: null,
         totalIntCurr: null,
         nperCurr: null,
-        nperNew: null
+        nperNew: null,
+        deviceWidth: null
       },
       validation: {
         loanTotalCurr: {
@@ -116700,6 +116735,9 @@ var src_DndLoanDebt = function (_Component) {
         };
       });
     }, 1000);
+
+    window.addEventListener("resize", this.setDeviceWidth);
+    this.setDeviceWidth();
   };
 
   DndLoanDebt.prototype.handleInputChange = function handleInputChange(event) {
@@ -116826,7 +116864,7 @@ var src_DndLoanDebt = function (_Component) {
         { className: 'row payoff-amount payoff' },
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'div',
-          { className: 'offset-0 col-12 offset-sm-1 col-sm-10 offset-md-1 col-md-9' },
+          { className: 'offset-1 col-10 offset-md-1 col-md-9' },
           external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(src_PayoffSchedule, {
             offsets: this.state.offsets,
             paths: this.state.paths,
@@ -116839,7 +116877,7 @@ var src_DndLoanDebt = function (_Component) {
         { className: 'row payoff-timeline payoff' },
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'div',
-          { className: 'offset-0 col-10 offset-sm-1 col-sm-10 offset-md-1 col-md-9' },
+          { className: 'offset-1 col-10 offset-md-1 col-md-9' },
           external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(src_PayoffAmt, {
             getCurrencyFormat: this.getCurrencyFormat,
             principal: this.state.loans.user,
