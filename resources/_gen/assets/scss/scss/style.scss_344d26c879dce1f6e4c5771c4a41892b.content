@@ -14601,22 +14601,23 @@ body.type-meetings.kind-section .row.jumbotron {
     stroke-width: 15px !important;
   }
   #DndLoanDebt .spiral svg path.overall-avg {
-    stroke: url("/images/texture-overall-sq.png");
+    stroke: #F8D4D0;
   }
   #DndLoanDebt .spiral svg path.black-avg {
-    stroke: url("/images/texture-black-sq.png");
+    stroke: #B8BDDB;
   }
   #DndLoanDebt .spiral svg path.white-avg {
-    stroke: url("/images/texture-white-sq.png");
+    stroke: #DFB698;
   }
   #DndLoanDebt .spiral svg path.asian-avg {
-    stroke: url("/images/texture-asian-sq.png");
+    stroke: #FAC830;
   }
   #DndLoanDebt .spiral svg path.hispanic-avg {
-    stroke: url("/images/texture-hispanic-sq.png");
+    stroke: #F8EFE8;
   }
   #DndLoanDebt .spiral svg path.user-loan-total {
-    stroke: url("/images/texture-user-sq.png");
+    stroke: #D33149;
+    stroke: url(#userStroke);
   }
 }
 

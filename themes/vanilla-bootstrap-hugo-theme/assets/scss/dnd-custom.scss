@@ -2292,22 +2292,23 @@ $cssTextureUser: url("/images/texture-user-sq.png");
           transition: stroke-dashoffset 0.75s ease-in-out;
           stroke-width: 15px !important;
           &.overall-avg {
-            stroke: $cssTextureOverall; // url(#overallStroke);
+            stroke: #F8D4D0; // $cssTextureOverall; // url(#overallStroke);
           }
           &.black-avg {
-            stroke: $cssTextureBlack; // url(#blackStroke);
+            stroke: #B8BDDB; // $cssTextureBlack; // url(#blackStroke);
           }
           &.white-avg {
-            stroke: $cssTextureWhite; // url(#whiteStroke);
+            stroke: #DFB698; // $cssTextureWhite; // url(#whiteStroke);
           }
           &.asian-avg {
-            stroke: $cssTextureAsian; // url(#asianStroke);
+            stroke: #FAC830; // $cssTextureAsian; // url(#asianStroke);
           }
           &.hispanic-avg {
-            stroke: $cssTextureHispanic; // url(#hispanicStroke);
+            stroke: #F8EFE8; // $cssTextureHispanic; // url(#hispanicStroke);
           }
           &.user-loan-total {
-            stroke: $cssTextureUser; // url(#userStroke);
+            stroke: #D33149; // $cssTextureUser; // url(#userStroke);
+            stroke: url(#userStroke);
           }
         }
       }
