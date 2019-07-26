@@ -432,7 +432,7 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
-        buttons: ["bold", "italic", 'heading-one', "heading-two" "link", "bulleted-list", "numbered-list"]
+        buttons: ["bold", "italic", "heading-one", "heading-two", "link", "bulleted-list", "numbered-list"]
             
 
   # EVENTS 
