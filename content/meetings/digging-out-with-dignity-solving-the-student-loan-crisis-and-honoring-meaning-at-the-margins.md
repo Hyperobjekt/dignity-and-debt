@@ -27,13 +27,13 @@ Tressie McMillan Cottom, author of LowerEd
 
 Darrick Hamilton,  Executive Director of the Kirwan Institute for the Study of Race and Ethnicity at The Ohio State University 
 
-Eldar Shafir, author of Scarcity 
+Eldar Shafir, author of _Scarcity_ 
 
 Betsy Paluck, Kahneman-Treisman Center for Behavioral Science & Policy at Princeton University 
 
-Jennifer Silva, author of Coming Up Short 
+Jennifer Silva, author of _Coming Up Short_ 
 
-Caitlin Zaloom, author of Indebted 
+Caitlin Zaloom, author of _Indebted_ 
 
 Rachel Dwyer, The Ohio State University, author of "Youth Debt, Mastery and Self-Esteem" 
 
@@ -41,9 +41,9 @@ Felipe González, University of Chile, author of "A Global Comparison of Student
 
 Seth Frotman, founder of Student Borrower Protection Center, former CFPB Student Loan Ombudsman 
 
-Rekgotsofetse Chikane, author of Breaking a Rainbow, Building a Nation: The Politics Behind #MustFall Movements, short-listed for South Africa's 2019 Alan Paton Award for non-fiction 
+Rekgotsofetse Chikane, author of _Breaking a Rainbow, Building a Nation: The Politics Behind #MustFall Movements_, short-listed for South Africa's 2019 Alan Paton Award for non-fiction 
 
-Jon Marcus, Higher Education Editor, The Hechinger Report 
+Jon Marcus, Higher Education Editor, _The Hechinger Report_ 
 
 Moderated by Ida Rademacher (Aspen), Joanna Smith-Ramani (Aspen), Adam Goldstein (Princeton), Jeffrey Himpele (Princeton), and Frederick Wherry (Princeton) 
 
