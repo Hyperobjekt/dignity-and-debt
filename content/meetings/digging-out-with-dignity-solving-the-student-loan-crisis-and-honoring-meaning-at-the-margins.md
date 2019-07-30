@@ -7,13 +7,13 @@ type: single-meeting
 weight: 1
 date: 2019-07-30T12:05:35.501Z
 ---
-A Dignity + Debt Discussion Forum 
+## A Dignity + Debt Discussion Forum 
 
-co-presented with The Aspen Institute’s Financial Security Program 
+**co-presented with The Aspen Institute’s Financial Security Program** 
 
-Hosted at Princeton University 
+**Hosted at Princeton University** 
 
-Friday, October 18, 2019
+**Friday, October 18, 2019**
 
 Student loans from the federal government total $1.5 trillion in the United States with 40 percent of them at risk of default over the next four years. Across the globe, student unrest over fines and fees has destabilized plans for funding higher education and called to account histories of dispossession. While considering what must be done, we must also pay more attention to what is at stake. Because the public debates about student loans and fees often miss the meanings that these loans have for students and their families, the proposed solutions risk transforming potential allies into enemies of reform. How should we change the narrative about student loans? How might we include stories of racial inequality and social inclusion that broaden support for reforms? And how might we envision the student loan crisis so that our data highlight not just what’s wrong but what can be made right? 
 
@@ -21,7 +21,7 @@ On April 23, 2019, Aspen’s EPIC issued a first-of-its-kind brief on student lo
 
 The discussion forum will also launch a visualization contest. A series of data visualizations of student loans and education debt will be presented in the style pioneered by the historian and sociologist W.E.B. DuBois. The forum will then invite researchers, practitioners, community leaders, and students from across the globe to submit their own evocative data visualizations and film shorts by March 15, 2020 on the origins, consequences, and meanings of student debt as well as points for policy and product innovation.  
 
-**Confirmed speakers include:** 
+## **Confirmed speakers include:** 
 
 Tressie McMillan Cottom, author of LowerEd 
 
@@ -47,6 +47,6 @@ Jon Marcus, Higher Education Editor, The Hechinger Report
 
 Moderated by Ida Rademacher (Aspen), Joanna Smith-Ramani (Aspen), Adam Goldstein (Princeton), Jeffrey Himpele (Princeton), and Frederick Wherry (Princeton) 
 
-**Registration Details**  
+## **Registration Details**  
 
 A registration link and additional conference details will be availabe soon. The discussion forum is free and open to the public.
