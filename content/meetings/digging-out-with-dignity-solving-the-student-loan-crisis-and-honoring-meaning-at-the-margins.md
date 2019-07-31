@@ -7,7 +7,7 @@ type: single-meeting
 weight: 1
 date: 2019-07-30T12:05:35.501Z
 ---
-## A Dignity + Debt Discussion Forum 
+## A Dignity + Debt Discussion Forum
 
 **co-presented with The Aspen Institute’s Financial Security Program** 
 
@@ -21,7 +21,7 @@ On April 23, 2019, Aspen’s EPIC issued a first-of-its-kind brief on student lo
 
 The discussion forum will also launch a visualization contest. A series of data visualizations of student loans and education debt will be presented in the style pioneered by the historian and sociologist W.E.B. DuBois. The forum will then invite researchers, practitioners, community leaders, and students from across the globe to submit their own evocative data visualizations and film shorts by March 15, 2020 on the origins, consequences, and meanings of student debt as well as points for policy and product innovation.  
 
-## **Confirmed speakers include:** 
+## **Confirmed speakers include:**
 
 Tressie McMillan Cottom, author of LowerEd 
 
@@ -47,6 +47,6 @@ Jon Marcus, Higher Education Editor, _The Hechinger Report_
 
 Moderated by Ida Rademacher (Aspen), Joanna Smith-Ramani (Aspen), Adam Goldstein (Princeton), Jeffrey Himpele (Princeton), and Frederick Wherry (Princeton) 
 
-## **Registration Details**  
+## **Registration Details**
 
-A registration link and additional conference details will be availabe soon. The discussion forum is free and open to the public.
+A registration link and additional conference details will be available soon. The discussion forum is free and open to the public.
