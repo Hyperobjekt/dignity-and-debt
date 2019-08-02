@@ -1806,6 +1806,10 @@ body.type-meetings.kind-section {
       #digging-out {
       
           position: sticky;
+          position: -webkit-sticky;
+          position: -moz-sticky;
+          position: -ms-sticky;
+          position: -o-sticky;
           top: 120px;
 
       }
