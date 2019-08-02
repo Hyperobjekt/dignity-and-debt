@@ -14097,6 +14097,10 @@ body.type-meetings.kind-section .row.jumbotron {
 
 .kind-section.type-meetings .row.indiv-mtgs #digging-out {
   position: sticky;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
   top: 120px;
 }
 
