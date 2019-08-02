@@ -25,6 +25,19 @@
   </div>
 </div>-->
 
+<div class="row mtg-2019">
+  <div class="col-lg-3 col-md-4 col-sm-10 offset-lg-2 offset-md-1 offset-sm-1 order-lg-0 order-md-0 img-parent">
+    TEST  
+  </div>
+  <div class="col-lg-5 col-md-5 col-sm-10 offset-lg-0 offset-md-0 offset-sm-1 ">
+      {{ if eq .Params.type "single-meeting" }}
+        {{ .Content }}
+        TEST
+      {{ end }}
+  </div>
+</div>
+
+
 <div class="row the-roundtable">
   <div class="col-lg-3 col-md-4 col-sm-10 offset-lg-2 offset-md-1 offset-sm-1 order-lg-0 order-md-0 img-parent">
     <div class="pic">
