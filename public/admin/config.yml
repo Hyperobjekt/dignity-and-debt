@@ -47,6 +47,7 @@ collections:
                 multiple: false
       # ABOUT PAGE - QA'D          
       - label: "About Page"
+        preview_path: about/
         name: "about"
         file: "content/about/_index.md"
         extension: "md"
@@ -58,7 +59,7 @@ collections:
           - label: "Body"
             name: "body"
             widget: "markdown"
-            buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
+            buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]
           - label: "Image"
             name: "image"
             widget: "hidden"
@@ -87,6 +88,7 @@ collections:
       # PROJECTS PAGE - QA'D not tested 
       - label: "Projects Page"
         name: "projects"
+        preview_path: projects/
         file: "content/projects/_index.md"
         extension: "md"
         fields:
@@ -97,7 +99,7 @@ collections:
           - label: "Body"
             name: "body"
             widget: "markdown"
-            buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
+            buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]
           - label: "Hero Image"
             name: "hero_image"
             widget: "hidden"
@@ -126,6 +128,7 @@ collections:
   # OBJECTIVES - QA'D not tested
   - label: "Objectives"
     name: "objecties"
+    preview_path: about/
     files:
       - name: "objective-01"
         label: "Objective 1"
@@ -220,7 +223,8 @@ collections:
 
   # PEOPLE V2 WIP 
   - label: "People List"
-    name: "peopleList"   
+    name: "peopleList" 
+    preview_path: about/  
     files:
       - name: "director"
         label: "Director"
@@ -272,17 +276,12 @@ collections:
             - {label: Image, name: image, widget: hidden} 
             - {label: Bio, name: blurb, widget: hidden}             
           
-          
-               
-    
-        
-
-
-  # PROJECT ITEMS QA'D not tested             
+  # PROJECT ITEMS QA'D AND TESTED             
   - label: "Project Items"
     name: "projects" # Used in routes, e.g., /admin/collections/blog
     folder: "content/projects" # The path to the folder where the documents are stored
     filter: {field: "is_index", value: false}
+    preview_path: projects/
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -291,7 +290,8 @@ collections:
         widget: "string"
 
       - {label: "Is Index", name: "is_index", widget: "hidden", default: false}
-
+      - {label: "Type", name: "type", widget: "hidden", default: "projects"}
+      
       - label: "Description"
         name: "description"
         widget: "text"
@@ -309,25 +309,31 @@ collections:
         required: false
         widget: "datetime"
 
-      - label: "Links Out"
+      - label: "Links Out (from main projects page to individual page"
         name: "link_out"
         widget: "boolean"
         default: false
-
-      - label: "Hero Image"
-        name: "hero_image"
+      - label: "Full Width Hero Image"
+        name: "hero_image_fw"
         widget: "image"
         default: "/uploads/projects.png"
         required: false
         media_library:
           config:
-            multiple: false
-
+            multiple: false  
+      - label: "Hero Image Alt Text and Title"
+        name: alts
+        widget: object
+        fields:
+          - {label: "Alt Text", name: hero_alt, widget: string, required: false}          
+          - {label: "Title", name: hero_title, widget: string, required: false}          
       - label: "Body"
         name: "body"
         widget: "markdown"
-        buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
-    # NEWS ITEMS QA'D not tested   
+        buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]
+ 
+ 
+  # NEWS ITEMS QA'D not tested   
   - label: "News Items"
     name: "news"
     folder: "content/news" # The path to the folder where the documents are stored
@@ -353,7 +359,82 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
-        buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
+        buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]
+
+  # MEETINGS PAGE
+  - label: "Meetings"
+    name: meetings
+    preview_path: meetings/
+    files:
+      - label: Meetings Main Page Content
+        name: meetings_content    
+        file: "content/meetings/_index.md"
+        extension: "md"
+        fields:
+          - {label: Title, name: title, widget: string, default: "Meetings"}
+          - {label: Name, name: name, widget: hidden, default: "Meetings"}
+          - {label: Type, name: type, widget: hidden, default: "meetings"}
+          - {label: Is Index, name: is_index, widget: hidden, default: true}
+          - {label: Hero Image, name: hero_image, widget: hidden, default: "/uploads/woman_in_city2.jpg"}
+          - {label: Display Title, name: display_title, widget: string}
+          - {label: Display Subheading, name: display_subtitle, widget: string, required: false}
+          - {label: Roundtable Image, name: roundtable_image, widget: hidden, default: "/uploads/wherry-seminar-table.jpg"}
+          - {label: Roundtable Heading, name: heading, widget: string, default: "THE ROUNDTABLE"}
+          - {label: The Roundtable Text, name: the_roundtable, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+          - {label: Video 1 Caption, name: video_one, widget: string, required: false}
+          - {label: Video 2 Caption, name: video_two, widget: string, required: false}
+          - {label: Video 3 Caption, name: video_three, widget: string, required: false}
+          - {label: Video 4 Caption, name: video_four, widget: string, required: false}
+          - {label: Dignity Roundtable Heading, name: dignity_roundtable_heading, widget: string}
+          - {label: Dignity Roundtable Text, name: dignity_roundtable_text, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+      - label: 2018 Program
+        name: meeting_2018    
+        file: "content/meetings/2018-program/_index.md"
+        extension: "md"
+        fields:
+          - {label: Title, name: title, widget: string, default: "2018 Program"}
+          - {label: Type, name: type, widget: hidden, default: "meetings"}
+          - {label: Layout, name: layout, widget: hidden, default: "2018-program"}
+          - {label: Subtitle, name: subtitle, widget: string, default: "ROUNDTABLE PARTICIPANTS AND PROGRAM"}
+          - {label: Date, name: date, widget: hidden}
+          - {label: Image, name: image, widget: hidden}
+          - {label: Body, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+
+  # INDIVIDUAL MEETINGS             
+  - label: "Individual Meetings"
+    name: "single-meetings" # Used in routes, e.g., /admin/collections/blog
+    folder: "content/meetings" # The path to the folder where the documents are stored
+    filter: {field: "is_index", value: false}
+    preview_path: meetings/
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - label: "Title"
+        name: "title"
+        widget: "string"
+
+      - {label: "Is Index", name: "is_index", widget: "hidden", default: false}
+      - {label: "Type", name: "type", widget: "hidden", default: "single-meeting"}
+      
+      - label: "Weight (lowest displayed first)"
+        name: "weight"
+        widget: "number"
+        default: 1
+        valueType: "int"
+        min: 1
+        step: 1
+
+      - label: "Publish Date"
+        name: "date"
+        required: false
+        widget: "datetime"
+  
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        buttons: ["bold", "italic", "heading-one", "heading-two", "link", "bulleted-list", "numbered-list"]
+            
+
   # EVENTS 
   #- label: "Upcoming Events"
   #  name: "events"
