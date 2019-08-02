@@ -1795,6 +1795,52 @@ body.type-meetings.kind-section {
       }
     }
 
+    &.indiv-mtgs {
+     
+      
+      .divider { 
+        border-bottom: solid 1px #c9e9ea;
+        //margin: 5.6rem 0 3.6rem;
+      }  
+      
+      #digging-out {
+      
+          position: sticky;
+          top: 120px;
+
+      }
+      h1 {
+        font-family: $brandongrotesque-bold;
+        font-weight: 700;
+        font-size: 2.8rem;
+        margin-bottom: 1.6rem;
+        @include media-breakpoint-up(md) {
+          font-size: 3.2rem;
+        }
+        color: $dnd-navy;
+        text-transform: uppercase;
+      }
+      h2 {
+        @include media-breakpoint-down(md) {
+          //width: 350px;
+        }
+        margin: 3.2rem 0;
+        font-size: 2.2rem;
+        line-height: 2.8rem;
+        font-family: $brandongrotesque-bold;
+        font-weight: 700;
+        color: $dnd-darkgreen;
+      }
+      p, li {
+        font-family: $font-family-base;
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+        color: $dnd-navy;
+      }
+  
+
+    }
+
     &.the-roundtable {
       margin-top: 9.4rem;
       @include media-breakpoint-down(sm) {

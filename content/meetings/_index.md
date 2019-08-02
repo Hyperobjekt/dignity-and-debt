@@ -4,11 +4,14 @@ name: "Meetings"
 type: "meetings"
 is_index: true
 hero_image: "/uploads/woman_in_city2.jpg"
-display_title: "Inaugural Meeting: The Network Roundtable"
-display_subtitle: "Carl A. Fields Center for Equality + Cultural Understanding<br>Princeton University • May 9 and 10, 2018" 
+display_title: "Meetings"
+display_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis elit id libero viverra lobortis eget non est. Proin tincidunt, arcu ac elementum consequat, enim nulla aliquam mi, vitae lacinia nisi metus a arcu. " 
 roundtable_image: "/uploads/wherry-seminar-table.jpg"
-heading: "THE ROUNDTABLE"
-the_roundtable: "The Dignity Roundtable included a program of about forty-five scholars and practitioners working in a dozen countries on issues of financial inclusion, household finance, and/or the human values implicated in economic action. The Network’s Director, Frederick Wherry, opened with the question of why questions of dignity and respect are central to understanding debt. Social Science Research Council President, Alondra Nelson, explained the importance of anticipatory social science for predicting and solving critical problems. And Princeton University President, Christopher Eisgruber, made the case for inequality as a strategic priority for research, teaching, and service."
+heading: "INAUGURAL MEETING: THE NETWORK ROUNDTABLE"
+the_roundtable: >
+    <p><strong>Carl A. Fields Center for Equality + Cultural Understanding<br/>Princeton University • May 9 and 10, 2018</strong></p>
+
+    <br>The Dignity Roundtable included a program of about forty-five scholars and practitioners working in a dozen countries on issues of financial inclusion, household finance, and/or the human values implicated in economic action. The Network’s Director, Frederick Wherry, opened with the question of why questions of dignity and respect are central to understanding debt. Social Science Research Council President, Alondra Nelson, explained the importance of anticipatory social science for predicting and solving critical problems. And Princeton University President, Christopher Eisgruber, made the case for inequality as a strategic priority for research, teaching, and service.</br>
 video_one: "Hear from the DDN Director, Frederick Wherry, Professor of Sociology at Princeton on the mission of the Network."
 video_two: "Hear from Alondra Nelson, president of the Social Science Research Council, on anticipatory social research, getting ahead of emerging demographic shifts and unexamined vectors of inequality."
 video_three: "Hear from Princeton University President, Christopher Eisgruber on why dignity and debt are strategic priorities for the university."
