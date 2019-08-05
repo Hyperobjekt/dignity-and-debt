@@ -47,7 +47,7 @@
             {{/* end */}}
         {{/* end */}}
         <div class="flex-child text">
-          <h3 tabindex="0">{{ safeHTML .Page.Params.news_banner_heading }}</h3>
+          <h3 class="mb-2" tabindex="0">{{ safeHTML .Page.Params.news_banner_heading }}</h3>
           <span id="banner-subheading" tabindex="0">{{ safeHTML .Page.Params.news_banner_subhead }}</span>
           <span tabindex="0">{{ safeHTML .Page.Params.news_banner_blurb }}</span><br>
           <a class="btn btn-custom mt-3" href="{{ "/meetings" | absURL }}" tabindex="0" aria-label="Go to Meetings Page">LEARN MORE</a>
