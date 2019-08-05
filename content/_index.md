@@ -9,7 +9,7 @@ who_we_are_image: "/uploads/close_up_2_men-sm.jpg"
 news_banner_image: "/uploads/wherry-seminar-table.png"
 news_banner_heading: "UPCOMING MEETING:"
 news_banner_subhead: "Digging Out With Dignity: Solving the Student Debt Crisis and Honoring Meaning at the Margins"
-news_banner_blurb: "<br />Student loans from the federal government total $1.5 trillion in the United States with 40 percent of them at risk of default over the next four years. At this conference, we will consider what must be done about the terms of student debt while paying more attention to its significance for students and families."
+news_banner_blurb: "<br />Student loans from the federal government total $1.5 trillion in the United States with 40 percent of them at risk of default over the next four years.  As global unrest over the terms of student debt increases, this series of panels will consider what can be done about the costs of debt while paying more attention to its significance for students and families."
 news_banner_link: "/meetings/"
 ---
 
