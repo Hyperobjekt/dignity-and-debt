@@ -15,14 +15,17 @@ who_we_are: >-
   propositions that lack a vision of dignity treat people like robotic
   quantities, occluding the very moral values that give financial sacrifices
   meaning.
-news_banner_heading: 'COMING SOON:'
-news_banner_subhead: Questions & Answers About Dignity + Debt
+news_banner_heading: 'UPCOMING MEETING:'
+news_banner_subhead: >-
+  Digging Out With Dignity: Solving the Student Debt Crisis and Honoring Meaning
+  at the Margins
 news_banner_blurb: >-
-  <br /><i>What is over-indebtedness? How does it vary across the globe? Why do
-  people become over-indebted? What is the relationship between dignity and
-  over-indebtedness? How is the global movement for financial inclusion dealing
-  with questions of over-indebtedness and dignity?</i>
-news_banner_link: 'http://google.com'
+  <br />Student loans from the federal government total $1.5 trillion in the
+  United States with 40 percent of them at risk of default over the next four
+  years. As global unrest over the terms of student debt increases, this series
+  of panels will consider what can be done about the costs of debt while paying
+  more attention to its significance for students and families.
+news_banner_link: /meetings
 who_we_are_image: /uploads/close_up_2_men-sm.jpg
 hero_image: /uploads/dnd-hero-2-3400w.jpg
 news_banner_image: /uploads/wherry-seminar-table.png
