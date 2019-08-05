@@ -5,7 +5,7 @@ type: "meetings"
 is_index: true
 hero_image: "/uploads/woman_in_city2.jpg"
 display_title: "Meetings"
-display_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis elit id libero viverra lobortis eget non est. Proin tincidunt, arcu ac elementum consequat, enim nulla aliquam mi, vitae lacinia nisi metus a arcu. " 
+display_subtitle: "Dignity + Debt Network meetings bring together scholars, practitioners, journalists and other public figures from around the world. These highly interactive panels and open discussions address a wide range of selected topics with the aim of sharing meaningful, data-rich analyses of debt and developing innovative dignity-affirming financial products." 
 roundtable_image: "/uploads/wherry-seminar-table.jpg"
 heading: "INAUGURAL MEETING: THE NETWORK ROUNDTABLE"
 the_roundtable: >
