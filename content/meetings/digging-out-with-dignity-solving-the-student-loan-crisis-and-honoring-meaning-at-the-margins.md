@@ -7,7 +7,8 @@ type: single-meeting
 weight: 1
 date: 2019-07-30T12:05:35.501Z
 ---
-# A Dignity + Debt Discussion Forum
+<br>
+**A Dignity + Debt Discussion Forum**
 
 **Co-presented with The Aspen Institute’s Financial Security Program** 
 
