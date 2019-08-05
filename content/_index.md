@@ -15,7 +15,7 @@ who_we_are: >-
   propositions that lack a vision of dignity treat people like robotic
   quantities, occluding the very moral values that give financial sacrifices
   meaning.
-news_banner_heading: UPCOMING MEETING
+news_banner_heading: 'UPCOMING MEETING:'
 news_banner_subhead: >-
   Digging Out With Dignity: Solving the Student Debt Crisis and Honoring Meaning
   at the Margins
