@@ -8,7 +8,7 @@ weight: 1
 date: 2019-07-30T12:05:35.501Z
 ---
 <br>
-\\*\\*A Dignity + Debt Discussion Forum\\*\\*
+\\\*\\\*A Dignity + Debt Discussion Forum\\\*\\\*
 
 **Co-presented with The Aspen Institute’s Financial Security Program** 
 
@@ -26,7 +26,7 @@ The discussion forum will also launch a visualization contest. A series of data 
 
 ## Confirmed speakers include:
 
-* Tressie McMillan Cottom, author of LowerEd 
+* Tressie McMillan Cottom, author of _LowerEd_ 
 * Darrick Hamilton,  Executive Director of the Kirwan Institute for the Study of Race and Ethnicity at The Ohio State University 
 * Eldar Shafir, author of _Scarcity_ 
 * Betsy Paluck, Kahneman-Treisman Center for Behavioral Science & Policy at Princeton University 
