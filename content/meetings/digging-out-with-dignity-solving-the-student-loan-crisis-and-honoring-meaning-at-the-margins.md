@@ -8,7 +8,7 @@ weight: 1
 date: 2019-07-30T12:05:35.501Z
 ---
 <br>
-\*\*A Dignity + Debt Discussion Forum\*\*
+\\*\\*A Dignity + Debt Discussion Forum\\*\\*
 
 **Co-presented with The Aspen Institute’s Financial Security Program** 
 
@@ -22,7 +22,7 @@ Student loans from the federal government total $1.5 trillion in the United Stat
 
 On April 23, 2019, Aspen’s EPIC issued a first-of-its-kind brief on student loan debt cancellation that could help 44 million borrowers in the United States ([read the brief](http://www.aspenepic.org/student-loan-cancellation/)). The October 2019 discussion forum at Princeton will build on that work, bringing in comparative international cases that set the situation of student loans in the US in stark relief, offering a platform to begin to draw lessons from different political and cultural systems.  
 
-The discussion forum will also launch a visualization contest. A series of data visualizations of student loans and education debt will be presented in the style pioneered by the historian and sociologist W.E.B. DuBois. The forum will then invite researchers, practitioners, community leaders, and students from across the globe to submit their own evocative data visualizations and film shorts by March 15, 2020 on the origins, consequences, and meanings of student debt as well as points for policy and product innovation.  
+The discussion forum will also launch a visualization contest. A series of data visualizations of student loans and education debt created in the [VizE Lab](http://vizelab.princeton.edu) will be presented in the style pioneered by the historian and sociologist W.E.B. DuBois. The forum will then invite researchers, practitioners, community leaders, and students from across the globe to submit their own evocative data visualizations and film shorts by March 15, 2020 on the origins, consequences, and meanings of student debt as well as points for policy and product innovation.  
 
 ## Confirmed speakers include:
 
