@@ -115718,7 +115718,7 @@ var PayoffAmt_PayoffAmt = function PayoffAmt(_ref) {
     },
     yAxis: {
       type: 'category',
-      data: ['NEW TOTAL PAID', 'OLD TOTAL PAID'],
+      data: ['CURRENT TOTAL PAYMENTS', 'NEW TOTAL PAYMENTS'],
       show: user.deviceWidth >= 461 ? true : false,
       axisLine: {
         show: false
@@ -115732,7 +115732,7 @@ var PayoffAmt_PayoffAmt = function PayoffAmt(_ref) {
         fontFamily: 'Vasarely',
         fontSize: 18,
         verticalAlign: 'middle',
-        padding: [0, 0, 5, 23]
+        padding: [0, 0, 5, 0]
       }
     },
     barWidth: 10,
@@ -115961,7 +115961,7 @@ var PayoffSchedule_PayoffSchedule = function PayoffSchedule(_ref) {
     },
     yAxis: {
       type: 'category',
-      data: ['NEW TIMELINE', 'CURRENT TIMELINE'],
+      data: ['NEW PAYOFF TIMELINE', 'CURRENT PAYOFF TIMELINE'],
       show: true,
       axisLine: {
         show: false
@@ -115974,7 +115974,7 @@ var PayoffSchedule_PayoffSchedule = function PayoffSchedule(_ref) {
         fontFamily: 'Vasarely',
         fontSize: 18,
         verticalAlign: 'middle',
-        padding: [0, 0, 5, 0]
+        padding: [0, 0, 5, 5]
       }
     },
     barWidth: 10,
@@ -116667,20 +116667,20 @@ var src_DndLoanDebt = function (_Component) {
       timer: null,
       strings: {
         spiral: {
-          title: "PAYOFF CALCULATOR",
-          prompt: "ENTER YOUR LOAN BALANCE BELOW",
+          title: "DISPARITIES IN STUDENT DEBT BY ANCESTRY.",
+          prompt: "ENTER THE TOTAL PRINCIPAL AMOUNT YOU BORROWED BELOW.",
           legend: {
-            avgOverall: "AVERAGE OVERALL LOAN DEBT",
-            avgBlack: "AVERAGE FOR BLACK BACHELOR'S DEGREE COMPLETERS",
-            avgWhite: "AVERAGE FOR WHITE BACHELOR'S DEGREE COMPLETERS",
-            avgHispanic: "AVERAGE FOR HISPANIC BACHELOR'S DEGREE COMPLETERS",
-            avgAsian: "AVERAGE FOR ASIAN BACHELOR'S DEGREE COMPLETERS",
-            user: "YOUR DEBT AMOUNT"
+            avgOverall: "ALL",
+            avgBlack: "BLACK",
+            avgWhite: "WHITE",
+            avgHispanic: "HISPANIC",
+            avgAsian: "ASIAN",
+            user: "YOURS"
           }
         },
         timeline: {
-          title: "REPAYMENT SCHEDULE",
-          prompt: 'ENTER YOUR ORIGINAL AND<br>NEW LOAN DETAILS FOR COMPARISON'
+          title: "YOUR STUDENT LOAN REPAYMENT CALCULATOR.",
+          prompt: 'ENTER YOUR CURRENT LOAN BALANCE AND<BR>TRY OUT NEW PAYMENT TERMS FOR COMPARISON'
         },
         amount: {},
         fields: {
