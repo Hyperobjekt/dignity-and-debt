@@ -8,7 +8,7 @@ weight: 1
 date: 2019-07-30T12:05:35.501Z
 ---
 <br>
-\\\\*\\\\*A Dignity + Debt Discussion Forum\\\\*\\\\*
+**A Dignity + Debt Discussion Forum**
 
 **Co-presented with The Aspen Institute’s Financial Security Program** 
 
