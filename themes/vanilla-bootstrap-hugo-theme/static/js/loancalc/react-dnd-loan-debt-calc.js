@@ -115095,14 +115095,16 @@ var SpiralForm_SpiralForm = function SpiralForm(_ref) {
       props = SpiralForm_objectWithoutProperties(_ref, ['onSubmit', 'getCurrencyFormat', 'handleInputChange', 'onClick', 'onFocus', 'onBlur', 'myBalanceRef', 'userLoan', 'strings', 'inputs']);
 
   // Set up classes for validation feedback.
-  var amtGroupClass = classnames_default()('form-group amtGroupClass', {
+  var amtGroupClass = classnames_default()('form-group', {
     'has-error': !props.loanTotalCurr.isValid,
     'has-focus': inputs.loanTotalCurr.focused,
-    'has-value': inputs.loanTotalCurr.hasValue,
-    'twin-has-value': inputs.loanTotalCurr2.hasValue
+    'has-value': inputs.loanTotalCurr.hasValue
+    // 'twin-has-value': inputs.loanTotalCurr2.hasValue
   });
 
   var currDisplay = userLoan ? getCurrencyFormat(userLoan, false) : strings.fields.loanBalance;
+
+  var loanTotalCurrPlaceholder = inputs.loanTotalCurr.focused ? '' : strings.fields.loanBalance;
 
   var clearInput = function clearInput(e) {
     // console.log('clear input');
@@ -115131,11 +115133,6 @@ var SpiralForm_SpiralForm = function SpiralForm(_ref) {
       external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
         'span',
         { className: 'symbol-wrapper currency' },
-        external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
-          'span',
-          { className: 'amount' },
-          currDisplay
-        ),
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement('input', {
           type: 'number',
           id: 'loan_amt_curr',
@@ -115155,7 +115152,8 @@ var SpiralForm_SpiralForm = function SpiralForm(_ref) {
           },
           onInput: function onInput(e) {
             return handleInputChange(e);
-          }
+          },
+          placeholder: loanTotalCurrPlaceholder
         })
       ),
       external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement('i', {
@@ -115306,11 +115304,11 @@ var LoanForm_LoanForm = function LoanForm(_ref) {
       props = LoanForm_objectWithoutProperties(_ref, ['onSubmit', 'getCurrencyFormat', 'handleInputChange', 'onClick', 'onFocus', 'onBlur', 'userLoan', 'strings', 'inputs']);
 
   // Set up classes for validation feedback.
-  var amtGroupClass = classnames_default()('form-group amtGroupClass', {
-    'has-error': !props.loanTotalCurr2.isValid,
-    'has-focus': inputs.loanTotalCurr2.focused,
-    'has-value': inputs.loanTotalCurr2.hasValue,
-    'twin-has-value': inputs.loanTotalCurr.hasValue
+  var amtGroupClass = classnames_default()('form-group', {
+    'has-error': !props.loanPrincipalCurr.isValid,
+    'has-focus': inputs.loanPrincipalCurr.focused,
+    'has-value': inputs.loanPrincipalCurr.hasValue
+    // 'twin-has-value': inputs.loanTotalCurr.hasValue
   });
   var rateGroupClass = classnames_default()('form-group', {
     'has-error': !props.loanRateCurr.isValid,
@@ -115334,7 +115332,9 @@ var LoanForm_LoanForm = function LoanForm(_ref) {
     'has-value': inputs.loanPmtNew.hasValue
   });
 
-  var currDisplay = userLoan ? getCurrencyFormat(userLoan, false) : strings.fields.loanBalance;
+  // const currDisplay = userLoan ? getCurrencyFormat(userLoan, false) : strings.fields.loanBalance;
+
+  var loanPrincipalCurrPlaceholder = inputs.loanPrincipalCurr.focused ? '' : strings.fields.loanBalance;
 
   var loanRateCurrPlaceholder = inputs.loanRateCurr.focused ? '' : strings.fields.origInt;
 
@@ -115377,15 +115377,10 @@ var LoanForm_LoanForm = function LoanForm(_ref) {
           external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
             'span',
             { className: 'symbol-wrapper currency' },
-            external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
-              'span',
-              { className: 'amount' },
-              currDisplay
-            ),
             external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement('input', {
               type: 'number',
               id: 'loan_amt_curr2',
-              name: 'loanTotalCurr2',
+              name: 'loanPrincipalCurr',
               autoComplete: 'off',
               className: 'loanTotalCurr2',
               maxLength: '7',
@@ -115399,6 +115394,7 @@ var LoanForm_LoanForm = function LoanForm(_ref) {
                 return _onBlur(e);
               },
               'aria-label': 'Enter ' + strings.fields.loanBalance,
+              placeholder: loanPrincipalCurrPlaceholder,
               onInput: function onInput(e) {
                 return handleInputChange(e);
               }
@@ -115662,7 +115658,7 @@ var PayoffAmt_PayoffAmt = function PayoffAmt(_ref) {
     animation: true,
     title: {
       show: user.deviceWidth <= 460 ? true : false,
-      text: "OLD AND NEW TOTALS",
+      text: "CURRENT AND NEW TOTAL PAYMENTS",
       textStyle: {
         fontFamily: 'Vasarely',
         fontSize: 16,
@@ -115703,7 +115699,7 @@ var PayoffAmt_PayoffAmt = function PayoffAmt(_ref) {
       extraCssText: 'border-radius:0;'
     },
     legend: {
-      data: ['OLD TOTAL PAID', 'NEW TOTAL PAID']
+      data: ['CURRENT TOTAL PAYMENTS', 'NEW TOTAL PAYMENTS']
     },
     grid: {
       left: 0,
@@ -115718,7 +115714,7 @@ var PayoffAmt_PayoffAmt = function PayoffAmt(_ref) {
     },
     yAxis: {
       type: 'category',
-      data: ['CURRENT TOTAL PAYMENTS', 'NEW TOTAL PAYMENTS'],
+      data: ['NEW TOTAL PAYMENTS', 'CURRENT TOTAL PAYMENTS'],
       show: user.deviceWidth >= 461 ? true : false,
       axisLine: {
         show: false
@@ -115909,7 +115905,7 @@ var PayoffSchedule_PayoffSchedule = function PayoffSchedule(_ref) {
     id: "payoffSchedule",
     title: {
       show: user.deviceWidth <= 460 ? true : false,
-      text: "OLD AND NEW TIMELINE",
+      text: "CURRENT AND NEW PAYOFF TIMELINE",
       textStyle: {
         fontFamily: 'Vasarely',
         fontSize: 16,
@@ -115946,7 +115942,7 @@ var PayoffSchedule_PayoffSchedule = function PayoffSchedule(_ref) {
       extraCssText: 'border-radius:0;'
     },
     legend: {
-      data: ['CURRENT TIMELINE', 'NEW TIMELINE']
+      data: ['CURRENT PAYOFF TIMELINE', 'NEW PAYOFF TIMELINE']
     },
     grid: {
       left: 0,
@@ -116293,12 +116289,13 @@ var src_DndLoanDebt = function (_Component) {
     _this.onUpdateLoanStats = function (loans, user) {
       // console.log('onUpdateLoanStats');
       // Gather all the data.
-      var _loanAmtCurr = loans.user;
+      // const _loanAmtCurr = loans.user;
       var _loanRateCurr = user.loanRateCurr > 1 ? user.loanRateCurr / 100 : user.loanRateCurr;
       var _loanPmtCurr = user.loanPmtCurr;
       var _loanRateNew = user.loanRateNew > 1 ? user.loanRateNew / 100 : user.loanRateNew;
       var _loanPmtNew = user.loanPmtNew;
       var _user = user;
+      var _loanAmtCurr = _user.loanPrincipalCurr;
       // let _loanPrincipal = null;
       var _currNPER = null;
       var _newNPER = null;
@@ -116310,7 +116307,7 @@ var src_DndLoanDebt = function (_Component) {
       // If loan amount, interest rate, and payments
       if (_loanAmtCurr > 0 && _loanRateCurr > 0 && _loanPmtCurr > 0) {
         // Set current principal value for bar
-        _user.loanPrincipalCurr = _loanAmtCurr;
+        // _user.loanPrincipalCurr = _loanAmtCurr;
 
         // Calculate number of payment periods
         // Arguments: (rate/12, payment, presentvalue)
@@ -116335,7 +116332,7 @@ var src_DndLoanDebt = function (_Component) {
         }
       } else {
         // console.log('Not enough info to update current loan stats. Exiting.')
-        _user.loanPrincipalCurr = null;
+        // _user.loanPrincipalCurr = null;
         _user.nperCurr = null;
         _user.totalPaidCurr = null;
         _user.payoffDateCurr = null;
@@ -116473,7 +116470,8 @@ var src_DndLoanDebt = function (_Component) {
     _this.onInputUpdateUserState = function (node, val) {
       // console.log('onInputUpdateUserState()');
       // If updating current loan amt, separate thing.
-      if (node === 'loanTotalCurr' || node === 'loanTotalCurr2') {
+      // if (node === 'loanTotalCurr' || node === 'loanTotalCurr2') {
+      if (node === 'loanTotalCurr') {
         var _loans = _this.state.loans;
         _loans.user = val;
         _this.setState({
@@ -116517,17 +116515,18 @@ var src_DndLoanDebt = function (_Component) {
 
     _this.onFocus = function (event) {
       // console.log('onFocus');
-      // console.log(event);
+      // console.log(event.target);
       var _inputs = _this.state.inputs;
       _inputs[event.target.name].focused = true;
       _this.setState({
         inputs: _inputs
       });
-      if (event.target.name === 'loanTotalCurr' || event.target.name === 'loanTotalCurr2') {
-        if (_this.state.loans.user > 0) {
-          event.target.value = _this.state.loans.user;
-        }
-      }
+      // if (event.target.name === 'loanTotalCurr' || event.target.name === 'loanTotalCurr2') {
+      // if (event.target.name === 'loanTotalCurr') {
+      //   if (this.state.loans.user > 0) {
+      //     event.target.value = this.state.loans.user;
+      //   }
+      // }
     };
 
     _this.onBlur = function (event) {
@@ -116541,9 +116540,10 @@ var src_DndLoanDebt = function (_Component) {
       _this.setState({
         inputs: _inputs
       });
-      if (event.target.name === 'loanTotalCurr' || event.target.name === 'loanTotalCurr2') {
-        event.target.value = '';
-      }
+      // if (event.target.name === 'loanTotalCurr' || event.target.name === 'loanTotalCurr2') {
+      // if (event.target.name === 'loanTotalCurr') {
+      //   event.target.value = '';
+      // }
     };
 
     _this.myBalanceRef = external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createRef();
@@ -116612,7 +116612,7 @@ var src_DndLoanDebt = function (_Component) {
           isValid: true,
           message: 'Please enter a number between 0 and 1,000,000.'
         },
-        loanTotalCurr2: {
+        loanPrincipalCurr: {
           value: 0,
           isValid: true,
           message: 'Please enter a number between 0 and 1,000,000.'
@@ -116643,7 +116643,7 @@ var src_DndLoanDebt = function (_Component) {
           focused: false,
           hasValue: false
         },
-        loanTotalCurr2: {
+        loanPrincipalCurr: {
           focused: false,
           hasValue: false
         },
@@ -116863,7 +116863,7 @@ var src_DndLoanDebt = function (_Component) {
         onClick: this.onClick,
         onFocus: this.onFocus,
         onBlur: this.onBlur,
-        userLoan: this.state.loans.user,
+        userLoan: this.state.user.loanPrincipalCurr,
         strings: this.state.strings,
         inputs: this.state.inputs
       }, this.state.validation)),
