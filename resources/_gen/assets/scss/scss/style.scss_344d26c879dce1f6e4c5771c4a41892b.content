@@ -14860,6 +14860,7 @@ body.variations-in-student-debt .row.content:last-of-type {
 #DndLoanDebt form .form-group.has-value input,
 #DndLoanDebt .form .form-group.has-value input {
   color: #D2D2D2;
+  color: #000;
 }
 
 #DndLoanDebt form .form-group.amtGroupClass.has-focus label,
