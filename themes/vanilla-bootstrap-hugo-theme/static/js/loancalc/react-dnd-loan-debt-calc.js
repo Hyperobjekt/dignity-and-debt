@@ -115942,7 +115942,7 @@ var PayoffSchedule_PayoffSchedule = function PayoffSchedule(_ref) {
       extraCssText: 'border-radius:0;'
     },
     legend: {
-      data: ['CURRENT PAYOFF TIMELINE', 'NEW PAYOFF TIMELINE']
+      data: ['CURRENT PAYOFF DATE', 'NEW PAYOFF DATE']
     },
     grid: {
       left: 0,
@@ -115957,7 +115957,7 @@ var PayoffSchedule_PayoffSchedule = function PayoffSchedule(_ref) {
     },
     yAxis: {
       type: 'category',
-      data: ['NEW PAYOFF TIMELINE', 'CURRENT PAYOFF TIMELINE'],
+      data: ['NEW PAYOFF DATE', 'CURRENT PAYOFF DATE'],
       show: true,
       axisLine: {
         show: false
@@ -115970,7 +115970,7 @@ var PayoffSchedule_PayoffSchedule = function PayoffSchedule(_ref) {
         fontFamily: 'Vasarely',
         fontSize: 18,
         verticalAlign: 'middle',
-        padding: [0, 0, 5, 5]
+        padding: [0, 0, 5, 48]
       }
     },
     barWidth: 10,
@@ -116667,24 +116667,24 @@ var src_DndLoanDebt = function (_Component) {
       timer: null,
       strings: {
         spiral: {
-          title: "DISPARITIES IN STUDENT DEBT BY ANCESTRY.",
-          prompt: "ENTER THE TOTAL PRINCIPAL AMOUNT YOU BORROWED BELOW.",
+          title: "DISPARITIES IN STUDENT DEBT BY ANCESTRY .",
+          prompt: "ENTER THE TOTAL PRINCIPAL AMOUNT YOU BORROWED BELOW:",
           legend: {
             avgOverall: "ALL",
-            avgBlack: "BLACK",
-            avgWhite: "WHITE",
-            avgHispanic: "HISPANIC",
-            avgAsian: "ASIAN",
+            avgBlack: "BLACKS",
+            avgWhite: "WHITES",
+            avgHispanic: "HISPANICS",
+            avgAsian: "ASIANS",
             user: "YOURS"
           }
         },
         timeline: {
-          title: "YOUR STUDENT LOAN REPAYMENT CALCULATOR.",
-          prompt: 'ENTER YOUR CURRENT LOAN BALANCE AND<BR>TRY OUT NEW PAYMENT TERMS FOR COMPARISON'
+          title: "YOUR STUDENT LOAN REPAYMENT CALCULATOR",
+          prompt: 'ENTER YOUR CURRENT LOAN BALANCE AND TRY OUT<br>NEW PAYMENT TERMS FOR COMPARISON'
         },
         amount: {},
         fields: {
-          loanBalance: "LOAN BALANCE",
+          loanBalance: "CURRENT LOAN BALANCE",
           origInt: "CURRENT INTEREST RATE",
           origPmt: "CURRENT MONTHLY PAYMENT",
           newInt: "NEW INTEREST RATE",
@@ -116872,15 +116872,7 @@ var src_DndLoanDebt = function (_Component) {
         { className: 'row timeline-table-legend' },
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'div',
-          { className: 'col offset-1 col-10 col-md-6' },
-          external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(src_TimelineTable, _extends({
-            getCurrencyFormat: this.getCurrencyFormat,
-            strings: this.state.strings
-          }, this.state.user))
-        ),
-        external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
-          'div',
-          { className: 'col offset-md-1 col-md-4 col-10 offset-1' },
+          { className: 'col offset-md-1 col-md-10 col-10 offset-1' },
           external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(src_TimelineLegend, {
             strings: this.state.strings,
             colors: this.state.colors
