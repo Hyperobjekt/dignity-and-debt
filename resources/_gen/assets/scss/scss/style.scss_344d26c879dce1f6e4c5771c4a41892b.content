@@ -14657,8 +14657,8 @@ body.variations-in-student-debt .row.content:last-of-type {
 
 @media (min-width: 768px) {
   #DndLoanDebt .timeline-table-legend table {
-    margin-left: 0;
-    margin-right: auto;
+    position: relative;
+    left: -4rem;
   }
   #DndLoanDebt .timeline-table-legend .col {
     padding-top: 3rem;

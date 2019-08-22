@@ -2374,8 +2374,10 @@ body.variations-in-student-debt {
     }
     @include media-breakpoint-up(md) {
       table {
-        margin-left: 0;
-        margin-right: auto;
+        //margin-left: 0;
+       // margin-right: auto;
+       position: relative;
+       left: -4rem;
       }
       .col {
         padding-top: 3rem;
