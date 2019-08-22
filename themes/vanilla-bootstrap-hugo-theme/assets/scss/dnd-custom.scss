@@ -2216,9 +2216,7 @@ $input-gray: #D2D2D2;
 
   // Basic spacing
   .row {
-    background-color: #FEFCF5;
-    background-color: #ddcdbc;
-    background-color: #fff3e7;
+    background: #FEFCF5;
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
@@ -2464,9 +2462,6 @@ $input-gray: #D2D2D2;
     input {
       display: block;
       font-family: $stack-vasarely;
-      &::placeholder {
-        color: #848484;
-      }
     }
     .form-group {
       position: relative;
@@ -2519,13 +2514,11 @@ $input-gray: #D2D2D2;
         &.currency {
           &:before {
             content: "$";
-            color: #848484;
           }
         }
         &.percent {
           &:before {
             content: "%";
-            color: #848484;
           }
         }
       }
@@ -2546,7 +2539,6 @@ $input-gray: #D2D2D2;
         }
         input {
           color: $input-gray;
-          color: #000;
         }
         // input {
         //   color: transparent; // $input-gray;

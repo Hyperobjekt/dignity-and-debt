@@ -116117,7 +116117,7 @@ var src_TimelineHeading = function TimelineHeading(_ref2) {
   );
 };
 
- var src_TimelineTable = function TimelineTable(_ref3) {
+var src_TimelineTable = function TimelineTable(_ref3) {
   var getCurrencyFormat = _ref3.getCurrencyFormat,
       strings = _ref3.strings,
       props = src_objectWithoutProperties(_ref3, ['getCurrencyFormat', 'strings']);
@@ -116125,7 +116125,7 @@ var src_TimelineHeading = function TimelineHeading(_ref2) {
   var totalIntNew = props.totalIntNew ? getCurrencyFormat(props.totalIntNew, true) :
   // '$' + String((props.totalIntNew).toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,')) :
   null;
-   return external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
+  return external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
     'table',
     null,
     external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
@@ -116136,12 +116136,12 @@ var src_TimelineHeading = function TimelineHeading(_ref2) {
         null,
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'td',
-          { className: 'th payoffnew' },
+          { className: 'th' },
           strings.fields.payoffDateNew
         ),
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'td',
-          { className: 'amt payoffnew' },
+          { className: 'amt' },
           props.payoffDateNew
         )
       ),
@@ -116150,18 +116150,18 @@ var src_TimelineHeading = function TimelineHeading(_ref2) {
         null,
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'td',
-          { className: 'th totalintnew' },
+          { className: 'th' },
           strings.fields.totalIntNew
         ),
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'td',
-          { className: 'amt totalintnew' },
+          { className: 'amt' },
           totalIntNew
         )
       )
     )
-  ); 
-}; 
+  );
+};
 
 var src_TimelineLegend = function TimelineLegend(_ref4) {
   var strings = _ref4.strings;
@@ -116179,7 +116179,7 @@ var src_TimelineLegend = function TimelineLegend(_ref4) {
           'td',
           { className: 'th' },
           strings.fields.principal
-        ), 
+        ),
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'td',
           null,
@@ -116667,8 +116667,8 @@ var src_DndLoanDebt = function (_Component) {
       timer: null,
       strings: {
         spiral: {
-          title: "DISPARITIES IN STUDENT DEBT BY ANCESTRY .",
-          prompt: "ENTER THE TOTAL PRINCIPAL AMOUNT YOU BORROWED BELOW",
+          title: "DISPARITIES IN STUDENT DEBT BY ANCESTRY.",
+          prompt: "ENTER THE TOTAL PRINCIPAL AMOUNT YOU BORROWED BELOW.",
           legend: {
             avgOverall: "ALL",
             avgBlack: "BLACK",
@@ -116679,7 +116679,7 @@ var src_DndLoanDebt = function (_Component) {
           }
         },
         timeline: {
-          title: "YOUR STUDENT LOAN REPAYMENT CALCULATOR .",
+          title: "YOUR STUDENT LOAN REPAYMENT CALCULATOR.",
           prompt: 'ENTER YOUR CURRENT LOAN BALANCE AND<BR>TRY OUT NEW PAYMENT TERMS FOR COMPARISON'
         },
         amount: {},
@@ -116870,15 +116870,14 @@ var src_DndLoanDebt = function (_Component) {
       external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
         'div',
         { className: 'row timeline-table-legend' },
-        // JM -- Commenting out 'new payoff date,' etc.
-        /*external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
+        external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'div',
           { className: 'col offset-1 col-10 col-md-6' },
           external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(src_TimelineTable, _extends({
             getCurrencyFormat: this.getCurrencyFormat,
             strings: this.state.strings
           }, this.state.user))
-        ),*/
+        ),
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'div',
           { className: 'col offset-md-1 col-md-4 col-10 offset-1' },
