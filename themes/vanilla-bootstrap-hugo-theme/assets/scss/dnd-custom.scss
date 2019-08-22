@@ -2163,8 +2163,18 @@ $principal-new: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAIAA
 $interest-old: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAIAAACQKrqGAAAA6UlEQVQokTWSsXEAQQgDdzn678yJm3HyIAf3nzIgVhr59/sjpjQhoQrI81CFkjALQEqlWw1QJ0l2rSPkGSxKhKpOwvNYAtn1nDxPDFmFHc6RgjQBk0hgJ1kSLCyEhJkwQMGlieeDUxX0NKrvvEjoI+Z5ALtJkuA7iQJAYTETcjWyi0IgZJkhQTjdgNd4lgAB8JCligQCWjbZhE/p/fXFGbsDzCYpEAu0zvVEHQB99xJEq1+xMpcJmUHskw27N/+QRlF2X8mZG2dGslz4hDqNBWDh7cDlCbsg2fd+t9n5nPrlNWxef3g7pP4Dj1O3xyAAwJMAAAAASUVORK5CYII=');
 $interest-new: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAIAAACQKrqGAAAA60lEQVQokU3RyXEjQQwEwESzh/TfDLm2DkicA7WPHob0QyCAOiv/voQx9An14GIQifHUlyKZNK1LbaBB1Eu+9UELVZNSD8YNWZMhF82DUBSGet50Ii3kkkPvKlxcqpbEnw9MZF/bPwwYcso5KYnaFKac0pScbOrFqaa+5i3OJa2GhNyk2fnYrfy9Iy1trIfJpSanlHoOmhhz2TQ2Wd7beClqk5Z9yC7Rb0pav38zyiGRcwkbH0MbUUMV54JR9Wmu1WPeiWS/q0qrqUo99Ruc6sU1ZZdVPTkogtuoISvv59CrjPwWZvGuYT3g+A8PoZp3xmyQSQAAAABJRU5ErkJggg==');
 $input-gray: #D2D2D2;
+$app-background: #fff3e7;
+
+body.variations-in-student-debt {
+  .row.content:last-of-type {
+    background-color: $app-background !important;
+    margin-bottom: 0;
+    padding-bottom: 3.2rem;
+  }
+}
 
 #DndLoanDebt {
+  
   overflow: hidden;
 
   // Basic font styling
@@ -2176,6 +2186,7 @@ $input-gray: #D2D2D2;
     color: #000;
     margin-left: 0;
     margin-right: 0;
+    
   }
   .heading {
     padding-top: 3rem;
@@ -2213,10 +2224,12 @@ $input-gray: #D2D2D2;
       text-align: center;
     }
   }
-
+  
   // Basic spacing
   .row {
-    background: #FEFCF5;
+    background-color: #FEFCF5;
+    background-color: #ddcdbc;
+    background-color: $app-background;
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
@@ -2462,6 +2475,9 @@ $input-gray: #D2D2D2;
     input {
       display: block;
       font-family: $stack-vasarely;
+      &::placeholder {
+        color: #848484;
+      }
     }
     .form-group {
       position: relative;
@@ -2514,11 +2530,13 @@ $input-gray: #D2D2D2;
         &.currency {
           &:before {
             content: "$";
+            color: #848484;
           }
         }
         &.percent {
           &:before {
             content: "%";
+            color: #848484;
           }
         }
       }
@@ -2528,6 +2546,7 @@ $input-gray: #D2D2D2;
         }
         input {
           color: $input-gray;
+          color: #000;
         }
         // .amount {
         //   display: none !important;
@@ -2708,7 +2727,7 @@ $input-gray: #D2D2D2;
   }
 
   .payoff-timeline {
-    padding-bottom: 3rem;
+    padding-bottom: 10.4rem;
   }
 
   .echarts-for-react {

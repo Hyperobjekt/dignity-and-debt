@@ -14466,6 +14466,12 @@ body.type-meetings.kind-section .row.jumbotron {
   src: url("/fonts/Vasarely/Vasarely.otf") format("otf"), url("/fonts/Vasarely/Vasarely.woff") format("woff");
 }
 
+body.variations-in-student-debt .row.content:last-of-type {
+  background-color: #fff3e7 !important;
+  margin-bottom: 0;
+  padding-bottom: 3.2rem;
+}
+
 #DndLoanDebt {
   overflow: hidden;
   /* For Firefox */
@@ -14522,7 +14528,9 @@ body.type-meetings.kind-section .row.jumbotron {
 }
 
 #DndLoanDebt .row {
-  background: #FEFCF5;
+  background-color: #FEFCF5;
+  background-color: #ddcdbc;
+  background-color: #fff3e7;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -14749,6 +14757,11 @@ body.type-meetings.kind-section .row.jumbotron {
   font-family: "Vasarely", Helvetica, Arial, sans-serif;
 }
 
+#DndLoanDebt form input::placeholder,
+#DndLoanDebt .form input::placeholder {
+  color: #848484;
+}
+
 #DndLoanDebt form .form-group,
 #DndLoanDebt .form .form-group {
   position: relative;
@@ -14819,11 +14832,13 @@ body.type-meetings.kind-section .row.jumbotron {
 #DndLoanDebt form .form-group .symbol-wrapper.currency:before,
 #DndLoanDebt .form .form-group .symbol-wrapper.currency:before {
   content: "$";
+  color: #848484;
 }
 
 #DndLoanDebt form .form-group .symbol-wrapper.percent:before,
 #DndLoanDebt .form .form-group .symbol-wrapper.percent:before {
   content: "%";
+  color: #848484;
 }
 
 #DndLoanDebt form .form-group.has-focus label,
@@ -14834,6 +14849,7 @@ body.type-meetings.kind-section .row.jumbotron {
 #DndLoanDebt form .form-group.has-focus input,
 #DndLoanDebt .form .form-group.has-focus input {
   color: #D2D2D2;
+  color: #000;
 }
 
 #DndLoanDebt form .form-group.has-value label,
@@ -15023,7 +15039,7 @@ body.type-meetings.kind-section .row.jumbotron {
 }
 
 #DndLoanDebt .payoff-timeline {
-  padding-bottom: 3rem;
+  padding-bottom: 10.4rem;
 }
 
 @-moz-document url-prefix() {
