@@ -114957,7 +114957,7 @@ var Spiral_Spiral = function Spiral(_ref) {
       external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
         "title",
         null,
-        "Loan Debt Visualisation"
+        "Loan Debt Vizualisation"
       ),
       external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
         "desc",
@@ -116684,7 +116684,7 @@ var src_DndLoanDebt = function (_Component) {
         },
         amount: {},
         fields: {
-          loanBalance: "CURRENT LOAN BALANCE",
+          loanBalance: "LOAN BALANCE",
           origInt: "CURRENT INTEREST RATE",
           origPmt: "CURRENT MONTHLY PAYMENT",
           newInt: "NEW INTEREST RATE",
