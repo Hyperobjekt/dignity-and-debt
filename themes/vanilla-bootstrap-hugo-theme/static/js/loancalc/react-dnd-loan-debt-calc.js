@@ -116168,7 +116168,7 @@ var src_TimelineLegend = function TimelineLegend(_ref4) {
 
   return external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
     'table',
-    { className: 'timeline-legend' },
+    { tabindex: '0', className: 'timeline-legend' },
     external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
       'tbody',
       null,
@@ -116680,11 +116680,11 @@ var src_DndLoanDebt = function (_Component) {
         },
         timeline: {
           title: "YOUR STUDENT LOAN REPAYMENT CALCULATOR",
-          prompt: 'ENTER YOUR CURRENT LOAN BALANCE AND TRY OUT<br>NEW PAYMENT TERMS FOR COMPARISON'
+          prompt: 'ENTER YOUR CURRENT LOAN BALANCE AND TRY OUT<br>NEW PAYMENT TERMS TO SEE HOW MUCH YOU CAN SAVE'
         },
         amount: {},
         fields: {
-          loanBalance: "CURRENT LOAN BALANCE",
+          loanBalance: "YOUR PRINCIPAL AMOUNT",
           origInt: "CURRENT INTEREST RATE",
           origPmt: "CURRENT MONTHLY PAYMENT",
           newInt: "NEW INTEREST RATE",
@@ -116839,7 +116839,7 @@ var src_DndLoanDebt = function (_Component) {
         ),
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'div',
-          { className: 'offset-1 col-10 offset-sm-1 col-sm-10 offset-md-0 col-md-5' },
+          { id: 'spiralcontainer', className: 'offset-1 col-10 offset-sm-1 col-sm-10 offset-md-0 col-md-5' },
           external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(src_Spiral, this.state)
         )
       ),

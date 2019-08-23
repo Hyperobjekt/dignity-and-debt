@@ -14535,6 +14535,10 @@ body.variations-in-student-debt .row.content:last-of-type {
   padding-bottom: 1rem;
 }
 
+#DndLoanDebt #spiralcontainer {
+  padding: 0 !important;
+}
+
 #DndLoanDebt .spiral {
   padding-top: 6rem;
   width: 90%;
@@ -14544,7 +14548,7 @@ body.variations-in-student-debt .row.content:last-of-type {
 
 @media (min-width: 768px) {
   #DndLoanDebt .spiral {
-    padding-top: 12rem;
+    padding-top: 8rem;
   }
 }
 
@@ -14585,7 +14589,7 @@ body.variations-in-student-debt .row.content:last-of-type {
 }
 
 #DndLoanDebt .spiral svg path {
-  transition: stroke-dashoffset 0.75s ease-in-out;
+  transition: stroke-dashoffset 1s ease-in-out;
   stroke-width: 15px !important;
 }
 

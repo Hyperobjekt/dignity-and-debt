@@ -2233,11 +2233,13 @@ body.variations-in-student-debt {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-
+  #spiralcontainer {
+    padding: 0 !important;
+  }
   .spiral {
     padding-top: 6rem;
     @include media-breakpoint-up(md) {
-      padding-top: 12rem;
+      padding-top: 8rem;
     }
     @include media-breakpoint-up(lg) {
       padding-top: 6rem;
@@ -2272,7 +2274,7 @@ body.variations-in-student-debt {
       }
       stroke: #ddd;
       path {
-        transition: stroke-dashoffset 0.75s ease-in-out;
+        transition: stroke-dashoffset 1s ease-in-out;
         stroke-width: 15px !important;
         &.overall-avg {
           stroke: url(#overallStroke);
