@@ -2164,10 +2164,14 @@ $interest-old: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAIAAA
 $interest-new: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAIAAACQKrqGAAAA60lEQVQokU3RyXEjQQwEwESzh/TfDLm2DkicA7WPHob0QyCAOiv/voQx9An14GIQifHUlyKZNK1LbaBB1Eu+9UELVZNSD8YNWZMhF82DUBSGet50Ii3kkkPvKlxcqpbEnw9MZF/bPwwYcso5KYnaFKac0pScbOrFqaa+5i3OJa2GhNyk2fnYrfy9Iy1trIfJpSanlHoOmhhz2TQ2Wd7beClqk5Z9yC7Rb0pav38zyiGRcwkbH0MbUUMV54JR9Wmu1WPeiWS/q0qrqUo99Ruc6sU1ZZdVPTkogtuoISvv59CrjPwWZvGuYT3g+A8PoZp3xmyQSQAAAABJRU5ErkJggg==');
 $input-gray: #D2D2D2;
 $app-background: #fff3e7;
+$app-background2: #f9f5e8;
+$app-background3: #f9f2e8;
+$app-background4: #f9f4e6;
 
 body.variations-in-student-debt {
   .row.content:last-of-type {
-    background-color: $app-background !important;
+    background-color: $app-background4 !important;
+    background-image: url("/images/light-paper-fibers.png");
     margin-bottom: 0;
     padding-bottom: 3.2rem;
   }
@@ -2229,9 +2233,12 @@ body.variations-in-student-debt {
   .row {
     background-color: #FEFCF5;
     background-color: #ddcdbc;
-    background-color: $app-background;
+    background-color: $app-background2;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    background-color: #f9f5e8;
+    background-color: $app-background4;
+    background-image: url("/images/light-paper-fibers.png");
   }
   #spiralcontainer {
     padding: 0 !important;
@@ -2290,6 +2297,7 @@ body.variations-in-student-debt {
         }
         &.hispanic-avg {
           stroke: url(#hispanicStroke);
+          stroke: #506aa3;
         }
         &.user-loan-total {
           stroke: url(#userStroke);
@@ -2421,6 +2429,7 @@ body.variations-in-student-debt {
       }
       &.hispanic {
         background: $hispanic-path;
+        background: #506aa3;
       }
       &.user {
         background: $user-path;

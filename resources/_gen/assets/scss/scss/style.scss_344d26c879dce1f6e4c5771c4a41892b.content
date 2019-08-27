@@ -14467,7 +14467,8 @@ body.type-meetings.kind-section .row.jumbotron {
 }
 
 body.variations-in-student-debt .row.content:last-of-type {
-  background-color: #fff3e7 !important;
+  background-color: #f9f4e6 !important;
+  background-image: url("/images/light-paper-fibers.png");
   margin-bottom: 0;
   padding-bottom: 3.2rem;
 }
@@ -14530,9 +14531,12 @@ body.variations-in-student-debt .row.content:last-of-type {
 #DndLoanDebt .row {
   background-color: #FEFCF5;
   background-color: #ddcdbc;
-  background-color: #fff3e7;
+  background-color: #f9f5e8;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  background-color: #f9f5e8;
+  background-color: #f9f4e6;
+  background-image: url("/images/light-paper-fibers.png");
 }
 
 #DndLoanDebt #spiralcontainer {
@@ -14611,6 +14615,7 @@ body.variations-in-student-debt .row.content:last-of-type {
 
 #DndLoanDebt .spiral svg path.hispanic-avg {
   stroke: url(#hispanicStroke);
+  stroke: #506aa3;
 }
 
 #DndLoanDebt .spiral svg path.user-loan-total {
@@ -14702,6 +14707,7 @@ body.variations-in-student-debt .row.content:last-of-type {
 
 #DndLoanDebt .spiral-legend .circle.hispanic {
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAABe0lEQVQ4jVWUsbYdIQwDZ7zk/78zXcoUuVYKA3ffni3gGMuyLPDvn99A+gNYD/uTNCSJ9aQbIoZoYUGARRpQQRIAnVhmm4aAAfFGgUrumc9OTvYCNsRgDu4rtLSGHhZT/wCLSR8uF6iHtm72Vq2q500JQpXPIgHVQ2DkAKxzcNiLJhlEugHXL6dyIE12B0lqVuyEC91Jhu1omWRS9p9A1rel6WeL/FVub9IoPqRHdaBO2deXqefVSccCHh3RAlf6A8Hn5qHWc7iBJq1aT/rfVogmWd+eHT9oFbhtssnP+X+Dcqe9ZvZzAssdaCB92jtSHSOOTK4fPe8aTXx7g+8YOF4bwcafO38WN+eM953xAlxnkq+B/dT9aAsck53oa85nDCPV9DzyfCc/4QQVx7r4LK2k52LvFiWJCbWNKNfpha4xdLrxYn+GK0His9ivhdQxlair1q9005/Mlcw1dRBr3XeD9L5OJP1JdzHuecZSvYe5LzYvCe8b8r2z/wE7sBofCegr0gAAAABJRU5ErkJggg==");
+  background: #506aa3;
 }
 
 #DndLoanDebt .spiral-legend .circle.user {

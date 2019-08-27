@@ -115102,9 +115102,9 @@ var SpiralForm_SpiralForm = function SpiralForm(_ref) {
     // 'twin-has-value': inputs.loanTotalCurr2.hasValue
   });
 
-  var currDisplay = userLoan ? getCurrencyFormat(userLoan, false) : strings.fields.loanBalance;
+  var currDisplay = userLoan ? getCurrencyFormat(userLoan, false) : strings.fields.principalAmt;
 
-  var loanTotalCurrPlaceholder = inputs.loanTotalCurr.focused ? '' : strings.fields.loanBalance;
+  var loanTotalCurrPlaceholder = inputs.loanTotalCurr.focused ? '' : strings.fields.principalAmt;
 
   var clearInput = function clearInput(e) {
     // console.log('clear input');
@@ -115128,7 +115128,7 @@ var SpiralForm_SpiralForm = function SpiralForm(_ref) {
       external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
         'label',
         null,
-        strings.fields.loanBalance
+        strings.fields.principalAmt
       ),
       external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
         'span',
@@ -115140,7 +115140,7 @@ var SpiralForm_SpiralForm = function SpiralForm(_ref) {
           autoComplete: 'off',
           className: 'curr',
           maxLength: '7',
-          'aria-label': 'Enter ' + strings.fields.loanBalance,
+          'aria-label': 'Enter ' + strings.fields.principalAmt,
           onClick: function onClick(e) {
             return _onClick(e);
           },
@@ -116679,12 +116679,13 @@ var src_DndLoanDebt = function (_Component) {
           }
         },
         timeline: {
-          title: "YOUR STUDENT LOAN REPAYMENT CALCULATOR",
+          title: "YOUR STUDENT LOAN REPAYMENT CALCULATOR .",
           prompt: 'ENTER YOUR CURRENT LOAN BALANCE AND TRY OUT<br>NEW PAYMENT TERMS TO SEE HOW MUCH YOU CAN SAVE'
         },
         amount: {},
         fields: {
-          loanBalance: "YOUR PRINCIPAL AMOUNT",
+          principalAmt: "YOUR PRINCIPAL AMOUNT",
+          loanBalance: "YOUR CURRENT BALANCE",
           origInt: "CURRENT INTEREST RATE",
           origPmt: "CURRENT MONTHLY PAYMENT",
           newInt: "NEW INTEREST RATE",
