@@ -8,7 +8,7 @@ weight: 1
 date: 2019-07-30T12:05:35.501Z
 ---
 <br>
-\\\*\\\*A Dignity + Debt Discussion Forum\\\*\\\*
+\\\\*\\\\*A Dignity + Debt Discussion Forum\\\\*\\\\*
 
 **Co-presented with The Aspen Institute’s Financial Security Program** 
 
@@ -37,6 +37,7 @@ The discussion forum will also launch a visualization contest. A series of data 
 * Jason Houle, Dartmouth College, author of "Racial Disparities in Student Debt and the Reproduction of the Fragile Black Middle Class"
 * Fenaba Addo, University of Wisconsin - Madison, author of "Young, Black and (Still) in the Red: Parental Wealth, Race, and Student Loan Debt."
 * Felipe González, University of Chile, author of "A Global Comparison of Student Debt and Credit Policies" 
+* Lorena Pérez-Roa, University of Chile, author of "From 'Good Credit' to 'Bad Debt': Comparative Reflections on the Student Debt Experience of Young Professionals in Santiago, Chile, and Montreal, Canada."
 * Seth Frotman, founder of Student Borrower Protection Center, former CFPB Student Loan Ombudsman 
 * Rekgotsofetse Chikane, author of _Breaking a Rainbow, Building a Nation: The Politics Behind #MustFall Movements_, short-listed for South Africa's 2019 Alan Paton Award for non-fiction 
 * Jon Marcus, Higher Education Editor, _The Hechinger Report_ 
