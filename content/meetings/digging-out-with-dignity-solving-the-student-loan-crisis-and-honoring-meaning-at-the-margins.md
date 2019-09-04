@@ -28,7 +28,7 @@ The discussion forum will also launch a visualization contest. A series of data 
 ## Confirmed speakers include:
 
 * Tressie McMillan Cottom, author of _LowerEd_
-* Darrick Hamilton,  Executive Director of the Kirwan Institute for the Study of Race and Ethnicity at The Ohio State University 
+* Darrick Hamilton, Executive Director of the Kirwan Institute for the Study of Race and Ethnicity at The Ohio State University 
 * Eldar Shafir, author of _Scarcity_ 
 * Betsy Paluck, Kahneman-Treisman Center for Behavioral Science & Policy at Princeton University 
 * Jennifer Silva, author of _Coming Up Short_ 
@@ -39,6 +39,7 @@ The discussion forum will also launch a visualization contest. A series of data 
 * Fenaba Addo, University of Wisconsin - Madison, author of "Young, Black and (Still) in the Red: Parental Wealth, Race, and Student Loan Debt."
 * Felipe González, University of Chile, author of "A Global Comparison of Student Debt and Credit Policies" 
 * Lorena Pérez-Roa, University of Chile, author of "From 'Good Credit' to 'Bad Debt': Comparative Reflections on the Student Debt Experience of Young Professionals in Santiago, Chile, and Montreal, Canada."
+* Fiona Greig, Director of Consumer Research, JPMorgan Chase Institute
 * Seth Frotman, founder of Student Borrower Protection Center, former CFPB Student Loan Ombudsman 
 * Rekgotsofetse Chikane, author of _Breaking a Rainbow, Building a Nation: The Politics Behind #MustFall Movements_, short-listed for South Africa's 2019 Alan Paton Award for non-fiction 
 * Jon Marcus, Higher Education Editor, _The Hechinger Report_ 
