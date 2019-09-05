@@ -14467,7 +14467,7 @@ body.type-meetings.kind-section .row.jumbotron {
 }
 
 body.variations-in-student-debt .row.content:last-of-type {
-  background-color: #f9f4e6 !important;
+  background-color: #f9f3e6 !important;
   background-image: url("/images/light-paper-fibers.png");
   margin-bottom: 0;
   padding-bottom: 3.2rem;
@@ -14535,7 +14535,7 @@ body.variations-in-student-debt .row.content:last-of-type {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #f9f5e8;
-  background-color: #f9f4e6;
+  background-color: #f9f3e6;
   background-image: url("/images/light-paper-fibers.png");
 }
 
@@ -14615,7 +14615,6 @@ body.variations-in-student-debt .row.content:last-of-type {
 
 #DndLoanDebt .spiral svg path.hispanic-avg {
   stroke: url(#hispanicStroke);
-  stroke: #506aa3;
 }
 
 #DndLoanDebt .spiral svg path.user-loan-total {
@@ -14706,8 +14705,7 @@ body.variations-in-student-debt .row.content:last-of-type {
 }
 
 #DndLoanDebt .spiral-legend .circle.hispanic {
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAABe0lEQVQ4jVWUsbYdIQwDZ7zk/78zXcoUuVYKA3ffni3gGMuyLPDvn99A+gNYD/uTNCSJ9aQbIoZoYUGARRpQQRIAnVhmm4aAAfFGgUrumc9OTvYCNsRgDu4rtLSGHhZT/wCLSR8uF6iHtm72Vq2q500JQpXPIgHVQ2DkAKxzcNiLJhlEugHXL6dyIE12B0lqVuyEC91Jhu1omWRS9p9A1rel6WeL/FVub9IoPqRHdaBO2deXqefVSccCHh3RAlf6A8Hn5qHWc7iBJq1aT/rfVogmWd+eHT9oFbhtssnP+X+Dcqe9ZvZzAssdaCB92jtSHSOOTK4fPe8aTXx7g+8YOF4bwcafO38WN+eM953xAlxnkq+B/dT9aAsck53oa85nDCPV9DzyfCc/4QQVx7r4LK2k52LvFiWJCbWNKNfpha4xdLrxYn+GK0His9ivhdQxlair1q9005/Mlcw1dRBr3XeD9L5OJP1JdzHuecZSvYe5LzYvCe8b8r2z/wE7sBofCegr0gAAAABJRU5ErkJggg==");
-  background: #506aa3;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2tpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wUmlnaHRzPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvcmlnaHRzLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcFJpZ2h0czpNYXJrZWQ9IkZhbHNlIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjk3QUIyNkM2QzZDOTExRTk4OThCRTc3MDE5QUYwQzQ5IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjk3QUIyNkM1QzZDOTExRTk4OThCRTc3MDE5QUYwQzQ5IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzMgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InV1aWQ6RkQ1NjQwRjM0RDRBRTAxMUEyNzRBQjEzQjIzODVFMkYiIHN0UmVmOmRvY3VtZW50SUQ9InV1aWQ6RkM1NjQwRjM0RDRBRTAxMUEyNzRBQjEzQjIzODVFMkYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4uRNnuAAABI1BMVEXT1tXX2tnW2djU19bS1dTV2NfY2trY29rT1tbR1NPZ3NvX2trV19fQ09LX2dna3NzS1dXc3t7c3t3Q09PW2NjZ29vV19bd39/X2djZ29rU1tbP0tLS1tXR1NTW2Nfa3NvZ3Nzb3d3b3t3T19bb3dzW2dnY29vc3d3d4N/N0dDY2tnf4eHa3d3a3dzV2NjT1dXS1dPO0tDO0tHP0tHg4uLR1dTT1dPR1dPO0dDS1NTW2dfU1tXN0NDc397d3t7g4eHS1NPa29rf4ODP09Hg4ODY3Nvf4eDZ2tre39/P09LN0c/X29rP0tDQ1NPX2tjU19ff4N/Y29nR09PZ29za3dvb3NzU19Xe4ODc3d7R09LW2tnLz87V2dfT1tTT19XZ2tnM0M++clbUAAABWElEQVR42gzBA4JcQRQF0PvK9W227R4zycS2nex/Fck5ONVSRO00D1hmfJT67gU4TLewOZM7Up7aqpprPu7BjxixPdPEMUyU5relIFwWKZMGdWPRCy5EPj3cV4jao0v+nwGhaX3PCiKgCyFhmQuquZA8VQ5H0VnT8lU6CAEmGrzkFGbQ3wefj495JXxLlef+VMVvBkee/wowdoRICMwpiK4YVgdnnLx2sOmVI3Z9bTI2yeEskvC1Q+xk7TwKn7zrdNVNBjeMvzhDjccTYeO3lbozv9Ko8GwXBn/9A8W4k5Qno+IBYUSuYTgUomOavNflbL4ANn8+lUGS5BP73on3kfWJpfDK+fDpw/7MvVefNzt2dvTcdzH6oGkLG7ux1H1usWL3Cf2BVNjOZmGmY9F5U38Mgm/oZ+1ws46XJvJkeup9LeUPgwRGyeVqOn7hdcZp5C7kreifAAMAkK8kbYEw/0MAAAAASUVORK5CYII=");
 }
 
 #DndLoanDebt .spiral-legend .circle.user {
