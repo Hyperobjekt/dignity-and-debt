@@ -31,7 +31,7 @@ The discussion forum will also launch a visualization contest. A series of data 
 * Darrick Hamilton, Executive Director of the Kirwan Institute for the Study of Race and Ethnicity at The Ohio State University 
 * Eldar Shafir, author of _Scarcity_ 
 * Betsy Paluck, Kahneman-Treisman Center for Behavioral Science & Policy at Princeton University 
-* Jennifer Silva, author of _Coming Up Short_ 
+* Jennifer Silva, Indiana University, author of _Coming Up Short_ 
 * Rachel Dwyer, The Ohio State University, author of "Youth Debt, Mastery and Self-Esteem" 
 * Charlie Eaton, University of California - Merced, author of "The Financialization of US Higher Education"
 * Jason Houle, Dartmouth College, author of "Racial Disparities in Student Debt and the Reproduction of the Fragile Black Middle Class"
