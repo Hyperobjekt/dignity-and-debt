@@ -15,7 +15,9 @@ date: 2019-07-30T12:05:35.501Z
 
 **Hosted at Princeton University** 
 
-**Friday, October 18, 2019**
+**Friend Center Convocation Room 113**
+
+**Friday, October 18, 2019, registration begins at 8:30 am**
 
 <br/>
 
@@ -44,6 +46,6 @@ The discussion forum will also launch a visualization contest. A series of data 
 * Jon Marcus, Higher Education Editor, _The Hechinger Report_ 
 * Moderated by Ida Rademacher (Aspen), Joanna Smith-Ramani (Aspen), Adam Goldstein (Princeton), Jeffrey Himpele (Princeton), and Frederick Wherry (Princeton) 
 
-## Registration Details
+## Event Details
 
-A registration link and additional conference details will be available soon. The discussion forum is free and open to the public.
+The forum is free and open to the public. Due to space limitations, please register at <http://www.regonline.com/dignityanddebt2019>.
