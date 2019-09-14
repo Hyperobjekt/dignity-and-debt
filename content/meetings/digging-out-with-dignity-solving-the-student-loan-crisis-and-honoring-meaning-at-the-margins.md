@@ -46,4 +46,4 @@ The discussion forum will also launch a visualization contest. A series of data 
 
 ## Registration Details
 
-A registration link and additional conference details will be available soon. The discussion forum is free and open to the public.
+The forum is free and open to the public. Due to space limitations, please register at <http://www.regonline.com/dignityanddebt2019>.
