@@ -2376,8 +2376,13 @@ body.comparing-and-calculating-your-student-debt {
   .timeline-table-legend {
     // padding-bottom: 64px !important;
     table {
-      margin-left: auto;
-      margin-right: auto;
+      //margin-left: auto;
+      //margin-right: auto;
+      &.float-md-right {
+        @include media-breakpoint-up(md) {
+          float: left !important;
+        }
+      }
     }
     .col {
       padding-top: 3rem;
@@ -2388,7 +2393,7 @@ body.comparing-and-calculating-your-student-debt {
         //margin-left: 0;
        // margin-right: auto;
        position: relative;
-       left: -4rem;
+       //left: -4rem;
       }
       .col {
         padding-top: 3rem;
@@ -2450,9 +2455,9 @@ body.comparing-and-calculating-your-student-debt {
   .timeline-legend {
     i.circle {
       display: inline-block;
-      width: 27px;
-      height: 27px;
-      border-radius: 13.5px;
+      width: 28px;
+      height: 14px;
+      //border-radius: 13.5px;
       background-color: #ccc;
       vertical-align: middle;
       margin-left: 5px;
@@ -2470,12 +2475,22 @@ body.comparing-and-calculating-your-student-debt {
         background: $interest-new;
       }
     }
+    tbody {
+      line-height: 0 !important;
+    }
+    td:nth-child(3) {
+      padding-left: 1.6rem;
+      padding-right: 0.4rem;
+      font-size: 1.8rem;
+      padding-bottom: 5px;
+    }
   }
 
   .current-loan-details {
     form {
       padding-bottom: 12px;
       max-width: 330px;
+      
     }
   }
 

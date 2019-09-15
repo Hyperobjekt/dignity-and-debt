@@ -14653,9 +14653,10 @@ body.comparing-and-calculating-your-student-debt .row.content:last-of-type {
   padding-left: 1rem;
 }
 
-#DndLoanDebt .timeline-table-legend table {
-  margin-left: auto;
-  margin-right: auto;
+@media (min-width: 768px) {
+  #DndLoanDebt .timeline-table-legend table.float-md-right {
+    float: left !important;
+  }
 }
 
 #DndLoanDebt .timeline-table-legend .col {
@@ -14666,7 +14667,6 @@ body.comparing-and-calculating-your-student-debt .row.content:last-of-type {
 @media (min-width: 768px) {
   #DndLoanDebt .timeline-table-legend table {
     position: relative;
-    left: -4rem;
   }
   #DndLoanDebt .timeline-table-legend .col {
     padding-top: 3rem;
@@ -14718,9 +14718,8 @@ body.comparing-and-calculating-your-student-debt .row.content:last-of-type {
 
 #DndLoanDebt .timeline-legend i.circle {
   display: inline-block;
-  width: 27px;
-  height: 27px;
-  border-radius: 13.5px;
+  width: 28px;
+  height: 14px;
   background-color: #ccc;
   vertical-align: middle;
   margin-left: 5px;
@@ -14741,6 +14740,17 @@ body.comparing-and-calculating-your-student-debt .row.content:last-of-type {
 
 #DndLoanDebt .timeline-legend i.circle.interest-new {
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAIAAACQKrqGAAAA60lEQVQokU3RyXEjQQwEwESzh/TfDLm2DkicA7WPHob0QyCAOiv/voQx9An14GIQifHUlyKZNK1LbaBB1Eu+9UELVZNSD8YNWZMhF82DUBSGet50Ii3kkkPvKlxcqpbEnw9MZF/bPwwYcso5KYnaFKac0pScbOrFqaa+5i3OJa2GhNyk2fnYrfy9Iy1trIfJpSanlHoOmhhz2TQ2Wd7beClqk5Z9yC7Rb0pav38zyiGRcwkbH0MbUUMV54JR9Wmu1WPeiWS/q0qrqUo99Ruc6sU1ZZdVPTkogtuoISvv59CrjPwWZvGuYT3g+A8PoZp3xmyQSQAAAABJRU5ErkJggg==");
+}
+
+#DndLoanDebt .timeline-legend tbody {
+  line-height: 0 !important;
+}
+
+#DndLoanDebt .timeline-legend td:nth-child(3) {
+  padding-left: 1.6rem;
+  padding-right: 0.4rem;
+  font-size: 1.8rem;
+  padding-bottom: 5px;
 }
 
 #DndLoanDebt .current-loan-details form {
