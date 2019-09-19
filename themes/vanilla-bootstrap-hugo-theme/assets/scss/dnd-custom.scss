@@ -2223,15 +2223,17 @@ body.comparing-and-calculating-your-student-debt {
     }
   }
 
+  .heading h2:after {
+    content: ".";
+    padding-left: 6px;
+  }
+
   .timeline-heading {
     h2,
     p {
       text-align: center;
     }
-    .heading h2 {
-      content: ".";
-      padding-left: 6px;
-    }
+    
   }
   
   // Basic spacing
