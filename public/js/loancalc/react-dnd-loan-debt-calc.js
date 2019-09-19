@@ -116177,7 +116177,7 @@ var src_TimelineLegend = function TimelineLegend(_ref4) {
         null,
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'td',
-          { rowspan: '2', className: 'th' },
+          { className: 'th' },
           strings.fields.principal
         ),
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
@@ -116187,13 +116187,8 @@ var src_TimelineLegend = function TimelineLegend(_ref4) {
         ),
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'td',
-          { rowspan: '2' },
-          strings.fields.interest
-        ),
-        external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
-          'td',
           null,
-          external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement('i', { className: 'circle interest-old' })
+          external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement('i', { className: 'circle principal-new' })
         )
       ),
       external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
@@ -116201,8 +116196,13 @@ var src_TimelineLegend = function TimelineLegend(_ref4) {
         null,
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'td',
+          { className: 'th' },
+          strings.fields.interest
+        ),
+        external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
+          'td',
           null,
-          external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement('i', { className: 'circle principal-new' })
+          external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement('i', { className: 'circle interest-old' })
         ),
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'td',
@@ -116943,14 +116943,14 @@ var src_DndLoanDebt = function (_Component) {
         { className: 'row timeline-table-legend' },
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'div',
-          { className: 'offset-2 col-8 col-md-4' },
+          { className: 'offset-2 col-8 col-md-4 offset-md-1' },
           external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(src_TimelineLegend, {
             strings: this.state.strings
           })
         ),
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'div',
-          { className: 'offset-2 col-8 col-md-4 offset-md-0' },
+          { className: 'offset-2 col-8 col-md-4 offset-md-1' },
           external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(src_AmountSaved, {
             getCurrencyFormat: this.getCurrencyFormat,
             user: this.state.user,
