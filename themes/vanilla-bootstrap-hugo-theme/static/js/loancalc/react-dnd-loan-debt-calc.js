@@ -116223,7 +116223,7 @@ var src_AmountSaved = function AmountSaved(_ref5) {
   if (user.totalPaidDiff && user.totalPaidDiff < 0) {
     label = strings.fields.amountOwed;
   }
-  var amount = user.totalPaidDiff ? getCurrencyFormat(user.totalPaidDiff, true) : null;
+  var amount = user.totalPaidDiff ? getCurrencyFormat(Math.abs(user.totalPaidDiff), true) : null;
   return external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
     'table',
     { tabIndex: '0', className: 'timeline-amount-owed float-md-right mt-5 mt-md-0' },
@@ -116707,7 +116707,7 @@ var src_DndLoanDebt = function (_Component) {
       timer: null,
       strings: {
         spiral: {
-          title: "DISPARITIES IN STUDENT DEBT BY ANCESTRY .",
+          title: "DISPARITIES IN STUDENT DEBT BY ANCESTRY",
           prompt: "ENTER THE TOTAL PRINCIPAL AMOUNT YOU BORROWED BELOW:",
           legend: {
             avgOverall: "ALL",
@@ -116719,7 +116719,7 @@ var src_DndLoanDebt = function (_Component) {
           }
         },
         timeline: {
-          title: "YOUR STUDENT LOAN REPAYMENT CALCULATOR .",
+          title: "YOUR STUDENT LOAN REPAYMENT CALCULATOR",
           prompt: 'ENTER YOUR CURRENT LOAN BALANCE AND TRY OUT<br>NEW PAYMENT TERMS TO SEE HOW MUCH YOU CAN SAVE'
         },
         amount: {},
