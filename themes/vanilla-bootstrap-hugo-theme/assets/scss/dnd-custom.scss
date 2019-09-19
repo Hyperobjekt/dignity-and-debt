@@ -2223,9 +2223,18 @@ body.comparing-and-calculating-your-student-debt {
     }
   }
 
-  .heading h2:after {
+  .current-loan-heading .heading h2:after {
     content: ".";
-    padding-left: 6px;
+    padding-left: 3px;
+  }
+  .timeline-heading .heading h2:after {
+    content: ".";
+    padding-left: 7px;
+  }
+
+  .timeline-heading .heading h2:after {
+    content: ".";
+    padding-left: 8px;
   }
 
   .timeline-heading {
