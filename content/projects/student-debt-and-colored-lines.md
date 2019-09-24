@@ -14,7 +14,7 @@ description: >-
   change so that the beneifts of higher education can be shared equitably. 
 weight: 1
 date: 2019-09-24T16:23:03.458Z
-link_out: false
+link_out: true
 hero_image_fw: /uploads/student-debt-page-hero.001.jpeg
 alts:
   hero_alt: 'page title: student debt and colored lines'
