@@ -2,10 +2,20 @@
 title: Student Debt and Colored Lines
 is_index: false
 type: projects
-description: student debt description.
+description: >-
+  A collaboration between the Dignity + Debt Network and the VizE Lab to produce
+  and promote data visualization as a medium for depicting the racial
+  disparities and social meanings that organize student borrowing and repayment.
+  We take inspiration from the series of charts created by sociologist W.E.B Du
+  Bois  depicting wealth disparities between blacks and whites around the turn
+  of the 20th Century in the US. Just as Du Bois used visualizations to depict
+  the complexity of these disparities, we seek to chart the social complexities
+  of the urgent contemporary issue of student debt, while revealing the values
+  and structures that need to change in order to produce equity benefitting from
+  higher education. 
 weight: 1
 date: 2019-09-24T16:23:03.458Z
-link_out: false
+link_out: true
 hero_image_fw: /uploads/student-debt-page-hero.001.jpeg
 alts:
   hero_alt: 'page title: student debt and colored lines'
