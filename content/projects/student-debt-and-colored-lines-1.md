@@ -1,5 +1,5 @@
 ---
-title: Student Debt and Colored Lines
+title: Racial Disparities and Student Debt
 is_index: false
 type: projects
 description: >-
