@@ -4,16 +4,17 @@ is_index: false
 type: projects
 description: >-
   A collaboration between the Dignity + Debt Network and the VizE Lab intended
-  to promote data visualization as a medium for depicting the racial disparities
-  and the meanings and values that organize student borrowing and repayment. In
-  creating our gallery here, we take inspiration from the series of evocative
-  charts and maps created by sociologist W.E.B Du Bois which depict wealth
-  disparities between blacks and whites around the turn of the 20th Century in
-  the US. Just as Du Bois used visualizations to depict the complexity of these
-  disparities, we seek to chart the color lines and social complexity of the
-  urgent contemporary issue of student debt. In turn, this growing collection of
-  charts will reveal the individual practices, values and institutional change
-  needed to expand equitably the benefits of higher education. 
+  to promote data visualization as a medium for depicting racial disparities in
+  student borrowing and repayment and the structures, meanings, and values that
+  organize them. In creating our gallery here, we take inspiration from the
+  series of evocative charts and maps created by sociologist W.E.B Du Bois which
+  depict wealth disparities between blacks and whites around the turn of the
+  20th Century in the US. Just as Du Bois used visualizations to depict the
+  complexity of these disparities, we seek to chart the color lines and social
+  complexity of the urgent contemporary issue of student debt. In turn, this
+  growing collection of charts will reveal the individual practices, values and
+  institutional change needed to expand equitably the benefits of higher
+  education. 
 weight: 1
 date: 2019-09-24T16:23:03.458Z
 link_out: true
