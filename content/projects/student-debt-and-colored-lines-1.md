@@ -17,11 +17,11 @@ description: >-
 weight: 1
 date: 2019-09-24T16:23:03.458Z
 link_out: true
-hero_image_fw: /uploads/student-debt-page-hero-4.001.jpeg
+hero_image_fw: /uploads/student-debt-page-hero-5.001.jpeg
 alts:
   hero_alt: 'page title: student debt and colored lines'
 ---
-**The Problems With Color Lines Gallery**
+**The Debt Problems with Colored Lines Gallery**
 
 The historian and sociologist W.E.B. DuBois believed that social science data should be evocative. In the 2018 essay collection _W.E.B. Du Bois’s Data Portraits: Visualizing Black America_, architecture scholar Mabel O. Wilson describes how Du Bois used infographics and various artistic media to counter assertions by Georg Wilhelm Friedrich Hegel that Africans were “incapable of any development of culture” and that the black experience was characterized by “sensuous arbitrariness.” In the same volume, designer Silas Munro explains just how important the arts were for Du Bois’s scientific argument: “The Du Bois infographics were published twenty years before the founding of Bauhaus,” and their modular style predated “the rise of dominant European avant-garde movements... considered to have their origins in Russian constructivism, De Stijl, and Italian futurism.” Du Bois’s charts are not only both scientific, then, they are evocative and they draw in viewers to explore them, raise new questions, and provoke action.
 
