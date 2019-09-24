@@ -430,15 +430,56 @@ body.contact {
     }
 
     .copy,
-    .siteby {
+    .collaborations {
       font-size: 1.3rem;
       color: $white;
       align-self: flex-start;
     }
-    .siteby {
+    .collaborations {
       text-align: center;
+      margin-top: 16px;
       @include media-breakpoint-up(md) {
-        text-align: right;
+        margin-top: -8px;
+      }
+      .collabs-imgs {
+        max-width: 240px;
+        margin: auto;
+        @include media-breakpoint-up(md) {
+          width: 50%;
+          margin: unset;
+        }
+      }
+      p {
+        font-size: 1.6rem;
+      }
+      img {
+        max-width: 148px;
+      }
+      @include media-breakpoint-up(md) {
+        img {
+          max-width: 94%;
+          &.vize-logo {
+            max-width: 94%;
+          }
+          &.ssrc-logo-white {
+            margin-top: 1.6rem;
+            @include media-breakpoint-up(md) {
+              margin-top: -9px;
+            }
+          }
+        }
+      }
+    }
+    .princeton-footer-logo {
+      margin-top: 2.4rem;
+      p {
+        font-size: 1.3rem;
+        color: #fff;
+        @include media-breakpoint-up(md) {
+          width: 50%;
+        }
+        width: 100%;
+        padding-left: 7px;
       }
     }
   }
