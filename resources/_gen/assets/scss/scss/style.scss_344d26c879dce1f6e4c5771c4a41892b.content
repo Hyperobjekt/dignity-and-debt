@@ -12647,8 +12647,8 @@ body.contact input.btn.btn-custom {
 }
 
 #footer img.princeton-logo {
-  width: 192px;
   margin-bottom: 2.4rem;
+  max-width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -12719,18 +12719,6 @@ body.contact input.btn.btn-custom {
   }
 }
 
-#footer .social-and-copy .collaborations .collabs-imgs {
-  max-width: 240px;
-  margin: auto;
-}
-
-@media (min-width: 768px) {
-  #footer .social-and-copy .collaborations .collabs-imgs {
-    width: 50%;
-    margin: unset;
-  }
-}
-
 #footer .social-and-copy .collaborations p {
   font-size: 1.6rem;
 }
@@ -12753,7 +12741,7 @@ body.contact input.btn.btn-custom {
 
 @media (min-width: 768px) and (min-width: 768px) {
   #footer .social-and-copy .collaborations img.ssrc-logo-white {
-    margin-top: -9px;
+    margin-top: 6px;
   }
 }
 
@@ -12762,16 +12750,10 @@ body.contact input.btn.btn-custom {
 }
 
 #footer .social-and-copy .princeton-footer-logo p {
-  font-size: 1.3rem;
+  font-size: 1rem;
+  margin-top: 4px;
   color: #fff;
   width: 100%;
-  padding-left: 7px;
-}
-
-@media (min-width: 768px) {
-  #footer .social-and-copy .princeton-footer-logo p {
-    width: 50%;
-  }
 }
 
 #footer .contact-and-menu {

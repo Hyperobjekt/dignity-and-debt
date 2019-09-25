@@ -386,8 +386,9 @@ body.contact {
     }
   }
   img.princeton-logo {
-    width: 192px;
+    //width: 192px;
     margin-bottom: 2.4rem;
+    max-width: 100%;
     @include media-breakpoint-up(md) {
       margin-bottom: 0;
     }
@@ -442,11 +443,11 @@ body.contact {
         margin-top: -8px;
       }
       .collabs-imgs {
-        max-width: 240px;
-        margin: auto;
+        // max-width: 240px;
+        // margin: auto;
         @include media-breakpoint-up(md) {
-          width: 50%;
-          margin: unset;
+         // width: 50%;
+          // margin: unset;
         }
       }
       p {
@@ -464,7 +465,7 @@ body.contact {
           &.ssrc-logo-white {
             margin-top: 1.6rem;
             @include media-breakpoint-up(md) {
-              margin-top: -9px;
+              margin-top: 6px;
             }
           }
         }
@@ -473,13 +474,14 @@ body.contact {
     .princeton-footer-logo {
       margin-top: 2.4rem;
       p {
-        font-size: 1.3rem;
+        font-size: 1rem;
+        margin-top: 4px;
         color: #fff;
         @include media-breakpoint-up(md) {
-          width: 50%;
+          // width: 50%;
         }
         width: 100%;
-        padding-left: 7px;
+       
       }
     }
   }
