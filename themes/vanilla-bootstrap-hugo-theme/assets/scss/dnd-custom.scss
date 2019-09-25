@@ -464,6 +464,7 @@ body.contact {
           }
           &.ssrc-logo-white {
             margin-top: 1.6rem;
+            height: 47px;
             @include media-breakpoint-up(md) {
               margin-top: 6px;
             }
