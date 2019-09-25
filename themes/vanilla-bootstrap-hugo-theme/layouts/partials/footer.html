@@ -30,6 +30,7 @@
 
     </div>
     <div class="row social-and-copy">
+      {{if not .IsHome}}
       <div class="col-8 offset-2 col-md-5 offset-md-1 pl-0 princeton-footer-logo">
         <div class="col-12 col-md-7 px-0">
             <a href="https://www.princeton.edu/" target="_blank"><img class="princeton-logo" src="/images/Princeton_shield_white.svg" alt="Link to Princeton University homepage" /></a>
@@ -51,12 +52,37 @@
         <div class="col-12 col-md-5 px-0"></div>   
       </div>
      <div class="col-sm-12 col-md-5 copy collaborations px-0">
+        
+       
         <div class="row mx-0">
           <div class="col-12"><p class="text-center">In collaboration with:</p></div>
-          <div class="col-12 col-md-6 collabs-imgs px-0 mb-2"><img class="vize-logo mt-md-0" src="/images/VizE-Lab-Logo-700w-white.png" /></div>
-          <div class="col-12 col-md-6 collabs-imgs pl-md-3 pr-0"><img class="ssrc-logo-white" src="/images/ssrc-logo-white.png"/></div>
+          <div class="col-12 col-md-6 collabs-imgs px-0 mb-2">
+            <a href="https://anthropology.princeton.edu/research-programs/vize-lab" target="_blank">  
+              <img class="vize-logo mt-md-0" src="/images/VizE-Lab-Logo-700w-white.png" />
+            </a>  
+          </div>
+          <div class="col-12 col-md-6 collabs-imgs pl-md-3 pr-0 d-flex justify-content-center justify-content-md-end h-100">
+            <a href="https://www.ssrc.org/" target="_blank">
+              <img class="ssrc-logo-white align-self-center" src="/images/ssrc-logo-white.png"/>
+            </a>  
+          </div>
         </div>
-      </div>     
+       
+      </div>   
+      {{ else }}  
+      <div class="col-8 offset-2 col-md-7 mx-md-auto pl-0 princeton-footer-logo d-flex align-items-center">
+          <div class="col-6 px-0">
+              <a href="https://www.princeton.edu/" target="_blank"><img class="princeton-logo align-self-center" src="/images/Princeton_shield_white.svg" alt="Link to Princeton University homepage" /></a>
+             
+          </div> 
+          <div class="col-6 px-0">
+              <p class="text-left" style="font-size: 13px">&copy; 2019 The Trustees of Princeton University</p>
+          </div>
+          <div class="col-12 col-md-5 px-0"></div>   
+        </div>
+       
+          
+      {{ end }}
     </div>
   </div>
 </footer>
