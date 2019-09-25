@@ -3,11 +3,8 @@
   <div class="container">
     {{ .Site.Params.footerText | markdownify }}
     <div class="row contact-and-menu">
-      <div class="col-sm-12 col-md-6 col-lg-6">
-        <h3 tabindex="0">Have questions?</h3>
-        <h3 tabindex="0"><a href="/contact">Get in touch</a></h3>
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-6">
+      
+      <div class="col-sm-12 col-md-10 col-lg-10 mx-auto px-0">
         <div class="row menu-row">
           <div class="col menu-col">
             <ul class="menu">
@@ -15,6 +12,7 @@
               <li><a tabindex="0" href="{{ "/about" | absURL }}">About</a></li>
               <li><a tabindex="0" href="{{ "/projects" | absURL }}">Projects</a></li>
               <li><a tabindex="0" href="{{ "/meetings" | absURL }}">Meetings</a></li>
+              <li><a tabindex="0" href="{{ "/contact" | absURL }}">Contact Us</a></li>
             </ul>
           </div>
           
@@ -32,26 +30,32 @@
 
     </div>
     <div class="row social-and-copy">
-      <div class="col-sm-12 col-md-6">
-        <a href="https://www.princeton.edu/" target="_blank"><img class="princeton-logo" src="/images/Princeton_shield_white.svg" alt="Link to Princeton University homepage" /></a>
-        <!-- Social icons -->
-        {{ if .Site.Data.social.facebook_link }}
-          <a class="social-icon" href="{{ .Site.Data.social.facebook_link }}" target="_blank" aria-haspopup="true"><i class="fab fa-facebook-f"></i></a>
-        {{ end }}
-        {{ if .Site.Data.social.twitter_via }}
-          <a class="social-icon" href="https://www.twitter.com/{{ strings.TrimPrefix "@" .Site.Data.social.twitter_via }}"><i class="fab fa-twitter" target="_blank" aria-haspopup="true"></i></a>
-        {{ end }}
-        {{ if .Site.Data.social.linkedin_link }}
-          <a class="social-icon" href="{{ .Site.Data.social.linkedin_link }}"><i class="fab fa-linkedin-in" target="_blank" aria-haspopup="true"></i></a>
-        {{ end }}
-        {{ if .Site.Data.social.instagram_link }}
-          <a class="social-icon" href="{{ .Site.Data.social.instagram_link }}"><i class="fab fa-instagram" target="_blank" aria-haspopup="true"></i></a>
-        {{ end }}
+      <div class="col-8 offset-2 col-md-5 offset-md-1 pl-0 princeton-footer-logo">
+        <div class="col-12 col-md-7 px-0">
+            <a href="https://www.princeton.edu/" target="_blank"><img class="princeton-logo" src="/images/Princeton_shield_white.svg" alt="Link to Princeton University homepage" /></a>
+            <p class="text-center">&copy; 2019 The Trustees of Princeton University</p>
+            <!-- Social icons -->
+            {{ if .Site.Data.social.facebook_link }}
+              <a class="social-icon" href="{{ .Site.Data.social.facebook_link }}" target="_blank" aria-haspopup="true"><i class="fab fa-facebook-f"></i></a>
+            {{ end }}
+            {{ if .Site.Data.social.twitter_via }}
+              <a class="social-icon" href="https://www.twitter.com/{{ strings.TrimPrefix "@" .Site.Data.social.twitter_via }}"><i class="fab fa-twitter" target="_blank" aria-haspopup="true"></i></a>
+            {{ end }}
+            {{ if .Site.Data.social.linkedin_link }}
+              <a class="social-icon" href="{{ .Site.Data.social.linkedin_link }}"><i class="fab fa-linkedin-in" target="_blank" aria-haspopup="true"></i></a>
+            {{ end }}
+            {{ if .Site.Data.social.instagram_link }}
+              <a class="social-icon" href="{{ .Site.Data.social.instagram_link }}"><i class="fab fa-instagram" target="_blank" aria-haspopup="true"></i></a>
+            {{ end }}
+        </div> 
+        <div class="col-12 col-md-5 px-0"></div>   
       </div>
-     <div class="col-sm-12 col-md-6 copy siteby">
-       &copy; 2019 The Trustees of Princeton University<br>
-        <!--Site by <a href="https://www.hyperobjekt.com/" aria-haspopup="true" target="_blank">Hyperobject</a>-->
-
+     <div class="col-sm-12 col-md-5 copy collaborations px-0">
+        <div class="row mx-0">
+          <div class="col-12"><p class="text-center">In collaboration with:</p></div>
+          <div class="col-12 col-md-6 collabs-imgs px-0 mb-2"><img class="vize-logo mt-md-0" src="/images/VizE-Lab-Logo-700w-white.png" /></div>
+          <div class="col-12 col-md-6 collabs-imgs pl-md-3 pr-0"><img class="ssrc-logo-white" src="/images/ssrc-logo-white.png"/></div>
+        </div>
       </div>     
     </div>
   </div>
