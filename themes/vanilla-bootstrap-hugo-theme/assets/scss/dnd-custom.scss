@@ -455,6 +455,9 @@ body.contact {
       }
       img {
         max-width: 148px;
+        &.ssrc-logo-white {
+          // height: 36px;
+        }
       }
       @include media-breakpoint-up(md) {
         img {
@@ -464,7 +467,7 @@ body.contact {
           }
           &.ssrc-logo-white {
             margin-top: 1.6rem;
-            height: 47px;
+            // height: 47px;
             @include media-breakpoint-up(md) {
               margin-top: 6px;
             }

@@ -12736,7 +12736,6 @@ body.contact input.btn.btn-custom {
   }
   #footer .social-and-copy .collaborations img.ssrc-logo-white {
     margin-top: 1.6rem;
-    height: 47px;
   }
 }
 
