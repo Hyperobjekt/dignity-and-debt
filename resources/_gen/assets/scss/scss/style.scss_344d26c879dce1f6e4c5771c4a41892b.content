@@ -12687,7 +12687,6 @@ body.contact input.btn.btn-custom {
 
 @media (max-width: 767.98px) {
   #footer .social-and-copy a {
-    display: flex;
     justify-content: center;
   }
 }

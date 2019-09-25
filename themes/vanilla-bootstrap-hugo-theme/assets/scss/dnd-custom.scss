@@ -415,7 +415,7 @@ body.contact {
       color: #C9E9EA;
       text-decoration: underline;
       @include media-breakpoint-down(sm) {
-        display: flex;
+        //display: flex;
         justify-content: center;
       }
 
