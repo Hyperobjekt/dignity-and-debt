@@ -12647,7 +12647,7 @@ body.contact input.btn.btn-custom {
 }
 
 #footer img.princeton-logo {
-  margin-bottom: 0.8rem;
+  margin-bottom: 2.4rem;
   max-width: 100%;
 }
 
