@@ -386,11 +386,18 @@ body.contact {
     }
   }
   img.princeton-logo {
-    //width: 192px;
-    margin-bottom: 0.8rem;
+    &.homepage-only {
+      width: 160px;
+    }
+    margin-bottom: 2.4rem;
     max-width: 100%;
     @include media-breakpoint-up(md) {
+      &.homepage-only {
+        width: unset;
+        max-width: 57%;
+      }  
       margin-bottom: 0;
+      
     }
   }
   .social-and-copy {
@@ -408,7 +415,7 @@ body.contact {
       color: #C9E9EA;
       text-decoration: underline;
       @include media-breakpoint-down(sm) {
-        display: flex;
+        //display: flex;
         justify-content: center;
       }
 
@@ -1600,7 +1607,7 @@ body.about {
 ////// Projects
 // Projects section page
 body.type-projects.kind-section {
-  .row > * {
+  .row.projects-page > * {
     max-width: 840px;
     margin: auto;
   }

@@ -30,9 +30,10 @@
 
     </div>
     <div class="row social-and-copy">
-      <div class="col-8 offset-2 col-md-5 offset-md-1 pl-0 princeton-footer-logo">
+      {{if not .IsHome}}
+      <div class="col-6 offset-3 col-md-5 offset-md-1 pl-0 princeton-footer-logo">
         <div class="col-12 col-md-7 px-0">
-            <a href="https://www.princeton.edu/" target="_blank"><img class="princeton-logo" src="/images/Princeton_shield_white.svg" alt="Link to Princeton University homepage" /></a>
+            <a href="https://www.princeton.edu/" target="_blank"><img class="princeton-logo mb-0 mb-md-0" src="/images/Princeton_shield_white.svg" alt="Link to Princeton University homepage" /></a>
             <p class="text-center">&copy; 2019 The Trustees of Princeton University</p>
             <!-- Social icons -->
             {{ if .Site.Data.social.facebook_link }}
@@ -51,16 +52,37 @@
         <div class="col-12 col-md-5 px-0"></div>   
       </div>
      <div class="col-sm-12 col-md-5 copy collaborations px-0">
+        
+       
         <div class="row mx-0">
           <div class="col-12"><p class="text-center">In collaboration with:</p></div>
-          <div class="col-12 col-md-6 collabs-imgs px-0 mb-2"><img class="vize-logo mt-md-0" src="/images/VizE-Lab-Logo-700w-white.png" /></div>
+          <div class="col-12 col-md-6 collabs-imgs px-0 mb-2">
+            <a href="http://vizelab.princeton.edu/" target="_blank">  
+              <img class="vize-logo mt-md-0 align-self-center" src="/images/VizE-Lab-Logo-700w-white.png" />
+            </a>  
+          </div>
           <div class="col-12 col-md-6 collabs-imgs pl-md-3 pr-0 d-flex justify-content-center justify-content-md-end h-100">
-          
+            <a href="https://www.ssrc.org/" target="_blank" class="d-md-flex justify-content-md-end">
               <img class="ssrc-logo-white align-self-center" src="/images/ssrc-logo-white.png"/>
-         
+            </a>  
           </div>
         </div>
-      </div>     
+       
+      </div>   
+      {{ else }}  
+      <div class="col-8 offset-2 col-md-10 mx-md-auto mt-1 px-0 princeton-footer-logo d-md-flex align-items-center">
+          <div class="col-10 offset-1 col-md-6 offset-md-0 px-0">
+              <a href="https://www.princeton.edu/" target="_blank" class="d-flex d-md-block"><img class="princeton-logo homepage-only align-self-center" src="/images/Princeton_shield_white.svg" alt="Link to Princeton University homepage" /></a>
+             
+          </div> 
+          <div class="col-12 col-md-6 px-0">
+              <p class="text-center text-md-right" style="font-size: 14px">&copy; 2019 The Trustees of Princeton University</p>
+          </div>
+          <div class="col-12 col-md-5 px-0"></div>   
+        </div>
+       
+          
+      {{ end }}
     </div>
   </div>
 </footer>

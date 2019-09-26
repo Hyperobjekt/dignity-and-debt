@@ -12651,9 +12651,17 @@ body.contact input.btn.btn-custom {
   max-width: 100%;
 }
 
+#footer img.princeton-logo.homepage-only {
+  width: 160px;
+}
+
 @media (min-width: 768px) {
   #footer img.princeton-logo {
     margin-bottom: 0;
+  }
+  #footer img.princeton-logo.homepage-only {
+    width: unset;
+    max-width: 57%;
   }
 }
 
@@ -12679,7 +12687,6 @@ body.contact input.btn.btn-custom {
 
 @media (max-width: 767.98px) {
   #footer .social-and-copy a {
-    display: flex;
     justify-content: center;
   }
 }
@@ -13878,7 +13885,7 @@ body.about .modal .modal-dialog button.close span {
   }
 }
 
-body.type-projects.kind-section .row > * {
+body.type-projects.kind-section .row.projects-page > * {
   max-width: 840px;
   margin: auto;
 }
