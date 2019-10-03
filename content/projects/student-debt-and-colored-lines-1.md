@@ -23,7 +23,7 @@ description: >-
 weight: 1
 date: 2019-09-24T16:23:03.458Z
 link_out: true
-hero_image_fw: /uploads/student-debt-page-hero-5.001.jpeg
+hero_image_fw: /uploads/student-debt-page-hero-6.001.jpeg.001.png
 alts:
   hero_alt: 'page title: student debt and colored lines'
 ---
