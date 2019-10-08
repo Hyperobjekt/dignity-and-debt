@@ -1,5 +1,5 @@
 ---
-weight: 2
+weight: 20
 title: "Understanding What's Fair"
 subtitle: ""
 type: "projects"

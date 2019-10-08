@@ -9,7 +9,7 @@ description: >-
   visualization initiative will develop a new set of public goods,
   visualizations of dignity, respect, and autonomy alongside data on debt, debt
   traps, and meaningful financial inclusion across the globe. 
-weight: 1
+weight: 10
 date: '2019-01-25'
 link_out: true
 hero_image_fw: /uploads/growing-money-2880.jpg

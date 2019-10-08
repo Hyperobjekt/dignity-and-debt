@@ -1,0 +1,66 @@
+{{ define "main" }}
+
+<div class="row breadcrumb-parent" aria-label="breadcrumb navigation" tabindex="0">
+  {{ partial "breadcrumb.html" . }}
+</div>
+
+<div class="row heading">
+  <h2 tabindex="0" class="col-md-8 offset-md-2">{{ .Title }}</h2>
+</div>
+
+{{ $projects_hero_img := strings.TrimPrefix "/uploads/" .Page.Params.hero_image }}
+{{ with $.Site.GetPage "page" "uploads/_index.md" }}
+{{ with .Resources.GetMatch $projects_hero_img }}
+{{$projects_hero := .Fill "1220x466 TopLeft"}}
+<div id="" class="jumbotron row" style="height: 0; width: 100%; padding-top: 38%; background-image: url('{{ $projects_hero.RelPermalink }}');">
+</div>
+{{ end }}
+{{ end }}
+
+{{ $projects_hero_img_fw := strings.TrimPrefix "/uploads/" .Page.Params.hero_image_fw }}
+{{ with $.Site.GetPage "page" "uploads/_index.md" }}
+{{ with .Resources.GetMatch $projects_hero_img_fw }}
+
+<div id="" class="jumbotron_fw row"><img src="{{ .RelPermalink }}">
+</div>
+{{ end }}
+{{ end }}8
+<div class="row content mt-4">
+  <div class="col-md-7 mx-auto">
+    {{ .Params.content1 }}
+  </div>
+</div>
+
+<div class="row content ">
+  <div class="col-12 col-md-9 mx-auto d-block d-md-flex">
+    <div class="col-12 col-md-4"><img class="mw-100" src="{{ .Params.image1thumb }}" /></div>
+    <div class="col-12 col-md-4"><img class="mw-100" src="{{ .Params.image2thumb }}" /></div>
+    <div class="col-12 col-md-4"><img class="mw-100" src="{{ .Params.image3thumb }}" /></div>
+  </div>
+  <div class="col-12 col-md-9 mx-auto d-block d-md-flex mt-4">  
+    <div class="col-12 col-md-4"><img class="mw-100" src="{{ .Params.image4thumb }}" /></div>
+    <div class="col-12 col-md-4"><img class="mw-100" src="{{ .Params.image5thumb }}" /></div>
+    <div class="col-12 col-md-4"><img class="mw-100" src="{{ .Params.image6thumb }}" /></div>
+  </div> 
+</div>
+
+<div class="row content">
+  <div class="col-md-7 mx-auto">
+    {{ .Params.content2 }}
+  </div>
+</div>
+
+<div class="row content">
+  <div class="col-12 col-md-9 mx-auto d-block d-md-flex mb-4">
+    <div class="col-12 col-md-6"><img class="mw-100" src="{{ .Params.image7thumb }}" /></div>
+    <div class="col-12 col-md-6"><img class="mw-100" src="{{ .Params.image8thumb }}" /></div>
+  </div> 
+</div>
+
+<div class="row content">
+    <div class="col-md-7 mx-auto p-4" style="background-color: #C9E9EA;">
+      {{ .Params.content3 }}
+    </div>
+  </div>
+
+{{ end }}
