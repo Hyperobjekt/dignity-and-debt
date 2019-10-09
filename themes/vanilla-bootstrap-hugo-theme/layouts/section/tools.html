@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+{{ $projects_hero_img := strings.TrimPrefix "/uploads/" .Page.Params.hero_image }}
+{{ with $.Site.GetPage "page" "uploads/_index.md" }}
+{{ with .Resources.GetMatch $projects_hero_img }}
+{{$projects_hero := .Fill "2880x872 BottomLeft"}}
+<div id="" class="jumbotron row" style="background-image: url('{{ $projects_hero.RelPermalink }}');">
+</div>
+{{ end }}
+{{ end }}
+
+<div class="row news-banner projectstitle">
+    <div class="column col-lg-8 col-md-8 col-sm-10 offset-lg-2 offset-md-2 offset-sm-1">
+      <h3 tabindex="0">{{ .Page.Params.display_title }}</h3>
+      <span class="center-span" tabindex="0">{{ .Content | plainify }}</span>
+    </div>
+  </div>
+
+
+{{ range .Pages.ByWeight }}
+
+  <div class="row projects project">
+    <h2 tabindex="0" class=" col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-10 offset-sm-1">{{ .Title }}</h2>
+    <div class="desc col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-10 offset-sm-1" tabindex="0">
+      {{ .Params.description | safeHTML }}
+    </div>
+    
+      <div class="morelink-parent col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+        {{ if eq .Params.link_out true }}
+          <a class="btn btn-custom" href="{{ .Permalink }}" tabindex="0" aria-label="Go to About">READ MORE</a>
+        {{ end }}  
+      </div>
+ 
+  </div>
+
+{{ end }}
+
+{{ end }}

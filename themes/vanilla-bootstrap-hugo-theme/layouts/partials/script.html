@@ -7,4 +7,21 @@
 <script src="{{ "js/jquery-3.3.1.slim.min.js" | absURL }}"></script>
 <script src="{{ "js/bootstrap.bundle.min.js" | absURL }}"></script>
 <script src="{{ "js/dnd-custom.js" | absURL }}"></script>
+  {{ if eq .Page.Title "Comparing and Calculating Your Student Debt"}}
+    {{ if .Site.IsServer }}
+      <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+      <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+      <script src="{{"js/loancalc/react-dnd-loan-debt-calc.js" | absURL }}"></script>
+    {{ else }}
+      <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+      <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+      <script src="{{"js/loancalc/react-dnd-loan-debt-calc.min.js" | absURL }}"></script>
+    {{ end }}
+
+    <script>
+      const domContainer = document.querySelector('#DndLoanDebt');
+      // {...domContainer.dataset}
+      ReactDOM.render(React.createElement(DndLoanDebt, Object.assign({}, domContainer.dataset)), domContainer);
+    </script>
+  {{ end }}
 {{ end }}
