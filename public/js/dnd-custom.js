@@ -64,8 +64,6 @@
         }
     });
 
-    
-
     $(window).on('scroll', function() {
       $('.target').each(function() {
           if($(window).scrollTop() >= $(this).offset().top -500) {
