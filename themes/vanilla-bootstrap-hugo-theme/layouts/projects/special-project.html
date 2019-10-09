@@ -33,14 +33,15 @@
 
 <div class="row content ">
   <div class="col-12 col-md-11 mx-auto d-block d-md-flex">
-    <div class="col-12 col-md-4"><img class="mw-100" src="{{ .Params.image1thumb }}" /></div>
-    <div class="col-12 col-md-4"><img class="mw-100" src="{{ .Params.image2thumb }}" /></div>
-    <div class="col-12 col-md-4"><img class="mw-100" src="{{ .Params.image3thumb }}" /></div>
+    {{ range first 3 .Site.Data.studentdebt.images.pics }}
+      <div class="col-12 col-md-4 project-img column-project-img"><img class="mw-100" src="{{ .thumb }}" /></div>
+      {{ end }}
+
   </div>
-  <div class="col-12 col-md-9 mx-auto d-block d-md-flex mt-4">  
-    <div class="col-12 col-md-4"><img class="mw-100" src="{{ .Params.image4thumb }}" /></div>
-    <div class="col-12 col-md-4"><img class="mw-100" src="{{ .Params.image5thumb }}" /></div>
-    <div class="col-12 col-md-4"><img class="mw-100" src="{{ .Params.image6thumb }}" /></div>
+  <div class="col-12 col-md-9 mx-auto d-block d-md-flex mt-4"> 
+    {{ range first 3 (after 3 .Site.Data.studentdebt.images.pics) }} 
+      <div class="col-12 col-md-4 project-img column-project-img"><img class="mw-100" src="{{ .thumb }}" /></div>
+    {{ end }}
   </div> 
 </div>
 
@@ -52,8 +53,9 @@
 
 <div class="row content">
   <div class="col-12 col-md-9 mx-auto d-block d-md-flex mb-4">
-    <div class="col-12 col-md-6"><img class="mw-100" src="{{ .Params.image7thumb }}" /></div>
-    <div class="col-12 col-md-6"><img class="mw-100" src="{{ .Params.image8thumb }}" /></div>
+    {{ range first 2 (after 6 .Site.Data.studentdebt.images.pics) }}
+      <div class="col-12 col-md-6 project-img"><img class="mw-100" src="{{ .thumb }}" /></div>
+    {{ end }}
   </div> 
 </div>
 
