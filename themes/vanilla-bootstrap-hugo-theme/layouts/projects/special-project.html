@@ -25,43 +25,28 @@
 </div>
 {{ end }}
 {{ end }}8
-<div class="row content mt-4">
+<div class="row content mt-0 mb-2">
   <div class="col-md-7 mx-auto">
-    {{ .Params.content1 }}
+    {{ .Params.content1 | markdownify }}
+    {{ .Params.content2 | markdownify }}
   </div>
 </div>
 
 <div class="row content ">
-  <div class="col-12 col-md-11 mx-auto d-block d-md-flex">
-    {{ range first 3 .Site.Data.studentdebt.images.pics }}
-      <div class="col-12 col-md-4 project-img column-project-img"><img class="mw-100" src="{{ .thumb }}" /></div>
+    <div class="col-12 col-md-9 mx-auto d-block d-md-flex flex-wrap justify-content-center mt-4 mb-0"> 
+      {{ range .Site.Data.studentdebt.images.pics }} 
+        <div class="col-12 col-md-4 project-img column-project-img mb-4"><img class="mw-100" src="{{ .thumb }}" /></div>
       {{ end }}
-
+    </div> 
   </div>
-  <div class="col-12 col-md-9 mx-auto d-block d-md-flex mt-4"> 
-    {{ range first 3 (after 3 .Site.Data.studentdebt.images.pics) }} 
-      <div class="col-12 col-md-4 project-img column-project-img"><img class="mw-100" src="{{ .thumb }}" /></div>
-    {{ end }}
-  </div> 
-</div>
 
-<div class="row content">
-  <div class="col-md-7 mx-auto">
-    {{ .Params.content2 }}
-  </div>
-</div>
-
-<div class="row content">
-  <div class="col-12 col-md-9 mx-auto d-block d-md-flex mb-4">
-    {{ range first 2 (after 6 .Site.Data.studentdebt.images.pics) }}
-      <div class="col-12 col-md-6 project-img"><img class="mw-100" src="{{ .thumb }}" /></div>
-    {{ end }}
-  </div> 
-</div>
-
-<div class="row content">
-    <div class="col-md-7 mx-auto p-4" style="background-color: #C9E9EA;">
-      {{ .Params.content3 }}
+<div class="row content mt-0 mb-8">
+    <div class="col-md-6 mx-auto px-2 px-md-4 pb-4 text-center" style="background-color: #C9E9EA;">
+      <div class="col-7 col-lg-6 col-xl-5 mx-auto mt-4 mb-0"><img class="mw-100" src="{{ .Params.vizimage }}" /></div>
+      {{ .Params.content3 | markdownify }}
+      <div class="col-12 mt-2">
+        <a class="btn btn-custom" href="/projects/student-debt-calculator/" tabindex="0" aria-label="Go to About">GO</a>
+      </div>    
     </div>
   </div>
 
