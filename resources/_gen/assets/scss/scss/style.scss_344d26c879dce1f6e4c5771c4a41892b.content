@@ -14619,7 +14619,7 @@ body.comparing-and-calculating-your-student-debt .row.content:last-of-type {
 
 #DndLoanDebt .current-loan-heading .heading h2:after {
   content: ".";
-  padding-left: 3px;
+  padding-left: 5px;
 }
 
 #DndLoanDebt .timeline-heading .heading h2:after {
