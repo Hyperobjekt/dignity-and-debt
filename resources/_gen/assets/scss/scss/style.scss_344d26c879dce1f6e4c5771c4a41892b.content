@@ -14560,7 +14560,7 @@ body.type-meetings.kind-section .row.jumbotron {
   src: url("/fonts/Vasarely/Vasarely.otf") format("otf"), url("/fonts/Vasarely/Vasarely.woff") format("woff");
 }
 
-body.comparing-and-calculating-your-student-debt .row.content:last-of-type {
+body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type {
   background-color: #f9f3e6 !important;
   background-image: url("/images/light-paper-fibers.png");
   margin-bottom: 0;
