@@ -395,9 +395,9 @@ body.contact {
       &.homepage-only {
         width: unset;
         max-width: 57%;
-      }  
+      }
       margin-bottom: 0;
-      
+
     }
   }
   .social-and-copy {
@@ -492,7 +492,7 @@ body.contact {
           // width: 50%;
         }
         width: 100%;
-       
+
       }
     }
   }
@@ -1856,15 +1856,15 @@ body.type-meetings.kind-section {
     }
 
     &.indiv-mtgs {
-     
-      
-      .divider { 
+
+
+      .divider {
         border-bottom: solid 1px #c9e9ea;
         //margin: 5.6rem 0 3.6rem;
-      }  
-      
+      }
+
       #digging-out {
-      
+
           position: sticky;
           position: -webkit-sticky;
           position: -moz-sticky;
@@ -1901,7 +1901,7 @@ body.type-meetings.kind-section {
         line-height: 2.6rem;
         color: $dnd-navy;
       }
-  
+
 
     }
 
@@ -2289,7 +2289,7 @@ body.comparing-and-calculating-your-student-debt {
 }
 
 #DndLoanDebt {
-  
+
   overflow: hidden;
 
   // Basic font styling
@@ -2301,7 +2301,7 @@ body.comparing-and-calculating-your-student-debt {
     color: #000;
     margin-left: 0;
     margin-right: 0;
-    
+
   }
   .heading {
     padding-top: 3rem;
@@ -2352,9 +2352,9 @@ body.comparing-and-calculating-your-student-debt {
     p {
       text-align: center;
     }
-    
+
   }
-  
+
   // Basic spacing
   .row {
     background-color: #FEFCF5;
@@ -2615,7 +2615,7 @@ body.comparing-and-calculating-your-student-debt {
     form {
       padding-bottom: 12px;
       max-width: 330px;
-      
+
     }
   }
 
@@ -2909,3 +2909,101 @@ body.comparing-and-calculating-your-student-debt {
 
 ////// News
 ////// Events
+
+
+// Modal dialog
+.modal {
+  .modal-dialog {
+    max-height: 90%;
+    max-height: 90vh;
+    min-width: 50%;
+    .modal-content {
+      width: 100%;
+      height: 97vh;
+      button.close {
+        position: absolute;
+        top: 1.5rem;
+        right: 2rem;
+      }
+      .details {
+        width: auto;
+        // height: 70vh;
+        img {
+          width: 550px;
+          height: auto;
+        }
+        figcaption a::after {
+          content: "";
+          background-image: url(/images/download-arrow.svg);
+          display: inline-block;
+          width: 14px;
+          height: 10px;
+          background-size: 14px 10px;
+          background-repeat: no-repeat;
+          background-position: bottom;
+          margin-left: .8rem;
+        }
+      }
+      .modal-nav {
+        margin-bottom: 3.2rem;
+        button,
+        span {
+          // font-family: $sharpgrotesk-med-15;
+          font-size: 1rem;
+          letter-spacing: .055rem;
+          text-transform: uppercase;
+          border: 0;
+          background-color: transparent;
+        }
+        button {
+          &.next::after {
+            content: "";
+            background-image: url(/images/right-arrow.svg);
+            display: inline-block;
+            width: 14px;
+            height: 10px;
+            background-size: 14px 10px;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            margin-left: .8rem;
+          }
+          &.prev:before {
+            content: "";
+            background-image: url(/images/right-arrow.svg);
+            display: inline-block;
+            width: 14px;
+            height: 10px;
+            background-size: 14px 10px;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            -o-transform: rotate(180deg);
+            transform: rotate(180deg);
+            margin-right: .8rem;
+          }
+          &:hover {
+            text-decoration: underline;
+            // color: $seda-dark;
+          }
+          &:disabled {
+            // color: #979797;
+            opacity: .5;
+            &:before {
+              opacity: .5;
+            }
+            &:after {
+              opacity: .5;
+            }
+            &:hover {
+              opacity: .5;
+              color: #979797;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
