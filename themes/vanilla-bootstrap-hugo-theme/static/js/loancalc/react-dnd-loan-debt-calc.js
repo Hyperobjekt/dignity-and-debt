@@ -116707,7 +116707,7 @@ var src_DndLoanDebt = function (_Component) {
       timer: null,
       strings: {
         spiral: {
-          title: "DISPARITIES IN STUDENT DEBT BY ANCESTRY",
+          title: "DISPARITIES IN STUDENT DEBT BY POPULATION",
           prompt: "ENTER THE TOTAL PRINCIPAL AMOUNT YOU BORROWED BELOW:",
           legend: {
             avgOverall: "ALL",

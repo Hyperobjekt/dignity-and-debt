@@ -1,20 +1,27 @@
-<div class="modal fade" id="peopleBioModal" tabindex="-1" role="dialog" aria-labelledby="modalLongTitle" aria-hidden="true">
+<div class="modal fade" id="dndModal" tabindex="-1" role="dialog" aria-labelledby="modalLongTitle" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-body">
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12 details">
-            <div id="modalImg" tabindex="0"></div>
-            <div id="modalName" tabindex="0"></div>
-            <div id="modalTitle" tabindex="0"></div>
-          </div>
-          <div class="col-lg-8 col-md-8 col-sm-12 text">
-            <div id="modalBio" tabindex="0"></div>
-          </div>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close" tabindex="0">
             <span aria-hidden="true">&times;</span>
           </button>
+          <div class="col-12 details">
+            <figure>
+              <img id="modalImg" src=""></img>
+              <figcaption id="modalCaption">
+                <a href="" download aria-label="Select to download the full size image">Download the full sized image.</a>
+              </figcaption>
+            </figure>
+          </div>
         </div>
+      </div>
+      <div class="row flex-row-reverse">
+          <div class="modal-nav">
+              <button id="prevImg" type="button" class="btn-wire prev" aria-label="Previos image" tabindex="0">Previous image</button>
+              <span class="divider">|</span>
+              <button id="nextImg" type="button" class="btn-wire next" aria-label="Next image" tabindex="0">Next image</button>
+          </div>
       </div>
     </div>
   </div>

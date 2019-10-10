@@ -1,6 +1,6 @@
 ---
-weight: 4
-title: "Comparing and Calculating Your Student Debt"
+weight: 9
+title: "Comparing and Calculating Your Student Loan Debt"
 type: "projects"
 subtitle: ""
 date: "2019-07-20"
