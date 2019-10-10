@@ -33,11 +33,12 @@
 </div>
 
 <div class="row content ">
-    <div class="col-12 col-md-9 mx-auto d-block d-md-flex flex-wrap justify-content-center mt-4 mb-0"> 
-      {{ range .Site.Data.studentdebt.images.pics }} 
-        <div class="col-12 col-md-4 project-img column-project-img mb-4"><img class="mw-100" src="{{ .thumb }}" /></div>
+    <div class="col-12 col-md-9 mx-auto d-block d-md-flex flex-wrap justify-content-center mt-4 mb-0">
+      {{ range .Site.Data.studentdebt.images.pics }}
+        <!-- Series of modal triggers. -->
+        <div class="col-12 col-md-4 project-img column-project-img mb-4 launch-modal"><img class="mw-100" src="{{ .thumb }}" data-img="{{ .image }}" /></div>
       {{ end }}
-    </div> 
+    </div>
   </div>
 
 <div class="row content mt-0 mb-8">
@@ -46,7 +47,7 @@
       {{ .Params.content3 | markdownify }}
       <div class="col-12 mt-2">
         <a class="btn btn-custom" href="/projects/student-debt-calculator/" tabindex="0" aria-label="Go to About">GO</a>
-      </div>    
+      </div>
     </div>
   </div>
 
