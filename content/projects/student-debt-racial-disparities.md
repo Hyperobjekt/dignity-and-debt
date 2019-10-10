@@ -8,7 +8,7 @@ description: >-
 weight: 5
 date: '2019-10-08'
 link_out: true
-hero_image: /uploads/student-debt-page-hero-5.001.jpeg
+hero_image: /uploads/student_debt_page_hero-2.001.jpg
 content1: >-
   The historian and sociologist W.E.B. DuBois believed that social science data should be evocative. In the 2018 essay collection W.E.B. Du Bois’s Data Portraits: Visualizing Black America, architecture scholar Mabel O. Wilson describes how Du Bois used infographics and various artistic media to counter assertions by Georg Wilhelm Friedrich Hegel that Africans were “incapable of any development of culture” and that the black experience was characterized by “sensuous arbitrariness.” In the same volume, designer Silas Munro explains just how important the arts were for Du Bois’s scientific argument: “The Du Bois infographics were published twenty years before the founding of Bauhaus,” and their modular style predated “the rise of dominant European avant-garde movements... considered to have their origins in Russian constructivism, De Stijl, and Italian futurism.” Du Bois’s charts are both scientific and evocative; they draw in viewers to study them, raise new questions, and to provoke action.
 

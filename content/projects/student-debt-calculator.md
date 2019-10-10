@@ -1,5 +1,5 @@
 ---
-weight: 4
+weight: 9
 title: "Comparing and Calculating Your Student Loan Debt"
 type: "projects"
 subtitle: ""
