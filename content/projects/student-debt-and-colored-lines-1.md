@@ -10,10 +10,10 @@ description: >-
   also launches at this meeting.  
 
 
-  Our "Debt Problems with Colored Lines" visualization gallery is a
-  collaboration between the Dignity + Debt Network and the VizE Lab intended to
-  promote data visualization as a medium for depicting racial disparities in
-  student borrowing and repayment. Taking inspiration from the charts and maps
+  Our "Problem of Colored Lines" gallery is a collaboration between the Dignity
+  + Debt Network and the VizE Lab intended to promote data visualization as a
+  medium for depicting racial disparities in student borrowing and repayment,
+  and for rendering data meaningful. Taking inspiration from the charts and maps
   created by sociologist W.E.B Du Bois depicting wealth disparities between
   blacks and whites, we seek to chart the color lines and social complexities in
   the urgent  issue of student debt. Finally, with our interactive debt and
