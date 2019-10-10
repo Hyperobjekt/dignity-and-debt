@@ -15180,6 +15180,11 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
   cursor: pointer;
 }
 
+.modal .modal-body {
+  padding-right: 2.4rem;
+  padding-left: 2.4rem;
+}
+
 .modal .modal-dialog {
   max-height: 90%;
   max-height: 90vh;
@@ -15188,13 +15193,13 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
 
 .modal .modal-dialog .modal-content {
   width: 100%;
-  max-height: 97vh;
 }
 
 .modal .modal-dialog .modal-content button.close {
   position: absolute;
   top: 1.5rem;
   right: 2rem;
+  font-size: 3.6rem;
 }
 
 .modal .modal-dialog .modal-content .details {
@@ -15202,41 +15207,69 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
 }
 
 .modal .modal-dialog .modal-content .details img {
-  width: 550px;
+  width: 100%;
   height: auto;
 }
 
 .modal .modal-dialog .modal-content .details figcaption {
   font-family: "adobe-caslon-pro", "Crimson Text", serif;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 2.6rem;
-  margin-bottom: 5.6rem;
+  margin-bottom: 1.6rem;
   color: #003E62;
+}
+
+@media (min-width: 768px) {
+  .modal .modal-dialog .modal-content .details figcaption {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal .modal-dialog .modal-content .details figcaption {
+    margin-bottom: 2.4rem;
+  }
 }
 
 .modal .modal-dialog .modal-content .details figcaption a:after {
   content: "";
-  background-image: url(/images/download-arrow.svg);
-  display: inline-block;
-  width: 28px;
-  height: 20px;
-  background-size: 18px 14px;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  margin-left: .8rem;
+}
+
+@media (min-width: 768px) {
+  .modal .modal-dialog .modal-content .details figcaption a:after {
+    background-image: url(/images/download-arrow.svg);
+    display: inline-block;
+    width: 28px;
+    height: 20px;
+    background-size: 18px 14px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-left: .8rem;
+  }
 }
 
 .modal .modal-dialog .modal-content .modal-nav-container {
-  position: absolute;
-  top: 44%;
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  .modal .modal-dialog .modal-content .modal-nav-container {
+    position: absolute;
+    top: 44%;
+  }
 }
 
 .modal .modal-dialog .modal-content .modal-nav {
   margin-bottom: 3.2rem;
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .modal .modal-dialog .modal-content .modal-nav {
+    justify-content: space-between;
+  }
 }
 
 .modal .modal-dialog .modal-content .modal-nav button,
@@ -15249,25 +15282,36 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
 }
 
 .modal .modal-dialog .modal-content .modal-nav button.next {
-  background-image: url(/images/right-arrow.svg);
+  background-image: url(/images/right-arrow2.svg);
   display: inline-block;
-  width: 38px;
-  height: 38px;
-  background-size: 28px 20px;
+  background-color: #fff;
+  width: 28px;
+  height: 28px;
+  margin-left: 12px;
   background-repeat: no-repeat;
   background-position: center;
   /* margin-left: .8rem; */
   cursor: pointer;
-  border: 1px solid #1C6F81;
+  border: 1px solid #525252;
   border-radius: 50%;
 }
 
+@media (min-width: 768px) {
+  .modal .modal-dialog .modal-content .modal-nav button.next {
+    width: 38px;
+    height: 38px;
+    background-size: 28px 20px;
+    margin-left: 0px;
+  }
+}
+
 .modal .modal-dialog .modal-content .modal-nav button.prev {
-  background-image: url(/images/right-arrow.svg);
+  background-image: url(/images/right-arrow2.svg);
   display: inline-block;
-  width: 38px;
-  height: 38px;
-  background-size: 28px 20px;
+  width: 28px;
+  height: 28px;
+  margin-right: 12px;
+  background-color: #fff;
   background-repeat: no-repeat;
   background-position: center;
   -webkit-transform: rotate(180deg);
@@ -15277,8 +15321,17 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
   transform: rotate(180deg);
   margin-right: .8rem;
   cursor: pointer;
-  border: 1px solid #1C6F81;
+  border: 1px solid #525252;
   border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+  .modal .modal-dialog .modal-content .modal-nav button.prev {
+    width: 38px;
+    height: 38px;
+    background-size: 28px 20px;
+    margin-left: 0px;
+  }
 }
 
 .modal .modal-dialog .modal-content .modal-nav button:hover {
