@@ -801,6 +801,30 @@ h3.who-we-are,
   margin-top: 8.8rem;
   min-height: 168px;
 
+  h3 {
+    font-family: $brandongrotesque-bold;
+    font-size: 28px;
+    font-weight: 700;
+    color: #0A3D5F;
+    //text-align: left;
+  }
+  span {
+    font-family: $font-family-base;
+    font-size: 18px;
+    color: $darkblue;
+  }
+  span#banner-subheading {
+    font-family: $brandongrotesque-bold;
+    font-size: 24px;
+    font-weight: 700;
+    color: #0A3D5F;
+    text-align: left;
+    display: block;
+    margin-top: 0.8rem;
+    margin-bottom: 0.4rem;
+    line-height: 127%;
+  }
+
   .flex-parent {
     background-color: $aqua;
     justify-content: center;
