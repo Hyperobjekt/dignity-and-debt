@@ -2910,42 +2910,80 @@ body.comparing-and-calculating-your-student-loan-debt {
 ////// News
 ////// Events
 
-
+.launch-modal {
+  img {
+    cursor: pointer;
+  }
+}
 // Modal dialog
 .modal {
+  .modal-body {
+    padding-right: 2.4rem;
+    padding-left: 2.4rem;
+  }
   .modal-dialog {
     max-height: 90%;
     max-height: 90vh;
     min-width: 50%;
     .modal-content {
       width: 100%;
-      height: 97vh;
+      //max-height: 97vh;
       button.close {
         position: absolute;
         top: 1.5rem;
         right: 2rem;
+        font-size: 3.6rem;
       }
       .details {
         width: auto;
         // height: 70vh;
         img {
-          width: 550px;
+          width: 100%;
           height: auto;
         }
-        figcaption a::after {
-          content: "";
-          background-image: url(/images/download-arrow.svg);
-          display: inline-block;
-          width: 14px;
-          height: 10px;
-          background-size: 14px 10px;
-          background-repeat: no-repeat;
-          background-position: bottom;
-          margin-left: .8rem;
+        figcaption {
+          font-family: $font-family-base;
+          font-size: 1.6rem;
+          @include media-breakpoint-up(md) {
+            font-size: 1.8rem;
+          }
+          line-height: 2.6rem;
+          margin-bottom: 1.6rem;
+          @include media-breakpoint-up(md) {
+            margin-bottom: 2.4rem;
+          }
+          color: $dnd-navy;
         }
+        figcaption a:after {
+          content: "";
+          @include media-breakpoint-up(md) {
+            background-image: url(/images/download-arrow.svg);
+            display: inline-block;
+            width: 28px;
+            height: 20px;
+            background-size: 18px 14px;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            margin-left: .8rem;
+          }
+        }
+      }
+      .modal-nav-container {
+        
+        @include media-breakpoint-up(md) {
+          position: absolute;
+          top: 44%;
+        }
+        width: 100%;
       }
       .modal-nav {
         margin-bottom: 3.2rem;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        @include media-breakpoint-up(md) {
+          justify-content: space-between;
+        }
         button,
         span {
           // font-family: $sharpgrotesk-med-15;
@@ -2956,32 +2994,52 @@ body.comparing-and-calculating-your-student-loan-debt {
           background-color: transparent;
         }
         button {
-          &.next::after {
-            content: "";
-            background-image: url(/images/right-arrow.svg);
+          &.next {
+            //content: "";
+            background-image: url(/images/right-arrow2.svg);
             display: inline-block;
-            width: 14px;
-            height: 10px;
-            background-size: 14px 10px;
+            background-color: #fff;
+            width: 28px;
+            height: 28px;
+            margin-left: 12px;
+            @include media-breakpoint-up(md) {
+              width: 38px;
+              height: 38px;
+              background-size: 28px 20px;
+              margin-left: 0px;
+            }
             background-repeat: no-repeat;
-            background-position: bottom;
-            margin-left: .8rem;
+            background-position: center;
+            /* margin-left: .8rem; */
+            cursor: pointer;
+            border: 1px solid #525252;
+            border-radius: 50%;
           }
-          &.prev:before {
-            content: "";
-            background-image: url(/images/right-arrow.svg);
+          &.prev {
+            //content: "";
+            background-image: url(/images/right-arrow2.svg);
             display: inline-block;
-            width: 14px;
-            height: 10px;
-            background-size: 14px 10px;
+            width: 28px;
+            height: 28px;
+            margin-right: 12px;
+            @include media-breakpoint-up(md) {
+              width: 38px;
+              height: 38px;
+              background-size: 28px 20px;
+              margin-left: 0px;
+            }
+            background-color: #fff;
             background-repeat: no-repeat;
-            background-position: bottom;
+            background-position: center;
             -webkit-transform: rotate(180deg);
             -moz-transform: rotate(180deg);
             -ms-transform: rotate(180deg);
             -o-transform: rotate(180deg);
             transform: rotate(180deg);
             margin-right: .8rem;
+            cursor: pointer;
+            border: 1px solid #525252;
+            border-radius: 50%;
           }
           &:hover {
             text-decoration: underline;
@@ -2989,7 +3047,8 @@ body.comparing-and-calculating-your-student-loan-debt {
           }
           &:disabled {
             // color: #979797;
-            opacity: .5;
+            cursor: initial;
+            opacity: .3;
             &:before {
               opacity: .5;
             }
@@ -2997,7 +3056,7 @@ body.comparing-and-calculating-your-student-loan-debt {
               opacity: .5;
             }
             &:hover {
-              opacity: .5;
+              opacity: .3;
               color: #979797;
               text-decoration: none;
             }
