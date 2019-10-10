@@ -13041,6 +13041,31 @@ h3.who-we-are,
   min-height: 168px;
 }
 
+.row.news-banner h3 {
+  font-family: "brandon-grotesque", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-size: 28px;
+  font-weight: 700;
+  color: #0A3D5F;
+}
+
+.row.news-banner span {
+  font-family: "adobe-caslon-pro", "Crimson Text", serif;
+  font-size: 18px;
+  color: #0A3D5F;
+}
+
+.row.news-banner span#banner-subheading {
+  font-family: "brandon-grotesque", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-size: 24px;
+  font-weight: 700;
+  color: #0A3D5F;
+  text-align: left;
+  display: block;
+  margin-top: 0.8rem;
+  margin-bottom: 0.4rem;
+  line-height: 127%;
+}
+
 .row.news-banner .flex-parent {
   background-color: #C9E9EA;
   justify-content: center;

@@ -45,8 +45,9 @@
         // console.log('updateModal.update()');
         var $target = $(this.allImgs[this.activeImg]);
         var _src = $target.attr('data-img');
+        var _full_src = $target.attr('data-fullimg');
         $('#dndModal #modalImg').attr('src', _src);
-        $('#dndModal #modalCaption a').attr('href', _src);
+        $('#dndModal #modalCaption a').attr('href', _full_src);
         $('#dndModal').modal('show');
         // Check first and last position, disable buttons
         if (this.activeImg <= 0) {

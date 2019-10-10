@@ -55,6 +55,18 @@
         <!--<a href="{{ .Page.Params.news_banner_link }}" class="flex-child arrow" aria-label="Go to News" tabindex="0"></a>-->
       </div>
   </div>
+  <div class="row content news-banner mt-4 mb-8">
+    {{ range .Site.Data.teasers.content.teasercontent }}
+      <div class="col-md-6 mx-auto px-2 px-md-4 pb-4 text-center" style="background-color: #C9E9EA;">
+        <div class="col-7 col-lg-6 col-xl-5 mx-auto mt-4 mb-0"><img class="mw-100" src="{{ .image }}" /></div>
+        <h3 class="text-uppercase mt-3 mb-2">{{ .heading }}</h3>
+        <span>{{ .body }}</span>
+        <div class="col-12 mt-2">
+          <a class="btn btn-custom" href="/projects/student-debt-calculator/" tabindex="0" aria-label="Go to calculator">GO</a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
 
 
 <div class="row news-blocks">
