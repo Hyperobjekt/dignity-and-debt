@@ -12271,6 +12271,10 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.kind-home .container.parent {
+  overflow: hidden;
+}
+
 h1 {
   font-family: "brandon-grotesque", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-weight: 700;
@@ -12903,17 +12907,8 @@ body.home .col-intro {
 }
 
 @media (min-width: 480px) {
-  body.home .col-intro {
-    left: 6rem;
-  }
   body.home .col-intro div.h2 {
     width: 43.1rem;
-  }
-}
-
-@media (min-width: 768px) {
-  body.home .col-intro {
-    left: 12rem;
   }
 }
 

@@ -21,6 +21,10 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.kind-home .container.parent {
+  overflow: hidden;
+}
+
 // Basic fonts and text styles
 h1 {
   font-family: $brandongrotesque-bold;
@@ -664,7 +668,7 @@ body.home {
 
   @include media-breakpoint-up(sm) {
     .col-intro {
-      left: 6rem;
+      //left: 6rem;
       div.h2 {
         width: 43.1rem;
       }
@@ -673,7 +677,7 @@ body.home {
 
   @include media-breakpoint-up(md) {
     .col-intro {
-      left: 12rem;
+      //left: 12rem;
     }
   }
 
