@@ -1,5 +1,18 @@
+header: Latest Updates
 teasercontent:
   - image: /uploads/loan-calc-crop-440.jpg
-    heading: Compare and Re-Calculate Your Own Student loan debt
-    body: Compare your total student debt with average totals among social groups in the US. Recalculate your student loan with changes you can make now. Learn how much you could save by refinancing or pay down your loan faster by paying a little more per month. 
-    button: GO
+    heading: 'Upcoming Meeting:'
+    body: '"Digging Out With Dignity: Solving the Student Debt Crisis and Honoring Meaning at the Margins" will consider what can be done about the costs of debt, and its significance for students and families.'
+    button: LEARN MORE
+    link: /meetings/
+  - image: /uploads/loan-calc-crop-440.jpg
+    heading: Student Debt and Racial Disparities
+    body: View a series of evocative original data visualizations exploring facets of student loan debt, created in homage to W.E.B. Du Bois. 
+    button: LEARN MORE
+    link: /projects/student-debt-racial-disparities/
+  - image: /uploads/loan-calc-crop-440.jpg
+    heading: Student Loan Debt Calculator
+    body: Use this interactive tool to calculate your student debt, compare it with various demographic groups, and explore options for refinancing. 
+    button: LEARN MORE   
+    link: /projects/student-debt-calculator/ 
+    

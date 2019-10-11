@@ -798,8 +798,23 @@ h3.who-we-are,
 
 // News banner
 .row.news-banner {
-  margin-top: 8.8rem;
-  min-height: 168px;
+  @include media-breakpoint-down(md) {
+    background-color: $dnd-aqua;
+    margin-left: 2.4rem !important;
+    margin-right: 2.4rem !important;
+  }
+  
+  /*.newsheader {
+    position: relative;
+    top: 7.2rem;
+    z-index: 1;
+  } */
+  .newsbox {
+   
+    @include media-breakpoint-up(mmd) {
+      //padding-top: 7.2rem;
+    }
+  }
 
   h3 {
     font-family: $brandongrotesque-bold;
