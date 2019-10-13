@@ -1,7 +1,9 @@
 ---
 url: projects/student-debt-racial-disparities
+#alias: projects/student-debt-racial-disparities
 title: Student Debt and Racial Disparities
 is_index: false
+type: projects
 description: >-
   The historian and sociologist W.E.B. DuBois believed that social science data
   should be evocative. In the 2018 essay collection W.E.B. Du Bois’s Data

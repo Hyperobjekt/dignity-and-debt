@@ -1,8 +1,35 @@
 {{ define "main" }}
 
-<h1>{{ .Title }}</h1>
-{{ .Content }}
+<div class="row breadcrumb-parent" aria-label="breadcrumb navigation" tabindex="0">
+  {{ partial "breadcrumb.html" . }}
+</div>
 
-<p style="color:red;">test single</p>
+<div class="row heading">
+  <h2 tabindex="0" class="col-md-8 offset-md-2">{{ .Title }}</h2>
+</div>
+
+{{ $projects_hero_img := strings.TrimPrefix "/uploads/" .Page.Params.hero_image }}
+{{ with $.Site.GetPage "page" "uploads/_index.md" }}
+{{ with .Resources.GetMatch $projects_hero_img }}
+{{$projects_hero := .Fill "1024x310 TopLeft"}}
+<div id="" class="jumbotron row" style="background-image: url('{{ $projects_hero.RelPermalink }}');">
+</div>
+{{ end }}
+{{ end }}
+
+{{ $projects_hero_img_fw := strings.TrimPrefix "/uploads/" .Page.Params.hero_image_fw }}
+{{ with $.Site.GetPage "page" "uploads/_index.md" }}
+{{ with .Resources.GetMatch $projects_hero_img_fw }}
+
+<div id="" class="jumbotron_fw row"><img src="{{ .RelPermalink }}">
+</div>
+{{ end }}
+{{ end }}
+
+<div class="row content">
+  <div class="col-md-8 offset-md-2">
+    {{ .Content }}
+  </div>
+</div>
 
 {{ end }}
