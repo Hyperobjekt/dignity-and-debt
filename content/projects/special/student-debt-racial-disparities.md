@@ -2,6 +2,8 @@
 url: projects/student-debt-racial-disparities
 #alias: projects/student-debt-racial-disparities
 title: Student Debt and Racial Disparities
+layout: special-project
+has_modal: true
 is_index: false
 type: projects
 description: >-

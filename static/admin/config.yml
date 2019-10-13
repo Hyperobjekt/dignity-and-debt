@@ -346,7 +346,7 @@ collections:
       - label: "Title"
         name: "title"
         widget: "string"
-      - {label: Layout, name: layout, widget: hidden. default: special-project}
+      - {label: Layout, name: layout, widget: hidden, default: special-project}
       - {label: Has Modal, name: has_modal, widget: hidden, default: true}
       - {label: "Is Index", name: "is_index", widget: "hidden", default: false}
       - {label: "Type", name: "type", widget: "hidden", default: "projects"}
