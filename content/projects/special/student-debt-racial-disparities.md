@@ -1,6 +1,5 @@
 ---
 url: projects/student-debt-racial-disparities
-#alias: projects/student-debt-racial-disparities
 title: Student Debt and Racial Disparities
 layout: special-project
 has_modal: true
@@ -19,7 +18,7 @@ date: '2019-10-08'
 link_out: true
 hero_image: /uploads/student_debt_page_hero-2.001.jpg
 alts:
-  hero_alt: The Problem of Colored Lines.
+  hero_alt: 'Student Debt and Racial Disparities: The Problem of Colored Lines.'
   hero_title: ''
 content1: >-
   The historian and sociologist W.E.B. DuBois believed that social science data
