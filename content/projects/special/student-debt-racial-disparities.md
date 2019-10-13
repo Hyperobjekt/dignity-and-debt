@@ -20,8 +20,6 @@ content1: >-
   <br>
   **Click the images below to view our original visualizations of student loan debt data, inspired by the visual style of W.E.B. Du Bois:**
 
-content2: >-
-
 vizimage: /uploads/loan-calc-crop-440.jpg
 content3: >-
   ### Compare and Re-Calculate Your Own Student loan debt
