@@ -36,14 +36,14 @@
   </div>
 </div>
 
-<div class="row content news-banner mt-8 mt-mmd-11 mb-8 mb-mmd-11 d-flex justify-content-center flex-wrap no-gutters px-8">
+<div class="row content news-banner mt-8 mt-mmd-10 mt-lg-11 mb-8 mb-mmd-11 pb-5 pb-md-0 d-flex justify-content-center flex-wrap no-gutters px-9">
    
       {{ with .Site.Data.teasers.content }}  
-        <div class="col-12 text-center text-uppercase newsheader mt-md-5 mb-md-0 mt-mmd-0 mb-mmd-5"><h3>{{ .header }}</h3></div>
+        <div class="col-12 text-center text-uppercase newsheader mt-5 mb-md-0 mt-mmd-0 mb-mmd-5"><h3>{{ .header }}</h3></div>
       {{ end }}  
       {{ range .Site.Data.teasers.content.teasercontent }}
-        <div class="col-12 col-md-6 col-mmd-4 px-2 px-md-4 pb-4 text-center newsbox" style="background-color: #C9E9EA;">
-          <div class="col-7 col-lg-7 col-xl-6 mx-auto mt-4 mb-0"><img class="mw-100" src="{{ .image }}" /></div>
+        <div class="col-12 col-md-6 col-mmd-4 px-2 px-md-4 pb-3 pb-md-6 pt-2 text-center newsbox" style="background-color: #C9E9EA;">
+          <div class="col-9 col-md-8 col-lg-7 col-xl-6 mx-auto mt-4 mb-0"><img class="mw-100" src="{{ .image }}" /></div>
           <h3 class="mt-3 mb-2">{{ .heading }}</h3>
           <span>{{ .body }}</span>
           <div class="col-12 mt-2 d-flex justify-content-center">
@@ -100,7 +100,7 @@
 
 </div>
 
-<div class="row sponsors flex-parent">
+<div class="row sponsors flex-parent pt-2 pb-4 pb-mmd-3 pb-mmd-5 pb-xl-6">
   <h3 class="" tabindex="0">In collaboration with</h3>
   <div class="w-100"></div>
   <div class="flex-parent">

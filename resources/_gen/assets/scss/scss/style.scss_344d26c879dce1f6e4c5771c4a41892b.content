@@ -13380,11 +13380,6 @@ h3.who-we-are,
   }
 }
 
-.row.sponsors {
-  padding-top: 6.4rem;
-  padding-bottom: 9.6rem;
-}
-
 .row.sponsors h3 {
   margin-top: 4.8rem;
   margin-bottom: 7.2rem;
