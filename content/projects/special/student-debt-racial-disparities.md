@@ -1,4 +1,5 @@
 ---
+url: projects/student-debt-racial-disparities
 title: Student Debt and Racial Disparities
 layout: special-project
 has_modal: true
