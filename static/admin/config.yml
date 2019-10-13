@@ -394,7 +394,7 @@ collections:
         name: "content3"
         widget: "markdown"
         buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]  
-      #- label: {"Teaser Box 1 Image", name: vizimage, widget: image, required: false}
+      - label: {"Teaser Box One Image", name: vizimage, widget: image, required: false}
                   
  
  
