@@ -373,7 +373,7 @@ collections:
         default: false
       - label: "Full Width Hero Image"
         name: "hero_image"
-        widget: "hero_image"
+        widget: "image"
         default: "/uploads/projects.png"
         required: false
         hint: 'Ideal dimensions: 2440 x 932'
