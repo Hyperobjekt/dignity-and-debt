@@ -1,9 +1,11 @@
 ---
 url: projects/student-debt-racial-disparities
+#alias: projects/student-debt-racial-disparities
 title: Student Debt and Racial Disparities
 layout: special-project
 has_modal: true
 is_index: false
+type: projects
 description: >-
   The historian and sociologist W.E.B. DuBois believed that social science data should be evocative. In the 2018 essay collection W.E.B. Du Bois’s Data Portraits: Visualizing Black America, architecture scholar Mabel O. Wilson describes how Du Bois used infographics and various artistic media to counter assertions by Georg Wilhelm Friedrich Hegel that Africans were “incapable of any development of culture” and that the black experience was characterized by “sensuous arbitrariness.”
 weight: 5
