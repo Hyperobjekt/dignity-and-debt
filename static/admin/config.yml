@@ -332,69 +332,7 @@ collections:
         widget: "markdown"
         buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]
 
-  # SPECIAL PROJECT ITEMS    
-  - label: "Special Projects"
-    name: "special_projects" # Used in routes, e.g., /admin/collections/blog
-    folder: "content/projects/special" # The path to the folder where the documents are stored
-    filter: {field: "is_index", value: false}
-    preview_path: projects/
-    create: false # Allow users to create new documents in this collection
-    #slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: URL, name: url, widget: hidden}
-      
-      - label: "Title"
-        name: "title"
-        widget: "string"
-
-      - {label: "Is Index", name: "is_index", widget: "hidden", default: false}
-      - {label: "Type", name: "type", widget: "hidden", default: "projects"}
-      
-      - label: "Description"
-        name: "description"
-        widget: "text"
-
-      - label: "Weight (lowest displayed first)"
-        name: "weight"
-        widget: "number"
-        default: 1
-        valueType: "int"
-        min: 1
-        step: 1
-
-      - label: "Publish Date"
-        name: "date"
-        required: false
-        widget: "datetime"
-
-      - label: "Links Out (from main projects page to individual page"
-        name: "link_out"
-        widget: "boolean"
-        default: false
-      - label: "Full Width Hero Image"
-        name: "hero_image"
-        widget: "hero_image"
-        default: "/uploads/projects.png"
-        required: false
-        hint: 'Ideal dimensions: 2440 x 932'
-        media_library:
-          config:
-            multiple: false  
-      - label: "Hero Image Alt Text and Title"
-        name: alts
-        widget: object
-        fields:
-          - {label: "Alt Text", name: hero_alt, widget: string, required: false}          
-          - {label: "Title", name: hero_title, widget: string, required: false}          
-      - label: "Body"
-        name: "content1"
-        widget: "markdown"
-        buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]
-      - label: "Teaser Box 1 Content"
-        name: "content3"
-        widget: "markdown"
-        buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]  
-      - label: {Teaser Box 1 Image, name: vizimage, widget: image, required: false}
+ 
                   
  
  
