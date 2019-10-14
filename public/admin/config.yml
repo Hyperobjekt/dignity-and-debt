@@ -45,6 +45,23 @@ collections:
             media_library:
               config:
                 multiple: false
+      
+      - label: "Homepage teaser"
+        name: homepage_teaser
+        file: "data/teasers/content.yaml" # The path to the folder where the documents are stored
+        extension: "yaml"
+        fields:
+          - {label: Header, name: header, widget: string}
+          - label: Teaser Boxes (Please limit to 3)
+            name: teasercontent
+            widget: list
+            fields:
+              - {label: "Item Heading", name: heading, widget: string}
+              - {label: "Thumbnail", name: image, widget: image, hint: "Aspect Ratio should be 4:3 and ideal dimensions are 440x330 pixels"} 
+              - {label: "Body Text", name: body, widget: string, hint: Please limit to 200 characters}
+              - {label: "Button Text", name: button, widget: string}
+              - {label: "Link", name: link, widget: string}   
+      
       # ABOUT PAGE - QA'D          
       - label: "About Page"
         preview_path: about/
@@ -331,6 +348,89 @@ collections:
         name: "body"
         widget: "markdown"
         buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]
+
+  # SPECIAL PROJECT ITEMS    
+  - label: "Special Projects"
+    name: "specialprojects" # Used in routes, e.g., /admin/collections/blog
+    # filter: {field: "is_index", value: false}
+    preview_path: projects/
+    create: false # Allow users to create new documents in this collection
+    #slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    files: 
+      - label: "Student Debt and Racial Disparities Content"
+        name: special_project_1_content
+        file: "content/projects/special/student-debt-racial-disparities.md" # The path to the folder where the documents are stored
+        extension: "md"
+        fields:
+          - {label: "URL", name: url, widget: hidden}
+          
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - {label: Layout, name: layout, widget: hidden, default: special-project}
+          - {label: Has Modal, name: has_modal, widget: hidden, default: true}
+          - {label: "Is Index", name: "is_index", widget: "hidden", default: false}
+          - {label: "Type", name: "type", widget: "hidden", default: "projects"}
+          
+          - label: "Description"
+            name: "description"
+            widget: "text"
+
+          - label: "Weight (lowest displayed first)"
+            name: "weight"
+            widget: "number"
+            default: 1
+            valueType: "int"
+            min: 1
+            step: 1
+
+          - label: "Publish Date"
+            name: "date"
+            required: false
+            widget: "datetime"
+
+          - label: "Links Out (from main projects page to individual page"
+            name: "link_out"
+            widget: "boolean"
+            default: false
+          - label: "Full Width Hero Image"
+            name: "hero_image"
+            widget: "image"
+            default: "/uploads/projects.png"
+            required: false
+            hint: 'Ideal dimensions: 2440 x 932'
+            media_library:
+              config:
+                multiple: false  
+          - label: "Hero Image Alt Text and Title"
+            name: alts
+            widget: object
+            fields:
+              - {label: "Alt Text", name: hero_alt, widget: string, required: false}          
+              - {label: "Title", name: hero_title, widget: string, required: false}          
+          - label: "Body"
+            name: "content1"
+            widget: "markdown"
+            buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]
+          - {label: "Teaser Box Heading", name: heading3, widget: string, required: false}
+          - label: "Teaser Box 1 Content"
+            name: "content3"
+            widget: "markdown"
+            buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]
+            required: false  
+          - {label: "Teaser Box One Image", name: vizimage, widget: image, required: false}
+      - label: "Student Debt and Racial Disparities Images"
+        name: special_project_1_images
+        file: "data/studentdebt/images.yaml" # The path to the folder where the documents are stored
+        extension: "yaml"
+        fields:
+          - label: Images
+            name: images
+            widget: list
+            fields:
+              - {label: "Thumbnail", name: thumb, widget: image}
+              - {label: "Carousel Image", name: image, widget: image} 
+              - {label: "Full Image", name: fullimage, widget: image}                 
  
  
   # NEWS ITEMS QA'D not tested   
