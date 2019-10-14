@@ -3,23 +3,22 @@ title: Student Loan Debt and Racial Disparities
 is_index: false
 type: projects
 description: >-
-  The Dignity + Debt Network is organizing a number of activities that explore
-  the issues and solutions for student debt traps. These include the "Digging
-  out With Dignity" conference at Princeton University, co-presented with the
-  Aspen Insitute's Financial Security Program. Our data visualization contest
-  also launches at this meeting.  
+  The Dignity + Debt Network is working on a number of fronts to explore issues
+  and solutions for student loan debt traps. These include the "Digging out With
+  Dignity" conference at Princeton University, co-presented with the Aspen
+  Insitute's Financial Security Program (October 18, 2019). 
 
 
   Our "Problem of Colored Lines" gallery is a collaboration between the Dignity
   + Debt Network and the VizE Lab intended to promote data visualization as a
   medium for depicting racial disparities in student borrowing and repayment,
-  and for rendering data meaningful. Taking inspiration from the charts and maps
-  created by sociologist W.E.B Du Bois depicting wealth disparities between
-  blacks and whites, we seek to chart the color lines and social complexities in
-  the urgent  issue of student debt. Finally, with our interactive debt and
-  repayment visualization, users can compare their own student debt with several
-  US groups and explore ways to reduce their total payments and time to
-  payoff.  
+  and for rendering data meaningful to wider publics. Taking inspiration from
+  the charts and maps created by sociologist W.E.B Du Bois depicting wealth
+  disparities between blacks and whites, we seek to chart the color lines and
+  social complexities in the urgent issue of student debt. Finally, with our
+  interactive debt and repayment visualization, users can compare their own
+  student debt with several US groups and explore ways to reduce their total
+  payments and time to payoff.  
 weight: 1
 date: 2019-09-24T16:23:03.458Z
 link_out: true
