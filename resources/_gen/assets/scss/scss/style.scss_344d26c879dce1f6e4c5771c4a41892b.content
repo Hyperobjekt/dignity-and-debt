@@ -15226,7 +15226,12 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
   max-height: 90%;
   max-height: 90vh;
   min-width: 50%;
-  max-width: 90%;
+}
+
+@media (min-width: 768px) {
+  .modal .modal-dialog {
+    max-width: 90%;
+  }
 }
 
 .modal .modal-dialog .modal-content {
