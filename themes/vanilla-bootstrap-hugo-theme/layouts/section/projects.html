@@ -22,7 +22,7 @@
   <div class="row projects-page projects project">
     <h2 tabindex="0" class=" col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-10 offset-sm-1">{{ .Title }}</h2>
     <div class="desc col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-10 offset-sm-1" tabindex="0">
-      {{ .Params.description | safeHTML }}
+      {{ .Params.description | markdownify | safeHTML }}
     </div>
     
       <div class="morelink-parent col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
