@@ -12386,7 +12386,7 @@ button.navbar-toggler {
 
 .breadcrumb-parent {
   background-color: #f6f9f9;
-  height: 64px;
+  min-height: 64px;
 }
 
 .breadcrumb-parent .breadcrumb {
@@ -12404,7 +12404,8 @@ button.navbar-toggler {
 
 @media (max-width: 767.98px) {
   .breadcrumb-parent .breadcrumb {
-    padding-left: 1.6rem;
+    padding: 0 2.4rem;
+    margin: 1.6rem 0;
   }
 }
 
@@ -12450,6 +12451,13 @@ img.float-left {
 .newsletter-signup.row, .contact-wrapper.row {
   margin-left: 0;
   margin-right: 0;
+}
+
+@media (max-width: 767.98px) {
+  .newsletter-signup.row, .contact-wrapper.row {
+    padding-left: 9px;
+    padding-right: 9px;
+  }
 }
 
 .newsletter-signup .content-inner, .contact-wrapper .content-inner {
@@ -12944,8 +12952,8 @@ h3.who-we-are,
 }
 
 .container.parent > #main > .row.who-we-are {
-  margin-left: 1.6rem;
-  margin-right: 1.6rem;
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
   display: block;
 }
 
@@ -13154,8 +13162,8 @@ h3.who-we-are,
 @media (max-width: 1023.98px) {
   .row.biglinks .col {
     overflow: auto;
-    margin-left: 1.6rem;
-    margin-right: 1.6rem;
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
     flex-basis: unset;
     padding-left: 0;
     padding-right: 0;
@@ -13922,6 +13930,12 @@ body.type-projects.kind-section .row.projects-page > * {
   margin: auto;
 }
 
+@media (max-width: 767.98px) {
+  body.type-projects.kind-section .row.projects-page.projects.project {
+    padding: 0 9px;
+  }
+}
+
 body.type-projects.kind-section .row.jumbotron {
   height: 310px;
   background-repeat: no-repeat;
@@ -13946,14 +13960,15 @@ body.type-projects.kind-section .row h2 {
   font-family: "brandon-grotesque", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-weight: 700;
   font-size: 2.4rem;
+  line-height: 3.6rem;
   color: #003E62;
-  line-height: 4rem;
   text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
   body.type-projects.kind-section .row h2 {
     font-size: 3.2rem;
+    line-height: 4rem;
   }
 }
 
@@ -14037,6 +14052,7 @@ body.type-projects.kind-page .row h2 {
   body.type-projects.kind-page .row h2 {
     font-size: 2.8rem;
     margin-top: 4rem;
+    padding: 0 24px;
   }
 }
 
@@ -14102,6 +14118,12 @@ body.type-meetings.kind-section .row.jumbotron {
 @media (min-width: 1280px) {
   body.type-meetings.kind-section .row.jumbotron {
     height: 400px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body.type-meetings.kind-section .row.meetings {
+    padding: 0 9px;
   }
 }
 
