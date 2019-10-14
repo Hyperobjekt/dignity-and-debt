@@ -116235,12 +116235,12 @@ var src_AmountSaved = function AmountSaved(_ref5) {
         null,
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'td',
-          { className: 'th' },
+          { rowspan: '2', className: 'th' },
           label
         ),
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'td',
-          { className: 'amt' },
+          { rowspan: '2', className: 'amt' },
           amount
         )
       )
