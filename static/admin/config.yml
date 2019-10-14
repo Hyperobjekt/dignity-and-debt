@@ -52,12 +52,12 @@ collections:
         extension: "yaml"
         fields:
           - {label: Header, name: header, widget: string}
-          - label: Images
+          - label: Teaser Boxes
             name: teasercontent
             widget: list
             fields:
-              - {label: "Thumbnail", name: thumb, widget: image}
-              - {label: "Item Heading", name: heading, widget: string} 
+              - {label: "Item Heading", name: heading, widget: string}
+              - {label: "Thumbnail", name: image, widget: image} 
               - {label: "Body Text", name: body, widget: string, hint: Please limit to 240 characters}
               - {label: "Button Text", name: button, widget: string}
               - {label: "Link", name: link, widget: string}   
