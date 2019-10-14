@@ -116882,7 +116882,7 @@ var src_DndLoanDebt = function (_Component) {
         ),
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'div',
-          { id: 'spiralcontainer', className: 'offset-0 offset-md-1 col-12 offset-md-0 col-md-5' },
+          { id: 'spiralcontainer', className: 'offset-0 col-12 offset-md-0 col-md-5' },
           external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(src_Spiral, this.state)
         )
       ),
