@@ -116950,7 +116950,7 @@ var src_DndLoanDebt = function (_Component) {
         ),
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'div',
-          { className: 'offset-0 offset-md-2 col-12 col-md-4' },
+          { className: 'offset-0 offset-md-2 col-12 col-md-4 amount-owed-container' },
           external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(src_AmountSaved, {
             getCurrencyFormat: this.getCurrencyFormat,
             user: this.state.user,
