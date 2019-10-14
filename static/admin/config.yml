@@ -335,7 +335,7 @@ collections:
   # SPECIAL PROJECT ITEMS    
   - label: "Special Projects"
     name: "specialprojects" # Used in routes, e.g., /admin/collections/blog
-    filter: {field: "is_index", value: false}
+    # filter: {field: "is_index", value: false}
     preview_path: projects/
     create: false # Allow users to create new documents in this collection
     #slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
