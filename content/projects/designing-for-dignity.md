@@ -13,7 +13,7 @@ description: >-
   willingness to pursue full financial inclusion, and their financial
   well-being).  The project would also develop a small team of research fellows
   for ongoing computational analyses. (September 2018 to May 2020.)
-weight: 5
+weight: 50
 date: '2019-01-25'
 link_out: false
 hero_image: /uploads/projects.png
