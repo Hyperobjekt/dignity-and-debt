@@ -52,7 +52,7 @@ collections:
         extension: "yaml"
         fields:
           - {label: Header, name: header, widget: string}
-          - label: Teaser Boxes
+          - label: Teaser Boxes (Please limit to 3)
             name: teasercontent
             widget: list
             fields:
