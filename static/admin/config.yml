@@ -57,8 +57,8 @@ collections:
             widget: list
             fields:
               - {label: "Item Heading", name: heading, widget: string}
-              - {label: "Thumbnail", name: image, widget: image} 
-              - {label: "Body Text", name: body, widget: string, hint: Please limit to 240 characters}
+              - {label: "Thumbnail", name: image, widget: image, hint: "Aspect Ratio should be 4:3 and ideal dimensions are 440x330 pixels"} 
+              - {label: "Body Text", name: body, widget: string, hint: Please limit to 200 characters}
               - {label: "Button Text", name: button, widget: string}
               - {label: "Link", name: link, widget: string}   
       
