@@ -14868,6 +14868,9 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
+  #DndLoanDebt .timeline-table-legend .amount-owed-container {
+    margin-top: 0.8rem;
+  }
 }
 
 #DndLoanDebt .timeline-legend tr td.th {
