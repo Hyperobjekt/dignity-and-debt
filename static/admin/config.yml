@@ -339,10 +339,10 @@ collections:
     preview_path: projects/
     create: false # Allow users to create new documents in this collection
     #slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    files: # The fields for each document, usually in front matter
+    files: 
       - label: "Student Debt and Racial Disparities Content"
         name: special_project_1_content
-        file: "content/projects/special" # The path to the folder where the documents are stored
+        file: "content/projects/special/student-debt-racial-disparities.md" # The path to the folder where the documents are stored
         extension: "md"
         fields:
           - {label: "URL", name: url, widget: hidden}
