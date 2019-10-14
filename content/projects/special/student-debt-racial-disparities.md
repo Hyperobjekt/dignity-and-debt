@@ -58,7 +58,7 @@ content1: >-
 vizimage: /uploads/loan-calc-crop-440.jpg
 heading3: Compare and Re-Calculate Your Own Student loan debt
 content3: >-
-  Compare your total student debt with average totals among social groups in the US. Recalculate your student loan with changes you can make now. Learn how much you could save by refinancing or pay down your loan faster by paying a little more per month. 
+  Compare your total student loans with the average amounts among several social groups in the US. Recalculate your student loan with changes you can make now. Learn how much you could save by refinancing or pay down your loan faster by paying a little more per month. 
 
 ---
 
