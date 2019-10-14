@@ -45,6 +45,23 @@ collections:
             media_library:
               config:
                 multiple: false
+      
+      - label: "Homepage teaser"
+        name: homepage_teaser
+        file: "data/teasers/content.yaml" # The path to the folder where the documents are stored
+        extension: "yaml"
+        fields:
+          - {label: Header, name: header, widget: string}
+          - label: Images
+            name: teasercontent
+            widget: list
+            fields:
+              - {label: "Thumbnail", name: thumb, widget: image}
+              - {label: "Item Heading", name: heading, widget: string} 
+              - {label: "Body Text", name: body, widget: string, hint: Please limit to 240 characters}
+              - {label: "Button Text", name: button, widget: string}
+              - {label: "Link", name: link, widget: string}   
+      
       # ABOUT PAGE - QA'D          
       - label: "About Page"
         preview_path: about/
