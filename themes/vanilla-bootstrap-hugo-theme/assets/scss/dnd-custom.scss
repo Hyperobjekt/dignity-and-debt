@@ -2370,11 +2370,19 @@ body.comparing-and-calculating-your-student-loan-debt {
       font-size: 4rem;
       line-height: 4rem;
       padding-bottom: 1.6rem;
+      @include media-breakpoint-down(sm) {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+      }
     }
     p {
       font-family: $stack-b52;
       font-size: 1.8rem;
       line-height: 2.7rem;
+      @include media-breakpoint-down(sm) {
+        text-align: center;
+      }
     }
     .label {
       font-size: 1.2rem;
@@ -2425,6 +2433,9 @@ body.comparing-and-calculating-your-student-loan-debt {
     background-color: #f9f5e8;
     background-color: $app-background4;
     background-image: url("/images/light-paper-fibers.png");
+    @include media-breakpoint-down(sm) {
+      padding: 0 9px;
+    }
   }
   #spiralcontainer {
     padding: 0 !important;
@@ -2438,6 +2449,9 @@ body.comparing-and-calculating-your-student-loan-debt {
       padding-top: 6rem;
     }
     width: 90%;
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+    }
     margin-left: auto;
     margin-right: auto;
     svg {
