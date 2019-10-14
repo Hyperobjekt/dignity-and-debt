@@ -52,15 +52,13 @@ content1: >-
   these possible futures in the coming year. Stay tuned.
 
 
-  <br> **Click the images below to view our original visualizations of student
-  loan debt data, inspired by the visual style of W.E.B. Du Bois:**
-content3: >-
-  ### Compare and Re-Calculate Your Own Student loan debt
+  <br>
+  **Click the images below to view our original visualizations of student loan debt data, inspired by the visual style of W.E.B. Du Bois:**
 
-  Compare your total student debt with average totals among social groups in the
-  US. Recalculate your student loan with changes you can make now. Learn how
-  much you could save by refinancing or pay down your loan faster by paying a
-  little more per month. 
 vizimage: /uploads/loan-calc-crop-440.jpg
+heading3: Compare and Re-Calculate Your Own Student loan debt
+content3: >-
+  Compare your total student debt with average totals among social groups in the US. Recalculate your student loan with changes you can make now. Learn how much you could save by refinancing or pay down your loan faster by paying a little more per month. 
+
 ---
 
