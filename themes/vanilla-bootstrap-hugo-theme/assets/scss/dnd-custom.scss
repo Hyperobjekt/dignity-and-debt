@@ -149,7 +149,7 @@ button.navbar-toggler {
   background-color: #f6f9f9;
   // background-color: #0A3D5F;
   // background-color: #DBE0E4;
-  height: 64px;
+  min-height: 64px;
 
   .breadcrumb {
     font-family: $brandongrotesque-med;
@@ -160,7 +160,8 @@ button.navbar-toggler {
     text-decoration: none;
     padding-left: 3.6rem;
     @include media-breakpoint-down(sm) {
-      padding-left: 1.6rem;
+      padding: 0 2.4rem;
+      margin: 1.6rem 0;
     }
     padding-top: 0;
     padding-bottom: 0;
@@ -215,6 +216,10 @@ img {
     &.row {
       margin-left: 0;
       margin-right: 0;
+      @include media-breakpoint-down(sm) {
+        padding-left: 9px;
+        padding-right: 9px;
+      }
     }
   .content-inner {
 
@@ -711,8 +716,8 @@ h3.who-we-are,
 }
 
 .container.parent > #main > .row.who-we-are {
-  margin-left: 1.6rem;
-  margin-right: 1.6rem;
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
   display: block;
 
 
@@ -920,8 +925,8 @@ h3.who-we-are,
   .col {
     @include media-breakpoint-down(md) {
       overflow: auto;
-      margin-left: 1.6rem;
-      margin-right: 1.6rem;
+      margin-left: 2.4rem;
+      margin-right: 2.4rem;
       flex-basis: unset;
       padding-left: 0;
       padding-right: 0;
@@ -1650,6 +1655,11 @@ body.type-projects.kind-section {
     max-width: 840px;
     margin: auto;
   }
+  .row.projects-page.projects.project {
+    @include media-breakpoint-down(sm) {
+      padding: 0 9px;
+    }
+  }
   .row {
     &.jumbotron {
       height: 310px;
@@ -1675,11 +1685,12 @@ body.type-projects.kind-section {
       font-family: $brandongrotesque-bold;
       font-weight: 700;
       font-size: 2.4rem;
+      line-height: 3.6rem;
           @include media-breakpoint-up(md) {
             font-size: 3.2rem;
+            line-height: 4rem;
           }
       color: $dnd-navy;
-      line-height: 4rem;
       text-transform: uppercase;
       &:after {
         content: "";
@@ -1757,6 +1768,7 @@ body.type-projects {
         @include media-breakpoint-down(sm) {
           font-size: 2.8rem;
           margin-top: 4rem;
+          padding: 0 24px;
         }
       }
       &.content {
@@ -1819,7 +1831,13 @@ body.type-meetings.kind-section {
         height: 400px;
       }
     }
+    &.meetings {
+      @include media-breakpoint-down(sm) {
+        padding: 0 9px;
+      }
+    }
   }
+  
 }
 
 .news-banner {
