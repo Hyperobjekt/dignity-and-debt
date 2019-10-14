@@ -7,14 +7,10 @@ has_modal: true
 is_index: false
 type: projects
 description: >-
-<<<<<<< Updated upstream
-  The historian and sociologist W.E.B. DuBois believed that social science data should be evocative. In the 2018 essay collection W.E.B. Du Bois’s Data Portraits: Visualizing Black America, architecture scholar Mabel O. Wilson describes how Du Bois used infographics and various artistic media to counter assertions by Georg Wilhelm Friedrich Hegel that Africans were “incapable of any development of culture” and that the black experience was characterized by “sensuous arbitrariness.”
-=======
   The Dignity + Debt Network is working on a number of fronts to explore issues and solutions for student loan debt traps. These include the “Digging out With Dignity” conference at Princeton University, co-presented with the Aspen Insitute’s Financial Security Program (October 18, 2019).
 
 
   Our “Problem of Colored Lines” gallery is a collaboration between the Dignity + Debt Network and the VizE Lab intended to promote data visualization as a medium for depicting racial disparities in student borrowing and repayment, and for rendering data meaningful to wider publics. Taking inspiration from the charts and maps created by sociologist W.E.B Du Bois depicting wealth disparities between blacks and whites, we seek to chart the color lines and social complexities in the urgent issue of student debt. Finally, with our interactive debt and repayment visualization, users can compare their own student debt with several US groups and explore ways to reduce their total payments and time to payoff.
->>>>>>> Stashed changes
 weight: 5
 date: '2019-10-08'
 link_out: true
