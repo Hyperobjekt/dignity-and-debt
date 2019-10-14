@@ -2434,7 +2434,8 @@ body.comparing-and-calculating-your-student-loan-debt {
     background-color: $app-background4;
     background-image: url("/images/light-paper-fibers.png");
     @include media-breakpoint-down(sm) {
-      padding: 0 9px;
+      padding-left: 9px;
+      padding-right: 9px;
     }
   }
   #spiralcontainer {

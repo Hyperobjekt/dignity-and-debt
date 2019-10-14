@@ -115360,7 +115360,7 @@ var LoanForm_LoanForm = function LoanForm(_ref) {
     { className: 'row timeline-form' },
     external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
       'div',
-      { className: 'offset-2 col-8 col-md-4 offset-md-1' },
+      { className: 'offset-1 col-10 col-md-4 offset-md-1' },
       external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
         'form',
         { noValidate: true, onSubmit: function onSubmit(e) {
@@ -115413,10 +115413,10 @@ var LoanForm_LoanForm = function LoanForm(_ref) {
         )
       )
     ),
-    external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement('div', { className: 'offset-2 col-8 col-md-4 offset-md-1' }),
+    external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement('div', { className: 'offset-1 col-10 col-md-4 offset-md-1' }),
     external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
       'div',
-      { className: 'offset-2 col-8 col-md-4 offset-md-1 orig-loan-details' },
+      { className: 'offset-1 col-10 col-md-4 offset-md-1 orig-loan-details' },
       external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
         'form',
         null,
@@ -115514,7 +115514,7 @@ var LoanForm_LoanForm = function LoanForm(_ref) {
     ),
     external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
       'div',
-      { className: 'offset-2 col-8 col-md-4 offset-md-1 orig-loan-details' },
+      { className: 'offset-1 col-10 col-md-4 offset-md-1 orig-loan-details' },
       external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
         'form',
         null,
@@ -116943,7 +116943,7 @@ var src_DndLoanDebt = function (_Component) {
         { className: 'row timeline-table-legend' },
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
           'div',
-          { className: 'offset-0 offset-md-2 col-12 col-md-4' },
+          { className: 'offset-0 offset-md-1 offset-mmd-2 col-12 col-md-4' },
           external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(src_TimelineLegend, {
             strings: this.state.strings
           })

@@ -14723,7 +14723,8 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
 
 @media (max-width: 767.98px) {
   #DndLoanDebt .row {
-    padding: 0 9px;
+    padding-left: 9px;
+    padding-right: 9px;
   }
 }
 
