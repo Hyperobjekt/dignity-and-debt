@@ -1,18 +1,24 @@
 header: Latest Updates
 teasercontent:
-  - image: /uploads/digging-out-conf2-teaser.jpg
+  - body: >-
+      "Digging Out With Dignity: Solving the Student Debt Crisis and Honoring
+      Meaning at the Margins" will consider what can be done about the costs of
+      debt, and its significance for students and families.
+    button: LEARN MORE
     heading: 'Upcoming Meeting:'
-    body: '"Digging Out With Dignity: Solving the Student Debt Crisis and Honoring Meaning at the Margins" will consider what can be done about the costs of debt, and its significance for students and families.'
-    button: LEARN MORE
+    image: /uploads/digging-out-conf2-teaser.jpg
     link: /meetings/
-  - image: /uploads/04-Student-debt-and-defaults-teaser.jpg
-    heading: Student Debt and Racial Disparities
-    body: View a series of evocative original data visualizations exploring facets of student loan debt, created in homage to W.E.B. Du Bois. 
+  - body: >-
+      View a series of evocative original data visualizations exploring facets
+      of student loan debt, created in homage to W.E.B. Du Bois.
     button: LEARN MORE
+    heading: Student Debt and Racial Disparities
+    image: /uploads/04-student-debt-and-defaults-teaser2.png
     link: /projects/student-debt-racial-disparities/
-  - image: /uploads/loan-calc-crop-440.jpg
+  - body: >-
+      Use this interactive tool to calculate your student debt, compare it with
+      various demographic groups, and explore options for refinancing.
+    button: LEARN MORE
     heading: Student Loan Debt Calculator
-    body: Use this interactive tool to calculate your student debt, compare it with various demographic groups, and explore options for refinancing. 
-    button: LEARN MORE   
-    link: /projects/student-debt-calculator/ 
-    
+    image: /uploads/loan-calc-crop-440.jpg
+    link: /projects/student-debt-calculator/
