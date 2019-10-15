@@ -28,8 +28,8 @@ alts:
   hero_alt: 'Student Debt and Racial Disparities: The Problem of Colored Lines'
 content1: >-
   The historian and sociologist W.E.B. DuBois believed that social science data
-  should be evocative. In the 2018 essay collection W.E.B. Du Bois’s Data
-  Portraits: Visualizing Black America, architecture scholar Mabel O. Wilson
+  should be evocative. In the 2018 essay collection _W.E.B. Du Bois’s Data
+  Portraits: Visualizing Black America_, architecture scholar Mabel O. Wilson
   describes how Du Bois used infographics and various artistic media to counter
   assertions by Georg Wilhelm Friedrich Hegel that Africans were “incapable of
   any development of culture” and that the black experience was characterized by
@@ -39,23 +39,26 @@ content1: >-
   and their modular style predated “the rise of dominant European avant-garde
   movements... considered to have their origins in Russian constructivism, De
   Stijl, and Italian futurism.” Du Bois’s charts are both scientific and
-  evocative; they draw in viewers to study them, raise new questions, and to
-  provoke action.
+  evocative. And they are provocative. They draw in viewers to study them, to
+  make new insights, to raise new questions, and to take positive action.
 
 
-  If Du Bois were working the urgent issue of student loan indebtedness today,
-  he would find that the problem of the color-line endures across the globe, and
-  that other social cleavages help predict how debts are arranged and affect
-  whether groups of people are allowed to carry it with dignity. Inspired by Du
-  Bois, The Dignity and Debt Network is adopting the style of Du Bois to convey
-  some of the contemporary research on how color-lines organize data on student
-  loan debt. We also depict the wider social complexity of debt traps that shape
-  the ability of college graduates to repay their loans. As we add to this
-  series, we seek to produce a new set of public goods. These data
-  visualizations can reveal structural areas where policy changes can be made.
-  And they chart how dignity, respect, and autonomy can guide meaningful
-  financial inclusion across the globe. We will be featuring visualizations of
-  these possible futures in the coming year. Stay tuned.
+  If Du Bois were working today on the urgent issue of student loan
+  indebtedness, he would find that, in the phrase he used, **"the problem of the
+  color line"** endures across the globe, and that other social cleavages help
+  predict how debts are arranged and affect whether groups of people are allowed
+  to carry it with dignity. Inspired by Du Bois, The Dignity and Debt Network
+  and the [**VizE Lab**](vizelab.princeton.edu) at Princeton adopting the style
+  of Du Bois in a growing series of charts that convey some of the contemporary
+  research on how color-lines organize data on student loan debt. Taken
+  together, the series also depict the wider webs of structures, meanings, and
+  values that shape the uneven circumstances with which college students and
+  families take on educational debt, and the ability of graduates to repay them.
+  As we add to this series, we seek to produce a new set of public goods that
+  can reveal areas where policy changes can be made. And they chart how dignity,
+  respect, and autonomy can guide meaningful financial and educational inclusion
+  around the globe. We will be featuring visualizations of these possible
+  futures in the coming year. Stay tuned.
 
 
   <br> **Click the images below to view our original visualizations of student
