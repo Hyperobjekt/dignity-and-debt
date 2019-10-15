@@ -55,10 +55,9 @@ collections:
           - label: Teaser Boxes (Please limit to 3)
             name: teasercontent
             widget: list
-            hint: Drag to reorder.
             fields:
               - {label: "Item Heading", name: heading, widget: string}
-              - {label: "Thumbnail", name: image, widget: image, hint: "Aspect Ratio should be 4:3 and ideal dimensions are 440x330 pixels. Filetype: jpeg, no compression necessary."} 
+              - {label: "Thumbnail", name: image, widget: image, hint: "Aspect Ratio should be 4:3 and ideal dimensions are 440x330 pixels"} 
               - {label: "Body Text", name: body, widget: string, hint: Please limit to 200 characters}
               - {label: "Button Text", name: button, widget: string}
               - {label: "Link", name: link, widget: string}   
@@ -309,8 +308,6 @@ collections:
 
       - {label: "Is Index", name: "is_index", widget: "hidden", default: false}
       - {label: "Type", name: "type", widget: "hidden", default: "projects"}
-      - {label: "Social Media Image", name: "social_image", widget: "image", required: false, hint: "Dimensions: 1200x675. No compression required"}
-      - {label: "Social Media Description", name: "social_description", widget: "string", required: false, hint: "Best kept short & sweet!"}
       
       - label: "Description"
         name: "description"
@@ -373,8 +370,6 @@ collections:
           - {label: Layout, name: layout, widget: hidden, default: special-project}
           - {label: Has Modal, name: has_modal, widget: hidden, default: true}
           - {label: "Is Index", name: "is_index", widget: "hidden", default: false}
-          - {label: "Social Media Image", name: "social_image", widget: "image", required: false, hint: "Dimensions: 1200x675. No compression required"}
-          - {label: "Social Media Description", name: "social_description", widget: "string", required: false, hint: "Best kept short & sweet!"}
           - {label: "Type", name: "type", widget: "hidden", default: "projects"}
           
           - label: "Description"
@@ -432,14 +427,13 @@ collections:
           - label: Images
             name: images
             widget: list
-            hint: drag to reorder
             fields:
-              - {label: "Thumbnail", name: thumb, widget: image, hint: "Ideal width: 880 pixels. Filetype: jpeg, no compression necessary."}
-              - {label: "Carousel Image", name: image, widget: image, hint: "Ideal width: 1760 pixels. Filetype: Jpeg, compression: 60 (or 6)." } 
-              - {label: "Full Image for Download", name: fullimage, widget: image, hint: "Dimensions can be anything, since these are download-only."}                 
+              - {label: "Thumbnail", name: thumb, widget: image}
+              - {label: "Carousel Image", name: image, widget: image} 
+              - {label: "Full Image", name: fullimage, widget: image}                 
  
  
-  # NEWS ITEMS 
+  # NEWS ITEMS QA'D not tested   
   - label: "News Items"
     name: "news"
     folder: "content/news" # The path to the folder where the documents are stored
