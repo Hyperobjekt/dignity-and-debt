@@ -1,25 +1,25 @@
 images:
-  - thumb: /uploads/01-Access-to-higher-ed-sm.jpg
+  - fullimage: /uploads/01-Access to higher ed.png
     image: /uploads/01-Access to higher ed-med.jpg
-    fullimage: /uploads/01-Access to higher ed.png
-  - thumb: /uploads/02-Average-racial-disparities-sm.jpg
+    thumb: /uploads/01-Access-to-higher-ed-sm.jpg
+  - fullimage: /uploads/02-Average racial disparities.png
     image: /uploads/02-Average racial disparities-med.jpg
-    fullimage: /uploads/02-Average racial disparities.png
-  - thumb: /uploads/03-Expanding-racial-wealth-gap-sm.jpg
+    thumb: /uploads/02-Average-racial-disparities-sm.jpg
+  - fullimage: /uploads/03-Expanding racial wealth gap.png
     image: /uploads/03-Expanding racial wealth gap-med.jpg
-    fullimage: /uploads/03-Expanding racial wealth gap.png
-  - thumb: /uploads/04-Student-debt-and-defaults-sm.jpg
+    thumb: /uploads/03-Expanding-racial-wealth-gap-sm.jpg
+  - fullimage: /uploads/04-Student debt and defaults.png
     image: /uploads/04-Student debt and defaults-med.jpg
-    fullimage: /uploads/04-Student debt and defaults.png
-  - thumb: /uploads/05-Credit-rating-disparities-in-US-sm.jpg
-    image: /uploads/05-Credit rating disparities in US-med.jpg
-    fullimage: /uploads/05-Credit rating disparities in US.png
-  - thumb: /uploads/06-For-Profit-Ed-and-Loans-sm.jpg
+    thumb: /uploads/04-Student-debt-and-defaults-sm.jpg
+  - fullimage: /uploads/05-credit-rating-disparities-in-us-2.jpg
+    image: /uploads/05-credit-rating-disparities-in-us-2-med.jpeg
+    thumb: /uploads/05-credit-rating-disparities-in-us-2-sm.jpg
+  - fullimage: /uploads/06-For-Profit Ed and Loans.png
     image: /uploads/06-For-Profit Ed and Loans-med.jpg
-    fullimage: /uploads/06-For-Profit Ed and Loans.png
-  - thumb: /uploads/07-Value-of-debt-on-self-concept-sm.jpg
+    thumb: /uploads/06-For-Profit-Ed-and-Loans-sm.jpg
+  - fullimage: /uploads/07-Value of debt on self-concept.png
     image: /uploads/07-Value of debt on self-concept-med.jpg
-    fullimage: /uploads/07-Value of debt on self-concept.png
-  - thumb: /uploads/08-Employer-selectivity-sm.jpg
+    thumb: /uploads/07-Value-of-debt-on-self-concept-sm.jpg
+  - fullimage: /uploads/08-Employer selectivity.png
     image: /uploads/08-Employer selectivity-med.jpg
-    fullimage: /uploads/08-Employer selectivity.png
+    thumb: /uploads/08-Employer-selectivity-sm.jpg
