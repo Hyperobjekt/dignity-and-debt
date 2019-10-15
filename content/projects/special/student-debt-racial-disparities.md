@@ -44,8 +44,8 @@ content1: >-
 
 
   If Du Bois were working today on the urgent issue of student loan
-  indebtedness, he would find that what he phrased as **_"the problem of the
-  color line"_** endures across the globe, and that other social cleavages help
+  indebtedness, he would find that, in the phrase he used, **"the problem of the
+  color line"** endures across the globe, and that other social cleavages help
   predict how debts are arranged and affect whether groups of people are allowed
   to carry it with dignity. Inspired by Du Bois, The Dignity and Debt Network
   and the [**VizE Lab**](vizelab.princeton.edu) at Princeton adopting the style
