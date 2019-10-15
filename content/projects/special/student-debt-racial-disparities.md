@@ -48,11 +48,11 @@ content1: >-
   color line"** endures across the globe, and that other social cleavages help
   predict how debts are arranged and affect whether groups of people are allowed
   to carry it with dignity. Inspired by Du Bois, The Dignity and Debt Network
-  and the [**VizE Lab**](vizelab.princeton.edu) at Princeton adopting the style
-  of Du Bois in a growing series of charts that convey some of the contemporary
-  research on how color-lines organize data on student loan debt. Taken
-  together, the series also depict the wider webs of structures, meanings, and
-  values that shape the uneven circumstances with which college students and
+  and the [**VizE Lab**](https://vizelab.princeton.edu) at Princeton adopting
+  the style of Du Bois in a growing series of charts that convey some of the
+  contemporary research on how color-lines organize data on student loan debt.
+  Taken together, the series also depict the wider webs of structures, meanings,
+  and values that shape the uneven circumstances with which college students and
   families take on educational debt, and the ability of graduates to repay them.
   As we add to this series, we seek to produce a new set of public goods that
   can reveal areas where policy changes can be made. And they chart how dignity,
