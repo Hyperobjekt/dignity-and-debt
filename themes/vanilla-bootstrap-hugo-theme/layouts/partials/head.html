@@ -9,26 +9,13 @@
     {{ $.Scratch.Set "socialDescription" .Site.Data.social.social_description }}
   {{ end }}
 
-  <!-- Fetch an image for metadata -->
-  {{ if .Page.Params.image }}
-    <!-- First try for page image -->
-    {{ $img := strings.TrimPrefix "/uploads/" .Page.Params.image }}
-    {{ with $.Site.GetPage "page" "uploads/_index.md" }}
-      {{ with .Resources.GetMatch $img }}
-        {{$img400 := .Fill "400x Center"}}
-        {{ $.Scratch.Set "socialImage" $img400.Permalink }}
-      {{ end }}
-    {{ end }}
-  {{ else }}
-    <!-- Otherwise use the default social image -->
-    {{ $img := .Site.Data.social.social_image }}
-    {{ with $.Site.GetPage "page" "uploads/_index.md" }}
-      {{ with .Resources.GetMatch $img }}
-        {{$img400 := .Fill "400x Center"}}
-        {{ $.Scratch.Set "socialImage" $img400.Permalink }}
-      {{ end }}
-    {{ end }}
-  {{ end }}
+  {{ if .Page.Params.social_image }}
+			{{ $.Scratch.Set "pageSocialImage" .Page.Params.social_image }}
+		{{ end }}
+		
+		{{ if .Page.Params.social_description }}
+			{{ $.Scratch.Set "pageSocialDescription" .Page.Params.social_description }}
+		{{ end }}
 
   <!-- General metadata -->
   <meta name="description" content="{{ $.Scratch.Get "socialDescription" }}" />
@@ -37,19 +24,39 @@
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{{ .Title }}" />
-  <meta property="og:description" content="{{ $.Scratch.Get "socialDescription" }}" />
+  {{ if .Page.Params.social_description }}
+    <meta property="og:description" content="{{ $.Scratch.Get "pageSocialDescription" }}" />
+  {{ else }}
+    <meta property="og:description" content="{{ $.Scratch.Get "socialDescription" }}" />
+  {{ end }}
   <meta property="og:url" content="{{ "/" | absURL }}" />
   <meta property="og:site_name" content="{{ .Site.Title }}" />
-  <meta property="og:image" content="{{ .Site.Data.social.social_image }}" />
-  <meta property="og:image:secure_url" content="https://www.dignityanddebt.org{{ .Site.Data.social.social_image }}" />
+  {{ if .Page.Params.social_image }}
+    <meta property="og:image" content="{{ $.Scratch.Get "pageSocialImage" }}" />
+  {{ else }}
+    <meta property="og:image" content="{{ .Site.Data.social.social_image }}" />
+  {{ end }}
+  {{ if .Page.Params.social_image }}  
+    <meta property="og:image:secure_url" content="https://www.dignityanddebt.org{{ $.Scratch.Get "pageSocialImage" }}" />
+  {{ else }}
+    <meta property="og:image:secure_url" content="https://www.dignityanddebt.org{{ .Site.Data.social.social_image }}" />
+  {{ end }}  
   <!-- Twitter metadata -->
   <meta name="twitter:card" content="summary_large_image" />
   {{ if .Site.Data.social.twitter_via }}
     <meta name="twitter:site" content="{{ strings.TrimPrefix "@" .Site.Data.social.twitter_via }}" />
   {{ end }}
   <meta name="twitter:title" content="{{ .Title }} | Dignity + Debt" />
-  <meta name="twitter:description" content="{{ $.Scratch.Get "socialDescription" }}" />
-  <meta name="twitter:image" content="https://www.dignityanddebt.org{{ .Site.Data.social.social_image }}" />
+  {{ if .Page.Params.social_description }}
+    <meta name="twitter:description" content="{{ $.Scratch.Get "pageSocialDescription" }}" />
+  {{ else }}
+    <meta name="twitter:description" content="{{ $.Scratch.Get "socialDescription" }}" />
+  {{ end }}
+  {{ if .Page.Params.social_image }}
+    <meta name="twitter:image" content="https://www.dignityanddebt.org{{ $.Scratch.Get "pageSocialImage" }}" />
+  {{ else }}  
+    <meta name="twitter:image" content="https://www.dignityanddebt.org{{ .Site.Data.social.social_image }}" />
+  {{ end }}  
 
   {{ .Hugo.Generator }}
   <!-- Original bootstrap stylesheet -->
