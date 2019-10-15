@@ -309,6 +309,8 @@ collections:
 
       - {label: "Is Index", name: "is_index", widget: "hidden", default: false}
       - {label: "Type", name: "type", widget: "hidden", default: "projects"}
+      - {label: "Social Media Image", name: "social_image", widget: "image", required: false, hint: "Dimensions: 1200x675. No compression required"}
+      - {label: "Social Media Description", name: "social_description", widget: "string", required: false, hint: "Best kept short & sweet!"}
       
       - label: "Description"
         name: "description"
@@ -371,6 +373,8 @@ collections:
           - {label: Layout, name: layout, widget: hidden, default: special-project}
           - {label: Has Modal, name: has_modal, widget: hidden, default: true}
           - {label: "Is Index", name: "is_index", widget: "hidden", default: false}
+          - {label: "Social Media Image", name: "social_image", widget: "image", required: false, hint: "Dimensions: 1200x675. No compression required"}
+          - {label: "Social Media Description", name: "social_description", widget: "string", required: false, hint: "Best kept short & sweet!"}
           - {label: "Type", name: "type", widget: "hidden", default: "projects"}
           
           - label: "Description"

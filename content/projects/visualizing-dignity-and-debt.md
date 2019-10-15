@@ -12,6 +12,8 @@ description: >-
 weight: 10
 date: '2019-01-25'
 link_out: true
+social_image: 
+social_description:
 hero_image_fw: /uploads/growing-money-2880.jpg
 alts:
   hero_alt: Small plants growing atop stacks of coins in soil

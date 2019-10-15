@@ -2,6 +2,8 @@
 url: projects/student-debt-racial-disparities
 title: Student Debt and Racial Disparities
 layout: special-project
+social_image: /uploads/student-debt-racial-disparities-social.jpg
+social_description: Taking inspiration from the charts and maps created by sociologist W.E.B Du Bois depicting wealth disparities between blacks and whites, we seek to chart the color lines and social complexities in the urgent issue of student debt.
 has_modal: true
 is_index: false
 type: projects
