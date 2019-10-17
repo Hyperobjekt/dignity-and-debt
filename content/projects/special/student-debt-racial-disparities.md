@@ -71,6 +71,11 @@ content3: >-
   groups in the US. Recalculate your student loan with changes you can make now.
   Learn how much you could save by refinancing or pay down your loan faster by
   paying a little more per month. 
-vizimage: /uploads/loan-calc-crop-440.jpg
+vizimage: /uploads/loan-calc-crop-440.jpg  
+heading4: 'Contest: Visualizing Student Debt With Dignity'
+content4: >-
+  Visualizations render data meaningful for people around the world. They are able to reveal what might be either changed or strengthened through policy and individual action. Enter our contest to envision a meaningful future of financial autonomy and educational inclusion around the world. 
+vizimage2: /uploads/viz-contest-crop-5-2.jpg
+vizimage2link: "https://google.com"
 ---
 
