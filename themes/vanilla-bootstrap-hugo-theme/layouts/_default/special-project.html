@@ -42,18 +42,8 @@
   </div>
 
 <div class="row content mt-0 mb-8 px-3">
-    <div class="col-12 col-md-6 col-mmd-5 offset-mmd-1 px-2 px-md-4 pt-4 pt-md-0 pb-4 text-center" style="background-color: #C9E9EA;">
-      <a href="{{ .Params.vizimage2link }}" target="_blank"><div class="col-7 col-lg-6 col-xl-5 mx-auto mt-4 mb-0"><img class="mw-100" src="{{ .Params.vizimage2 }}" /></div></a>
-      <!--<div class="mt-2"><i>Click to view full sized image.</i></div>-->
-      <h3 class="mt-4 mb-3">{{ .Params.heading4 | markdownify }}</h3>
-      {{ .Params.content4 | markdownify }}
-      
-      <div class="col-12 mt-2">
-        <a class="btn btn-custom" href="{{ .Params.link2 }}" target="_blank" tabindex="0" aria-label="Go to contest">ENTER</a>
-      </div>
-    </div>
 
-    <div class="col-12 col-md-6 col-mmd-5 px-2 px-md-4 pb-8 pb-md-4  text-center" style="background-color: #C9E9EA;">
+    <div class="col-12 col-md-6 col-mmd-5 offset-mmd-1 px-2 px-md-4 pt-4 pt-md-0 pb-4 pb-md-4 text-center" style="background-color: #C9E9EA;">
         <div class="col-7 col-lg-6 col-xl-5 mx-auto mt-4 mb-0"><img class="mw-100" src="{{ .Params.vizimage }}" /></div>
         
         <h3 class="mt-4 mb-3">{{ .Params.heading3 | markdownify }}</h3>
@@ -64,6 +54,21 @@
           <a class="btn btn-custom" href="/projects/student-debt-calculator/" tabindex="0" aria-label="Go to Loan Calculator Visualization">GO</a>
         </div>
       </div>
+
+
+    <div class="col-12 col-md-6 col-mmd-5 px-2 px-md-4  pb-8 pb-md-4 text-center" style="background-color: #C9E9EA;">
+      <div class="col-7 col-lg-6 col-xl-5 mx-auto mt-4 mb-0"><img class="mw-100" src="{{ .Params.vizimage2 }}" /></div>
+      <!--<div class="mt-2"><i>Click to view full sized image.</i></div>-->
+      <h3 class="mt-4 mb-3">{{ .Params.heading4 | markdownify }}</h3>
+      {{ .Params.content4 | markdownify }}
+      
+      <div class="col-12 mt-2">
+        <a class="btn btn-custom" href="{{ .Params.link2 }}" target="_blank" tabindex="0" aria-label="Go to contest">GO
+  
+        </a>
+      </div>
+    </div>
+
 
   </div>
 
