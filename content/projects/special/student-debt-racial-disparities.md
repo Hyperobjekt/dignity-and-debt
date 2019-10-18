@@ -65,17 +65,21 @@ content1: >-
 
   <br> **Click the images below to view our original visualizations of student
   loan debt data, inspired by the visual style of W.E.B. Du Bois:**
-heading3: Compare and Re-Calculate Your Own Student loan debt
-content3: >-
-  Compare your total student loans with the average amounts among several social
+
+heading3: Compare and Re-Calculate Your Own Student   loan debt
+content3: >- 
+  Compare your total student loans with the   average amounts among several social
   groups in the US. Recalculate your student loan with changes you can make now.
   Learn how much you could save by refinancing or pay down your loan faster by
   paying a little more per month. 
-vizimage: /uploads/loan-calc-crop-440.jpg  
+vizimage: /uploads/loan-calc-crop-440.jpg
+link1: /projects/student-debt-calculator/
+button1: GO  
 heading4: 'Contest: Visualizing Student Debt With Dignity'
 content4: >-
   Visualizations render data meaningful for people around the world. They are able to reveal what might be either changed or strengthened through policy and individual action. Enter our contest to envision a meaningful future of financial autonomy and educational inclusion around the world. 
 vizimage2: /uploads/viz-contest-crop-5-2.jpg
 link2: https://docs.google.com/forms/d/e/1FAIpQLSckHpk5xJwqW0_sIEnCs-tScxttMV5WVqGjP0Ws8bD0x_LZHA/viewform
+button2: GO
 ---
 

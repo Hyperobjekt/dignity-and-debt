@@ -41,35 +41,29 @@
     </div>
   </div>
 
-<div class="row content mt-0 mb-8 px-3">
 
-    <div class="col-12 col-md-6 col-mmd-5 offset-mmd-1 px-2 px-md-4 pt-4 pt-md-0 pb-4 pb-md-4 text-center" style="background-color: #C9E9EA;">
-        <div class="col-7 col-lg-6 col-xl-5 mx-auto mt-4 mb-0"><img class="mw-100" src="{{ .Params.vizimage }}" /></div>
-        
-        <h3 class="mt-4 mb-3">{{ .Params.heading3 | markdownify }}</h3>
-        
-        {{ .Params.content3 | markdownify }}
-        
-        <div class="col-12 mt-2">
-          <a class="btn btn-custom" href="/projects/student-debt-calculator/" tabindex="0" aria-label="Go to Loan Calculator Visualization">GO</a>
+  <div class="row content news-banner mt-8 mt-mmd-10 mt-lg-11 mb-8 mb-mmd-11 pb-5 pb-md-0 d-flex justify-content-center flex-wrap px-3">
+    
+      {{ with .Params.heading3 }}
+        <div class="col-12 col-md-6 col-mmd-5 px-2 px-md-4 pb-3 pb-md-6 pt-2 text-center newsbox" style="background-color: #C9E9EA;">
+          <div class="col-7 col-lg-6 col-xl-5 mt-4 mb-0 mx-auto"><img class="mw-100" src="{{ $.Page.Params.vizimage }}" /></div>
+          <h3 class="mt-3 mb-2">{{ $.Page.Params.heading3 }}</h3>
+          <span>{{ $.Page.Params.content3 }}</span>
+          <div class="col-12 mt-2 d-flex justify-content-center">
+            <a class="btn btn-custom" href="{{ $.Page.Params.link1 }}" tabindex="0" aria-label="Go to calculator">{{ $.Page.Params.button1 }}</a>
+          </div>
         </div>
-      </div>
-
-
-    <div class="col-12 col-md-6 col-mmd-5 px-2 px-md-4  pb-8 pb-md-4 text-center" style="background-color: #C9E9EA;">
-      <div class="col-7 col-lg-6 col-xl-5 mx-auto mt-4 mb-0"><img class="mw-100" src="{{ .Params.vizimage2 }}" /></div>
-      <!--<div class="mt-2"><i>Click to view full sized image.</i></div>-->
-      <h3 class="mt-4 mb-3">{{ .Params.heading4 | markdownify }}</h3>
-      {{ .Params.content4 | markdownify }}
-      
-      <div class="col-12 mt-2">
-        <a class="btn btn-custom" href="{{ .Params.link2 }}" target="_blank" tabindex="0" aria-label="Go to contest">GO
-  
-        </a>
-      </div>
-    </div>
-
-
-  </div>
+      {{ end }}
+      {{ with .Params.heading4 }}
+        <div class="col-12 col-md-6 col-mmd-5 px-2 px-md-4 pb-3 pb-md-6 pt-2 text-center newsbox" style="background-color: #C9E9EA;">
+          <div class="col-7 col-lg-6 col-xl-5 mt-4 mb-0 mx-auto"><img class="mw-100" src="{{ $.Page.Params.vizimage2 }}" /></div>
+          <h3 class="mt-3 mb-2">{{ $.Page.Params.heading4 }}</h3>
+          <span>{{ $.Page.Params.content4 }}</span>
+          <div class="col-12 mt-2 d-flex justify-content-center">
+            <a class="btn btn-custom" href="{{ $.Page.Params.link2 }}" tabindex="0" aria-label="Go to calculator">{{ $.Page.Params.button2 }}</a>
+          </div>
+        </div>
+      {{ end }}
+</div>
 
 {{ end }}
