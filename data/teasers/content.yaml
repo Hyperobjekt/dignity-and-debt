@@ -1,18 +1,23 @@
 header: Latest Updates
 teasercontent:
-  - image: /uploads/digging-out-conf2-teaser.jpg
-    heading: 'Upcoming Meeting:'
-    body: '"Digging Out With Dignity: Solving the Student Debt Crisis and Honoring Meaning at the Margins" will consider what can be done about the costs of debt, and its significance for students and families.'
+  - body: >-
+      View a series of evocative original data visualizations exploring facets
+      of student loan debt, created in homage to W.E.B. Du Bois.
     button: LEARN MORE
-    link: /meetings/
-  - image: /uploads/04-Student-debt-and-defaults-teaser.jpg
     heading: Student Debt and Racial Disparities
-    body: View a series of evocative original data visualizations exploring facets of student loan debt, created in homage to W.E.B. Du Bois. 
-    button: LEARN MORE
+    image: /uploads/04-Student-debt-and-defaults-teaser.jpg
     link: /projects/student-debt-racial-disparities/
-  - image: /uploads/loan-calc-crop-440.jpg
+  - body: >-
+      Use this interactive tool to calculate your student debt, compare it with
+      various demographic groups, and explore options for refinancing.
+    button: LEARN MORE
     heading: Student Loan Debt Calculator
-    body: Use this interactive tool to calculate your student debt, compare it with various demographic groups, and explore options for refinancing. 
-    button: LEARN MORE   
-    link: /projects/student-debt-calculator/ 
-    
+    image: /uploads/loan-calc-crop-440.jpg
+    link: /projects/student-debt-calculator/
+  - body: >-
+      The Student Debt and Dignity Visualization Contest. Enter and envision a
+      meaningful future of financial autonomy and educational inclusion.
+    button: LEARN MORE
+    heading: Visualization Contest
+    image: /uploads/viz-contest-crop-5-2.jpg
+    link: /projects/student-debt-racial-disparities/
