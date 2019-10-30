@@ -417,13 +417,24 @@ collections:
             name: "content1"
             widget: "markdown"
             buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]
-          - {label: "Teaser Box Heading", name: heading3, widget: string, required: false}
+          - {label: "Teaser Box 1 Heading", name: heading3, widget: string, required: false, hint: The box will only appear if this field contains text.}
           - label: "Teaser Box 1 Content"
             name: "content3"
             widget: "markdown"
             buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]
             required: false  
-          - {label: "Teaser Box One Image", name: vizimage, widget: image, required: false}
+          - {label: "Teaser Box 1 Image", name: vizimage, widget: image, required: false}
+          - {label: "Teaser Box 1 Link", name: link1, widget: string, required: false}
+          - {label: "Teaser Box 1 Button Text", name: button1, widget: string, required: false}
+          - {label: "Teaser Box 2 Heading", name: heading4, widget: string, required: false, hint: The box will only appear if this field contains text.}
+          - label: "Teaser Box 2 Content"
+            name: "content4"
+            widget: "markdown"
+            buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]
+            required: false  
+          - {label: "Teaser Box 2 Image", name: vizimage2, widget: image, required: false}
+          - {label: "Teaser Box 2 Link", name: link2, widget: string, required: false}
+          - {label: "Teaser Box 2 Button Text", name: button2, widget: string, required: false}
       - label: "Student Debt and Racial Disparities Images"
         name: special_project_1_images
         file: "data/studentdebt/images.yaml" # The path to the folder where the documents are stored

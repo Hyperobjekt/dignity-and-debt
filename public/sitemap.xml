@@ -48,6 +48,11 @@
   </url>
   
   <url>
+    <loc>/news/new-item-05/</loc>
+    <lastmod>2019-10-02T12:11:13-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tools/</loc>
     <lastmod>2019-07-20T00:00:00+00:00</lastmod>
   </url>
@@ -70,11 +75,6 @@
   <url>
     <loc>/events/future-item-02/</loc>
     <lastmod>2019-03-25T13:02:59-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/news/new-item-05/</loc>
-    <lastmod>2019-01-25T12:11:13-06:00</lastmod>
   </url>
   
   <url>
@@ -128,7 +128,7 @@
   
   <url>
     <loc>/news/</loc>
-    <lastmod>2019-01-25T12:11:13-06:00</lastmod>
+    <lastmod>2019-10-02T12:11:13-06:00</lastmod>
     <priority>0</priority>
   </url>
   
