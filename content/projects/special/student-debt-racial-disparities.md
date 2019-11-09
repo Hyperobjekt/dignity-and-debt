@@ -2,26 +2,31 @@
 url: projects/student-debt-racial-disparities
 title: Student Debt and Racial Disparities
 layout: special-project
-social_image: /uploads/student-debt-racial-disparities-social.jpg
-social_description: Taking inspiration from the charts and maps created by sociologist W.E.B Du Bois depicting wealth disparities between blacks and whites, we seek to chart the color lines and social complexities in the urgent issue of student debt.
 has_modal: true
 is_index: false
+social_image: /uploads/student-debt-racial-disparities-social.jpg
+social_description: >-
+  Taking inspiration from the charts and maps created by sociologist W.E.B Du
+  Bois depicting wealth disparities between blacks and whites, we seek to chart
+  the color lines and social complexities in the urgent issue of student debt.
 type: projects
 description: >-
   The Dignity + Debt Network is working on a number of fronts to explore issues
-  and solutions for student loan debt traps. These include the “Digging out With
-  Dignity” conference at Princeton University, co-presented with the Aspen
-  Insitute’s Financial Security Program (October 18, 2019). The “Problem of
-  Colored Lines” gallery is a collaboration between the Dignity + Debt Network
-  and the VizE Lab and is intended to promote data visualization as a medium for
-  depicting racial disparities in student borrowing and repayment, and for
-  rendering data meaningful to wider publics. Taking inspiration from the charts
-  and maps created by sociologist W.E.B Du Bois that depict wealth disparities
-  between blacks and whites, we seek to visualize the color lines and social
-  complexities within urgent issue of student loan debt. Finally, with our
+  and solutions for student loan debt traps. These include the recent “Digging
+  out With Dignity” conference at Princeton University, co-presented with the
+  Aspen Insitute’s Financial Security Program (October 18, 2019). The “Problem
+  of Colored Lines” gallery is a collaboration between the Dignity + Debt
+  Network and the VizE Lab and is intended to promote data visualization as a
+  medium for depicting racial disparities in student borrowing and repayment,
+  and for rendering data meaningful to wider publics. Taking inspiration from
+  the charts and maps created by sociologist W.E.B Du Bois that depict wealth
+  disparities between blacks and whites, we seek to visualize the color lines
+  and social complexities within urgent issue of student loan debt. With our
   interactive debt and repayment visualization, users can compare their own
   student debt with several US groups and explore ways to reduce their total
-  payments and time to payoff.
+  payments and time to payoff. Finally, our visualization contest invites
+  submissions in a range of visual media that can help clarify the complexities
+  and broaden the conversation on the student debt crisis.  
 weight: 5
 date: '2019-10-08'
 link_out: true
@@ -65,21 +70,24 @@ content1: >-
 
   <br> **Click the images below to view our original visualizations of student
   loan debt data, inspired by the visual style of W.E.B. Du Bois:**
-
 heading3: Compare and Re-Calculate Your Own Student   loan debt
-content3: >- 
-  Compare your total student loans with the   average amounts among several social
-  groups in the US. Recalculate your student loan with changes you can make now.
-  Learn how much you could save by refinancing or pay down your loan faster by
-  paying a little more per month. 
+content3: >-
+  Compare your total student loans with the   average amounts among several
+  social groups in the US. Recalculate your student loan with changes you can
+  make now. Learn how much you could save by refinancing or pay down your loan
+  faster by paying a little more per month. 
 vizimage: /uploads/loan-calc-crop-440.jpg
 link1: /projects/student-debt-calculator/
-button1: GO  
+button1: GO
 heading4: 'Contest: Visualizing Student Debt With Dignity'
 content4: >-
-  Visualizations render data meaningful for people around the world. They are able to reveal what might be either changed or strengthened through policy and individual action. Enter our contest to envision a meaningful future of financial autonomy and educational inclusion around the world. 
+  Visualizations render data meaningful for people around the world. They are
+  able to reveal what might be either changed or strengthened through policy and
+  individual action. Enter our contest to envision a meaningful future of
+  financial autonomy and educational inclusion around the world. 
 vizimage2: /uploads/viz-contest-crop-5-2.jpg
-link2: https://docs.google.com/forms/d/e/1FAIpQLSckHpk5xJwqW0_sIEnCs-tScxttMV5WVqGjP0Ws8bD0x_LZHA/viewform
+link2: >-
+  https://docs.google.com/forms/d/e/1FAIpQLSckHpk5xJwqW0_sIEnCs-tScxttMV5WVqGjP0Ws8bD0x_LZHA/viewform
 button2: GO
 ---
 
