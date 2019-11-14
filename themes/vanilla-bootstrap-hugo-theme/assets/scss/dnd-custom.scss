@@ -59,6 +59,13 @@ a {
   }
 }
 
+.body-text {
+    font-family: "adobe-caslon-pro", "Crimson Text", serif;
+    font-size: 1.8rem;
+    color: #003E62;
+    line-height: 2.6rem;
+}
+
 // Page container
 .container.parent {
   padding-right: 0;
@@ -1652,12 +1659,12 @@ body.about {
   }
 }
 
-////// Projects
+////// Projects & Meetings List Pages
 // Projects section page
-body.type-projects.kind-section {
+body.type-projects.kind-section, body.type-meetings {
   .row.projects-page > * {
-    max-width: 840px;
-    margin: auto;
+   // max-width: 840px;
+   // margin: auto;
   }
   .row.projects-page.projects.project {
     @include media-breakpoint-down(sm) {
@@ -1731,6 +1738,21 @@ body.type-projects.kind-section {
     }
   }
 }
+
+body.type-meetings .row {
+  h2 {
+    &:after {
+      margin: 2.4rem 0 2.4rem;
+    }
+  }
+  .display-date {
+    font-family: "brandon-grotesque", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+    font-size: 1.8rem;
+    color: #003E62;
+  }
+}
+
+
 .row.projects.project:last-child .morelink-parent:after {
   border-bottom: none;
 }
@@ -1818,7 +1840,7 @@ body.type-projects {
 ////// Meetings
 // Meetings Section
 
-body.type-meetings.kind-section {
+body.type-meeting.kind-section {
   .row {
     &.jumbotron {
       height: 310px;
@@ -1893,7 +1915,7 @@ body.type-meetings.kind-section {
   }
 }
 
-.kind-section.type-meetings {
+.kind-page.type-single-meeting {
   .row {
 
     // &.staytuned,

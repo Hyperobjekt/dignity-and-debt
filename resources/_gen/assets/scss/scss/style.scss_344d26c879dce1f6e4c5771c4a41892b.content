@@ -12305,6 +12305,13 @@ a:hover {
   color: #0e3942;
 }
 
+.body-text {
+  font-family: "adobe-caslon-pro", "Crimson Text", serif;
+  font-size: 1.8rem;
+  color: #003E62;
+  line-height: 2.6rem;
+}
+
 .container.parent {
   padding-right: 0;
   padding-left: 0;
@@ -13920,18 +13927,13 @@ body.about .modal .modal-dialog button.close span {
   }
 }
 
-body.type-projects.kind-section .row.projects-page > * {
-  max-width: 840px;
-  margin: auto;
-}
-
 @media (max-width: 767.98px) {
-  body.type-projects.kind-section .row.projects-page.projects.project {
+  body.type-projects.kind-section .row.projects-page.projects.project, body.type-meetings .row.projects-page.projects.project {
     padding: 0 9px;
   }
 }
 
-body.type-projects.kind-section .row.jumbotron {
+body.type-projects.kind-section .row.jumbotron, body.type-meetings .row.jumbotron {
   height: 310px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13940,18 +13942,18 @@ body.type-projects.kind-section .row.jumbotron {
 }
 
 @media (min-width: 1024px) {
-  body.type-projects.kind-section .row.jumbotron {
+  body.type-projects.kind-section .row.jumbotron, body.type-meetings .row.jumbotron {
     height: 350px;
   }
 }
 
 @media (min-width: 1280px) {
-  body.type-projects.kind-section .row.jumbotron {
+  body.type-projects.kind-section .row.jumbotron, body.type-meetings .row.jumbotron {
     height: 400px;
   }
 }
 
-body.type-projects.kind-section .row h2 {
+body.type-projects.kind-section .row h2, body.type-meetings .row h2 {
   font-family: "brandon-grotesque", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-weight: 700;
   font-size: 2.4rem;
@@ -13961,13 +13963,13 @@ body.type-projects.kind-section .row h2 {
 }
 
 @media (min-width: 768px) {
-  body.type-projects.kind-section .row h2 {
+  body.type-projects.kind-section .row h2, body.type-meetings .row h2 {
     font-size: 3.2rem;
     line-height: 4rem;
   }
 }
 
-body.type-projects.kind-section .row h2:after {
+body.type-projects.kind-section .row h2:after, body.type-meetings .row h2:after {
   content: "";
   display: block;
   width: 4.8rem;
@@ -13975,33 +13977,43 @@ body.type-projects.kind-section .row h2:after {
   margin: 2.4rem 0 3.6rem;
 }
 
-body.type-projects.kind-section .row .desc {
+body.type-projects.kind-section .row .desc, body.type-meetings .row .desc {
   font-family: "adobe-caslon-pro", "Crimson Text", serif;
   font-size: 1.8rem;
   color: #003E62;
   line-height: 2.6rem;
 }
 
-body.type-projects.kind-section .row .morelink-parent {
+body.type-projects.kind-section .row .morelink-parent, body.type-meetings .row .morelink-parent {
   margin-bottom: 5.6rem;
 }
 
 @media (max-width: 767.98px) {
-  body.type-projects.kind-section .row .morelink-parent {
+  body.type-projects.kind-section .row .morelink-parent, body.type-meetings .row .morelink-parent {
     margin-bottom: 2.4rem;
   }
 }
 
-body.type-projects.kind-section .row .morelink-parent a {
+body.type-projects.kind-section .row .morelink-parent a, body.type-meetings .row .morelink-parent a {
   margin-top: 4.2rem;
 }
 
-body.type-projects.kind-section .row .morelink-parent:after {
+body.type-projects.kind-section .row .morelink-parent:after, body.type-meetings .row .morelink-parent:after {
   content: "";
   display: block;
   width: 100%;
   border-bottom: solid 1px #C9E9EA;
   margin: 5.6rem 0 3.6rem;
+}
+
+body.type-meetings .row h2:after {
+  margin: 2.4rem 0 2.4rem;
+}
+
+body.type-meetings .row .display-date {
+  font-family: "brandon-grotesque", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-size: 1.8rem;
+  color: #003E62;
 }
 
 .row.projects.project:last-child .morelink-parent:after {
@@ -14091,7 +14103,7 @@ body.type-projects.kind-page .row.content h6 {
   margin-top: 3.8rem;
 }
 
-body.type-meetings.kind-section .row.jumbotron {
+body.type-meeting.kind-section .row.jumbotron {
   height: 310px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14099,25 +14111,25 @@ body.type-meetings.kind-section .row.jumbotron {
 }
 
 @media (max-width: 767.98px) {
-  body.type-meetings.kind-section .row.jumbotron {
+  body.type-meeting.kind-section .row.jumbotron {
     background-position-x: 36%;
   }
 }
 
 @media (min-width: 1024px) {
-  body.type-meetings.kind-section .row.jumbotron {
+  body.type-meeting.kind-section .row.jumbotron {
     height: 350px;
   }
 }
 
 @media (min-width: 1280px) {
-  body.type-meetings.kind-section .row.jumbotron {
+  body.type-meeting.kind-section .row.jumbotron {
     height: 400px;
   }
 }
 
 @media (max-width: 767.98px) {
-  body.type-meetings.kind-section .row.meetings {
+  body.type-meeting.kind-section .row.meetings {
     padding: 0 9px;
   }
 }
@@ -14184,23 +14196,23 @@ body.type-meetings.kind-section .row.jumbotron {
   line-height: 2.4rem;
 }
 
-.kind-section.type-meetings .row.whydignity .column h3 {
+.kind-page.type-single-meeting .row.whydignity .column h3 {
   font-size: 4rem;
   text-transform: uppercase;
   color: #003E62;
 }
 
-.kind-section.type-meetings .row.whydignity .column span {
+.kind-page.type-single-meeting .row.whydignity .column span {
   font-family: "adobe-caslon-pro", "Crimson Text", serif;
   font-size: 1.8rem;
   line-height: 2.6rem;
 }
 
-.kind-section.type-meetings .row.indiv-mtgs .divider {
+.kind-page.type-single-meeting .row.indiv-mtgs .divider {
   border-bottom: solid 1px #c9e9ea;
 }
 
-.kind-section.type-meetings .row.indiv-mtgs #digging-out {
+.kind-page.type-single-meeting .row.indiv-mtgs #digging-out {
   position: sticky;
   position: -webkit-sticky;
   position: -moz-sticky;
@@ -14209,7 +14221,7 @@ body.type-meetings.kind-section .row.jumbotron {
   top: 120px;
 }
 
-.kind-section.type-meetings .row.indiv-mtgs h1 {
+.kind-page.type-single-meeting .row.indiv-mtgs h1 {
   font-family: "brandon-grotesque", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-weight: 700;
   font-size: 2.8rem;
@@ -14219,12 +14231,12 @@ body.type-meetings.kind-section .row.jumbotron {
 }
 
 @media (min-width: 768px) {
-  .kind-section.type-meetings .row.indiv-mtgs h1 {
+  .kind-page.type-single-meeting .row.indiv-mtgs h1 {
     font-size: 3.2rem;
   }
 }
 
-.kind-section.type-meetings .row.indiv-mtgs h2 {
+.kind-page.type-single-meeting .row.indiv-mtgs h2 {
   margin: 3.2rem 0;
   font-size: 2.2rem;
   line-height: 2.8rem;
@@ -14233,55 +14245,55 @@ body.type-meetings.kind-section .row.jumbotron {
   color: #1C6F81;
 }
 
-.kind-section.type-meetings .row.indiv-mtgs p, .kind-section.type-meetings .row.indiv-mtgs li {
+.kind-page.type-single-meeting .row.indiv-mtgs p, .kind-page.type-single-meeting .row.indiv-mtgs li {
   font-family: "adobe-caslon-pro", "Crimson Text", serif;
   font-size: 1.8rem;
   line-height: 2.6rem;
   color: #003E62;
 }
 
-.kind-section.type-meetings .row.the-roundtable {
+.kind-page.type-single-meeting .row.the-roundtable {
   margin-top: 9.4rem;
 }
 
 @media (max-width: 767.98px) {
-  .kind-section.type-meetings .row.the-roundtable {
+  .kind-page.type-single-meeting .row.the-roundtable {
     margin-top: 7.2rem;
   }
 }
 
-.kind-section.type-meetings .row.the-roundtable .img-parent {
+.kind-page.type-single-meeting .row.the-roundtable .img-parent {
   min-width: 212px;
 }
 
 @media (max-width: 996px) {
-  .kind-section.type-meetings .row.the-roundtable .img-parent {
+  .kind-page.type-single-meeting .row.the-roundtable .img-parent {
     margin-bottom: 4.6rem;
   }
 }
 
 @media (max-width: 767.98px) {
-  .kind-section.type-meetings .row.the-roundtable .img-parent {
+  .kind-page.type-single-meeting .row.the-roundtable .img-parent {
     margin-bottom: 7.2rem;
   }
 }
 
-.kind-section.type-meetings .row.the-roundtable .pic {
+.kind-page.type-single-meeting .row.the-roundtable .pic {
   margin-bottom: 3.2rem;
 }
 
-.kind-section.type-meetings .row.the-roundtable .pic,
-.kind-section.type-meetings .row.the-roundtable .morelink-parent {
+.kind-page.type-single-meeting .row.the-roundtable .pic,
+.kind-page.type-single-meeting .row.the-roundtable .morelink-parent {
   text-align: center;
 }
 
-.kind-section.type-meetings .row.the-roundtable img {
+.kind-page.type-single-meeting .row.the-roundtable img {
   width: 212px;
   height: 212px;
   border-radius: 106px;
 }
 
-.kind-section.type-meetings .row.the-roundtable .text h3 {
+.kind-page.type-single-meeting .row.the-roundtable .text h3 {
   font-family: "brandon-grotesque", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-weight: 700;
   font-size: 2.8rem;
@@ -14291,68 +14303,68 @@ body.type-meetings.kind-section .row.jumbotron {
 }
 
 @media (min-width: 768px) {
-  .kind-section.type-meetings .row.the-roundtable .text h3 {
+  .kind-page.type-single-meeting .row.the-roundtable .text h3 {
     font-size: 3.2rem;
   }
 }
 
-.kind-section.type-meetings .row.the-roundtable .text span {
+.kind-page.type-single-meeting .row.the-roundtable .text span {
   font-family: "adobe-caslon-pro", "Crimson Text", serif;
   font-size: 1.8rem;
   line-height: 2.6rem;
   color: #003E62;
 }
 
-.kind-section.type-meetings .row.about-roundtable {
+.kind-page.type-single-meeting .row.about-roundtable {
   margin-top: 3.6rem;
 }
 
-.kind-section.type-meetings .row.about-roundtable .column h3 {
+.kind-page.type-single-meeting .row.about-roundtable .column h3 {
   font-size: 2.8rem;
   margin-bottom: 1.6rem;
 }
 
 @media (min-width: 768px) {
-  .kind-section.type-meetings .row.about-roundtable .column h3 {
+  .kind-page.type-single-meeting .row.about-roundtable .column h3 {
     font-size: 3.2rem;
   }
 }
 
-.kind-section.type-meetings .row.about-roundtable .column span {
+.kind-page.type-single-meeting .row.about-roundtable .column span {
   font-family: "adobe-caslon-pro", "Crimson Text", serif;
   font-size: 1.8rem;
   line-height: 2.6rem;
   color: #003E62;
 }
 
-.kind-section.type-meetings .row.hearfrom {
+.kind-page.type-single-meeting .row.hearfrom {
   text-align: center;
   margin-top: 14.4rem;
 }
 
 @media (max-width: 767.98px) {
-  .kind-section.type-meetings .row.hearfrom {
+  .kind-page.type-single-meeting .row.hearfrom {
     margin-top: 7.2rem;
   }
 }
 
-.kind-section.type-meetings .row.hearfrom > div {
+.kind-page.type-single-meeting .row.hearfrom > div {
   -webkit-flex: 0;
   flex-shrink: 0;
 }
 
-.kind-section.type-meetings .row.hearfrom iframe {
+.kind-page.type-single-meeting .row.hearfrom iframe {
   width: 460px;
   height: 258px;
 }
 
 @media (max-width: 1023.98px) {
-  .kind-section.type-meetings .row.hearfrom iframe {
+  .kind-page.type-single-meeting .row.hearfrom iframe {
     width: 350px;
   }
 }
 
-.kind-section.type-meetings .row.hearfrom span.desc {
+.kind-page.type-single-meeting .row.hearfrom span.desc {
   width: 460px;
   display: block;
   margin: 2.4rem auto 6.4rem;
@@ -14365,12 +14377,12 @@ body.type-meetings.kind-section .row.jumbotron {
 }
 
 @media (max-width: 1023.98px) {
-  .kind-section.type-meetings .row.hearfrom span.desc {
+  .kind-page.type-single-meeting .row.hearfrom span.desc {
     width: 350px;
   }
 }
 
-.kind-section.type-meetings .row.hearfrom:last-child {
+.kind-page.type-single-meeting .row.hearfrom:last-child {
   margin-bottom: 4.6rem;
 }
 

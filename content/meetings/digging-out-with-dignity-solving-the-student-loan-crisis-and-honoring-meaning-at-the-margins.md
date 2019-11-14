@@ -4,8 +4,10 @@ title: >-
   at the Margins 
 is_index: false
 type: single-meeting
-weight: 1
+layout: meetings-single
 date: 2019-07-30T12:05:35.501Z
+display_date: October 18, 2019
+description: Student loans from the federal government total $1.5 trillion in the United States with 40 percent of them at risk of default over the next four years. Across the globe, student unrest over fines and fees has destabilized plans for funding higher education and called to account histories of dispossession. While considering what must be done, we must also pay more attention to what is at stake.
 ---
 <br>
 

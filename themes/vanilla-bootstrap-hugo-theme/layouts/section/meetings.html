@@ -1,97 +1,36 @@
 {{ define "main" }}
 
-{{ $meetings_hero_img := strings.TrimPrefix "/uploads/" .Page.Params.hero_image }}
-{{ with $.Site.GetPage "page" "uploads/_index.md" }}
-{{ with .Resources.GetMatch $meetings_hero_img }}
-{{$meetings_hero := .Fill "2880x874 TopLeft"}}
-<div id="meetings-hero" class="jumbotron row" style="background-image: url('{{ $meetings_hero.RelPermalink }}');">
-</div>
-{{ end }}
-{{ end }}
-
-
-<div class="row news-banner staytuned">
-  <div class="column col-lg-8 col-md-8 col-sm-10 offset-lg-2 offset-md-2 offset-sm-1">
-    <h3 tabindex="0">{{ .Page.Params.display_title }}</h3>
-    <span class="center-span" tabindex="0">{{ .Page.Params.display_subtitle |safeHTML }}</span>
+<div id="meetings-hero" class="jumbotron row" style="background-image: url('{{ .Params.hero_image }}'); background-position-y: top;">
   </div>
-</div>
+ 
 
-
-<!--<div class="row news-banner whydignity">
-  <div class="column col-lg-8 col-md-8 col-sm-10 offset-lg-2 offset-md-2 offset-sm-1">
-    <h3 tabindex="0">Why Dignity?</h3>
-    <span tabindex="0">Why are we talking about dignity when talking about debt? Autonomy and protection from abuse. Does debt necessarily erode a person’s autonomy as she decides who she is and to behave as is she has a sense of free will? And when debt result from exploitation and abuse? Can we re-imagine a world in which debt does not have to accompany indignity?</span>
-  </div>
-</div>-->
-
-<div class="row indiv-mtgs meetings mt-10">
-  <div class="col-md-4 col-sm-10 offset-md-1 offset-sm-1 order-lg-0 order-md-0 img-parent">
-    <div id="digging-out" class="mb-md-0 mb-5 pr-md-2 pr-md-4">
-      <a id="img-link" href="/images/10.18 student loans with dignity.jpg"><img class="mw-100 mb-2" src="/images/digging-out-conf3-sm.jpg" /></a>
-      <p class="text-center"><i>Click to view full image.</i></p>
-    </div>  
-  </div>
-  <div class="col-lg-6 col-md-6 col-sm-10 offset-lg-0 offset-md-0 offset-sm-1 ">
-      {{ range first 1 .Pages }}
-        <h1>{{ .Title }}</h1>
-        {{ .Content }}
-      {{ end }}
-  </div>
-  <div class="divider mt-7 col-12 col-md-10 offset-md-1"></div>
-</div>
-
-
-<div class="row the-roundtable meetings">
-  <div class="col-lg-3 col-md-4 col-sm-10 offset-lg-2 offset-md-1 offset-sm-1 order-lg-0 order-md-0 img-parent">
-    <div class="pic">
-      <!--{{ $img := strings.TrimPrefix "/uploads/" .Page.Params.roundtable_image }}
-      {{ with $.Site.GetPage "page" "uploads/_index.md" }}
-        {{ with .Resources.GetMatch $img }}
-          {{$imgDir := .Fill "232x232 Center"}}-->
-          <img class="" src="/images/roundtable-1-460sq.jpg" width="212" height="212" alt="Roundtable" tabindex="0">
-       <!-- {{ end }}
-      {{ end }}-->
-    </div>
-    <div class="morelink-parent">
-      <a href="{{ "/meetings/2018-program/" | absURL }}" class="btn btn-custom" tabindex="0" aria-label="VIEW 2018 PROGRAM">VIEW 2018 PROGRAM</a>
+<div class="row projects-page news-banner projectstitle">
+    <div class="column col-xl-7 mx-auto col-lg-8 col-md-8 col-sm-10">
+      <h3 tabindex="0">{{ .Page.Params.display_title }}</h3>
+      <span class="center-span" tabindex="0">{{ .Params.display_subtitle | plainify }}</span>
     </div>
   </div>
-  <div class="col-lg-5 col-md-5 col-sm-10 offset-lg-0 offset-md-0 offset-sm-1 ">
-      <div class="text">
-        <h3 tabindex="0">{{ .Page.Params.heading }}</h3>
-        <span tabindex="0"> {{ .Page.Params.the_roundtable | markdownify }}</span>
+
+
+{{ range .Pages.ByDate.Reverse }}
+
+  <div class="row projects-page projects project">
+    <h2 tabindex="0" class=" col-lg-8 col-md-8 col-xl-7 mx-auto col-sm-10">{{ .Title }}</h2>
+    <p class="display-date body-text col-lg-8 col-xl-7 mx-auto col-md-8 col-sm-10 mb-2" tabindex="0">
+        {{ .Params.display_date }}
+    </p>
+    <div class="desc col-lg-8 col-md-8 col-xl-7 mx-auto col-sm-10" tabindex="0">
+      {{ .Params.description | markdownify | safeHTML }}
+    </div>
+    
+      <div class="morelink-parent col-lg-8 col-xl-7 mx-auto col-md-8 col-sm-10">
+       
+          <a class="btn btn-custom" href="{{ .Permalink }}" tabindex="0" aria-label="Go to About">READ MORE</a>
+    
       </div>
-    </div>
-</div>
+ 
+  </div>
 
-<div class="row d-flex justify-content-center flex-wrap hearfrom meetings">
-  <div class="col-lg-6 col-md-6 col-sm-12 flex-fill">
-    <iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1449362/sp/144936200/embedIframeJs/uiconf_id/25624581/partner_id/1449362?iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_kldwyw07&amp;flashvars[leadWithHTML5]=true&amp;flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;wid=1_ndomvidw" width="560" height="315" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura Player" aria-labelledby="vid1desc" class="img-fluid" tabindex="0"></iframe>
-    <span id="vid1desc" class="desc" tabindex="0">{{ .Page.Params.video_one }}</span>
-  </div>
-  <div class="col-lg-6 col-md-6 col-sm-12 flex-fill">
-    <iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1449362/sp/144936200/embedIframeJs/uiconf_id/25624581/partner_id/1449362?iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_5zh066n3&amp;flashvars[leadWithHTML5]=true&amp;flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;wid=1_sw6d2hsd" width="560" height="315" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura Player" aria-labelledby="vid2desc" class="img-fluid" tabindex="0"></iframe>
-    <span id="vid2desc" class="desc" tabindex="0">{{ .Page.Params.video_two }}</span>
-  </div>
-  <div class="col-lg-6 col-md-6 col-sm-12 flex-fill">
-    <iframe aria-labelledby="" id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1449362/sp/144936200/embedIframeJs/uiconf_id/25624581/partner_id/1449362?iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_plegp1g1&amp;flashvars[leadWithHTML5]=true&amp;flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;wid=1_pnsqzbc9" width="560" height="315" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura Player" aria-labelledby="vid3desc" class="img-fluid" tabindex="0"></iframe>
-    <span id="vid3desc" class="desc" tabindex="0">{{ .Page.Params.video_three }}</span>
-  </div>
-</div>
-
-<div class="row news-banner about-roundtable meetings">
-  <div class="column col-lg-8 col-md-8 col-sm-10 offset-lg-2 offset-md-2 offset-sm-1">
-    <h3 tabindex="0">{{ .Page.Params.dignity_roundtable_heading }}</h3>
-    <span tabindex="0">{{ .Page.Params.dignity_roundtable_text | markdownify }}</span>
-  </div>
-</div>
-
-<div class="row d-flex justify-content-center flex-wrap hearfrom meetings">
-  <div class="col-lg-6 col-md-6 col-sm-12 flex-fill">
-    <iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1449362/sp/144936200/embedIframeJs/uiconf_id/25624581/partner_id/1449362?iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_9iroh9lb&amp;flashvars[leadWithHTML5]=true&amp;flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;wid=1_1yrlz9er" width="560" height="315" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura Player"></iframe>
-    <span id="vid3desc" class="desc" tabindex="0">{{ .Page.Params.video_four }}</span>
-  </div>
-</div>
+{{ end }}
 
 {{ end }}

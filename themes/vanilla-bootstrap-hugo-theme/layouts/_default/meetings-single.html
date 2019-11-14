@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+
+<div class="row breadcrumb-parent" aria-label="breadcrumb navigation" tabindex="0">
+        {{ partial "breadcrumb.html" . }}
+      </div>
+
+
+
+<!--<div class="row news-banner whydignity">
+  <div class="column col-lg-8 col-md-8 col-sm-10 offset-lg-2 offset-md-2 offset-sm-1">
+    <h3 tabindex="0">Why Dignity?</h3>
+    <span tabindex="0">Why are we talking about dignity when talking about debt? Autonomy and protection from abuse. Does debt necessarily erode a person’s autonomy as she decides who she is and to behave as is she has a sense of free will? And when debt result from exploitation and abuse? Can we re-imagine a world in which debt does not have to accompany indignity?</span>
+  </div>
+</div>-->
+
+<div class="row indiv-mtgs meetings mt-10">
+  <div class="col-md-4 col-sm-10 offset-md-1 offset-sm-1 order-lg-0 order-md-0 img-parent">
+    <div id="digging-out" class="mb-md-0 mb-5 pr-md-2 pr-md-4">
+      <a id="img-link" href="/images/10.18 student loans with dignity.jpg"><img class="mw-100 mb-2" src="/images/digging-out-conf3-sm.jpg" /></a>
+      <p class="text-center"><i>Click to view full image.</i></p>
+    </div>  
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-10 offset-lg-0 offset-md-0 offset-sm-1 ">
+     
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+    
+  </div>
+  <div class="divider mt-7 col-12 col-md-10 offset-md-1"></div>
+</div>
+
+
+
+
+{{ end }}
