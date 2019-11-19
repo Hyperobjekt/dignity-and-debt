@@ -40,15 +40,16 @@
                       {{ if .Params.participantsTitle }}<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">{{ .Params.participantsTitle }}</a>{{ end }}
                     </div>
                   </nav>
+    </div>
+</div>
+<div class="row indiv-mtgs meetings">               
                   <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">{{ .Content }}</div>
+                    <div class="tab-pane fade show active col-12 col-md-8 mx-auto" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">{{ .Content }}</div>
                
                     
-                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div class="tab-pane fade col-12 col-md-10 mx-auto" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
 
                         {{ partial "carouselmodal" . }}
-
-
 
                     </div>
                     
