@@ -1959,7 +1959,7 @@ body.type-meeting.kind-section {
           top: 120px;
 
       }
-      h1 {
+      h2 {
         font-family: $brandongrotesque-bold;
         font-weight: 700;
         font-size: 2.8rem;
@@ -1970,7 +1970,7 @@ body.type-meeting.kind-section {
         color: $dnd-navy;
         text-transform: uppercase;
       }
-      h2 {
+      h3 {
         @include media-breakpoint-down(md) {
           //width: 350px;
         }
