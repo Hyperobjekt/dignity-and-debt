@@ -14221,7 +14221,7 @@ body.type-meeting.kind-section .row.jumbotron {
   top: 120px;
 }
 
-.kind-page.type-single-meeting .row.indiv-mtgs h1 {
+.kind-page.type-single-meeting .row.indiv-mtgs h2 {
   font-family: "brandon-grotesque", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-weight: 700;
   font-size: 2.8rem;
@@ -14231,12 +14231,12 @@ body.type-meeting.kind-section .row.jumbotron {
 }
 
 @media (min-width: 768px) {
-  .kind-page.type-single-meeting .row.indiv-mtgs h1 {
+  .kind-page.type-single-meeting .row.indiv-mtgs h2 {
     font-size: 3.2rem;
   }
 }
 
-.kind-page.type-single-meeting .row.indiv-mtgs h2 {
+.kind-page.type-single-meeting .row.indiv-mtgs h3 {
   margin: 3.2rem 0;
   font-size: 2.2rem;
   line-height: 2.8rem;

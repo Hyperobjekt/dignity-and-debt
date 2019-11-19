@@ -23,14 +23,43 @@
   </div>
   <div class="col-lg-6 col-md-6 col-sm-10 offset-lg-0 offset-md-0 offset-sm-1 ">
      
-        <h1>{{ .Title }}</h1>
-        {{ .Content }}
+        <h2>{{ .Title }}</h2>
+        <p>{{ .Params.shortIntro | markdownify | safeHTML }}</p>
     
   </div>
   <div class="divider mt-7 col-12 col-md-10 offset-md-1"></div>
 </div>
 
+<div class="row indiv-mtgs meetings mt-10">
+    <div class="col-12 col-md-8 mx-auto">
+            <h2 class="text-center">{{ .Params.highlightsTitle }}</h2>
+            <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                      {{ if .Params.recapTitle }}<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">{{ .Params.recapTitle }}</a>{{ end }}
+                      {{ if .Params.photosTitle }}<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">{{ .Params.photosTitle }}</a>{{ end }}
+                      {{ if .Params.participantsTitle }}<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">{{ .Params.participantsTitle }}</a>{{ end }}
+                    </div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">{{ .Content }}</div>
+               
+                    
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
 
+                        {{ partial "carouselmodal" . }}
+
+
+
+                    </div>
+                    
+                    
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+                  </div>
+            
+    </div>
+
+
+</div>
 
 
 {{ end }}
