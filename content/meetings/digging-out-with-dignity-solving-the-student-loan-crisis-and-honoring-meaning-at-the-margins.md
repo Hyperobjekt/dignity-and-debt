@@ -24,11 +24,11 @@ recapTitle: Conference Recap
 photosTitle: Photos
 participantsTitle: Participants
 carouselimages: 
-  - pic: "/uploads/DSCF0261.jpeg" 
+  - pic: "/uploads/DSCF0261.jpg" 
     caption: lorem ipsum dolor sit amet
-  - pic: /uploads/DSCF0263.jpeg  
+  - pic: /uploads/DSCF0263.jpg  
     caption: lorem ipsum dolor sit amet
-  - pic: /uploads/DSCF0280.jpeg  
+  - pic: /uploads/DSCF0280.jpg  
     caption: lorem ipsum dolor sit amet    
 ---
 The meeting opened with reflections from Frederick Wherry, the Director of Dignity + Debt, on why student debt is central to the work of the Network: “In communities across the country and around the globe, parents take pride in announcing that their kid is going to college. Where I grew up in South Carolina, it was more than just an individual achievement. As a black kid, I was told that education was the one thing they couldn’t take away. Everything else, including my life, was up for grabs. We sacrificed for self-worth and respect. But we paid dearly for it.”
