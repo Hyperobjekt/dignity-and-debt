@@ -1917,15 +1917,6 @@ body.type-meeting.kind-section {
 
 .kind-page.type-single-meeting {
   .row {
-
-    // &.staytuned,
-    // &.whydignity,
-    // &.about-roundtable {
-    //   padding: 4.0rem;
-    // }
-
-
-
     &.whydignity {
       .column {
         h3 {
@@ -1942,8 +1933,6 @@ body.type-meeting.kind-section {
     }
 
     &.indiv-mtgs {
-
-
       .divider {
         border-bottom: solid 1px #c9e9ea;
         //margin: 5.6rem 0 3.6rem;
@@ -1987,7 +1976,25 @@ body.type-meeting.kind-section {
         line-height: 2.6rem;
         color: $dnd-navy;
       }
-
+      .carousel-caption {
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        background: #0000005e;
+        p {
+          color: #fff !important;
+          } 
+      }
+      .mtgs-carousel {
+        img {
+          @include media-breakpoint-up(md) {
+           //max-height: 80vh;
+          }
+        }
+      }
 
     }
 
