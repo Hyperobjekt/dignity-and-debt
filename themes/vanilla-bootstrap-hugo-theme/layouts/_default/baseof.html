@@ -17,6 +17,9 @@
     {{ if .Page.Params.has_modal }}
       {{ partial "modal" . }}
     {{ end }}
+    {{ if .Page.Params.has_ppl_modal }}
+      {{ partial "ppl_modal" . }}
+    {{ end }}
 
     {{ partial "script.html" . }}
     {{ partial "google-analytics-async.html" . }}

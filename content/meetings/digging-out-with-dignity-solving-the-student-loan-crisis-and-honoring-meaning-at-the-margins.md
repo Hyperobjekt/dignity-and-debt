@@ -3,6 +3,7 @@ title: >-
   Digging Out With Dignity: Solving the Student Loan Crisis and Honoring Meaning
   at the Margins 
 is_index: false
+has_ppl_modal: true
 type: single-meeting
 layout: meetings-single
 date: 2019-07-30T12:05:35.501Z
@@ -62,7 +63,8 @@ participants:
     image: /uploads/ffwherry_bio.jpg
     name: Frederick Wherry
     title: Dignity + Debt Director  
-    blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan lacus vel facilisis volutpat est velit egestas dui. Dignissim convallis aenean et tortor at risus. Ipsum consequat nisl vel pretium lectus quam. Amet commodo nulla facilisi nullam vehicula ipsum a. Arcu non sodales neque sodales ut etiam sit amet. A pellentesque sit amet porttitor eget. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Varius sit amet mattis vulputate enim. Mi bibendum neque egestas congue quisque egestas diam in arcu. Risus sed vulputate odio ut enim blandit volutpat.                     
+    blurb: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan lacus vel facilisis volutpat est velit egestas dui. Dignissim convallis aenean et tortor at risus. Ipsum consequat nisl vel pretium lectus quam. Amet commodo nulla facilisi nullam vehicula ipsum a. Arcu non sodales neque sodales ut etiam sit amet. A pellentesque sit amet porttitor eget. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Varius sit amet mattis vulputate enim. Mi bibendum neque egestas congue quisque egestas diam in arcu. Risus sed vulputate odio ut enim blandit volutpat.                     
 ---
 The meeting opened with reflections from Frederick Wherry, the Director of Dignity + Debt, on why student debt is central to the work of the Network: “In communities across the country and around the globe, parents take pride in announcing that their kid is going to college. Where I grew up in South Carolina, it was more than just an individual achievement. As a black kid, I was told that education was the one thing they couldn’t take away. Everything else, including my life, was up for grabs. We sacrificed for self-worth and respect. But we paid dearly for it.”
 

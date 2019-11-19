@@ -14282,6 +14282,23 @@ body.type-meeting.kind-section .row.jumbotron {
   vertical-align: text-top;
 }
 
+.kind-page.type-single-meeting .row.indiv-mtgs nav {
+  box-shadow: none;
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs nav .nav-tabs {
+  border: none;
+  box-shadow: none;
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs nav .nav-tabs .nav-link {
+  border: none;
+  text-decoration: none;
+  font-size: 2.1rem;
+  font-family: "brandon-grotesque", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-weight: 600;
+}
+
 .kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .bigimage {
   display: none;
 }
@@ -14299,6 +14316,7 @@ body.type-meeting.kind-section .row.jumbotron {
   margin-left: auto;
   margin-right: auto;
   position: relative;
+  cursor: pointer;
   width: 100px;
   height: 100px;
   background-size: 100px 100px;
@@ -14306,6 +14324,7 @@ body.type-meeting.kind-section .row.jumbotron {
 }
 
 .kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .pic button {
+  background-color: #B0224F;
   color: #ffffff;
   border: none;
   width: 32px;
@@ -14325,7 +14344,7 @@ body.type-meeting.kind-section .row.jumbotron {
 
 .kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .pic button div {
   position: relative;
-  top: -5px;
+  top: 3px;
   max-width: 32px;
 }
 
@@ -14339,8 +14358,11 @@ body.type-meeting.kind-section .row.jumbotron {
 }
 
 .kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .name {
+  font-family: "adobe-caslon-pro", "Crimson Text", serif;
+  color: #003E62;
+  font-weight: 600;
   font-size: 1.8rem;
-  line-height: 2.592rem;
+  line-height: 1.5;
   letter-spacing: 0;
   margin-top: 1.6rem;
   margin-bottom: .4rem;
@@ -14350,8 +14372,6 @@ body.type-meeting.kind-section .row.jumbotron {
   .kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .name {
     margin-top: 1.6rem;
     margin-bottom: .4rem;
-    font-size: 1.8rem;
-    line-height: 2.7rem;
     letter-spacing: 0;
   }
 }
@@ -14360,8 +14380,6 @@ body.type-meeting.kind-section .row.jumbotron {
   .kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .name {
     margin-top: 1.6rem;
     margin-bottom: .4rem;
-    font-size: 2rem;
-    line-height: 3rem;
     letter-spacing: 0;
   }
 }
@@ -14370,13 +14388,12 @@ body.type-meeting.kind-section .row.jumbotron {
   .kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .name {
     margin-top: 1.6rem;
     margin-bottom: .4rem;
-    font-size: 2.2rem;
-    line-height: 3.24rem;
     letter-spacing: 0;
   }
 }
 
 .kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .title {
+  color: #003E62;
   font-size: 1.2rem;
   line-height: 2.8rem;
   letter-spacing: 0;
@@ -14406,7 +14423,7 @@ body.type-meeting.kind-section .row.jumbotron {
   transition: background-color .3s ease;
 }
 
-.kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .row.people-former .flex-row, .kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .row.people-current .flex-row {
+.kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .row.mtg-participants .flex-row, .kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .row.people-current .flex-row {
   justify-content: center;
 }
 
@@ -14542,6 +14559,197 @@ body.type-meeting.kind-section .row.jumbotron {
 
 .kind-page.type-single-meeting .row.hearfrom:last-child {
   margin-bottom: 4.6rem;
+}
+
+#peopleBioModal.modal {
+  padding-right: 0 !important;
+}
+
+@media (min-width: 768px) {
+  #peopleBioModal.modal .modal-dialog {
+    max-width: 690px;
+  }
+  #peopleBioModal.modal .modal-content {
+    width: 690px;
+    margin: 0 auto;
+  }
+  #peopleBioModal.modal .modal-body {
+    padding: 1.6rem 3.2rem 3.2rem;
+  }
+  #peopleBioModal.modal .modal-pic {
+    padding-left: 0;
+  }
+  #peopleBioModal.modal .modal-pic img {
+    max-width: 100%;
+  }
+  #peopleBioModal.modal .modal-pic .modal-image {
+    margin-top: 0;
+  }
+  #peopleBioModal.modal button.close {
+    margin-bottom: 1rem;
+  }
+  #peopleBioModal.modal .modal-image {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  #peopleBioModal.modal .modal-dialog {
+    max-width: 930px;
+  }
+  #peopleBioModal.modal .modal-content {
+    width: 930px;
+    margin: 0 auto;
+  }
+  #peopleBioModal.modal .modal-bio {
+    padding-left: 3.2rem;
+  }
+}
+
+#peopleBioModal.modal button.close {
+  opacity: 1;
+  align-items: center;
+  font-size: 3.2rem;
+  font-weight: 100;
+  border: 1px solid #edeef0;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+#peopleBioModal.modal button.close span {
+  font-size: 3.2rem;
+  font-weight: 100;
+  pointer-events: none;
+  position: relative;
+  top: 2px;
+  left: .5px;
+}
+
+#peopleBioModal.modal .modal-image {
+  width: 202px;
+  height: 202px;
+  background-position: center center;
+  background-size: 202px 202px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.4rem;
+  margin-bottom: 4.8rem;
+}
+
+@media (min-width: 1280px) {
+  #peopleBioModal.modal .modal-image {
+    width: 272px;
+    height: 272px;
+    background-position: center center;
+    background-size: 272px 272px;
+  }
+}
+
+#peopleBioModal.modal .modal-bio hr {
+  margin: 1.8rem 0;
+}
+
+#peopleBioModal.modal .modal-bio .modal-meta #modalName {
+  font-size: 1.85rem;
+  line-height: 2.7rem;
+  letter-spacing: 0;
+  margin-bottom: 1.2rem;
+}
+
+#peopleBioModal.modal .modal-bio .modal-meta #modalTitle {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  letter-spacing: 0;
+}
+
+#peopleBioModal.modal .modal-bio #modalBio {
+  font-size: 1.3rem;
+  line-height: 2.0rem;
+  letter-spacing: 0;
+  margin-bottom: 3.2rem;
+}
+
+@media (min-width: 1280px) {
+  #peopleBioModal.modal .modal-bio hr {
+    margin: 1.8rem 0;
+  }
+  #peopleBioModal.modal .modal-bio .modal-meta #modalName {
+    font-size: 1.85rem;
+    line-height: 2.7rem;
+  }
+  #peopleBioModal.modal .modal-bio .modal-meta #modalTitle {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+  #peopleBioModal.modal .modal-bio #modalBio {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+}
+
+#peopleBioModal.modal .modal-nav {
+  margin-bottom: 3.2rem;
+}
+
+#peopleBioModal.modal .modal-nav button,
+#peopleBioModal.modal .modal-nav span {
+  font-size: 1.4rem;
+  letter-spacing: .055rem;
+  text-transform: uppercase;
+  border: 0;
+  background-color: transparent;
+}
+
+#peopleBioModal.modal .modal-nav button.next::after {
+  content: "";
+  background-image: url(/images/right-arrow.svg);
+  display: inline-block;
+  width: 14px;
+  height: 10px;
+  background-size: 14px 10px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-left: .8rem;
+}
+
+#peopleBioModal.modal .modal-nav button.prev:before {
+  content: "";
+  background-image: url(/images/right-arrow.svg);
+  display: inline-block;
+  width: 14px;
+  height: 10px;
+  background-size: 14px 10px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  margin-right: .8rem;
+}
+
+#peopleBioModal.modal .modal-nav button:hover {
+  text-decoration: underline;
+}
+
+#peopleBioModal.modal .modal-nav button:disabled {
+  opacity: .5;
+}
+
+#peopleBioModal.modal .modal-nav button:disabled:before {
+  opacity: .5;
+}
+
+#peopleBioModal.modal .modal-nav button:disabled:after {
+  opacity: .5;
+}
+
+#peopleBioModal.modal .modal-nav button:disabled:hover {
+  opacity: .5;
+  color: #979797;
+  text-decoration: none;
 }
 
 .col-flex {
@@ -15446,44 +15654,44 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
   cursor: pointer;
 }
 
-.modal .modal-body {
+#dndModal.modal .modal-body {
   padding-right: 2.4rem;
   padding-left: 2.4rem;
 }
 
-.modal .modal-dialog {
+#dndModal.modal .modal-dialog {
   max-height: 90%;
   max-height: 90vh;
   min-width: 50%;
 }
 
 @media (min-width: 768px) {
-  .modal .modal-dialog {
+  #dndModal.modal .modal-dialog {
     max-width: 90%;
   }
 }
 
-.modal .modal-dialog .modal-content {
+#dndModal.modal .modal-dialog .modal-content {
   width: 100%;
 }
 
-.modal .modal-dialog .modal-content button.close {
+#dndModal.modal .modal-dialog .modal-content button.close {
   position: absolute;
   top: 1.5rem;
   right: 2rem;
   font-size: 3.6rem;
 }
 
-.modal .modal-dialog .modal-content .details {
+#dndModal.modal .modal-dialog .modal-content .details {
   width: auto;
 }
 
-.modal .modal-dialog .modal-content .details img {
+#dndModal.modal .modal-dialog .modal-content .details img {
   width: 100%;
   height: auto;
 }
 
-.modal .modal-dialog .modal-content .details figcaption {
+#dndModal.modal .modal-dialog .modal-content .details figcaption {
   font-family: "adobe-caslon-pro", "Crimson Text", serif;
   font-size: 1.6rem;
   line-height: 2.6rem;
@@ -15492,23 +15700,23 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
 }
 
 @media (min-width: 768px) {
-  .modal .modal-dialog .modal-content .details figcaption {
+  #dndModal.modal .modal-dialog .modal-content .details figcaption {
     font-size: 1.8rem;
   }
 }
 
 @media (min-width: 768px) {
-  .modal .modal-dialog .modal-content .details figcaption {
+  #dndModal.modal .modal-dialog .modal-content .details figcaption {
     margin-bottom: 2.4rem;
   }
 }
 
-.modal .modal-dialog .modal-content .details figcaption a:after {
+#dndModal.modal .modal-dialog .modal-content .details figcaption a:after {
   content: "";
 }
 
 @media (min-width: 768px) {
-  .modal .modal-dialog .modal-content .details figcaption a:after {
+  #dndModal.modal .modal-dialog .modal-content .details figcaption a:after {
     background-image: url(/images/download-arrow.svg);
     display: inline-block;
     width: 28px;
@@ -15520,18 +15728,18 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
   }
 }
 
-.modal .modal-dialog .modal-content .modal-nav-container {
+#dndModal.modal .modal-dialog .modal-content .modal-nav-container {
   width: 100%;
 }
 
 @media (min-width: 768px) {
-  .modal .modal-dialog .modal-content .modal-nav-container {
+  #dndModal.modal .modal-dialog .modal-content .modal-nav-container {
     position: absolute;
     top: 44%;
   }
 }
 
-.modal .modal-dialog .modal-content .modal-nav {
+#dndModal.modal .modal-dialog .modal-content .modal-nav {
   margin-bottom: 3.2rem;
   display: flex;
   width: 100%;
@@ -15539,13 +15747,13 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
 }
 
 @media (min-width: 768px) {
-  .modal .modal-dialog .modal-content .modal-nav {
+  #dndModal.modal .modal-dialog .modal-content .modal-nav {
     justify-content: space-between;
   }
 }
 
-.modal .modal-dialog .modal-content .modal-nav button,
-.modal .modal-dialog .modal-content .modal-nav span {
+#dndModal.modal .modal-dialog .modal-content .modal-nav button,
+#dndModal.modal .modal-dialog .modal-content .modal-nav span {
   font-size: 1rem;
   letter-spacing: .055rem;
   text-transform: uppercase;
@@ -15553,7 +15761,7 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
   background-color: transparent;
 }
 
-.modal .modal-dialog .modal-content .modal-nav button.next {
+#dndModal.modal .modal-dialog .modal-content .modal-nav button.next {
   background-image: url(/images/right-arrow2.svg);
   display: inline-block;
   background-color: #fff;
@@ -15569,7 +15777,7 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
 }
 
 @media (min-width: 768px) {
-  .modal .modal-dialog .modal-content .modal-nav button.next {
+  #dndModal.modal .modal-dialog .modal-content .modal-nav button.next {
     width: 38px;
     height: 38px;
     background-size: 28px 20px;
@@ -15577,7 +15785,7 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
   }
 }
 
-.modal .modal-dialog .modal-content .modal-nav button.prev {
+#dndModal.modal .modal-dialog .modal-content .modal-nav button.prev {
   background-image: url(/images/right-arrow2.svg);
   display: inline-block;
   width: 28px;
@@ -15598,7 +15806,7 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
 }
 
 @media (min-width: 768px) {
-  .modal .modal-dialog .modal-content .modal-nav button.prev {
+  #dndModal.modal .modal-dialog .modal-content .modal-nav button.prev {
     width: 38px;
     height: 38px;
     background-size: 28px 20px;
@@ -15606,24 +15814,24 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
   }
 }
 
-.modal .modal-dialog .modal-content .modal-nav button:hover {
+#dndModal.modal .modal-dialog .modal-content .modal-nav button:hover {
   text-decoration: underline;
 }
 
-.modal .modal-dialog .modal-content .modal-nav button:disabled {
+#dndModal.modal .modal-dialog .modal-content .modal-nav button:disabled {
   cursor: initial;
   opacity: .3;
 }
 
-.modal .modal-dialog .modal-content .modal-nav button:disabled:before {
+#dndModal.modal .modal-dialog .modal-content .modal-nav button:disabled:before {
   opacity: .5;
 }
 
-.modal .modal-dialog .modal-content .modal-nav button:disabled:after {
+#dndModal.modal .modal-dialog .modal-content .modal-nav button:disabled:after {
   opacity: .5;
 }
 
-.modal .modal-dialog .modal-content .modal-nav button:disabled:hover {
+#dndModal.modal .modal-dialog .modal-content .modal-nav button:disabled:hover {
   opacity: .3;
   color: #979797;
   text-decoration: none;
