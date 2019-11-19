@@ -44,17 +44,44 @@
 </div>
 <div class="row indiv-mtgs meetings">               
                   <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active col-12 col-md-8 mx-auto" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">{{ .Content }}</div>
-               
-                    
+                    <div class="tab-pane fade  col-12 col-md-8 mx-auto" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">{{ .Content | markdownify }}</div>
                     <div class="tab-pane fade col-12 col-md-10 mx-auto" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-
                         {{ partial "carouselmodal" . }}
+                    </div>
+                    <div class="tab-pane fade show active" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+
+                        <div class="row mtg-participants">
+                            <div class="col-xs-12 col-lg-10 offset-lg-1 flex-row d-flex flex-wrap">
+                            {{ range .Params.participants }}
+                          
+                            <!-- <div class="col-xs-12 col-mm-4 col"> -->
+                              <div id="{{ urlize .name }}-{{ urlize .title}}" class="column-people p-2 col-xs-12 col-md-4 col-lg-3 launch-people-bio">
+                                 {{/*  
+                                      {{ $img := strings.TrimPrefix "/uploads/" .image }}
+                                      {{ $name := .name }}
+                                      {{ with $.Site.GetPage "page" "uploads/_index.md" }}
+                                      {{ with .Resources.GetMatch $img }}
+                                          {{$imgFill := .Fill "272x272 Center"}}  
+                                  */}}
+                                      <div data-image="{{ .thumb }}" class="pic" style="background: url('{{ .thumb }}'); background-size: contain;" alt="Photo of {{ .name }}" tabindex="0">
+                                          <button class="d-none d-md-flex"><div>+</div></button>
+                                      </div>
+                                 {{/*  
+                                      {{ end }}
+                                      {{ end }} 
+                                  */}}
+                      
+                                  {{ partial "person.html" . }}
+                      
+                              </div>
+                           
+                          {{ end }}
+
+                              </div>
+                              </div>
+
 
                     </div>
-                    
-                    
-                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
                   </div>
             
     </div>

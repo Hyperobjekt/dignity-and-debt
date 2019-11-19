@@ -112,4 +112,62 @@
       });
     });
 
+ // Auto-add carousel indicators on meetings page for each photo in the slideshow
+    var myCarousel = $(".carousel");
+    myCarousel.append("<ol class='carousel-indicators'></ol>");
+    var indicators = $(".carousel-indicators"); 
+    myCarousel.find(".carousel-inner").children(".carousel-item").each(function(index) {
+        (index === 0) ? 
+        indicators.append("<li data-target='#mtgs-carousel' data-slide-to='"+index+"' class='active'></li>") : 
+        indicators.append("<li data-target='#mtgs-carousel' data-slide-to='"+index+"'></li>");
+    });     
+
+
+    $('.carousel').carousel();
+
+
+
+    var updateModal = {
+      activeBio: null,
+      allBios: null,
+      update: function() {
+          // console.log('updateModal.update()');
+          var $button = $(this.allBios[this.activeBio]).find('button');
+
+          // Get name, title, bio, and image
+          var parent = $button.parent();
+          // console.log(parent);
+          var name = $button.parent().siblings('.name').text();
+          // console.log('name = ' + name);
+          var title = $button.parent().siblings('.title').text();
+          // console.log('title = ' + title);
+          var bio = $button.parent().siblings('.bio').html();
+          /// console.log('bio = ' + bio);
+          var image = $button.closest('.column-people').children('.pic').attr('style');
+          var bigimage = $button.parent().siblings('.bigimage').html();
+
+          // Set contents
+          $('#modalImg').attr('style', image);
+          $('img#bigimage').attr('src', bigimage);
+          $('#modalName').text(name);
+          $('#modalTitle').html(title);
+          $('#modalBio').html(bio);
+          $('#peopleBioModal').modal('show');
+
+          // Check first and last position, disable buttons
+          if (this.activeBio <= 0) {
+              // console.log('first item');
+              $('#prevBio').prop( "disabled", true);
+              $('#nextBio').prop( "disabled", false);
+          } else if (this.activeBio >= ((this.allBios).length - 1)) {
+              // console.log('last item');
+              $('#prevBio').prop( "disabled", false);
+              $('#nextBio').prop( "disabled", true);
+          } else {
+              $('#prevBio').prop( "disabled", false);
+              $('#nextBio').prop( "disabled", false);
+          }
+      }
+  };
+
 })(jQuery);

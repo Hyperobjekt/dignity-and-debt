@@ -1976,6 +1976,16 @@ body.type-meeting.kind-section {
         line-height: 2.6rem;
         color: $dnd-navy;
       }
+      blockquote {
+        padding: 2.4rem 2.4rem 1.6rem;
+        max-width: 80%;
+        /* float: right; */
+        background: #e9fafb;
+        /* clear: both; */
+        display: block;
+        margin: 2.4rem auto;
+        /* font-style: italic; */
+      }
       .carousel-caption {
         right: 0;
         bottom: 0;
@@ -1995,8 +2005,154 @@ body.type-meeting.kind-section {
           }
         }
       }
+      iframe {
+        margin-left: 6px;
+        vertical-align: text-top;
+      }
+
+// Participants section ------------------------------ //
+
+      .mtg-participants {
+        .bigimage {
+          display: none;
+        }
+        .modal-pic {
+          img {
+              max-width: 100%;
+          }
+        }
+        .column-people {
+          .pic {
+            width: 100px;
+            height: 100px;
+            background-position: center;
+            background-size: 100px 100px;
+            border-radius: 62px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            @include media-breakpoint-up(mm) {
+              width: 100px;
+              height: 100px;
+              background-size: 100px 100px;
+              border-radius: 75px;
+            }
+            button {
+              //background-color: $button-bronze;
+              color: $white;
+              border: none;
+              width: 32px;
+              height: 32px;
+              border-radius: 32px;
+              font-size: 32px;
+              line-height: 32px;
+              font-weight: 100;
+              //padding: 5px 0;
+              position: absolute;
+              right: -5%;
+              bottom: 3%;
+              display: flex;
+              padding: 0;
+              //display: block;
+              justify-content: center;
+              align-items: baseline;
+              //padding-bottom: 8px;
+              div {
+                position: relative;
+                top: -5px;
+                max-width: 32px;
+              }
+              span {
+                text-align: center;
+                &.plus-horiz {
+                  transform: rotate(90deg);
+                  transform-origin: left top 0;
+                }
+              }
+    
+            }
+          } 
+
+          .name {
+            //color: $seda-dark;
+            //@include sofia-med;
+            font-size: 1.8rem;
+            line-height: 2.592rem;
+            letter-spacing: 0;
+            margin-top: 1.6rem;
+            margin-bottom: .4rem;
+            @include media-breakpoint-up(md) {
+              margin-top: 1.6rem;
+              margin-bottom: .4rem;
+              font-size: 1.8rem;
+              line-height: 2.7rem;
+              letter-spacing: 0;
+            }
+            @include media-breakpoint-up(md) {
+                margin-top: 1.6rem;
+                margin-bottom: .4rem;
+                font-size: 2rem;
+                line-height: 3rem;
+                letter-spacing: 0;
+              }
+            @include media-breakpoint-up(xl) {
+                margin-top: 1.6rem;
+                margin-bottom: .4rem;
+                font-size: 2.2rem;
+                line-height: 3.24rem;
+                letter-spacing: 0;
+              }
+          }
+
+          .title {
+            // color: $seda-gray;
+            //display: none;
+            //@include sofia-reg;
+            font-size: 1.2rem;
+            line-height: 2.8rem;
+            letter-spacing: 0;
+            @include media-breakpoint-up(md) {
+              font-size: 1.4rem;
+              line-height: 2.1rem;
+              letter-spacing: 0;
+            }
+            @include media-breakpoint-up(lg) {
+                font-size: 1.6rem;
+                line-height: 2.4rem;
+                letter-spacing: 0;
+              }
+            }
+          .bio {
+            display: none;
+          }
+
+
+        }
+        .column-people:hover {
+            .pic {
+                //filter: none;
+                //background-blend-mode: color-burn;
+                //transition: background-blend-mode .3s ease;
+            }
+            .pic button {
+                transition: background-color .3s ease;
+                //background-color: ;
+            }
+        }    
+        .row.people-former, .row.people-current {
+            .flex-row {
+                justify-content: center;
+            }
+        }
+
+
+
+      }
 
     }
+
+
+// Roundtable --------------------------------- //
 
     &.the-roundtable {
       margin-top: 9.4rem;

@@ -14252,6 +14252,17 @@ body.type-meeting.kind-section .row.jumbotron {
   color: #003E62;
 }
 
+.kind-page.type-single-meeting .row.indiv-mtgs blockquote {
+  padding: 2.4rem 2.4rem 1.6rem;
+  max-width: 80%;
+  /* float: right; */
+  background: #e9fafb;
+  /* clear: both; */
+  display: block;
+  margin: 2.4rem auto;
+  /* font-style: italic; */
+}
+
 .kind-page.type-single-meeting .row.indiv-mtgs .carousel-caption {
   right: 0;
   bottom: 0;
@@ -14264,6 +14275,139 @@ body.type-meeting.kind-section .row.jumbotron {
 
 .kind-page.type-single-meeting .row.indiv-mtgs .carousel-caption p {
   color: #fff !important;
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs iframe {
+  margin-left: 6px;
+  vertical-align: text-top;
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .bigimage {
+  display: none;
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .modal-pic img {
+  max-width: 100%;
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .pic {
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: 100px 100px;
+  border-radius: 62px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-size: 100px 100px;
+  border-radius: 75px;
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .pic button {
+  color: #ffffff;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 100;
+  position: absolute;
+  right: -5%;
+  bottom: 3%;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .pic button div {
+  position: relative;
+  top: -5px;
+  max-width: 32px;
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .pic button span {
+  text-align: center;
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .pic button span.plus-horiz {
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .name {
+  font-size: 1.8rem;
+  line-height: 2.592rem;
+  letter-spacing: 0;
+  margin-top: 1.6rem;
+  margin-bottom: .4rem;
+}
+
+@media (min-width: 768px) {
+  .kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .name {
+    margin-top: 1.6rem;
+    margin-bottom: .4rem;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    letter-spacing: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .name {
+    margin-top: 1.6rem;
+    margin-bottom: .4rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  .kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .name {
+    margin-top: 1.6rem;
+    margin-bottom: .4rem;
+    font-size: 2.2rem;
+    line-height: 3.24rem;
+    letter-spacing: 0;
+  }
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .title {
+  font-size: 1.2rem;
+  line-height: 2.8rem;
+  letter-spacing: 0;
+}
+
+@media (min-width: 768px) {
+  .kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .title {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    letter-spacing: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .title {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: 0;
+  }
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .bio {
+  display: none;
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people:hover .pic button {
+  transition: background-color .3s ease;
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .row.people-former .flex-row, .kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .row.people-current .flex-row {
+  justify-content: center;
 }
 
 .kind-page.type-single-meeting .row.the-roundtable {
