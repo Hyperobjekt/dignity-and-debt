@@ -2011,7 +2011,20 @@ body.type-meeting.kind-section {
       }
 
 // Participants section ------------------------------ //
-
+      nav {
+        box-shadow: none;
+        .nav-tabs {
+          border: none;
+          box-shadow: none;
+          .nav-link {
+              border: none;
+              text-decoration: none;
+              font-size: 2.1rem;
+              font-family: $brandongrotesque-bold;
+              font-weight: 600;
+              }
+            } 
+          }  
       .mtg-participants {
         .bigimage {
           display: none;
@@ -2031,6 +2044,7 @@ body.type-meeting.kind-section {
             margin-left: auto;
             margin-right: auto;
             position: relative;
+            cursor: pointer;
             @include media-breakpoint-up(mm) {
               width: 100px;
               height: 100px;
@@ -2038,7 +2052,7 @@ body.type-meeting.kind-section {
               border-radius: 75px;
             }
             button {
-              //background-color: $button-bronze;
+              background-color: $dnd-red;
               color: $white;
               border: none;
               width: 32px;
@@ -2059,7 +2073,7 @@ body.type-meeting.kind-section {
               //padding-bottom: 8px;
               div {
                 position: relative;
-                top: -5px;
+                top: 3px;
                 max-width: 32px;
               }
               span {
@@ -2075,37 +2089,39 @@ body.type-meeting.kind-section {
 
           .name {
             //color: $seda-dark;
-            //@include sofia-med;
+            font-family: $caslon;
+            color: $dnd-navy;
+            font-weight: 600;
             font-size: 1.8rem;
-            line-height: 2.592rem;
+            line-height: 1.5;
             letter-spacing: 0;
             margin-top: 1.6rem;
             margin-bottom: .4rem;
             @include media-breakpoint-up(md) {
               margin-top: 1.6rem;
               margin-bottom: .4rem;
-              font-size: 1.8rem;
-              line-height: 2.7rem;
+              //font-size: 1.8rem;
+              //line-height: 2.7rem;
               letter-spacing: 0;
             }
             @include media-breakpoint-up(md) {
                 margin-top: 1.6rem;
                 margin-bottom: .4rem;
-                font-size: 2rem;
-                line-height: 3rem;
+                //font-size: 2rem;
+                //line-height: 3rem;
                 letter-spacing: 0;
               }
             @include media-breakpoint-up(xl) {
                 margin-top: 1.6rem;
                 margin-bottom: .4rem;
-                font-size: 2.2rem;
-                line-height: 3.24rem;
+                //font-size: 2.2rem;
+                //line-height: 3.24rem;
                 letter-spacing: 0;
               }
           }
 
           .title {
-            // color: $seda-gray;
+            color: $dnd-navy;
             //display: none;
             //@include sofia-reg;
             font-size: 1.2rem;
@@ -2139,7 +2155,7 @@ body.type-meeting.kind-section {
                 //background-color: ;
             }
         }    
-        .row.people-former, .row.people-current {
+        .row.mtg-participants, .row.people-current {
             .flex-row {
                 justify-content: center;
             }
@@ -2150,6 +2166,8 @@ body.type-meeting.kind-section {
       }
 
     }
+
+    
 
 
 // Roundtable --------------------------------- //
@@ -2263,6 +2281,211 @@ body.type-meeting.kind-section {
     }
 
 
+  }
+}
+
+// People bio modals ------------------------------ //
+
+#peopleBioModal.modal {
+  padding-right: 0 !important;
+
+  @include media-breakpoint-up(md) {
+    .modal-dialog {
+      max-width: 690px;
+    }
+    .modal-content {
+      width: 690px;
+      margin: 0 auto;
+    }
+    .modal-body {
+      padding: 1.6rem 3.2rem 3.2rem;
+    }
+    .modal-pic {
+      padding-left: 0;
+      img {
+        max-width: 100%;
+      }
+      .modal-image {
+        margin-top: 0;
+      }
+    }
+    // row {
+    //   margin-right: 0 !important;
+    //   margin-left: 0 !important;
+    // }
+    button.close {
+      margin-bottom: 1rem;
+    }
+    .modal-image {
+      margin-top: 0;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    .modal-dialog {
+      max-width: 930px;
+    }
+    .modal-content {
+      width: 930px;
+      margin: 0 auto;
+    }
+    .modal-bio {
+      padding-left: 3.2rem;
+    }
+  }
+
+  button.close {
+    // position: absolute;
+    opacity: 1;
+    align-items: center;
+    //color: $seda-dark;
+    font-size: 3.2rem;
+    font-weight: 100;
+    border: 1px solid rgba(237, 238, 240, 100);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    span {
+      //color: $seda-dark;
+      font-size: 3.2rem;
+      font-weight: 100;
+      pointer-events: none;
+      position: relative;
+      top: 2px;
+      left: .5px;
+    }
+  }
+  .modal-image {
+    width: 202px;
+    height: 202px;
+    background-position: center center;
+    background-size: 202px 202px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.4rem;
+    margin-bottom: 4.8rem;
+
+    @include media-breakpoint-up(lg) {
+      width: 272px;
+      height: 272px;
+      background-position: center center;
+      background-size: 272px 272px;
+    }
+  }
+
+  .modal-bio {
+    hr {
+      margin: 1.8rem 0;
+    }
+    .modal-meta {
+      #modalName {
+        //font-family: $sharpgrotesk-med-20;
+        font-size: 1.85rem;
+        line-height: 2.7rem;
+        letter-spacing: 0;
+        //color: $seda-dark;
+        margin-bottom: 1.2rem;
+      }
+      #modalTitle {
+        //font-family: $maisonneue-book;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        letter-spacing: 0;
+        //color: $seda-gray;
+      }
+    }
+    #modalBio {
+      //font-family: $maisonneue-book;
+      font-size: 1.3rem;
+      line-height: 2.0rem;
+      letter-spacing: 0;
+      //color: $med-gray;
+      margin-bottom: 3.2rem;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    .modal-bio {
+      hr {
+        margin: 1.8rem 0;
+      }
+      .modal-meta {
+        #modalName {
+          font-size: 1.85rem;
+          line-height: 2.7rem;
+        }
+        #modalTitle {
+          font-size: 1.4rem;
+          line-height: 2.1rem;
+        }
+      }
+      #modalBio {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+      }
+    }
+  }
+
+  .modal-nav {
+    margin-bottom: 3.2rem;
+
+    button,
+    span {
+      //font-family: $sharpgrotesk-med-15;
+      font-size: 1.4rem;
+      letter-spacing: .055rem;
+      text-transform: uppercase;
+      border: 0;
+      background-color: transparent;
+    }
+    button {
+      &.next::after {
+        content: "";
+        background-image: url(/images/right-arrow.svg);
+        display: inline-block;
+        width: 14px;
+        height: 10px;
+        background-size: 14px 10px;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        margin-left: .8rem;
+      }
+      &.prev:before {
+        content: "";
+        background-image: url(/images/right-arrow.svg);
+        display: inline-block;
+        width: 14px;
+        height: 10px;
+        background-size: 14px 10px;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg);
+        margin-right: .8rem;
+      }
+      &:hover {
+        text-decoration: underline;
+        //color: $seda-dark;
+      }
+      &:disabled {
+        // color: #979797;
+        opacity: .5;
+        &:before {
+          opacity: .5;
+        }
+        &:after {
+          opacity: .5;
+        }
+        &:hover {
+          opacity: .5;
+          color: #979797;
+          text-decoration: none;
+        }
+      }
+    }
   }
 }
 
@@ -3191,7 +3414,7 @@ body.comparing-and-calculating-your-student-loan-debt {
   }
 }
 // Modal dialog
-.modal {
+#dndModal.modal {
   .modal-body {
     padding-right: 2.4rem;
     padding-left: 2.4rem;

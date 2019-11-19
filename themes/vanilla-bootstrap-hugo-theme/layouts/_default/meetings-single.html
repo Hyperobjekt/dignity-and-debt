@@ -34,24 +34,24 @@
     <div class="col-12 col-md-8 mx-auto">
             <h2 class="text-center">{{ .Params.highlightsTitle }}</h2>
             <nav>
-                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                      {{ if .Params.recapTitle }}<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">{{ .Params.recapTitle }}</a>{{ end }}
-                      {{ if .Params.photosTitle }}<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">{{ .Params.photosTitle }}</a>{{ end }}
-                      {{ if .Params.participantsTitle }}<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">{{ .Params.participantsTitle }}</a>{{ end }}
+                    <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+                      {{ if .Params.recapTitle }}<a class="nav-item nav-link mr-2" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">{{ .Params.recapTitle }}</a>{{ end }}
+                      {{ if .Params.photosTitle }}<a class="nav-item nav-link mr-2" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">{{ .Params.photosTitle }}</a>{{ end }}
+                      {{ if .Params.participantsTitle }}<a class="nav-item nav-link active" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">{{ .Params.participantsTitle }}</a>{{ end }}
                     </div>
                   </nav>
     </div>
 </div>
-<div class="row indiv-mtgs meetings">               
-                  <div class="tab-content" id="nav-tabContent">
+<div class="meetings">               
+                  <div class="row indiv-mtgs tab-content" id="nav-tabContent">
                     <div class="tab-pane fade  col-12 col-md-8 mx-auto" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">{{ .Content | markdownify }}</div>
                     <div class="tab-pane fade col-12 col-md-10 mx-auto" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                         {{ partial "carouselmodal" . }}
                     </div>
-                    <div class="tab-pane fade show active" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                    <div class="tab-pane text-center fade show active mtg-participants col-xs-12 col-lg-10 offset-lg-1 flex-row d-flex flex-wrap justify-content-center" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
 
-                        <div class="row mtg-participants">
-                            <div class="col-xs-12 col-lg-10 offset-lg-1 flex-row d-flex flex-wrap">
+                       
+                         
                             {{ range .Params.participants }}
                           
                             <!-- <div class="col-xs-12 col-mm-4 col"> -->
@@ -77,8 +77,8 @@
                            
                           {{ end }}
 
-                              </div>
-                              </div>
+                             
+                             
 
 
                     </div>
