@@ -1,11 +1,17 @@
 <!--Carousel Wrapper-->
 <div id="mtgs-carousel" class="carousel slide carousel-fade mtgs-carousel" data-interval="false" data-ride="carousel" data-pause="hover">
         <!--Indicators-->
-        <ol class="carousel-indicators">
+       <!-- <ol class="carousel-indicators">
           <li data-target="#mtgs-carousel" data-slide-to="0" class="active"></li>
           <li data-target="#mtgs-carousel" data-slide-to="1"></li>
           <li data-target="#mtgs-carousel" data-slide-to="2"></li>
-        </ol>
+          <li data-target="#mtgs-carousel" data-slide-to="3"></li>
+          <li data-target="#mtgs-carousel" data-slide-to="4"></li>
+          <li data-target="#mtgs-carousel" data-slide-to="5"></li>
+          <li data-target="#mtgs-carousel" data-slide-to="6"></li>
+          <li data-target="#mtgs-carousel" data-slide-to="7"></li>
+          <li data-target="#mtgs-carousel" data-slide-to="8"></li>
+        </ol> -->
         <!--/.Indicators-->
         <!--Slides-->
         <div class="carousel-inner" role="listbox">
@@ -16,9 +22,11 @@
                     alt="First slide">
                 <div class="mask rgba-black-light"></div>
                 </div>
-                <div class="carousel-caption">
-                <p>{{ .caption }}</p>
-                </div>
+                {{ if .caption }}
+                    <div class="carousel-caption">
+                    <p>{{ .caption }}</p>
+                    </div>
+                {{ end }}    
           </div>
           {{ end }}
           {{ range after 1 .Params.carouselimages }}
@@ -29,9 +37,11 @@
                     alt="Second slide">
                 <div class="mask rgba-black-strong"></div>
                 </div>
-                <div class="carousel-caption">
-                <p>{{ .caption }}</p>
-                </div>
+                {{ if .caption }}
+                    <div class="carousel-caption">
+                    <p>{{ .caption }}</p>
+                    </div>
+                {{ end }}    
             </div>
           {{ end }}  
     
