@@ -1,0 +1,8 @@
+<div class="row d-flex justify-content-center flex-wrap hearfrom meetings">
+    {{ range .Params.videos }}
+        <div class="col-lg-6 col-md-6 col-sm-12 flex-fill">
+          {{ .videolink | safeHTML }}
+          <span class="desc" tabindex="0">{{ .videocaption }}</span>
+        </div>
+    {{ end }}    
+</div>

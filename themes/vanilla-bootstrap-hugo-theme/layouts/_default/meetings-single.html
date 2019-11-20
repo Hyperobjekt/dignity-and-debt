@@ -42,11 +42,12 @@
                   </nav>
     </div>
 </div>
-<div class="meetings">               
+<div class="meetings-tabs">               
                   <div class="row indiv-mtgs tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active col-12 col-md-8 mx-auto mb-10" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">{{ .Content | markdownify }}</div>
-                    <div class="tab-pane fade col-12 col-md-10 mx-auto mb-10" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div class="tab-pane fade show active recap col-12 col-md-8 mx-auto mb-10" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">{{ .Content | markdownify }}</div>
+                    <div class="tab-pane fade recap-av col-12 col-md-10 mx-auto mb-10" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                         {{ partial "carouselmodal" . }}
+                        {{ partial "meetingsvideo" . }}
                     </div>
                     <div class="tab-pane text-center fade mtg-participants col-xs-12 col-lg-10 offset-lg-1 mb-10" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
 
