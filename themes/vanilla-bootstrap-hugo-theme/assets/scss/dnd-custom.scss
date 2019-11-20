@@ -1997,7 +1997,8 @@ body.type-meeting.kind-section {
         padding-top: 20px;
         padding-bottom: 20px;
         text-align: center;
-        background: #0000005e;
+        background-image: linear-gradient(#0000001f, #000000d1);
+        
         p {
           color: #fff !important;
           } 
@@ -2163,19 +2164,9 @@ body.type-meeting.kind-section {
             color: $dnd-navy;
             //display: none;
             //@include sofia-reg;
-            font-size: 1.2rem;
-            line-height: 2.8rem;
+            font-size: 1.6rem;
+            line-height: 1.5;
             letter-spacing: 0;
-            @include media-breakpoint-up(md) {
-              font-size: 1.4rem;
-              line-height: 2.1rem;
-              letter-spacing: 0;
-            }
-            @include media-breakpoint-up(lg) {
-                font-size: 1.6rem;
-                line-height: 2.4rem;
-                letter-spacing: 0;
-              }
             }
           .bio {
             display: none;
@@ -2414,29 +2405,37 @@ body.type-meeting.kind-section {
 
   .modal-bio {
     hr {
-      margin: 1.8rem 0;
+      margin: 1.6rem 0;
     }
     .modal-meta {
       #modalName {
+        font-family: $caslon;
+            color: $dnd-navy;
+            font-weight: 600;
+            font-size: 2.1rem;
+            line-height: 1.5;
+            letter-spacing: 0;
         //font-family: $sharpgrotesk-med-20;
-        font-size: 1.85rem;
-        line-height: 2.7rem;
-        letter-spacing: 0;
+        //font-size: 1.85rem;
+       // line-height: 2.7rem;
+        //letter-spacing: 0;
         //color: $seda-dark;
-        margin-bottom: 1.2rem;
+        //margin-bottom: 1.2rem;
       }
       #modalTitle {
-        //font-family: $maisonneue-book;
-        font-size: 1.2rem;
-        line-height: 1.8rem;
-        letter-spacing: 0;
+        font-family: $brandongrotesque-reg;
+        color: $aqualink;
+            font-size: 1.8rem;
+            line-height: 1.5;
+            letter-spacing: 0;
         //color: $seda-gray;
       }
     }
     #modalBio {
       //font-family: $maisonneue-book;
-      font-size: 1.3rem;
-      line-height: 2.0rem;
+      color: $dnd-navy;
+      font-size: 1.8rem;
+      line-height: 1.5;
       letter-spacing: 0;
       //color: $med-gray;
       margin-bottom: 3.2rem;
@@ -2470,7 +2469,8 @@ body.type-meeting.kind-section {
 
     button,
     span {
-      //font-family: $sharpgrotesk-med-15;
+      font-family: $brandongrotesque-reg;
+      color: $aqualink;
       font-size: 1.4rem;
       letter-spacing: .055rem;
       text-transform: uppercase;

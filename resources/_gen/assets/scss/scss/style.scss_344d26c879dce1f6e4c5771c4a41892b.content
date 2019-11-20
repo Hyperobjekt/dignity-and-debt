@@ -14275,7 +14275,7 @@ body.type-meeting.kind-section .row.jumbotron {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-  background: #0000005e;
+  background-image: linear-gradient(#0000001f, #000000d1);
 }
 
 .kind-page.type-single-meeting .row.indiv-mtgs .carousel-caption p {
@@ -14440,25 +14440,9 @@ body.type-meeting.kind-section .row.jumbotron {
 
 .kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .title {
   color: #003E62;
-  font-size: 1.2rem;
-  line-height: 2.8rem;
+  font-size: 1.6rem;
+  line-height: 1.5;
   letter-spacing: 0;
-}
-
-@media (min-width: 768px) {
-  .kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .title {
-    font-size: 1.4rem;
-    line-height: 2.1rem;
-    letter-spacing: 0;
-  }
-}
-
-@media (min-width: 1280px) {
-  .kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .title {
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-    letter-spacing: 0;
-  }
 }
 
 .kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .column-people .bio {
@@ -14693,25 +14677,30 @@ body.type-meeting.kind-section .row.jumbotron {
 }
 
 #peopleBioModal.modal .modal-bio hr {
-  margin: 1.8rem 0;
+  margin: 1.6rem 0;
 }
 
 #peopleBioModal.modal .modal-bio .modal-meta #modalName {
-  font-size: 1.85rem;
-  line-height: 2.7rem;
+  font-family: "adobe-caslon-pro", "Crimson Text", serif;
+  color: #003E62;
+  font-weight: 600;
+  font-size: 2.1rem;
+  line-height: 1.5;
   letter-spacing: 0;
-  margin-bottom: 1.2rem;
 }
 
 #peopleBioModal.modal .modal-bio .modal-meta #modalTitle {
-  font-size: 1.2rem;
-  line-height: 1.8rem;
+  font-family: "brandon-grotesque", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  color: #1C6F81;
+  font-size: 1.8rem;
+  line-height: 1.5;
   letter-spacing: 0;
 }
 
 #peopleBioModal.modal .modal-bio #modalBio {
-  font-size: 1.3rem;
-  line-height: 2.0rem;
+  color: #003E62;
+  font-size: 1.8rem;
+  line-height: 1.5;
   letter-spacing: 0;
   margin-bottom: 3.2rem;
 }
@@ -14740,6 +14729,8 @@ body.type-meeting.kind-section .row.jumbotron {
 
 #peopleBioModal.modal .modal-nav button,
 #peopleBioModal.modal .modal-nav span {
+  font-family: "brandon-grotesque", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  color: #1C6F81;
   font-size: 1.4rem;
   letter-spacing: .055rem;
   text-transform: uppercase;
