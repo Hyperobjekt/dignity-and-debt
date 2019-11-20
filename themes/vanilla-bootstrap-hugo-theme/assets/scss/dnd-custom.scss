@@ -1931,7 +1931,7 @@ body.type-meeting.kind-section {
         }
       }
     }
-
+// 
     &.indiv-mtgs {
       .divider {
         border-bottom: solid 1px #c9e9ea;
@@ -1989,7 +1989,13 @@ body.type-meeting.kind-section {
             font-weight: 400;
             line-height: 1.5 !important;
         }
+        iframe {
+          display: block;
+          margin-top: 8px;
+        }
       }
+// Photos & Video Tab ------------------------------- /      
+    .recap-av {
       .carousel-caption {
         right: 0;
         bottom: 0;
@@ -2026,10 +2032,15 @@ body.type-meeting.kind-section {
           }
         }
       }
-      iframe {
-        display: block;
-        margin-top: 8px;
+      span.desc {
+        font-family: $caslon;
+        color: $dnd-navy;
+        font-size: 1.8rem;
+        line-height: 1.5;
+        font-weight: 400;
       }
+    }
+      
 
 // Participants section ------------------------------ //
       nav {

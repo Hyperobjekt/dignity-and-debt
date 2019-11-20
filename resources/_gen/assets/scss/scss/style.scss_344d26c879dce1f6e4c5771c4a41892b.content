@@ -14268,7 +14268,12 @@ body.type-meeting.kind-section .row.jumbotron {
   line-height: 1.5 !important;
 }
 
-.kind-page.type-single-meeting .row.indiv-mtgs .carousel-caption {
+.kind-page.type-single-meeting .row.indiv-mtgs blockquote iframe {
+  display: block;
+  margin-top: 8px;
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs .recap-av .carousel-caption {
   right: 0;
   bottom: 0;
   left: 0;
@@ -14278,11 +14283,11 @@ body.type-meeting.kind-section .row.jumbotron {
   background-image: linear-gradient(#0000001f, #000000d1);
 }
 
-.kind-page.type-single-meeting .row.indiv-mtgs .carousel-caption p {
+.kind-page.type-single-meeting .row.indiv-mtgs .recap-av .carousel-caption p {
   color: #fff !important;
 }
 
-.kind-page.type-single-meeting .row.indiv-mtgs .mtgs-carousel .carousel-indicators li {
+.kind-page.type-single-meeting .row.indiv-mtgs .recap-av .mtgs-carousel .carousel-indicators li {
   position: relative;
   flex: 0 1 auto;
   width: 8px;
@@ -14295,14 +14300,17 @@ body.type-meeting.kind-section .row.jumbotron {
   cursor: pointer;
 }
 
-.kind-page.type-single-meeting .row.indiv-mtgs .mtgs-carousel .carousel-control-prev-icon, .kind-page.type-single-meeting .row.indiv-mtgs .mtgs-carousel .carousel-control-next-icon {
+.kind-page.type-single-meeting .row.indiv-mtgs .recap-av .mtgs-carousel .carousel-control-prev-icon, .kind-page.type-single-meeting .row.indiv-mtgs .recap-av .mtgs-carousel .carousel-control-next-icon {
   width: 30px;
   height: 30px;
 }
 
-.kind-page.type-single-meeting .row.indiv-mtgs iframe {
-  display: block;
-  margin-top: 8px;
+.kind-page.type-single-meeting .row.indiv-mtgs .recap-av span.desc {
+  font-family: "adobe-caslon-pro", "Crimson Text", serif;
+  color: #003E62;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  font-weight: 400;
 }
 
 .kind-page.type-single-meeting .row.indiv-mtgs nav {
