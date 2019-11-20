@@ -14253,14 +14253,19 @@ body.type-meeting.kind-section .row.jumbotron {
 }
 
 .kind-page.type-single-meeting .row.indiv-mtgs blockquote {
-  padding: 2.4rem 2.4rem 1.6rem;
+  padding: 3.2rem 3.2rem 1.6rem;
   max-width: 80%;
   /* float: right; */
   background: #e9fafb;
   /* clear: both; */
   display: block;
-  margin: 2.4rem auto;
-  /* font-style: italic; */
+  margin: 3.2rem auto;
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs blockquote p {
+  font-size: 2rem !important;
+  font-weight: 400;
+  line-height: 1.5 !important;
 }
 
 .kind-page.type-single-meeting .row.indiv-mtgs .carousel-caption {
@@ -14277,9 +14282,27 @@ body.type-meeting.kind-section .row.jumbotron {
   color: #fff !important;
 }
 
-.kind-page.type-single-meeting .row.indiv-mtgs iframe {
+.kind-page.type-single-meeting .row.indiv-mtgs .mtgs-carousel .carousel-indicators li {
+  position: relative;
+  flex: 0 1 auto;
+  width: 8px;
+  height: 8px;
+  border-radius: 60%;
+  margin-right: 6px;
   margin-left: 6px;
-  vertical-align: text-top;
+  text-indent: -999px;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs .mtgs-carousel .carousel-control-prev-icon, .kind-page.type-single-meeting .row.indiv-mtgs .mtgs-carousel .carousel-control-next-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs iframe {
+  display: block;
+  margin-top: 8px;
 }
 
 .kind-page.type-single-meeting .row.indiv-mtgs nav {
@@ -14297,6 +14320,29 @@ body.type-meeting.kind-section .row.jumbotron {
   font-size: 2.1rem;
   font-family: "brandon-grotesque", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
   font-weight: 600;
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs nav .nav-tabs .nav-link:hover {
+  color: #1C6F81;
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs nav .nav-tabs .nav-link.active {
+  color: #1C6F81;
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs nav .nav-tabs .nav-link.active:after {
+  content: "";
+  display: block;
+  width: 4.8rem;
+  border-bottom: solid 8px #c9e9ea;
+  margin: 0.8rem 0 3.2rem;
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants.show {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants .bigimage {
