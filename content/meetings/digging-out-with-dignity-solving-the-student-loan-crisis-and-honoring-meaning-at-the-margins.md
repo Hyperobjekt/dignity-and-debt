@@ -7,71 +7,196 @@ has_ppl_modal: true
 type: single-meeting
 layout: meetings-single
 date: 2019-07-30T12:05:35.501Z
-display_date: October 18, 2019
-description: Student loans from the federal government total $1.5 trillion in the United States with 40 percent of them at risk of default over the next four years. Across the globe, student unrest over fines and fees has destabilized plans for funding higher education and called to account histories of dispossession. While considering what must be done, we must also pay more attention to what is at stake.
+display_date: 'October 18, 2019'
+description: >-
+  Student loans from the federal government total $1.5 trillion in the United
+  States with 40 percent of them at risk of default over the next four years.
+  Across the globe, student unrest over fines and fees has destabilized plans
+  for funding higher education and called to account histories of dispossession.
+  While considering what must be done, we must also pay more attention to what
+  is at stake.
 shortIntro: >-
   **A Dignity + Debt Discussion Forum**
-  
+
   **Co-presented with The Aspen Institute’s Financial Security Program** 
-  
-  **Hosted at Princeton University** 
-  <br/><br/>
-  **Friday, October 18, 2019**
-  
-  <br/><br/>
-  On October 18, 2019 the Dignity + Debt Network and the Financial Security Program at the Aspen Institute convened a discussion on the student loan crisis. The event was free and open to the public, and it included journalists and other non-fiction writers as well as sociologists, anthropologists, economists, and representatives from think tanks and nonprofit advocacy organizations. 
+
+  **Hosted at Princeton University**  <br/><br/> **Friday, October 18, 2019**
+
+  <br/><br/> On October 18, 2019 the Dignity + Debt Network and the Financial
+  Security Program at the Aspen Institute convened a discussion on the student
+  loan crisis. The event was free and open to the public, and it included
+  journalists and other non-fiction writers as well as sociologists,
+  anthropologists, economists, and representatives from think tanks and
+  nonprofit advocacy organizations. 
 highlightsTitle: HIGHLIGHTS
 recapTitle: Conference Recap
 photosTitle: Photos
-participantsTitle: Participants
-carouselimages: 
-  - pic: "/uploads/DSCF0261.jpg" 
-    caption: lorem ipsum dolor sit amet
-  - pic: /uploads/DSCF0263.jpg  
-    caption: 
-  - pic: /uploads/DSCF0287.jpg  
-    caption: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan lacus vel facilisis volutpat est velit egestas dui. Dignissim convallis aenean et tortor at risus. Ipsum consequat nisl vel pretium lectus quam. Amet commodo nulla facilisi nullam vehicula ipsum a. Arcu non sodales neque sodales ut etiam sit amet. A pellentesque sit amet porttitor eget. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Varius sit amet mattis vulputate enim. Mi bibendum neque egestas congue quisque egestas diam in arcu. Risus sed vulputate odio ut enim blandit volutpat. 
-  - pic: "/uploads/DSCF0300.jpg" 
-    caption: lorem ipsum dolor sit amet
-  - pic: /uploads/DSCF0314.jpg  
-    caption: lorem ipsum dolor sit amet
-  - pic: /uploads/DSCF0315.jpg  
-    caption: lorem ipsum dolor sit amet 
-  - pic: /uploads/DSCF0322.jpg  
-    caption: lorem ipsum dolor sit amet  
-  - pic: /uploads/DSCF0325.jpg  
-    caption: lorem ipsum dolor sit amet
-  - pic: "/uploads/DSCF0326.jpg" 
-    caption: lorem ipsum dolor sit amet
-  - pic: /uploads/DSCF0335.jpg  
-    caption: lorem ipsum dolor sit amet
-  - pic: /uploads/DSCF0337.jpg  
-    caption: lorem ipsum dolor sit amet 
-  - pic: "/uploads/DSCF0338.jpg" 
-    caption: lorem ipsum dolor sit amet
-  - pic: /uploads/DSCF0339.jpg  
-    caption: lorem ipsum dolor sit amet
-  - pic: /uploads/DSCF0346.jpg  
-    caption: lorem ipsum dolor sit amet
+carouselimages:
+  - caption: lorem ipsum dolor sit amet
+    pic: /uploads/DSCF0261.jpg
+  - pic: /uploads/DSCF0263.jpg
+  - caption: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Accumsan lacus vel
+      facilisis volutpat est velit egestas dui. Dignissim convallis aenean et
+      tortor at risus. Ipsum consequat nisl vel pretium lectus quam. Amet
+      commodo nulla facilisi nullam vehicula ipsum a. Arcu non sodales neque
+      sodales ut etiam sit amet. A pellentesque sit amet porttitor eget.
+      Parturient montes nascetur ridiculus mus mauris vitae ultricies leo.
+      Varius sit amet mattis vulputate enim. Mi bibendum neque egestas congue
+      quisque egestas diam in arcu. Risus sed vulputate odio ut enim blandit
+      volutpat.
+    pic: /uploads/DSCF0287.jpg
+  - caption: lorem ipsum dolor sit amet
+    pic: /uploads/DSCF0300.jpg
+  - caption: lorem ipsum dolor sit amet
+    pic: /uploads/DSCF0314.jpg
+  - caption: lorem ipsum dolor sit amet
+    pic: /uploads/DSCF0315.jpg
+  - caption: lorem ipsum dolor sit amet
+    pic: /uploads/DSCF0322.jpg
+  - caption: lorem ipsum dolor sit amet
+    pic: /uploads/DSCF0325.jpg
+  - caption: lorem ipsum dolor sit amet
+    pic: /uploads/DSCF0326.jpg
+  - caption: lorem ipsum dolor sit amet
+    pic: /uploads/DSCF0335.jpg
+  - caption: lorem ipsum dolor sit amet
+    pic: /uploads/DSCF0337.jpg
+  - caption: lorem ipsum dolor sit amet
+    pic: /uploads/DSCF0338.jpg
+  - caption: lorem ipsum dolor sit amet
+    pic: /uploads/DSCF0339.jpg
+  - caption: lorem ipsum dolor sit amet
+    pic: /uploads/DSCF0346.jpg
 videos:
-  - videolink: <iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1449362/sp/144936200/embedIframeJs/uiconf_id/25624581/partner_id/1449362?iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_kldwyw07&amp;flashvars[leadWithHTML5]=true&amp;flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;wid=1_ndomvidw" width="560" height="315" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura Player" aria-labelledby="vid1desc" class="img-fluid" tabindex="0"></iframe>
-    videocaption: Hear from the DDN Director, Frederick Wherry, Professor of Sociology at Princeton on the mission of the Network. 
-  - videolink: <iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1449362/sp/144936200/embedIframeJs/uiconf_id/25624581/partner_id/1449362?iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_5zh066n3&amp;flashvars[leadWithHTML5]=true&amp;flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;wid=1_sw6d2hsd" width="560" height="315" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura Player" aria-labelledby="vid2desc" class="img-fluid" tabindex="0"></iframe>
-    videocaption: Hear from Alondra Nelson, president of the Social Science Research Council, on anticipatory social research, getting ahead of emerging demographic shifts and unexamined vectors of inequality.
-  - videolink: <iframe aria-labelledby="" id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1449362/sp/144936200/embedIframeJs/uiconf_id/25624581/partner_id/1449362?iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_plegp1g1&amp;flashvars[leadWithHTML5]=true&amp;flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;wid=1_pnsqzbc9" width="560" height="315" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura Player" aria-labelledby="vid3desc" class="img-fluid" tabindex="0"></iframe>
-    videocaption: Hear from Princeton University President, Christopher Eisgruber on why dignity and debt are strategic priorities for the university.      
+  - videocaption: >-
+      Hear from the DDN Director, Frederick Wherry, Professor of Sociology at
+      Princeton on the mission of the Network.
+    videolink: >-
+      <iframe id="kaltura_player"
+      src="https://cdnapisec.kaltura.com/p/1449362/sp/144936200/embedIframeJs/uiconf_id/25624581/partner_id/1449362?iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_kldwyw07&amp;flashvars[leadWithHTML5]=true&amp;flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;wid=1_ndomvidw"
+      width="560" height="315" allowfullscreen="" webkitallowfullscreen=""
+      mozallowfullscreen="" allow="autoplay *; fullscreen *; encrypted-media *"
+      frameborder="0" title="Kaltura Player" aria-labelledby="vid1desc"
+      class="img-fluid" tabindex="0"></iframe>
+  - videocaption: >-
+      Hear from Alondra Nelson, president of the Social Science Research
+      Council, on anticipatory social research, getting ahead of emerging
+      demographic shifts and unexamined vectors of inequality.
+    videolink: >-
+      <iframe id="kaltura_player"
+      src="https://cdnapisec.kaltura.com/p/1449362/sp/144936200/embedIframeJs/uiconf_id/25624581/partner_id/1449362?iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_5zh066n3&amp;flashvars[leadWithHTML5]=true&amp;flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;wid=1_sw6d2hsd"
+      width="560" height="315" allowfullscreen="" webkitallowfullscreen=""
+      mozallowfullscreen="" allow="autoplay *; fullscreen *; encrypted-media *"
+      frameborder="0" title="Kaltura Player" aria-labelledby="vid2desc"
+      class="img-fluid" tabindex="0"></iframe>
+  - videocaption: >-
+      Hear from Princeton University President, Christopher Eisgruber on why
+      dignity and debt are strategic priorities for the university.
+    videolink: >-
+      <iframe aria-labelledby="" id="kaltura_player"
+      src="https://cdnapisec.kaltura.com/p/1449362/sp/144936200/embedIframeJs/uiconf_id/25624581/partner_id/1449362?iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_plegp1g1&amp;flashvars[leadWithHTML5]=true&amp;flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;wid=1_pnsqzbc9"
+      width="560" height="315" allowfullscreen="" webkitallowfullscreen=""
+      mozallowfullscreen="" allow="autoplay *; fullscreen *; encrypted-media *"
+      frameborder="0" title="Kaltura Player" aria-labelledby="vid3desc"
+      class="img-fluid" tabindex="0"></iframe>
+participantsTitle: Participants
 participants:
-  - thumb: /uploads/DO_addo_thumb.jpg
+  - blurb: >-
+      Fenaba Addo is the Lorna Jorgensen Wendt Assistant Professor of Money,
+      Relationships, and Equality in the School of Human Ecology at the
+      University of Wisconsin-Madison. Her research examines the causes and
+      consequences of debt disparities and wealth inequality with a focus on
+      higher education and family relationships. Widely published in academic
+      journals and policy outlets, her work on racial disparities in student
+      debt sheds light on the ways that societal inequalities stem from
+      historical legacies of racial exclusion and discrimination, and how they
+      get reproduced over time. She is currently a visiting professor at the
+      Sanford School of Public Policy at Duke University for the 2019-2020
+      academic year.
     image: /uploads/DO_addo.jpg
     name: Fenada Abbo
-    title: University of Wisconsin-Madison  
-    blurb: Fenaba Addo is the Lorna Jorgensen Wendt Assistant Professor of Money, Relationships, and Equality in the School of Human Ecology at the University of Wisconsin-Madison. Her research examines the causes and consequences of debt disparities and wealth inequality with a focus on higher education and family relationships. Widely published in academic journals and policy outlets, her work on racial disparities in student debt sheds light on the ways that societal inequalities stem from historical legacies of racial exclusion and discrimination, and how they get reproduced over time. She is currently a visiting professor at the Sanford School of Public Policy at Duke University for the 2019-2020 academic year.   
-  - thumb: /uploads/ffwherry_bio.jpg
+    thumb: /uploads/DO_addo_thumb.jpg
+    title: University of Wisconsin-Madison
+  - blurb: >-
+      Rekgotsofetse Chikane (known as Kgotsi for those who are tongue-tied) is
+      the author of "Breaking a Rainbow, Building a Nation: The Politics Behind
+      the #MustFall Movements". He currently works as a Lecturer of Public
+      Policy at the University of Witwatersrand. He is a graduate of the
+      University of Oxford, having completed his Master in Public Policy degree
+      in 2017 and is currently completing his Masters in Management at the
+      University of Witwatersrand's School of Governance with a focus on
+      Decolonial development and complexity economics. He is a Mandela-Rhodes
+      Scholar (2015), a recipient of the Mandela-Washington Fellowship (2016),
+      Obama African Leader for 2019 and a South Africa Washington International
+      Programme alumnus and Board Member. He was recognized as one of the Mail &
+      Guardian’s Top 200 Young South Africans (2016) and is the former national
+      president of InkuluFreeheid. He was a part of both the #RhodesMustFall and
+      #FeesMustFall movements in South Africa that demanded various social and
+      economic reforms within the Higher Education system of the country such as
+      decolonizing the curriculum, free decolonial education, and transforming
+      spaces to be more inclusive, among others.
+    image: /uploads/DO_chikane.jpg
+    name: Rekgotsofetse Chikane
+    thumb: /uploads/DO_chikane_thumb.jpg
+    title: University of Witwatersrand
+  - blurb: >-
+      Tressie McMillian Cottom’s research and writing focuses on race, class,
+      gender, education, and technology in the new economy and has been
+      supported by the Microsoft Research Network’s Social Media Collective, the
+      American Educational Research Association, and the UC Davis Center for
+      Poverty Research. In 2017, Tressie published her book Lower Ed: The
+      Troubling Rise of For-Profit Colleges in the New Economy in which she has
+      analyzed large data sets, scrutinized financial filings, and interviewed
+      students and staff. The book questions the fundamental narrative of
+      American education policy. Author Carol Anderson calls Lower Ed,
+      “…brilliant. It is nuanced, carefully argued, and engagingly written.” In
+      2019, Tressie released a collection of essays titled Thick. The collection
+      has been described as “essential,” and the Chicago Tribune calls Tressie,
+      “the author you need to read now.” Tressie serves on dozens of academic
+      and philanthropic boards and publishes widely on issues of inequality,
+      work, higher education and technology. She teaches undergraduate and
+      graduate courses in race and digital sociology as well as researches
+      structural inequality, schooling, and labor outcomes. Tressie also
+      co-hosts Hear to Slay with Roxane Gay, a podcast with an intersectional
+      perspective on celebrity, culture, politics, art, life, love, and more.
+      Tressie is a fan of many things but an uber fan of Dolly Parton, fancy
+      coffee, brunch, nineties hip-hop, bacon, and the Delta blues. She lives in
+      Richmond, Virginia.
+    image: /uploads/DO_cottom.jpg
+    name: Tressie McMillian Cottom
+    thumb: /uploads/DO_cottom_thumb.jpg
+    title: Author
+  - blurb: >-
+      Danielle Douglas-Gabriel covers student debt for The Washington Post.
+      Danielle joined the national economy desk in July 2012 from Capital
+      Business, a Post publication where she served as the local retail,
+      hospitality and banking reporter. Before Capital Business, Danielle was
+      the managing editor of Real Estate Forum, a commercial real estate trade
+      magazine. Her writing has appeared in EbonyJet.com, the New York Sun and
+      the New York Amsterdam News. She is the recipient of fellowships from the
+      Donald W. Reynolds Journalism Institute and Columbia University Graduate
+      School of Journalism.
+    image: /uploads/DO_douglas-gabriel.jpg
+    name: Danielle Douglas-Gabriel
+    thumb: /uploads/DO_douglas-gabriel_thumb.jpg
+    title: The Washington Post
+  - blurb: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Accumsan lacus vel
+      facilisis volutpat est velit egestas dui. Dignissim convallis aenean et
+      tortor at risus. Ipsum consequat nisl vel pretium lectus quam. Amet
+      commodo nulla facilisi nullam vehicula ipsum a. Arcu non sodales neque
+      sodales ut etiam sit amet. A pellentesque sit amet porttitor eget.
+      Parturient montes nascetur ridiculus mus mauris vitae ultricies leo.
+      Varius sit amet mattis vulputate enim. Mi bibendum neque egestas congue
+      quisque egestas diam in arcu. Risus sed vulputate odio ut enim blandit
+      volutpat.                     
     image: /uploads/ffwherry_bio.jpg
     name: Frederick Wherry
-    title: Dignity + Debt Director  
-    blurb: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan lacus vel facilisis volutpat est velit egestas dui. Dignissim convallis aenean et tortor at risus. Ipsum consequat nisl vel pretium lectus quam. Amet commodo nulla facilisi nullam vehicula ipsum a. Arcu non sodales neque sodales ut etiam sit amet. A pellentesque sit amet porttitor eget. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Varius sit amet mattis vulputate enim. Mi bibendum neque egestas congue quisque egestas diam in arcu. Risus sed vulputate odio ut enim blandit volutpat.                     
+    thumb: /uploads/ffwherry_bio.jpg
+    title: Dignity + Debt Director
 ---
 The meeting opened with reflections from Frederick Wherry, the Director of Dignity + Debt, on why student debt is central to the work of the Network: “In communities across the country and around the globe, parents take pride in announcing that their kid is going to college. Where I grew up in South Carolina, it was more than just an individual achievement. As a black kid, I was told that education was the one thing they couldn’t take away. Everything else, including my life, was up for grabs. We sacrificed for self-worth and respect. But we paid dearly for it.”
 
