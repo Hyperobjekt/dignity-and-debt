@@ -182,6 +182,72 @@ participants:
     name: Danielle Douglas-Gabriel
     thumb: /uploads/DO_douglas-gabriel_thumb.jpg
     title: The Washington Post
+  - blurb: >-
+      Rachel Dwyer is Professor of Sociology and Faculty Affiliate of the
+      Institute for Population Research at The Ohio State University. She is a
+      leading expert on credit, debt, and inequality in the United States. She
+      runs “Debt Lab” with a group of OSU students studying how credit and debt
+      relations reciprocally intersect structures of social inequality in the
+      United States. She also studies the causes and consequences of social
+      inequality more broadly, concentrating on growing economic inequality and
+      insecurity across classes, including as connected to gender and
+      race/ethnic disparities. Several core analytic principles unite her work
+      across distinct social arenas: a relational understanding that inequality
+      is produced by actors with distinct (often opposing) interests; a focus on
+      the institutional rather than exclusively individual factors in
+      inequality; and a commitment to the sociology and demography of discovery
+      that requires careful attention to historical developments that may be
+      unanticipated (and underdetermined) by theory, and which thereby force
+      reconsideration of explanatory models. Her research into these issues has
+      been funded by the National Science Foundation, the OSU Institute for
+      Population Research through a grant from the National Institute for Child
+      Health and Human Development, and the National Endowment for Financial
+      Education. Her published work has appeared in the American Sociological
+      Review, Social Forces, Annual Review of Sociology, Social Science
+      Research, Gender & Society, and Social Problems among other top academic
+      outlets. She engages policy discussions about youth indebtedness with
+      higher education leaders, public policy makers, financial professionals,
+      and financial education specialists.
+    image: /uploads/DO_dwyer.jpg
+    name: Rachel Dwyer
+    thumb: /uploads/DO_dwyer_thumb.jpg
+    title: The Ohio State University
+  - blurb: >-
+      Charlie Eaton is Assistant Professor of Sociology at the University of
+      California-Merced. His research investigates the role of politics and
+      organizations in the interplay between economic elites and disadvantaged
+      social groups, with a focus on the relationship between financialization
+      and growing inequalities in U.S. higher education. Recent work in this
+      area includes the consequences of private equity investment at for-profit
+      colleges, and the historical development of the U.S. student loan system.
+      He received his PhD in sociology from the University of
+      California-Berkeley.
+    image: /uploads/DO_eaton.jpg
+    name: Charlie Eaton
+    thumb: /uploads/DO_eaton_thumb.jpg
+    title: University of California-Merced
+  - blurb: >-
+      Seth Frotman is the nation’s leading expert on the intersection between
+      higher education finance, consumer protection, and public policy. Seth
+      previously served as Assistant Director and Student Loan Ombudsman for the
+      Consumer Financial Protection Bureau, where he led a government-wide
+      effort to develop consumer-driven policy reforms and protect millions of
+      Americans with student debt. Seth joined the CFPB as part of the Treasury
+      Implementation Team as Senior Advisor to Holly Petraeus, Assistant
+      Director for Servicemember Affairs. He has also worked on the Senate
+      Committee on Health, Education, Labor, and Pensions and was Deputy Chief
+      of Staff for Rep. Patrick Murphy (PA). Prior to his work on federal
+      policy, Seth served as counsel for the New Jersey State Senate, where he
+      worked on state-level consumer protection legislation. Seth’s work on
+      behalf of student loan borrowers has appeared in national print
+      publications and broadcast media, including The New York Times, The Wall
+      Street Journal, National Public Radio, and The Washington Post. Seth
+      received his JD from Indiana University School of Law and his bachelor’s
+      degree from the University of Michigan.
+    image: /uploads/DO_frotman.jpg
+    name: Seth Frotman
+    thumb: /uploads/DO_frotman_thumb.jpg
+    title: Expert on higher education finance
   - blurb: >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Accumsan lacus vel
