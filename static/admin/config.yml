@@ -478,23 +478,34 @@ collections:
         widget: "markdown"
         buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]
 
-  # OLD MEETINGS PAGE
-  - label: "Meetings Template V1"
-    name: meetingsv1
-    preview_path: meetings/
+# MEETINGS LIST PAGE
+  - label: Meetings List Page 
+    name: meetings_list 
+    preview_path: meetings/   
+    extension: "md"
     files:
-      - label: Meetings Main Page Content
-        name: meetings_content    
+      - label: Meetings list page content
         file: "content/meetings/_index.md"
-        extension: "md"
+        name: meetings_content
         fields:
           - {label: Title, name: title, widget: string, default: "Meetings"}
           - {label: Name, name: name, widget: hidden, default: "Meetings"}
           - {label: Type, name: type, widget: hidden, default: "meetings"}
           - {label: Is Index, name: is_index, widget: hidden, default: true}
-          - {label: Hero Image, name: hero_image, widget: hidden, default: "/uploads/woman_in_city2.jpg"}
+          - {label: Hero Image, name: hero_image, widget: image,}
           - {label: Display Title, name: display_title, widget: string}
           - {label: Display Subheading, name: display_subtitle, widget: string, required: false}
+
+
+  # OLD MEETINGS PAGE
+  - label: "Meetings Template V1"
+    name: meetingsv1
+    preview_path: meetings/
+    files: 
+      - label: The Network Roundtable
+        file: "content/meetings/network-roundtable.md"
+        name: network-roundtable
+        fields:
           - {label: Roundtable Image, name: roundtable_image, widget: hidden, default: "/uploads/wherry-seminar-table.jpg"}
           - {label: Roundtable Heading, name: heading, widget: string, default: "THE ROUNDTABLE"}
           - {label: The Roundtable Text, name: the_roundtable, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
@@ -517,9 +528,10 @@ collections:
           - {label: Image, name: image, widget: hidden}
           - {label: Body, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
 
-  # NEW MEETINGS PAGE
+  # NEW MEETINGS TEMPLATE
   - label: "Meetings Template V2"
     name: meetingsv2
+    create: true
     preview_path: meetings/
     filter: {field: "is_index", value: false}
     folder: "content/meetings" # The path to the folder where the documents are stored
@@ -541,7 +553,7 @@ collections:
         name: carouselimages
         widget: list
         fields:
-          - {label: "Photo", name: pic, widget: image}
+          - {label: "Photo", name: pic, widget: image, hint: 'Optimal size is 2400 px wide for horizontal, 1600 px for vertical, and less than 250kb'}
           - {label: "Caption", name: caption, widget: string, required: false} 
       - label: Videos
         name: videos
