@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  branch: update-mtgs # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
 
@@ -478,9 +478,9 @@ collections:
         widget: "markdown"
         buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]
 
-  # MEETINGS PAGE
-  - label: "Meetings"
-    name: meetings
+  # OLD MEETINGS PAGE
+  - label: "Meetings Template V1"
+    name: meetingsv1
     preview_path: meetings/
     files:
       - label: Meetings Main Page Content
@@ -517,39 +517,52 @@ collections:
           - {label: Image, name: image, widget: hidden}
           - {label: Body, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
 
-  # INDIVIDUAL MEETINGS             
-  - label: "Individual Meetings"
-    name: "single-meetings" # Used in routes, e.g., /admin/collections/blog
-    folder: "content/meetings" # The path to the folder where the documents are stored
-    filter: {field: "is_index", value: false}
+  # NEW MEETINGS PAGE
+  - label: "Meetings Template V2"
+    name: meetingsv2
     preview_path: meetings/
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - label: "Title"
-        name: "title"
-        widget: "string"
-
-      - {label: "Is Index", name: "is_index", widget: "hidden", default: false}
-      - {label: "Type", name: "type", widget: "hidden", default: "single-meeting"}
+    filter: {field: "is_index", value: false}
+    folder: "content/meetings" # The path to the folder where the documents are stored
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Is Index, name: is_index, widget: hidden, default: false}
+      - {label: Has Modal, name: has_ppl_modal, widget: hidden, default: true}
+      - {label: Type, name: type, widget: hidden, default: "single-meeting"}
+      - {label: Layout, name: layout, widget: hidden, default: "meetings-single"}
+      - {label: Date, name: date, widget: datetime, hint: Determines order, timeFormat: false}
+      - {label: Display Date, name: display_date, widget: string, hint: Appears on the list page}
+      - {label: Short description, name: description, widget: string}
+      - {label: Short intro, name: shortIntro, hint: Appears with poster, widget: markdown, buttons: [bold, italic, quote, link, bulleted-list, numbered-list, heading-two]}
+      - {label: Highlights Section Header, name: highlightsTitle, hint: Appears at top of post-conference section, widget: string}
+      - {label: Recap Section Tab Label, name: recapTitle, hint: 'If empty, tab and content do not appear', widget: string}
+      - {label: Recap Section Content, name: body, widget: markdown, buttons: [bold, italic, quote, link, bulleted-list, numbered-list, heading-two]}
+      - {label: Photo & Video Section Tab Label, name: photosTitle, hint: 'If empty, tab and content do not appear', widget: string}
+      - label: Photos 
+        name: carouselimages
+        widget: list
+        fields:
+          - {label: "Photo", name: pic, widget: image}
+          - {label: "Caption", name: caption, widget: string, required: false} 
+      - label: Videos
+        name: videos
+        widget: list
+        fields:
+          - {label: "Video Caption", name: videocaption, widget: string, required: false}
+          - {label: "Video embed code", name: videolink, widget: string}     
+      - {label: Participants Section Tab Label, name: participantsTitle, hint: 'If empty, tab and content do not appear', widget: string}
+      - label: Participants
+        name: participants
+        widget: list
+        fields:
+          - {label: "Thumbnail", name: thumb, widget: image, hint: Ideal dimensions are 240x240}
+          - {label: "Full Image", name: image, widget: image, hint: Ideal width is 464px; length is flexible}
+          - {label: "Name", name: name, widget: string} 
+          - {label: "Title or Affiliation", name: title, widget: string}   
+          - {label: "Bio", name: blurb, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
       
-      - label: "Weight (lowest displayed first)"
-        name: "weight"
-        widget: "number"
-        default: 1
-        valueType: "int"
-        min: 1
-        step: 1
 
-      - label: "Publish Date"
-        name: "date"
-        required: false
-        widget: "datetime"
+
   
-      - label: "Body"
-        name: "body"
-        widget: "markdown"
-        buttons: ["bold", "italic", "heading-one", "heading-two", "link", "bulleted-list", "numbered-list"]
             
 
   # EVENTS 

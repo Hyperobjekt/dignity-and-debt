@@ -61,11 +61,11 @@ videos:
   - videolink: <iframe aria-labelledby="" id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1449362/sp/144936200/embedIframeJs/uiconf_id/25624581/partner_id/1449362?iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_plegp1g1&amp;flashvars[leadWithHTML5]=true&amp;flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;wid=1_pnsqzbc9" width="560" height="315" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0" title="Kaltura Player" aria-labelledby="vid3desc" class="img-fluid" tabindex="0"></iframe>
     videocaption: Hear from Princeton University President, Christopher Eisgruber on why dignity and debt are strategic priorities for the university.      
 participants:
-  - thumb: /uploads/ffwherry_bio.jpg
-    image: /uploads/ffwherry_bio.jpg
-    name: Frederick Wherry
-    title: Dignity + Debt Director  
-    blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan lacus vel facilisis volutpat est velit egestas dui. Dignissim convallis aenean et tortor at risus. Ipsum consequat nisl vel pretium lectus quam. Amet commodo nulla facilisi nullam vehicula ipsum a. Arcu non sodales neque sodales ut etiam sit amet. A pellentesque sit amet porttitor eget. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Varius sit amet mattis vulputate enim. Mi bibendum neque egestas congue quisque egestas diam in arcu. Risus sed vulputate odio ut enim blandit volutpat.   
+  - thumb: /uploads/DO_addo_thumb.jpg
+    image: /uploads/DO_addo.jpg
+    name: Fenada Abbo
+    title: University of Wisconsin-Madison  
+    blurb: Fenaba Addo is the Lorna Jorgensen Wendt Assistant Professor of Money, Relationships, and Equality in the School of Human Ecology at the University of Wisconsin-Madison. Her research examines the causes and consequences of debt disparities and wealth inequality with a focus on higher education and family relationships. Widely published in academic journals and policy outlets, her work on racial disparities in student debt sheds light on the ways that societal inequalities stem from historical legacies of racial exclusion and discrimination, and how they get reproduced over time. She is currently a visiting professor at the Sanford School of Public Policy at Duke University for the 2019-2020 academic year.   
   - thumb: /uploads/ffwherry_bio.jpg
     image: /uploads/ffwherry_bio.jpg
     name: Frederick Wherry
@@ -87,7 +87,7 @@ Ida Rademacher from the Aspen Institute’s Financial Security Program noted tha
 
 And Alondra Nelson, president of the Social Science Research Council, reminded us all that the SSRC started in 1923 with the progressive belief that social science can do good in the world, and the Dignity + Debt Network lives out that mission by toggling between institutions and individuals, historical context and the dynamics of human agency. Only by going across and beyond disciplines and countries will we meet these challenges head on.
 
-### How Did Higher Ed Debt Become Impossible (for some) to Repay?
+## How Did Higher Ed Debt Become Impossible (for some) to Repay?
 
 For some US borrowers, there is no crisis. For the majority, however, there seems to be no end to their sacrifice. Charlie Eaton noted that through an expansion of loans by the 1992 Higher Education Act reauthorization, student debts soared both in total amount of debt and per-student debt burdens. At the same time, per student cuts from state legislatures and the federal government required students to take on a larger share of the rising costs of education. Today, college is rarely debt free except for those from wealthy households who make up a disproportionate share of students at elite private institutions. Also aided by their schools' endowment wealth, only21 percent of students borrow at all in their first year at the 20 most selective private colleges. Throughout the rest of the higher education system, most students now leave school with the disadvantages of debt. Educational debt is especially crushing for low-income students and studentsof color who have been targeted by for-profit colleges. In a system where the wealthiest 10 percent of colleges can shield their students from debt but the bottom 90 percent cannot, student debt has become a new system of stratification.“ 
 
@@ -105,7 +105,7 @@ Complicating the story is the finding that wealth is lower for Black families bu
 
 > “Wealthy children are more likely to attend and graduate college andfinish with less debt, but when you take race into account, thatrelationship doesn’t hold for black families.”-@FenabaAddo <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text='“Wealthy children are more likely to attend and graduate college andfinish with less debt, but when you take race into account, thatrelationship doesn’t hold for black families.”-@FenabaAddo' data-url="https://www.dignityanddebt.org/meetings/digging-out-with-dignity-solving-the-student-loan-crisis-and-honoring-meaning-at-the-margins/" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-### What Do Others Do?
+## What Do Others Do?
 
 Looking at higher education financing around the world may provide some lessons for how we in the United States could improve our system. Jonathan Marcus, the higher education editor for the Hechinger Report, explained that his organization is a nonprofit that was created in response to the inability of large publications to cover education. He has traveled the world, looking at the experiences of Australia, Germany, Denmark, Chile, Norway, Iceland, South Africa, and a number of other countries. In other countries, there are powerful national student unions. There are also some surprises. Even where college is “free,” its uptake is not always high. As a journalist not based in these countries, Marcus relies on in-country expertise as he tries to translate their experiences into lessons for a US reading public.
 
@@ -119,7 +119,7 @@ Felipe González-López explained that in Chile, they changed the conversation a
 
 > “Remember, ‘You are not a loan!’ Stop talking about individual responsibility and start talking about how the loans were structured tobe nearly impossible to repay.”-@Felipe_socec <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text='“Remember, ‘You are not a loan!’ Stop talking about individual responsibility and start talking about how the loans were structured tobe nearly impossible to repay.”-@Felipe_socec' data-url="https://www.dignityanddebt.org/meetings/digging-out-with-dignity-solving-the-student-loan-crisis-and-honoring-meaning-at-the-margins/" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-### What Can Be Done?
+## What Can Be Done?
 
 According to Danielle Douglas-Gabriel, a reporter at the Washington Post, “Student debt takes a real toll on borrowers, even those who are repaying.” We see those who don’t repay, but we do not see those struggling to repay, wracked by anxiety, unable to save for anything else. We also don’t talk about the fact that the Department of Education hires collection agencies to collect on defaulted debts, and these agencies collect up to 20 percent in extra fees—for those already struggling, more burdens are added. Even borrowers in public service careers who thought that their debts would be forgiven after ten years have learned that a technicality may render nearly all of them ineligible to have the promise fulfilled. These are policy and enforcement choices, Douglas-Gabriel noted. We can choose better.
 
@@ -134,7 +134,7 @@ Jeff Himpele, director of the VizE Lab for Ethnographic Data Visualization, foll
 
 The Network’s new student loan debt calculator was launched: http://www.dignityanddebt.org/projects/student-debt-calculator/. Unlike other debt calculators, this one allows an individual to see how changing amount paid per month or changing the interest rate would affect overall amounts repaid. It also shows the individual’s debt relative to the relative debt of others by racial/ethnic category. While the calculator focuses on helping individuals think about repayment costs, it also notes that “There are a number of policy changesthat could make a big difference to your debt burden. These calculators help you figure out what you might do now, bringing your own personal efforts together with larger public solutions.”
 
-### A New Agenda
+## A New Agenda
 
 Opening the discussion on what to do about student debt was Seth Frotman, who helped steer the Consumer Financial Protection Bureau’s efforts to protect student borrowers. Frotman resigned from the CFPB in 2018 as its Student Loan Umbudsman after he determined that the new direction of the bureau was to shield bad actors from scrutiny at the expense of borrowers.
 
@@ -148,7 +148,7 @@ For Darrick Hamilton, this discussion requires us to ask what should be decided 
 
 > “We need a race and gender conscious Economic Bill of Rights that learns and improves upon the New Dealversion. This time, instead of intentionally excluding blacks while benefiting whites, we can authentically ensure prosperity for all.” -@DarrickHamilton  <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text='“We need a race and gender conscious Economic Bill of Rights that learns and improves upon the New Dealversion. This time, instead of intentionally excluding blacks while benefiting whites, we can authentically ensure prosperity for all.” -@DarrickHamilton' data-url="https://www.dignityanddebt.org/meetings/digging-out-with-dignity-solving-the-student-loan-crisis-and-honoring-meaning-at-the-margins/" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-### What Happens Now
+## What Happens Now
 
 A Contest to Change the Narrative. The Dignity and Debt Network has launched a contest callingfor data visualizations, maps, or short documentary films and photography that portray student loan debt. Works may depict the complex structural conditions of student debt or more personal experiences among debtors and their families. Submissions will be accepted until March 1, 2020. Details can be found here: http://tinyurl.com/y55ybtdlA 
 
