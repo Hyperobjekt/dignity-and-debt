@@ -547,6 +547,7 @@ collections:
       - {label: Poster thumbnail, name: small_poster, widget: image, hint: 'Ideal width: 680px, ideal size: < 175px'}
       - {label: Full poster image for download, name: full_poster, widget: image, hint: 'No constraints on size'}
       - {label: Short intro, name: shortIntro, hint: Appears with poster, widget: markdown, buttons: [bold, italic, quote, link, bulleted-list, numbered-list, heading-two]}
+      - {label: "Turn on post-meeting highlights section?", name: "hashighlights", widget: "boolean", default: true, hint: "If turned off, this section will not appear on the site."}
       - {label: Highlights Section Header, name: highlightsTitle, hint: Appears at top of post-conference section, widget: string}
       - {label: Recap Section Tab Label, name: recapTitle, hint: 'If empty, tab and content do not appear', widget: string}
       - {label: Recap Section Content, name: body, widget: markdown, buttons: [bold, italic, quote, link, bulleted-list, numbered-list, heading-two]}

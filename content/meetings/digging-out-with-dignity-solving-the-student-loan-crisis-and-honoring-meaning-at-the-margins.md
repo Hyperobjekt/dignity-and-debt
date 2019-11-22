@@ -30,6 +30,7 @@ shortIntro: >-
   journalists and other non-fiction writers as well as sociologists,
   anthropologists, economists, and representatives from think tanks and
   nonprofit advocacy organizations. 
+hashighlights: true  
 highlightsTitle: HIGHLIGHTS
 recapTitle: Conference Recap
 photosTitle: Photos

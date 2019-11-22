@@ -29,6 +29,7 @@
   </div>
  
 </div>
+{{ if eq .Params.hashighlights true }}
 <div class="divider mt-7 col-12 col-md-10 offset-md-1"></div>
 <div class="row indiv-mtgs meetings mt-9">
     <div class="col-12 col-md-8 mx-auto">
@@ -86,7 +87,9 @@
                   </div>
             
     </div>
-
+{{ else }}
+<div class="row w-100 mb-8 mb-md-10"></div>    
+{{ end }}
 
 </div>
 
