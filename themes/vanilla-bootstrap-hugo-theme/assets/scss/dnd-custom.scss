@@ -2354,7 +2354,11 @@ body.type-meeting.kind-section {
 
 #peopleBioModal.modal {
   padding-right: 0 !important;
-
+  .modal-pic {
+    img {
+      max-width: 100%;
+    }
+  }
   @include media-breakpoint-up(md) {
     .modal-dialog {
       max-width: 80%;

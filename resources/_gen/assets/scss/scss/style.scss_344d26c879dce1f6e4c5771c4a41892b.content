@@ -14624,6 +14624,10 @@ body.type-meeting.kind-section .row.jumbotron {
   padding-right: 0 !important;
 }
 
+#peopleBioModal.modal .modal-pic img {
+  max-width: 100%;
+}
+
 @media (min-width: 768px) {
   #peopleBioModal.modal .modal-dialog {
     max-width: 80%;
