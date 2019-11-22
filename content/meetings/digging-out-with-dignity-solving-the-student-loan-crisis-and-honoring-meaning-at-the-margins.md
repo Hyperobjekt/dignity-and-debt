@@ -15,6 +15,8 @@ description: >-
   for funding higher education and called to account histories of dispossession.
   While considering what must be done, we must also pay more attention to what
   is at stake.
+small_poster: /uploads/digging-out-conf3-sm.jpg  
+full_poster: /uploads/10.18 student loans with dignity.jpg  
 shortIntro: >-
   **A Dignity + Debt Discussion Forum**
 

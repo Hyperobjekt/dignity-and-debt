@@ -14196,6 +14196,10 @@ body.type-meeting.kind-section .row.jumbotron {
   line-height: 2.4rem;
 }
 
+.kind-page.type-single-meeting .divider {
+  border-bottom: solid 1px #c9e9ea;
+}
+
 .kind-page.type-single-meeting .row.whydignity .column h3 {
   font-size: 4rem;
   text-transform: uppercase;
@@ -14208,8 +14212,14 @@ body.type-meeting.kind-section .row.jumbotron {
   line-height: 2.6rem;
 }
 
-.kind-page.type-single-meeting .row.indiv-mtgs .divider {
-  border-bottom: solid 1px #c9e9ea;
+.kind-page.type-single-meeting .row.indiv-mtgs .tab-pane.recap {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.kind-page.type-single-meeting .row.indiv-mtgs .tab-pane.recap-av {
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .kind-page.type-single-meeting .row.indiv-mtgs #digging-out {
@@ -14314,6 +14324,16 @@ body.type-meeting.kind-section .row.jumbotron {
   font-weight: 400;
 }
 
+.kind-page.type-single-meeting .row.indiv-mtgs .recap-av .hearfrom {
+  margin-top: 8rem;
+}
+
+@media (max-width: 767.98px) {
+  .kind-page.type-single-meeting .row.indiv-mtgs .recap-av .hearfrom {
+    margin-top: 7.2rem;
+  }
+}
+
 .kind-page.type-single-meeting .row.indiv-mtgs nav {
   box-shadow: none;
 }
@@ -14344,7 +14364,7 @@ body.type-meeting.kind-section .row.jumbotron {
   display: block;
   width: 4.8rem;
   border-bottom: solid 8px #c9e9ea;
-  margin: 0.8rem 0 3.2rem;
+  margin: 0.8rem 0 0rem;
 }
 
 .kind-page.type-single-meeting .row.indiv-mtgs .mtg-participants.show {
@@ -14606,10 +14626,10 @@ body.type-meeting.kind-section .row.jumbotron {
 
 @media (min-width: 768px) {
   #peopleBioModal.modal .modal-dialog {
-    max-width: 690px;
+    max-width: 80%;
   }
   #peopleBioModal.modal .modal-content {
-    width: 690px;
+    width: 100%;
     margin: 0 auto;
   }
   #peopleBioModal.modal .modal-body {

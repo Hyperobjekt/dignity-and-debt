@@ -1916,6 +1916,12 @@ body.type-meeting.kind-section {
 }
 
 .kind-page.type-single-meeting {
+
+  .divider {
+    border-bottom: solid 1px #c9e9ea;
+    //margin: 5.6rem 0 3.6rem;
+  }
+
   .row {
     &.whydignity {
       .column {
@@ -1932,12 +1938,18 @@ body.type-meeting.kind-section {
       }
     }
 // 
-    &.indiv-mtgs {
-      .divider {
-        border-bottom: solid 1px #c9e9ea;
-        //margin: 5.6rem 0 3.6rem;
-      }
+    
 
+    &.indiv-mtgs {
+      
+      .tab-pane.recap {
+        padding-left: 32px;
+        padding-right: 32px;
+      }
+      .tab-pane.recap-av {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
       #digging-out {
 
           position: sticky;
@@ -2041,6 +2053,17 @@ body.type-meeting.kind-section {
         line-height: 1.5;
         font-weight: 400;
       }
+
+      .hearfrom {
+       
+        margin-top: 8rem;
+        @include media-breakpoint-down(sm) {
+          margin-top: 7.2rem;
+        }
+  
+      }
+      
+
     }
       
 
@@ -2066,7 +2089,7 @@ body.type-meeting.kind-section {
                   display: block;
                   width: 4.8rem;
                   border-bottom: solid 8px #c9e9ea;
-                  margin: 0.8rem 0 3.2rem;
+                  margin: 0.8rem 0 0rem;
                 }
               }
               }
@@ -2334,10 +2357,10 @@ body.type-meeting.kind-section {
 
   @include media-breakpoint-up(md) {
     .modal-dialog {
-      max-width: 690px;
+      max-width: 80%;
     }
     .modal-content {
-      width: 690px;
+      width: 100%;
       margin: 0 auto;
     }
     .modal-body {
