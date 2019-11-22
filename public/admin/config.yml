@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: update-mtgs # Branch to update (optional; defaults to master)
+  branch: update-mtgs-production # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
 
@@ -544,6 +544,8 @@ collections:
       - {label: Date, name: date, widget: datetime, hint: Determines order, timeFormat: false}
       - {label: Display Date, name: display_date, widget: string, hint: Appears on the list page}
       - {label: Short description, name: description, widget: string}
+      - {label: Poster thumbnail, name: small_poster, widget: image, hint: 'Ideal width: 680px, ideal size: < 175px'}
+      - {label: Full poster image for download, name: full_poster, widget: image, hint: 'No constraints on size'}
       - {label: Short intro, name: shortIntro, hint: Appears with poster, widget: markdown, buttons: [bold, italic, quote, link, bulleted-list, numbered-list, heading-two]}
       - {label: Highlights Section Header, name: highlightsTitle, hint: Appears at top of post-conference section, widget: string}
       - {label: Recap Section Tab Label, name: recapTitle, hint: 'If empty, tab and content do not appear', widget: string}
