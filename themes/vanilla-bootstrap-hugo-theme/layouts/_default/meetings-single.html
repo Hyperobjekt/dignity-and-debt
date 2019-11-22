@@ -15,26 +15,26 @@
 </div>-->
 
 <div class="row indiv-mtgs meetings mt-10">
-  <div class="col-md-4 col-sm-10 offset-md-1 offset-sm-1 order-lg-0 order-md-0 img-parent">
+  <div class="col-lg-3 offset-lg-2 col-md-4 col-sm-10 offset-md-1 offset-sm-1 order-lg-0 order-md-0 img-parent">
     <div id="digging-out" class="mb-md-0 mb-5 pr-md-2 pr-md-4">
-      <a id="img-link" href="/images/10.18 student loans with dignity.jpg"><img class="mw-100 mb-2" src="/images/digging-out-conf3-sm.jpg" /></a>
+      <a id="img-link" href="{{ .Params.full_poster }}"><img class="mw-100 mb-2" src="{{ .Params.small_poster }}" /></a>
       <p class="text-center"><i>Click to view full image.</i></p>
     </div>  
   </div>
-  <div class="col-lg-6 col-md-6 col-sm-10 offset-lg-0 offset-md-0 offset-sm-1 ">
+  <div class="col-lg-5 col-md-6 col-sm-10 offset-lg-0 offset-md-0 offset-sm-1 ">
      
         <h2>{{ .Title }}</h2>
         <p>{{ .Params.shortIntro | markdownify | safeHTML }}</p>
     
   </div>
-  <div class="divider mt-7 col-12 col-md-10 offset-md-1"></div>
+ 
 </div>
-
+<div class="divider mt-7 col-12 col-md-10 offset-md-1"></div>
 <div class="row indiv-mtgs meetings mt-9">
     <div class="col-12 col-md-8 mx-auto">
             <h2 class="text-center mb-5">{{ .Params.highlightsTitle }}</h2>
             <nav>
-                    <div class="nav nav-tabs justify-content-center mb-3" id="nav-tab" role="tablist">
+                    <div class="nav nav-tabs justify-content-center mb-7" id="nav-tab" role="tablist">
                       {{ if .Params.recapTitle }}<a class="nav-item nav-link active mr-2" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">{{ .Params.recapTitle }}</a>{{ end }}
                       {{ if .Params.photosTitle }}<a class="nav-item nav-link mr-2" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">{{ .Params.photosTitle }}</a>{{ end }}
                       {{ if .Params.participantsTitle }}<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">{{ .Params.participantsTitle }}</a>{{ end }}

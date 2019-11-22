@@ -15,6 +15,8 @@ description: >-
   for funding higher education and called to account histories of dispossession.
   While considering what must be done, we must also pay more attention to what
   is at stake.
+small_poster: /uploads/digging-out-conf3-sm.jpg  
+full_poster: /uploads/10.18 student loans with dignity.jpg  
 shortIntro: >-
   **A Dignity + Debt Discussion Forum**
 
@@ -248,6 +250,227 @@ participants:
     name: Seth Frotman
     thumb: /uploads/DO_frotman_thumb.jpg
     title: Expert on higher education finance
+  - blurb: >-
+      Adam Goldstein is an Assistant Professor jointly appointed in the
+      Department of Sociology and the Woodrow Wilson School of International and
+      Public Affairs at Princeton University. He earned his PhD in Sociology
+      from the University of California at Berkeley and was a Robert Wood
+      Johnson Post-Doctoral Scholar at Harvard. His areas of interest include
+      economic sociology, organizations, and social stratification. His current
+      research examines the social consequences of financial capitalism in the
+      contemporary United States. He is interested in how institutional changes
+      associated with financialization have reshaped various socio-economic
+      domains, and how organizations, communities and households respond to
+      these changes in patterned (and often surprising) ways. His research has
+      been published in the _American Sociological Review, Socio-Economic
+      Review,_ and _The Oxford Handbook of the Sociology of Finance_.
+    image: /uploads/DO_goldstein.jpg
+    name: Adam Goldstein
+    thumb: /uploads/DO_goldstein_thumb.jpg
+    title: Princeton University
+  - blurb: >-
+      Felipe González López is a professor in the faculty of government at the
+      Central University of Chile. His work focuses broadly on the political
+      economy of capitalism, economic sociology, and social theory. Much of his
+      work focuses on the financialization of the Chilean economy and on the use
+      of credit and debt in Chilean social policy including in the areas of
+      social welfare and higher education. He holds a doctorate in social
+      sciences from the Max Planck Institute for the Study of Societies in
+      Cologne, Germany.
+    image: /uploads/DO_gonzalez.jpg
+    name: Felipe González López
+    thumb: /uploads/DO_gonzalez_thumb.jpg
+    title: Central University of Chile
+  - blurb: >-
+      Fiona Greig is a Managing Director and the Director of Consumer Research
+      at the JPMorgan Chase Institute, which delivers data-rich analyses and
+      expert insights for the public good. She joined the Institute in 2014
+      after serving as the Deputy Budget Director for the City of Philadelphia
+      for two years. From 2007 to 2012, Fiona was a consultant for McKinsey &
+      Company where she consulted public and social sector clients on strategy,
+      operations and economic development. In 2009 Fiona started and ran Bank on
+      DC, a financial inclusion program for the District of Columbia. Fiona has
+      published research on topics including household finance, healthcare,
+      labor markets and the Online Platform Economy, gender, and behavioral
+      decision making. Her work has been widely cited in the media, including
+      the New York Times, Wall Street Journal, NPR, and CNBC. Fiona has held
+      adjunct professor appointments at the University of Pennsylvania and
+      Georgetown University and holds a B.A. from Stanford University and a
+      Ph.D. in Public Policy from Harvard University.
+    image: /uploads/DO_greig.jpg
+    name: Fiona Greig
+    thumb: /uploads/DO_greig_thumb.jpg
+    title: JPMorgan Chase Institute
+  - blurb: >-
+      Darrick Hamilton is the Executive Director of the Kirwan Institute for the
+      Study of Race and Ethnicity at The Ohio State University. In addition,
+      Professor Hamilton holds a primary faculty appointment in the John Glenn
+      College of Public Affairs, with courtesy appointments in the departments
+      of economics and sociology in the College of Arts and Sciences. Professor
+      Hamilton is a pioneer and internationally recognized scholar in the field
+      of stratification economics which fuses methods to examine the causes,
+      consequences and remedies of racial, gender, ethnic, tribal, nativity,
+      etc. inequality in education, economic and health outcomes. This work
+      involves crafting and implementing innovative routes and policies that
+      break down social hierarchy, empower people, and move society towards
+      greater equity, inclusion, and civic participation Professor Hamilton was
+      born and raised in the Bedford Stuyvesant section of Brooklyn, NY, and now
+      resides in Columbus, OH. He is a graduate of Oberlin College and earned a
+      Ph.D. in economics from the University of North Carolina. He is frequently
+      cited in the media, consults with various public official and serves as an
+      advisor to/fellow with several non-profit and think tank organizations.
+    image: /uploads/DO_hamilton.jpg
+    name: Darrick Hamilton
+    thumb: /uploads/DO_hamilton_thumb.jpg
+    title: The Ohio State University
+  - blurb: >-
+      Jeffrey Himpele directs the Anthropology Department’s VizE Lab, a  unique
+      hub of scholarship that unites resources for combining person-centered
+      ethnography, including documentary filmmaking, with the tools of data
+      analysis visualization. Jeff is author of Circuits of Culture: Media,
+      Politics, and Indigenous Identity in the Andes, a book based on years of
+      field research in La Paz, Bolivia. His prize-winning ethnographic and
+      documentary films have been recognized by the American Anthropological
+      Association and the Royal Anthropological Institute. Incidents of Travel
+      in Chichen Itza was named as one of the 50 most important films for
+      teaching anthropology. His current work in progress is Men of Steel, a
+      musical documentary on the adventures of the steel guitar sound from its
+      beginnings in Hawaii to the honky-tonks of country music and beyond. He
+      holds a PhD from Princeton.
+    image: /uploads/DO_himpele.jpeg
+    name: Jeffrey Himpele
+    thumb: /uploads/DO_himpele_thumb.jpg
+    title: Princeton University
+  - blurb: >-
+      Jason Houle is an Associate Professor of Sociology at Dartmouth College.
+      His research primarily focuses on processes of social stratification and
+      mobility in the United States, and the social determinants of health and
+      mental health across the life course. In much of his current work he asks
+      how rising indebtedness and access to credit has impacted inequalities in
+      social, economic, and psychological well-being in the United States. He
+      received his Ph.D. in Sociology and Demography from The Pennsylvania State
+      University in 2011; and was a Robert Wood Johnson Foundation Health and
+      Society Scholar at The University of Wisconsin-Madison from 2011-2013.
+    image: /uploads/DO_houle.jpg
+    name: Jason Houle
+    thumb: /uploads/DO_houle_thumb.jpg
+    title: Dartmouth College
+  - blurb: >-
+      Jon Marcus is higher-education editor at the Hechinger Report and North
+      America correspondent for the Times (U.K.) Higher Education magazine. He
+      has also written about higher education for Time, The Atlantic, the
+      Washington Post, The New York Times, and other magazines, newspapers, and
+      websites, and contributed to the book Reinventing Higher Education. Marcus
+      holds a master’s degree in journalism from Columbia University and a
+      bachelor’s degree from Bates College, attended Oxford University, and
+      teaches journalism at Boston College and Northeastern University.
+    image: /uploads/DO_marcus.jpg
+    name: Jon Marcus
+    thumb: /uploads/DO_marcus_thumb.jpg
+    title: 'Hechinger Report, Times (U.K.) Higher Education '
+  - blurb: >-
+      Katherine Lucas McKay is a Program Manager at the Aspen Institute’s
+      Financial Security Program (FSP), currently working on the Expanding
+      Prosperity Impact Collaborative’s (EPIC) initiative on consumer debt.
+      Katherine is an experienced policy researcher and advocate in the fields
+      of economic inequality and financial inclusion, and has worked on issues
+      including foreclosure prevention, mortgage lending, retirement savings,
+      credit reporting, access to safe and affordable financial products and
+      services, and safety net policies. Prior to joining FSP, Katherine was the
+      Associate Director of Government Affairs at the Corporation for Enterprise
+      Development, where she led the organization’s policy work on
+      homeownership, entrepreneurship, and consumer financial protection. She
+      has also held positions at the National Community Reinvestment Coalition
+      and Georgetown University. Katherine holds a Master’s degree in Public
+      Policy and Management from Carnegie Mellon University’s Heinz School of
+      Public Policy and Information Systems and a BA from Wellesley College.
+    image: /uploads/DO_mckay.jpg
+    name: Katherine Lucas McKay
+    thumb: /uploads/DO_mckay_thumb.jpg
+    title: ' Aspen Institute'
+  - blurb: >-
+      Betsy Levy Paluck is a Professor in the Department of Psychology and in
+      the Woodrow Wilson School of Public and International Affairs at Princeton
+      University. Her research is concerned with the reduction of prejudice and
+      conflict, including ethnic and political conflict, youth conflict in
+      schools, and violence against women. She uses large-scale field
+      experiments to test interventions that target individuals' perceived norms
+      and behavior about conflict and tolerance, including mass media and
+      peer-to-peer interventions. Professor Paluck is a 2017 Macarthur Fellow,
+      and has been the recipient of the Sage Young Scholars award, the Cialdini
+      Award for field research, and an Early Career Award from the American
+      Psychological Association.
+    image: /uploads/DO_paluck.jpg
+    name: Betsy Levy Paluck
+    thumb: /uploads/DO_paluck_thumb.jpg
+    title: Princeton University
+  - blurb: >-
+      Lorena Pérez-Roa is an Assistant Professor of Social Work at the
+      University of Chile and a researcher with Chile’s Millennium Initiative on
+      Authority and Power Asymmetries. Her research focuses on debt acquisition
+      processes and their drivers, the socioeconomic and financial practices of
+      individuals and their families, and the financialization of the daily
+      life. In her publications, Dr. Pérez-Roa has analyzed the drivers and
+      consequences of college loan debt by investigating economic arrangements
+      within young debtor couples and the strategies they use to meet basic
+      needs (including family assistance and improvised entrepreneurship). The
+      research is based on the experiences of young adults from Santiago, Chile
+      and Montreal, Canada. She holds a bachelor’s degree in Social Work from
+      the Catholic University of Chile, a masters’ degree in anthropology from
+      the University of Chile, and a doctoral degree from the University of
+      Montreal.
+    image: /uploads/DO_perez.jpg
+    name: Lorena Pérez-Roa
+    thumb: /uploads/DO_perez_thumb.jpg
+    title: University of Chile
+  - blurb: >-
+      Ida Rademacher is a vice president at the Aspen Institute and executive
+      director of the Aspen Financial Security Program (FSP). Her efforts have
+      resulted in the creation of several new cutting-edge initiatives at Aspen,
+      including the Expanding Prosperity Impact Collaborative (EPIC), the
+      Reconnecting Work and Wealth Initiative, and the Aspen Leadership Forum on
+      Retirement Savings. Through these projects Ida and her team are building a
+      cross-disciplinary community of leaders who, together, are deeply probing
+      critical financial challenges facing U.S. households and shaping market
+      and policy innovations that can improve the financial security and
+      financial well-being of all Americans. Ida has testified on numerous
+      occasions before Congress and contributes regularly to news and commentary
+      on consumer financial issues in outlets including the _New York Times_,
+      the _Wall Street Journal_, the _Washington Post_, _Politico_ and public
+      radio’s Marketplace. A resident of Virginia’s Shenandoah Valley and an
+      avid horseback rider, Ida is the first generation in her family to attend
+      college. She pursued postgraduate studies in economic anthropology at the
+      University of Melbourne, Australia; holds a Master of Public Policy degree
+      from the University of Maryland; and a Bachelor of Science degree in
+      anthropology and economics from James Madison University.
+    image: /uploads/DO_rademacher.jpg
+    name: 'Ida Rademacher '
+    thumb: /uploads/DO_rademacher_thumb.jpg
+    title: Aspen Institute
+  - blurb: >-
+      Eldar Shafir is the Class of 1987 Professor of Behavioral Science and
+      Public Policy, the Inaugural Director of Princeton’s Kahneman-Treisman
+      Center for Behavioral Science and Public Policy, and co-founder and
+      scientific director at ideas42, a social science R&D lab. He studies
+      decision-making, cognitive science, and behavioral economics. His recent
+      research has focused on decision-making in contexts of poverty and on the
+      application of behavioral research to policy. He is Past President of the
+      Society for Judgment and Decision Making, Senior Fellow of the Canadian
+      Institute for Advanced Research, and member of the World Economic Forum’s
+      Global Council on the Future of Behavioural Sciences. He was a member of
+      President Barack Obama’s Advisory Council on Financial Capability.  He has
+      received several awards, most recently a Guggenheim Fellowship, and the
+      William James Book Award. He was named one of Foreign Policy Magazine’s
+      100 Leading Global Thinkers of 2013, and elected fellow of the American
+      Academy of Arts and Sciences. He edited a book called “The Behavioral
+      Foundations of Public Policy,” (2012), and co-authored, with economist
+      Sendhil Mullainathan, “Scarcity: Why Having Too Little Means So Much,”
+      (2013). He received his B.A. from Brown University and his Ph.D. from the
+      Massachusetts Institute of Technology.
+    image: /uploads/DO_shafir.jpg
+    name: Eldar Shafir
+    thumb: /uploads/DO_shafir_thumb.jpg
+    title: Princeton University
   - blurb: >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Accumsan lacus vel
@@ -261,7 +484,7 @@ participants:
       volutpat.                     
     image: /uploads/ffwherry_bio.jpg
     name: Frederick Wherry
-    thumb: /uploads/ffwherry_bio.jpg
+    thumb: /uploads/DO_wherry_thumb.jpg
     title: Dignity + Debt Director
 ---
 The meeting opened with reflections from Frederick Wherry, the Director of Dignity + Debt, on why student debt is central to the work of the Network: “In communities across the country and around the globe, parents take pride in announcing that their kid is going to college. Where I grew up in South Carolina, it was more than just an individual achievement. As a black kid, I was told that education was the one thing they couldn’t take away. Everything else, including my life, was up for grabs. We sacrificed for self-worth and respect. But we paid dearly for it.”
