@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: update-mtgs # Branch to update (optional; defaults to master)
+  branch: update-mtgs-production # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
 
