@@ -14196,6 +14196,26 @@ body.type-meeting.kind-section .row.jumbotron {
   line-height: 2.4rem;
 }
 
+.kind-page.type-single-meeting .row.jumbotron {
+  height: 310px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 6.4rem;
+  background-position-y: bottom;
+}
+
+@media (min-width: 1024px) {
+  .kind-page.type-single-meeting .row.jumbotron {
+    height: 350px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .kind-page.type-single-meeting .row.jumbotron {
+    height: 400px;
+  }
+}
+
 .kind-page.type-single-meeting .divider {
   border-bottom: solid 1px #c9e9ea;
 }
