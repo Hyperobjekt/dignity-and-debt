@@ -492,7 +492,7 @@ collections:
           - {label: Name, name: name, widget: hidden, default: "Meetings"}
           - {label: Type, name: type, widget: hidden, default: "meetings"}
           - {label: Is Index, name: is_index, widget: hidden, default: true}
-          - {label: Hero Image, name: hero_image, widget: image,}
+          - {label: Hero Image, name: hero_image, widget: image, hint: "Ideal dimensions: 2880x874px"}
           - {label: Display Title, name: display_title, widget: string}
           - {label: Display Subheading, name: display_subtitle, widget: string, required: false}
 
@@ -544,6 +544,7 @@ collections:
       - {label: Date, name: date, widget: datetime, timeFormat: false, hint: "Determines order - newest first."}
       - {label: Display Date, name: display_date, widget: string, hint: Appears on the list page}
       - {label: Short description, name: description, widget: string}
+      - {label: Hero image, name: hero_image, widget: image, hint: "Ideal dimensions: 2880x874px"}
       - {label: Poster thumbnail, name: small_poster, widget: image, hint: 'Ideal width: 680px, ideal size: < 175px'}
       - {label: Full poster image for download, name: full_poster, widget: image, hint: 'No constraints on size'}
       - {label: Short intro, name: shortIntro, hint: Appears with poster, widget: markdown, buttons: [bold, italic, quote, link, bulleted-list, numbered-list, heading-two]}

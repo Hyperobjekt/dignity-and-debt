@@ -1916,6 +1916,22 @@ body.type-meeting.kind-section {
 }
 
 .kind-page.type-single-meeting {
+  .row {
+    &.jumbotron {
+      height: 310px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: 6.4rem;
+      background-position-y: bottom;
+      @include media-breakpoint-up(mmd) {
+        height: 350px;
+      }
+      @include media-breakpoint-up(lg) {
+        height: 400px;
+      }
+    }
+  }
+  
 
   .divider {
     border-bottom: solid 1px #c9e9ea;
