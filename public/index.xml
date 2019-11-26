@@ -6,25 +6,10 @@
     <description>Recent content in Home on Dignity and Debt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jul 2019 12:05:35 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Digging Out With Dignity: Solving the Student Loan Crisis and Honoring Meaning at the Margins </title>
-      <link>/meetings/digging-out-with-dignity-solving-the-student-loan-crisis-and-honoring-meaning-at-the-margins/</link>
-      <pubDate>Tue, 30 Jul 2019 12:05:35 +0000</pubDate>
-      
-      <guid>/meetings/digging-out-with-dignity-solving-the-student-loan-crisis-and-honoring-meaning-at-the-margins/</guid>
-      <description>A Dignity + Debt Discussion Forum
-Co-presented with The Aspen Institute’s Financial Security Program
-Hosted at Princeton University
-Friend Center Convocation Room 113
-Friday, October 18, 2019, registration begins at 8:30 am
-
-Student loans from the federal government total $1.5 trillion in the United States with 40 percent of them at risk of default over the next four years. Across the globe, student unrest over fines and fees has destabilized plans for funding higher education and called to account histories of dispossession.</description>
-    </item>
     
     <item>
       <title>Student Debt and Racial Disparities</title>
@@ -99,12 +84,21 @@ Student loans from the federal government total $1.5 trillion in the United Stat
     </item>
     
     <item>
-      <title>Faculty Book: Frederick Wherry &#39;04 on Extending Credit</title>
+      <title>Faculty Book: Frederick Wherry *04 on Extending Credit</title>
       <link>/news/new-item-05/</link>
-      <pubDate>Wed, 02 Oct 2019 12:11:13 -0600</pubDate>
+      <pubDate>Wed, 02 Oct 2019 18:11:13 +0000</pubDate>
       
       <guid>/news/new-item-05/</guid>
       <description>For many borrowers, obtaining a home mortgage, car loan, or credit card is a relatively simple process. A bank looks up their credit score — measured on a scale of 300 to 850 — to determine their past financial behavior. For some 45 million Americans, however, that assessment is not possible.</description>
+    </item>
+    
+    <item>
+      <title>Digging Out With Dignity: Solving the Student Loan Crisis and Honoring Meaning at the Margins </title>
+      <link>/meetings/digging-out-with-dignity-solving-the-student-loan-crisis-and-honoring-meaning-at-the-margins/</link>
+      <pubDate>Tue, 30 Jul 2019 12:05:35 +0000</pubDate>
+      
+      <guid>/meetings/digging-out-with-dignity-solving-the-student-loan-crisis-and-honoring-meaning-at-the-margins/</guid>
+      <description>The meeting opened with reflections from Frederick Wherry, the Director of Dignity + Debt, on why student debt is central to the work of the Network: “In communities across the country and around the globe, parents take pride in announcing that their kid is going to college. Where I grew up in South Carolina, it was more than just an individual achievement. As a black kid, I was told that education was the one thing they couldn’t take away.</description>
     </item>
     
     <item>
@@ -144,12 +138,12 @@ Student loans from the federal government total $1.5 trillion in the United Stat
     </item>
     
     <item>
-      <title>2019 Meeting</title>
-      <link>/meetings/meeting-2019/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>The Network Roundtable</title>
+      <link>/meetings/network-roundtable/</link>
+      <pubDate>Wed, 09 May 2018 12:05:35 +0000</pubDate>
       
-      <guid>/meetings/meeting-2019/</guid>
-      <description>Testarooney</description>
+      <guid>/meetings/network-roundtable/</guid>
+      <description></description>
     </item>
     
   </channel>

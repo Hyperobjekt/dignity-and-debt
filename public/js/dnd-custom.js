@@ -37,7 +37,6 @@
         checkScroll(t);
     });
 
-
     var updateModal = {
       activeImg: null,
       allImgs: null,
@@ -66,7 +65,7 @@
         $('#closeModal').focus();
       }
     };
-
+  
     // Handle bio modals
     if ($('.project-img.launch-modal img').length >= 1) {
       // Store the complete collection of bios
@@ -79,7 +78,7 @@
         updateModal.activeImg = (updateModal.allImgs).index($target);
         // console.log(updateModal.activeBio);
         updateModal.update();
-
+  
         $('#prevImg').on('click', function() {
             if (updateModal.activeImg >= 1) {
                 updateModal.activeImg = updateModal.activeImg - 1;
@@ -101,6 +100,7 @@
         });
       });
     }
+    
 
     $(window).on('scroll', function() {
       $('.target').each(function() {
@@ -111,5 +111,98 @@
           }
       });
     });
+
+ // Auto-add carousel indicators on meetings page for each photo in the slideshow
+    var myCarousel = $(".carousel");
+    myCarousel.append("<ol class='carousel-indicators'></ol>");
+    var indicators = $(".carousel-indicators"); 
+    myCarousel.find(".carousel-inner").children(".carousel-item").each(function(index) {
+        (index === 0) ? 
+        indicators.append("<li data-target='#mtgs-carousel' data-slide-to='"+index+"' class='active'></li>") : 
+        indicators.append("<li data-target='#mtgs-carousel' data-slide-to='"+index+"'></li>");
+    });     
+
+
+    $('.carousel').carousel();
+
+
+
+    var updatePplModal = {
+      activeBio: null,
+      allBios: null,
+      updatePpl: function() {
+          // console.log('updateModal.update()');
+          var $button = $(this.allBios[this.activeBio]).find('button');
+
+          // Get name, title, bio, and image
+          var parent = $button.parent();
+          // console.log(parent);
+          var name = $button.parent().siblings('.name').text();
+          // console.log('name = ' + name);
+          var title = $button.parent().siblings('.title').text();
+          // console.log('title = ' + title);
+          var bio = $button.parent().siblings('.bio').html();
+          /// console.log('bio = ' + bio);
+          var image = $button.closest('.column-people').children('.pic').attr('style');
+          var bigimage = $button.parent().siblings('.bigimage').html();
+
+          // Set contents
+          $('#modalImg').attr('style', image);
+          $('img#bigimage').attr('src', bigimage);
+          $('#modalName').text(name);
+          $('#modalTitle').html(title);
+          $('#modalBio').html(bio);
+          $('#peopleBioModal').modal('show');
+
+          // Check first and last position, disable buttons
+          if (this.activeBio <= 0) {
+              // console.log('first item');
+              $('#prevBio').prop( "disabled", true);
+              $('#nextBio').prop( "disabled", false);
+          } else if (this.activeBio >= ((this.allBios).length - 1)) {
+              // console.log('last item');
+              $('#prevBio').prop( "disabled", false);
+              $('#nextBio').prop( "disabled", true);
+          } else {
+              $('#prevBio').prop( "disabled", false);
+              $('#nextBio').prop( "disabled", false);
+          }
+      }
+  };
+
+      // Handle bio modals
+      if ($('.launch-people-bio').length >= 1) {
+        // Store the complete collection of bios
+        // so we can switch between them all.
+        updatePplModal.allBios = $('.column-people');
+        $('.launch-people-bio').click(function(e) {
+          e.preventDefault();
+          var $button = $(e.target);
+          // Store active bio index so navigation between them works.
+          updatePplModal.activeBio = (updatePplModal.allBios).index($button.closest('.column-people'));
+          // console.log(updateModal.activeBio);
+          updatePplModal.updatePpl();
+
+          $('#prevBio').on('click', function() {
+              if (updatePplModal.activeBio >= 1) {
+                  updatePplModal.activeBio = updatePplModal.activeBio - 1;
+                  updatePplModal.updatePpl();
+              }
+          });
+          $('#nextBio').on('click', function() {
+              if (updatePplModal.activeBio < (updatePplModal.allBios).length - 1) {
+                  updatePplModal.activeBio = updatePplModal.activeBio + 1;
+                  updatePplModal.updatePpl();
+              }
+          });
+          $('#peopleBioModal button.close').on('click', function() {
+            // console.log('closing, active bio = ');
+            // console.log(updateModal.activeBio);
+            updatePplModal.activeBio = 0;
+            $('#prevBio').unbind('click');
+            $('#nextBio').unbind('click');
+          });
+        });
+      }
 
 })(jQuery);
