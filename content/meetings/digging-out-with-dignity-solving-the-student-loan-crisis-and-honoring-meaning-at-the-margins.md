@@ -15,9 +15,9 @@ description: >-
   for funding higher education and called to account histories of dispossession.
   While considering what must be done, we must also pay more attention to what
   is at stake.
-hero_image: "/uploads/meetings-hero-image-conf.jpg"
-small_poster: /uploads/digging-out-conf3-sm.jpg  
-full_poster: /uploads/10.18 student loans with dignity.jpg  
+hero_image: /uploads/meetings-hero-image-conf.jpg
+small_poster: /uploads/digging-out-conf3-sm.jpg
+full_poster: /uploads/10.18 student loans with dignity.jpg
 shortIntro: >-
   **A Dignity + Debt Discussion Forum**
 
@@ -31,7 +31,7 @@ shortIntro: >-
   journalists and other non-fiction writers as well as sociologists,
   anthropologists, economists, and representatives from think tanks and
   nonprofit advocacy organizations. 
-hashighlights: true  
+hashighlights: true
 highlightsTitle: HIGHLIGHTS
 recapTitle: Conference Recap
 photosTitle: Photos
@@ -56,15 +56,11 @@ carouselimages:
   - caption: lorem ipsum dolor sit amet
     pic: /uploads/DSCF0314.jpg
   - caption: lorem ipsum dolor sit amet
-    pic: /uploads/DSCF0315.jpg
-  - caption: lorem ipsum dolor sit amet
     pic: /uploads/DSCF0322.jpg
   - caption: lorem ipsum dolor sit amet
     pic: /uploads/DSCF0325.jpg
   - caption: lorem ipsum dolor sit amet
     pic: /uploads/DSCF0326.jpg
-  - caption: lorem ipsum dolor sit amet
-    pic: /uploads/DSCF0335.jpg
   - caption: lorem ipsum dolor sit amet
     pic: /uploads/DSCF0337.jpg
   - caption: lorem ipsum dolor sit amet
@@ -73,7 +69,6 @@ carouselimages:
     pic: /uploads/DSCF0339.jpg
   - caption: lorem ipsum dolor sit amet
     pic: /uploads/DSCF0346.jpg
-videos:
 participantsTitle: Participants
 participants:
   - blurb: >-
