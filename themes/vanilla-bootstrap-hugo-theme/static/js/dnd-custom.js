@@ -66,7 +66,7 @@
       }
     };
   
-    // Handle bio modals
+    // Handle project modals
     if ($('.project-img.launch-modal img').length >= 1) {
       // Store the complete collection of bios
       // so we can switch between them all.
