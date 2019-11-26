@@ -1740,6 +1740,12 @@ body.type-projects.kind-section, body.type-meetings {
 }
 
 body.type-meetings .row {
+  &#meetings-hero {
+      background-position-x: 34%;
+      @include media-breakpoint-up(md) {
+        background-position-x: center;
+      }
+  }
   h2 {
     &:after {
       margin: 2.4rem 0 2.4rem;
