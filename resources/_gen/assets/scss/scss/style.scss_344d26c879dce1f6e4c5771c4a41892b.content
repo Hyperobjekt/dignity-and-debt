@@ -14341,6 +14341,10 @@ body.type-meeting.kind-section .row.jumbotron {
   cursor: pointer;
 }
 
+.kind-page.type-single-meeting .row.indiv-mtgs .recap-av .mtgs-carousel .carousel-indicators li.active {
+  background-color: #fff;
+}
+
 .kind-page.type-single-meeting .row.indiv-mtgs .recap-av .mtgs-carousel .carousel-control-prev-icon, .kind-page.type-single-meeting .row.indiv-mtgs .recap-av .mtgs-carousel .carousel-control-next-icon {
   width: 30px;
   height: 30px;

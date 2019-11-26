@@ -113,7 +113,7 @@
     });
 
  // Auto-add carousel indicators on meetings page for each photo in the slideshow
-    var myCarousel = $(".carousel");
+  var myCarousel = $(".carousel");
     myCarousel.append("<ol class='carousel-indicators'></ol>");
     var indicators = $(".carousel-indicators"); 
     myCarousel.find(".carousel-inner").children(".carousel-item").each(function(index) {
@@ -123,7 +123,7 @@
     });     
 
 
-    $('.carousel').carousel();
+    $('.carousel').carousel(); 
 
 
 
