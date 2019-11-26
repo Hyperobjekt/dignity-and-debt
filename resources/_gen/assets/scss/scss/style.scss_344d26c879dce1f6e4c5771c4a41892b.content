@@ -14006,6 +14006,16 @@ body.type-projects.kind-section .row .morelink-parent:after, body.type-meetings 
   margin: 5.6rem 0 3.6rem;
 }
 
+body.type-meetings .row#meetings-hero {
+  background-position-x: 34%;
+}
+
+@media (min-width: 768px) {
+  body.type-meetings .row#meetings-hero {
+    background-position-x: center;
+  }
+}
+
 body.type-meetings .row h2:after {
   margin: 2.4rem 0 2.4rem;
 }
