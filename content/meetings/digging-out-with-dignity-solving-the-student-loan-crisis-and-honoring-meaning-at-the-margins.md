@@ -36,38 +36,28 @@ highlightsTitle: HIGHLIGHTS
 recapTitle: Conference Recap
 photosTitle: Photos
 carouselimages:
-  - caption: lorem ipsum dolor sit amet
+  - caption: 
     pic: /uploads/DSCF0261.jpg
   - pic: /uploads/DSCF0263.jpg
-  - caption: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Accumsan lacus vel
-      facilisis volutpat est velit egestas dui. Dignissim convallis aenean et
-      tortor at risus. Ipsum consequat nisl vel pretium lectus quam. Amet
-      commodo nulla facilisi nullam vehicula ipsum a. Arcu non sodales neque
-      sodales ut etiam sit amet. A pellentesque sit amet porttitor eget.
-      Parturient montes nascetur ridiculus mus mauris vitae ultricies leo.
-      Varius sit amet mattis vulputate enim. Mi bibendum neque egestas congue
-      quisque egestas diam in arcu. Risus sed vulputate odio ut enim blandit
-      volutpat.
+  - caption: 
     pic: /uploads/DSCF0287.jpg
-  - caption: lorem ipsum dolor sit amet
+  - caption: 
     pic: /uploads/DSCF0300.jpg
-  - caption: lorem ipsum dolor sit amet
+  - caption: 
     pic: /uploads/DSCF0314.jpg
-  - caption: lorem ipsum dolor sit amet
+  - caption: 
     pic: /uploads/DSCF0322.jpg
-  - caption: lorem ipsum dolor sit amet
+  - caption: 
     pic: /uploads/DSCF0325.jpg
-  - caption: lorem ipsum dolor sit amet
+  - caption: 
     pic: /uploads/DSCF0326.jpg
-  - caption: lorem ipsum dolor sit amet
+  - caption: 
     pic: /uploads/DSCF0337.jpg
-  - caption: lorem ipsum dolor sit amet
+  - caption: 
     pic: /uploads/DSCF0338.jpg
-  - caption: lorem ipsum dolor sit amet
+  - caption: 
     pic: /uploads/DSCF0339.jpg
-  - caption: lorem ipsum dolor sit amet
+  - caption: 
     pic: /uploads/DSCF0346.jpg
 participantsTitle: Participants
 participants:
@@ -438,16 +428,7 @@ participants:
     thumb: /uploads/DO_shafir_thumb.jpg
     title: Princeton University
   - blurb: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Accumsan lacus vel
-      facilisis volutpat est velit egestas dui. Dignissim convallis aenean et
-      tortor at risus. Ipsum consequat nisl vel pretium lectus quam. Amet
-      commodo nulla facilisi nullam vehicula ipsum a. Arcu non sodales neque
-      sodales ut etiam sit amet. A pellentesque sit amet porttitor eget.
-      Parturient montes nascetur ridiculus mus mauris vitae ultricies leo.
-      Varius sit amet mattis vulputate enim. Mi bibendum neque egestas congue
-      quisque egestas diam in arcu. Risus sed vulputate odio ut enim blandit
-      volutpat.                     
+      Frederick Wherry is the Townsend Martin, Class of 1917 Professor of Sociology at Princeton University and the director of the Dignity and Debt Network, a partnership between Princeton University and the Social Science Research Council. For the 2019-2020 academic year he is a visitor at the Institute for Advanced Study in Princeton. In 2019 he authored Credit Where It’s Due: Rethinking Financial Citizenship (with Kristin S. Seefeldt and Anthony S. Alvarez) and edited The Oxford Handbook of Consumption (with Ian Woodward). In 2020 he will publish Measuring Culture, co-authored with eight collaborators, including the late John Mohr. He is the author or editor of six other books. He serves in an advisory capacity to the Boston Federal Reserve’s Community Development Research Advisory Council and the Lloyds Banking Group Centre for Responsible Business at the University of Birmingham’s Business School in the United Kingdom. He also serves as a director on the board of the Financial Clinic and as a participant in the Aspen Institute’s EPIC initiative (Expanding Prosperity Impact Collaborative). He and Jennifer Lena edit a book series at Stanford University Press called Culture and Economic Life, and he tweets @ProfessorWherry                
     image: /uploads/ffwherry_bio.jpg
     name: Frederick Wherry
     thumb: /uploads/DO_wherry_thumb.jpg
