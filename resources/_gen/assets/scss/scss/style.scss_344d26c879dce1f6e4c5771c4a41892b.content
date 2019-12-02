@@ -15941,4 +15941,8 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
   text-decoration: none;
 }
 
+#netlify-identity-widget {
+  visibility: hidden;
+}
+
 /*# sourceMappingURL=style.css.map */

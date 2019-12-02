@@ -14,19 +14,19 @@
         </ol> -->
         <!--/.Indicators-->
         <!--Slides-->
-        <div class="carousel-inner" role="listbox">
-        {{ range first 1 .Params.carouselimages }}    
+        <div class="carousel-inner" role="listbox" aria-live="polite" aria-atomic="true" >
+        {{ range first 1 .Params.carouselimages }}
             <div class="carousel-item active">
                 <div class="view">
                 <img class="d-block mw-100" src="{{ .pic }}"
-                    alt="First slide">
+                    alt="{{ if .caption }}{{ .caption }}{{else}}New slide{{end}}">
                 <div class="mask rgba-black-light"></div>
                 </div>
                 {{ if .caption }}
                     <div class="carousel-caption">
-                    <p>{{ .caption }}</p>
+                    <p aria-hidden="true">{{ .caption }}</p>
                     </div>
-                {{ end }}    
+                {{ end }}
           </div>
           {{ end }}
           {{ range after 1 .Params.carouselimages }}
@@ -34,12 +34,12 @@
                 <!--Mask color-->
                 <div class="view">
                 <img class="d-block mw-100" src="{{ .pic }}"
-                    alt="Second slide">
+                    alt="{{ if .caption }}{{ .caption }}{{else}}New slide{{end}}">
                 <div class="mask rgba-black-strong"></div>
                 </div>
                 {{ if .caption }}
                     <div class="carousel-caption">
-                    <p>{{ .caption }}</p>
+                    <p aria-hidden="true">{{ .caption }}</p>
                     </div>
                 {{ end }}    
             </div>

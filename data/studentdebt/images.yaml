@@ -2,27 +2,36 @@ images:
   - fullimage: /uploads/01-Access to higher ed.png
     image: /uploads/01-Access to higher ed-med.jpg
     thumb: /uploads/01-Access-to-higher-ed-sm.jpg
+    title: "Access to higher education"
   - fullimage: /uploads/02-Average racial disparities.png
     image: /uploads/02-Average racial disparities-med.jpg
     thumb: /uploads/02-Average-racial-disparities-sm.jpg
+    title: "Racial disparities in average student loan debt"
   - fullimage: /uploads/03-Expanding racial wealth gap.png
     image: /uploads/03-Expanding racial wealth gap-med.jpg
     thumb: /uploads/03-Expanding-racial-wealth-gap-sm.jpg
+    title: "Student debt and the expanding racial wealth gap"
   - fullimage: /uploads/04-Student debt and defaults.png
     image: /uploads/04-Student debt and defaults-med.jpg
     thumb: /uploads/04-Student-debt-and-defaults-sm.jpg
+    title: "Average student debt and defaults four years after graduation"
   - fullimage: /uploads/05-credit-rating-disparities-in-us-2.jpg
     image: /uploads/05-credit-rating-disparities-in-us-2-med.jpg
     thumb: /uploads/05-credit-rating-disparities-in-us-2-sm.jpg
+    title: "Credit rating disparities in the United States"
   - fullimage: /uploads/06-For-Profit Ed and Loans.png
     image: /uploads/06-For-Profit Ed and Loans-med.jpg
     thumb: /uploads/06-For-Profit-Ed-and-Loans-sm.jpg
+    title: "For-profit higher education and loans"
   - fullimage: /uploads/07-Value of debt on self-concept.png
     image: /uploads/07-Value of debt on self-concept-med.jpg
     thumb: /uploads/07-Value-of-debt-on-self-concept-sm.jpg
+    title: "Debt and self-confidence"
   - fullimage: /uploads/08-Employer selectivity.png
     image: /uploads/08-Employer selectivity-med.jpg
     thumb: /uploads/08-Employer-selectivity-sm.jpg
+    title: "Employer selectivity for college and ancestry"
   - fullimage: /uploads/contest-art-v-2019.10.21.png
     image: /uploads/contest-art-v-2019.10.21-1760.png
     thumb: /uploads/contest-art-v-2019.10.21-880.png
+    title: "Vizualizing student debt wit dignity"

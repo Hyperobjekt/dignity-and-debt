@@ -17,6 +17,7 @@ description: >-
   is at stake.
 hero_image: /uploads/meetings-hero-image-conf.jpg
 small_poster: /uploads/digging-out-conf3-sm.jpg
+small_poster_alt: Digging Out with Dignity conference poster
 full_poster: /uploads/10.18 student loans with dignity.jpg
 shortIntro: >-
   **A Dignity + Debt Discussion Forum**
@@ -36,28 +37,29 @@ highlightsTitle: HIGHLIGHTS
 recapTitle: Conference Recap
 photosTitle: Photos
 carouselimages:
-  - caption: 
+  - caption: Dr. Wherry at podium
     pic: /uploads/DSCF0261.jpg
   - pic: /uploads/DSCF0263.jpg
-  - caption: 
+    caption: Ida Rademacher at podium
+  - caption: Panel participants in discussion
     pic: /uploads/DSCF0287.jpg
-  - caption: 
+  - caption: Conference participants mingle
     pic: /uploads/DSCF0300.jpg
-  - caption: 
+  - caption: Panel participants in discussion
     pic: /uploads/DSCF0314.jpg
-  - caption: 
+  - caption: Panel participants in discussion
     pic: /uploads/DSCF0322.jpg
-  - caption: 
+  - caption: Lorena Pérez-Roa presents
     pic: /uploads/DSCF0325.jpg
-  - caption: 
+  - caption: Lorena Pérez-Roa presents
     pic: /uploads/DSCF0326.jpg
-  - caption: 
+  - caption: Panel participants in discussion
     pic: /uploads/DSCF0337.jpg
-  - caption: 
+  - caption: Conference participants ask questions of the panelists
     pic: /uploads/DSCF0338.jpg
-  - caption: 
+  - caption: Conference participants ask questions of the panelists
     pic: /uploads/DSCF0339.jpg
-  - caption: 
+  - caption: Conference participants ask questions of the panelists
     pic: /uploads/DSCF0346.jpg
 participantsTitle: Participants
 participants:

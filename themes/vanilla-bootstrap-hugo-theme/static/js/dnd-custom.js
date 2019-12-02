@@ -63,22 +63,29 @@
         }
         // Set focus on close button
         $('#closeModal').focus();
+      },
+      close: function() {
+        // console.log('updateModal.close()');
+        setTimeout(
+          function() {$('.project-img.launch-modal')[updateModal.activeImg].focus()
+        }, 300);
       }
     };
-  
+
     // Handle project modals
-    if ($('.project-img.launch-modal img').length >= 1) {
+    if ($('.project-img.launch-modal').length >= 1) {
       // Store the complete collection of bios
       // so we can switch between them all.
-      updateModal.allImgs = $('.project-img.launch-modal img');
-      $('.project-img.launch-modal img').on('click', function(e) {
+      updateModal.allImgs = $('.project-img.launch-modal');
+      $('.project-img.launch-modal').on('click', function(e) {
         e.preventDefault();
         var $target = $(e.currentTarget);
         // Store active bio index so navigation between them works.
         updateModal.activeImg = (updateModal.allImgs).index($target);
+        console.log('updateModal.activeImg = ', updateModal.activeImg);
         // console.log(updateModal.activeBio);
         updateModal.update();
-  
+
         $('#prevImg').on('click', function() {
             if (updateModal.activeImg >= 1) {
                 updateModal.activeImg = updateModal.activeImg - 1;
@@ -92,15 +99,17 @@
             }
         });
         $('#dndModal button.close').on('click', function() {
-          // console.log('closing, active bio = ');
-          // console.log(updateModal.activeBio);
-          updateModal.activeImg = 0;
+          updateModal.close();
           $('#prevImg').unbind('click');
           $('#nextImg').unbind('click');
         });
       });
+      // Listen for enter and space, trigger click
+      $('.project-img.launch-modal').on('keypress', function(e) {
+        e.preventDefault();
+        e.currentTarget.click();
+      });
     }
-    
 
     $(window).on('scroll', function() {
       $('.target').each(function() {
