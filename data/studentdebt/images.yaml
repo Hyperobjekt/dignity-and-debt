@@ -1,7 +1,7 @@
 images:
-  - fullimage: /uploads/01-Access to higher ed.png
-    image: /uploads/01-Access to higher ed-med.jpg
-    thumb: /uploads/01-Access-to-higher-ed-sm.jpg
+  - fullimage: /uploads/01-access-to-higher-ed.png
+    image: /uploads/01-access-to-higher-ed-med.jpg
+    thumb: /uploads/01-access-to-higher-ed-sm.jpg
     title: "Access to higher education"
   - fullimage: /uploads/02-Average racial disparities.png
     image: /uploads/02-Average racial disparities-med.jpg
