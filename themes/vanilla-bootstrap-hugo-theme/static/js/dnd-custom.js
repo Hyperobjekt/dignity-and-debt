@@ -102,12 +102,25 @@
           updateModal.close();
           $('#prevImg').unbind('click');
           $('#nextImg').unbind('click');
+          $('#dndModal button.close').unbind('click');
+        });
+        // ESC
+        $(document).on('keyup', function(e) {
+          e.preventDefault();
+          if (e.key === "Escape" || e.key === "Esc") {
+            // console.log('ESC selected');
+            updateModal.close();
+            $(document).unbind('keyup');
+          }
         });
       });
       // Listen for enter and space, trigger click
       $('.project-img.launch-modal').on('keypress', function(e) {
         e.preventDefault();
-        e.currentTarget.click();
+        if (e.key === ' ' || e.key === 'Spacebar' || e.key === "Enter") {
+          // console.log('keypress indicated');
+          e.currentTarget.click();
+        }
       });
     }
 
