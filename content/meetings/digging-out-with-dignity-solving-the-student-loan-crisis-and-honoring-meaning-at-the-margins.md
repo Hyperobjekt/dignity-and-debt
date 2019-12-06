@@ -37,29 +37,41 @@ highlightsTitle: HIGHLIGHTS
 recapTitle: Conference Recap
 photosTitle: Photos
 carouselimages:
-  - caption: Dr. Wherry at podium
+  - caption:
+    alttext: Dr. Wherry at podium
     pic: /uploads/DSCF0261.jpg
   - pic: /uploads/DSCF0263.jpg
-    caption: Ida Rademacher at podium
-  - caption: Panel participants in discussion
+    caption:
+    alttext: Ida Rademacher at podium
+  - caption: 
+    alttext: Panel participants in discussion
     pic: /uploads/DSCF0287.jpg
-  - caption: Conference participants mingle
+  - caption: 
+    alttext: Conference participants mingle
     pic: /uploads/DSCF0300.jpg
-  - caption: Panel participants in discussion
+  - caption: 
+    alttext: Panel participants in discussion
     pic: /uploads/DSCF0314.jpg
-  - caption: Panel participants in discussion
+  - caption: 
+    alttext: Panel participants in discussion
     pic: /uploads/DSCF0322.jpg
   - caption: Lorena Pérez-Roa presents
+    alttext: 
     pic: /uploads/DSCF0325.jpg
-  - caption: Lorena Pérez-Roa presents
+  - caption: 
+    alttext: Lorena Pérez-Roa presents
     pic: /uploads/DSCF0326.jpg
-  - caption: Panel participants in discussion
+  - caption: 
+    alttext: Panel participants in discussion
     pic: /uploads/DSCF0337.jpg
-  - caption: Conference participants ask questions of the panelists
+  - caption: 
+    alttext: Conference participants ask questions of the panelists
     pic: /uploads/DSCF0338.jpg
-  - caption: Conference participants ask questions of the panelists
+  - caption: 
+    alttext: Conference participants ask questions of the panelists
     pic: /uploads/DSCF0339.jpg
-  - caption: Conference participants ask questions of the panelists
+  - caption: 
+    alttext: Conference participants ask questions of the panelists
     pic: /uploads/DSCF0346.jpg
 participantsTitle: Participants
 participants:

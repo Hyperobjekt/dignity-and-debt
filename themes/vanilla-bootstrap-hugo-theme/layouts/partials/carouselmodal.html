@@ -19,7 +19,7 @@
             <div class="carousel-item active">
                 <div class="view">
                 <img class="d-block mw-100" src="{{ .pic }}"
-                    alt="{{ if .caption }}{{ .caption }}{{else}}New slide{{end}}">
+                    alt="{{ if .alttext }}{{ .alttext }}{{else}}New slide{{end}}">
                 <div class="mask rgba-black-light"></div>
                 </div>
                 {{ if .caption }}
@@ -34,7 +34,7 @@
                 <!--Mask color-->
                 <div class="view">
                 <img class="d-block mw-100" src="{{ .pic }}"
-                    alt="{{ if .caption }}{{ .caption }}{{else}}New slide{{end}}">
+                    alt="{{ if .alttext }}{{ .alttext }}{{else}}New slide{{end}}">
                 <div class="mask rgba-black-strong"></div>
                 </div>
                 {{ if .caption }}

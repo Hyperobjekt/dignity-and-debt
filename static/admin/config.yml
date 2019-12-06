@@ -558,7 +558,8 @@ collections:
         widget: list
         fields:
           - {label: "Photo", name: pic, widget: image, hint: 'Optimal size is 2400 px wide for horizontal, 1600 px for vertical, and less than 250kb'}
-          - {label: "Caption", name: caption, widget: string, required: false} 
+          - {label: "Caption", name: caption, widget: string, required: false}
+          - {label: "Image alt text", name: alttext, widget: string, required: false}  
       - label: Videos
         name: videos
         widget: list
