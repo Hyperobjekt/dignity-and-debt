@@ -7,7 +7,7 @@ paginate = 5
 
 [imaging]
 resampleFilter = "box"
-quality = 70
+quality = 80
 anchor = "smart"
 
 [params]
