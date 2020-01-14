@@ -473,6 +473,9 @@ collections:
         widget: "date"
         default: ""
         format: "YYYY-MM-DD"
+      - label: "Link to news item"
+        name: "link"
+        widget: string  
       - label: "Body"
         name: "body"
         widget: "markdown"
