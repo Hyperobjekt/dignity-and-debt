@@ -1,7 +1,7 @@
 ---
 title: 'Debt in America: An Interactive Map from The Urban Institute'
 author: ''
-image: /uploads/urban-map2.png
+image: /uploads/urban-map3.png
 date: 2019-10-02T18:11:13.000Z
 link: >-
   https://apps.urban.org/features/debt-interactive-map/?type=overall&variable=pct_debt_collections
