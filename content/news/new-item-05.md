@@ -1,6 +1,6 @@
 ---
 title: 'Debt in America: An Interactive Map from The Urban Institute'
-author: ''
+author: Jeff Himpele
 image: /uploads/urban-map3.png
 date: 2019-10-02T18:11:13.000Z
 link: >-
