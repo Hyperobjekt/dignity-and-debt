@@ -9,7 +9,7 @@
       <div class="flex-child event-tile">
         {{ with $.Site.GetPage "page" "uploads/_index.md" }}
             {{ with .Resources.GetMatch $img }}
-                  {{$img400 := .Fill "298x298 Center"}}
+                  {{$img400 := .Fill "600x600 Center"}}
                   <div class="news-img-container" style="background-image: url('{{ $img400.RelPermalink }}')"></div>
             {{ end }}
         {{ end }}
