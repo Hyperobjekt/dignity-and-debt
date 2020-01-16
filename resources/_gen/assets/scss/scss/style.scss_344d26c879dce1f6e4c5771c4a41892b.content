@@ -13287,6 +13287,35 @@ h3.who-we-are,
   margin-bottom: 7.2rem;
 }
 
+.row.news-blocks .news-three-col p {
+  margin: 1.6rem 0 0 0;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+}
+
+.row.news-blocks .news-three-col .event-tile {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.row.news-blocks .news-three-col .event-tile a {
+  text-decoration: none;
+}
+
+.row.news-blocks .news-three-col .event-tile .excerpt {
+  padding: 0 1.6rem 1.6rem;
+}
+
+.row.news-blocks .news-three-col .event-tile a.btn-custom {
+  margin-top: 1.6rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3.2rem;
+  display: block;
+  align-self: flex-end;
+}
+
 .row.news-blocks .news-one-col.flex-parent {
   max-width: 960px;
 }
