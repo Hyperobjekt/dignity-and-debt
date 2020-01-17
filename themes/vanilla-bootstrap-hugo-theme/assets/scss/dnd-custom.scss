@@ -813,11 +813,29 @@ h3.who-we-are,
 }
 
 // News banner
+.row.news-heading {
+  h3 {
+    font-family: $brandongrotesque-bold;
+    font-size: 28px;
+    font-weight: 700;
+    color: #0A3D5F;
+    //text-align: left;
+  }
+
+}
 .row.news-banner {
   @include media-breakpoint-down(md) {
     background-color: $dnd-aqua;
     margin-left: 2.4rem !important;
     margin-right: 2.4rem !important;
+  }
+  @include media-breakpoint-up(mmd) {
+    border-left: 2.4rem solid $dnd-aqua;
+    border-right: 2.4rem solid $dnd-aqua;
+  }
+  @include media-breakpoint-up(xl) {
+    border-left: 40px solid $dnd-aqua;
+    border-right: 40px  solid $dnd-aqua;
   }
   
   /*.newsheader {
