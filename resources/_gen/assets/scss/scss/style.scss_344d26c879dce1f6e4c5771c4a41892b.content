@@ -13046,6 +13046,13 @@ h3.who-we-are,
   margin-right: auto;
 }
 
+.row.news-heading h3 {
+  font-family: "brandon-grotesque", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-size: 28px;
+  font-weight: 700;
+  color: #0A3D5F;
+}
+
 .row.news-banner {
   /*.newsheader {
     position: relative;
@@ -13059,6 +13066,20 @@ h3.who-we-are,
     background-color: #C9E9EA;
     margin-left: 2.4rem !important;
     margin-right: 2.4rem !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .row.news-banner {
+    border-left: 2.4rem solid #C9E9EA;
+    border-right: 2.4rem solid #C9E9EA;
+  }
+}
+
+@media (min-width: 1400px) {
+  .row.news-banner {
+    border-left: 40px solid #C9E9EA;
+    border-right: 40px solid #C9E9EA;
   }
 }
 
