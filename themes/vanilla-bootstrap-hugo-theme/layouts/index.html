@@ -36,18 +36,22 @@
   </div>
 </div>
 
-<div class="row content news-banner mt-8 mt-mmd-10 mt-lg-11 mb-8 mb-mmd-11 pb-5 pb-md-0 d-flex justify-content-center flex-wrap no-gutters px-md-9">
-   
-      {{ with .Site.Data.teasers.content }}  
-        <div class="col-12 text-center text-uppercase newsheader mt-5 mb-md-0 mt-mmd-0 mb-mmd-5"><h3>{{ .header }}</h3></div>
+  <div class="row content news-heading mt-8 mt-mmd-10 mt-lg-11 d-flex justify-content-center flex-wrap no-gutters mx-md-9">
+    {{ with .Site.Data.teasers.content }}  
+        <div class="col-12 text-center text-uppercase newsheader mt-5 mb-4 mb-mmd-5"><h3>{{ .header }}</h3></div>
       {{ end }}  
+  </div>    
+
+
+<div class="row content news-banner mb-8 mb-mmd-11 pb-5 pb-md-0 d-flex justify-content-center flex-wrap no-gutters mx-md-9">
+   
       {{ range .Site.Data.teasers.content.teasercontent }}
-        <div class="col-12 col-md-6 col-mmd-4 px-2 px-md-4 pb-3 pb-md-6 pt-2 text-center newsbox" style="background-color: #C9E9EA;">
-          <div class="col-9 col-md-8 col-lg-7 col-xl-6 mx-auto mt-4 mb-0"><img class="mw-100" src="{{ .image }}" /></div>
-          <h3 class="mt-3 mb-2">{{ .heading }}</h3>
-          <span>{{ .body }}</span>
-          <div class="col-12 mt-2 d-flex justify-content-center">
-            <a class="btn btn-custom" href="{{ .link }}" tabindex="0" aria-label="Go to calculator">{{ .button }}</a>
+        <div class="col-12 col-md-6 col-mmd-4 col-xl-4 px-2 px-md-4 pb-3 pb-md-6 pt-2 text-left newsbox d-flex flex-column" style="background-color: #C9E9EA;">
+          <div class="mx-auto mt-4 mb-0 px-2 px-md-4 px-mmd-1 px-lg-4"><img class="mw-100" src="{{ .image }}" /></div>
+          <h3 class="mt-3 mb-2 px-md-0 px-lg-2">{{ .heading }}</h3>
+          <span class="px-md-0 px-lg-2 pb-2" style="display:block">{{ .body }}</span>
+          <div class="mt-2 d-flex justify-content-center" style="height: 100%">
+            <a class="btn btn-custom" style="align-self: flex-end" href="{{ .link }}" tabindex="0" aria-label="Go to calculator">{{ .button }}</a>
           </div>
         </div>
       {{ end }}
@@ -87,11 +91,11 @@
     </div>-->
 
 
-<div class="row news-blocks">
+<div class="row news-blocks pb-7">
   <h3 class="" tabindex="0">NEWS</h3>
   <div class="w-100"></div>
 
-  {{ partial "one-col-news" . }}
+  {{ partial "three-col-news" . }}
 
   <div class="w-100"></div>
   <!-- <div class="col"> -->

@@ -13046,7 +13046,23 @@ h3.who-we-are,
   margin-right: auto;
 }
 
+.row.news-heading h3 {
+  font-family: "brandon-grotesque", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-size: 28px;
+  font-weight: 700;
+  color: #0A3D5F;
+}
+
 .row.news-banner {
+  /*
+  @include media-breakpoint-up(mmd) {
+    border-left: 2.4rem solid $dnd-aqua;
+    border-right: 2.4rem solid $dnd-aqua;
+  }
+  @include media-breakpoint-up(xl) {
+    border-left: 40px solid $dnd-aqua;
+    border-right: 40px  solid $dnd-aqua;
+  } */
   /*.newsheader {
     position: relative;
     top: 7.2rem;
@@ -13059,6 +13075,18 @@ h3.who-we-are,
     background-color: #C9E9EA;
     margin-left: 2.4rem !important;
     margin-right: 2.4rem !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .row.news-banner .newsbox:first-child {
+    box-shadow: -4rem 0 0 0 #C9E9EA;
+  }
+  .row.news-banner .newsbox:last-child {
+    box-shadow: 4rem 0 0 0 #C9E9EA;
+  }
+  .row.news-banner .newsbox:only-child {
+    box-shadow: none;
   }
 }
 
@@ -13285,6 +13313,35 @@ h3.who-we-are,
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 7.2rem;
+}
+
+.row.news-blocks .news-three-col p {
+  margin: 1.6rem 0 0 0;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+}
+
+.row.news-blocks .news-three-col .event-tile {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.row.news-blocks .news-three-col .event-tile a {
+  text-decoration: none;
+}
+
+.row.news-blocks .news-three-col .event-tile .excerpt {
+  padding: 0 1.6rem 1.6rem;
+}
+
+.row.news-blocks .news-three-col .event-tile a.btn-custom {
+  margin-top: 1.6rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3.2rem;
+  display: block;
+  align-self: flex-end;
 }
 
 .row.news-blocks .news-one-col.flex-parent {
