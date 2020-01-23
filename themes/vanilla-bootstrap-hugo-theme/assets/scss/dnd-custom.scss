@@ -824,11 +824,12 @@ h3.who-we-are,
 
 }
 .row.news-banner {
-  @include media-breakpoint-down(md) {
-    background-color: $dnd-aqua;
+ @include media-breakpoint-down(md) {
+   background-color: $dnd-aqua;
     margin-left: 2.4rem !important;
     margin-right: 2.4rem !important;
   }
+  /*
   @include media-breakpoint-up(mmd) {
     border-left: 2.4rem solid $dnd-aqua;
     border-right: 2.4rem solid $dnd-aqua;
@@ -836,7 +837,7 @@ h3.who-we-are,
   @include media-breakpoint-up(xl) {
     border-left: 40px solid $dnd-aqua;
     border-right: 40px  solid $dnd-aqua;
-  }
+  } */
   
   /*.newsheader {
     position: relative;
@@ -847,6 +848,15 @@ h3.who-we-are,
    
     @include media-breakpoint-up(mmd) {
       //padding-top: 7.2rem;
+      &:first-child {
+        box-shadow: -4rem 0 0 0  $dnd-aqua;
+      }
+      &:last-child {
+        box-shadow: 4rem 0 0 0  $dnd-aqua;
+      }
+      &:only-child {
+        box-shadow: none;
+      }
     }
   }
 
