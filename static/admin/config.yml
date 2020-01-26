@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  branch: variable-list # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
 
@@ -580,7 +580,30 @@ collections:
           - {label: "Title or Affiliation", name: title, widget: string}   
           - {label: "Bio", name: blurb, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
       
-
+  # VARIABLE LIST TEST
+  - label: "Variable list"
+    name: variable-list
+    create: true
+    extension: "md"
+    preview_path: variable/
+    filter: {field: "is_index", value: false}
+    folder: "content/variable" # The path to the folder where the documents are stored
+    fields:  
+      - {label: Title, name: title, widget: string}
+      - label: "Page Maker"
+        name: pagemaker
+        widget: list
+        types:
+          - label: Content
+            name: content
+            widget: object
+            fields:
+              - {label: Paragraph, name: paragraph, widget: markdown} 
+          - label: Image Gallery
+            name: gallery
+            widget: object
+            fields:
+              - {label: images, name: images, widget: image, allow_multiple: true}        
 
   
             
