@@ -54,13 +54,13 @@ carouselimages:
     pic: /uploads/DSCF0326.jpg
   - alttext: Panel participants in discussion
     pic: /uploads/DSCF0337.jpg
+  - pic: /uploads/DSCF0412.jpeg
   - alttext: Conference participants ask questions of the panelists
     pic: /uploads/DSCF0338.jpg
   - alttext: Conference participants ask questions of the panelists
     pic: /uploads/DSCF0339.jpg
   - alttext: Conference participants ask questions of the panelists
     pic: /uploads/DSCF0346.jpg
-  - pic: /uploads/DSCF0412.jpeg
   - pic: /uploads/DSCF0401.jpeg
 participantsTitle: Participants
 participants:
