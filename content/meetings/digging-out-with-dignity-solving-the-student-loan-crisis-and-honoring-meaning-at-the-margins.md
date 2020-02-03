@@ -17,7 +17,6 @@ description: >-
   is at stake.
 hero_image: /uploads/meetings-hero-image-conf.jpg
 small_poster: /uploads/digging-out-conf3-sm.jpg
-small_poster_alt: Digging Out with Dignity conference poster
 full_poster: /uploads/10.18 student loans with dignity.jpg
 shortIntro: >-
   **A Dignity + Debt Discussion Forum**
@@ -37,42 +36,32 @@ highlightsTitle: HIGHLIGHTS
 recapTitle: Conference Recap
 photosTitle: Photos
 carouselimages:
-  - caption:
-    alttext: Dr. Wherry at podium
+  - alttext: Dr. Wherry at podium
     pic: /uploads/DSCF0261.jpg
-  - pic: /uploads/DSCF0263.jpg
-    caption:
-    alttext: Ida Rademacher at podium
-  - caption: 
-    alttext: Panel participants in discussion
+  - alttext: Ida Rademacher at podium
+    pic: /uploads/DSCF0263.jpg
+  - alttext: Panel participants in discussion
     pic: /uploads/DSCF0287.jpg
-  - caption: 
-    alttext: Conference participants mingle
+  - alttext: Conference participants mingle
     pic: /uploads/DSCF0300.jpg
-  - caption: 
-    alttext: Panel participants in discussion
+  - alttext: Panel participants in discussion
     pic: /uploads/DSCF0314.jpg
-  - caption: 
-    alttext: Panel participants in discussion
+  - alttext: Panel participants in discussion
     pic: /uploads/DSCF0322.jpg
   - caption: Lorena Pérez-Roa presents
-    alttext: 
     pic: /uploads/DSCF0325.jpg
-  - caption: 
-    alttext: Lorena Pérez-Roa presents
+  - alttext: Lorena Pérez-Roa presents
     pic: /uploads/DSCF0326.jpg
-  - caption: 
-    alttext: Panel participants in discussion
+  - alttext: Panel participants in discussion
     pic: /uploads/DSCF0337.jpg
-  - caption: 
-    alttext: Conference participants ask questions of the panelists
+  - alttext: Conference participants ask questions of the panelists
     pic: /uploads/DSCF0338.jpg
-  - caption: 
-    alttext: Conference participants ask questions of the panelists
+  - alttext: Conference participants ask questions of the panelists
     pic: /uploads/DSCF0339.jpg
-  - caption: 
-    alttext: Conference participants ask questions of the panelists
+  - alttext: Conference participants ask questions of the panelists
     pic: /uploads/DSCF0346.jpg
+  - pic: /uploads/DSCF0412.jpeg
+  - pic: /uploads/DSCF0401.jpeg
 participantsTitle: Participants
 participants:
   - blurb: >-
@@ -295,11 +284,11 @@ participants:
     title: The Ohio State University
   - blurb: >-
       Jeffrey Himpele directs the Anthropology Department’s VizE Lab, a  unique
-      hub of scholarship that unites resources for combining person-centered
+      hub of scholarship and resources for combining person-centered
       ethnography, including documentary filmmaking, with the tools of data
-      analysis visualization. Jeff is author of Circuits of Culture: Media,
-      Politics, and Indigenous Identity in the Andes, a book based on years of
-      field research in La Paz, Bolivia. His prize-winning ethnographic and
+      visualization. Jeff is author of *Circuits of Culture: Media, Politics,
+      and Indigenous Identity in the Andes*, a book based on years of field
+      research in La Paz, Bolivia. His prize-winning ethnographic and
       documentary films have been recognized by the American Anthropological
       Association and the Royal Anthropological Institute. Incidents of Travel
       in Chichen Itza was named as one of the 50 most important films for
@@ -442,7 +431,24 @@ participants:
     thumb: /uploads/DO_shafir_thumb.jpg
     title: Princeton University
   - blurb: >
-      Frederick Wherry is the Townsend Martin, Class of 1917 Professor of Sociology at Princeton University and the director of the Dignity and Debt Network, a partnership between Princeton University and the Social Science Research Council. For the 2019-2020 academic year he is a visitor at the Institute for Advanced Study in Princeton. In 2019 he authored Credit Where It’s Due: Rethinking Financial Citizenship (with Kristin S. Seefeldt and Anthony S. Alvarez) and edited The Oxford Handbook of Consumption (with Ian Woodward). In 2020 he will publish Measuring Culture, co-authored with eight collaborators, including the late John Mohr. He is the author or editor of six other books. He serves in an advisory capacity to the Boston Federal Reserve’s Community Development Research Advisory Council and the Lloyds Banking Group Centre for Responsible Business at the University of Birmingham’s Business School in the United Kingdom. He also serves as a director on the board of the Financial Clinic and as a participant in the Aspen Institute’s EPIC initiative (Expanding Prosperity Impact Collaborative). He and Jennifer Lena edit a book series at Stanford University Press called Culture and Economic Life, and he tweets @ProfessorWherry                
+      Frederick Wherry is the Townsend Martin, Class of 1917 Professor of
+      Sociology at Princeton University and the director of the Dignity and Debt
+      Network, a partnership between Princeton University and the Social Science
+      Research Council. For the 2019-2020 academic year he is a visitor at the
+      Institute for Advanced Study in Princeton. In 2019 he authored Credit
+      Where It’s Due: Rethinking Financial Citizenship (with Kristin S. Seefeldt
+      and Anthony S. Alvarez) and edited The Oxford Handbook of Consumption
+      (with Ian Woodward). In 2020 he will publish Measuring Culture,
+      co-authored with eight collaborators, including the late John Mohr. He is
+      the author or editor of six other books. He serves in an advisory capacity
+      to the Boston Federal Reserve’s Community Development Research Advisory
+      Council and the Lloyds Banking Group Centre for Responsible Business at
+      the University of Birmingham’s Business School in the United Kingdom. He
+      also serves as a director on the board of the Financial Clinic and as a
+      participant in the Aspen Institute’s EPIC initiative (Expanding Prosperity
+      Impact Collaborative). He and Jennifer Lena edit a book series at Stanford
+      University Press called Culture and Economic Life, and he tweets
+      @ProfessorWherry                
     image: /uploads/ffwherry_bio.jpg
     name: Frederick Wherry
     thumb: /uploads/DO_wherry_thumb.jpg
