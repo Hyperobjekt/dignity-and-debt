@@ -16002,4 +16002,14 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
   visibility: hidden;
 }
 
+.pagemaker {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.pagemaker img {
+  align-self: center;
+}
+
 /*# sourceMappingURL=style.css.map */
