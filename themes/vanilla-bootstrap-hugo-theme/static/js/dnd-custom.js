@@ -45,7 +45,10 @@
         var $target = $(this.allImgs[this.activeImg]);
         var _src = $target.attr('data-img');
         var _full_src = $target.attr('data-fullimg');
+        var _video = $target.attr('data-video');
         $('#dndModal #modalImg').attr('src', _src);
+        $('#dndModal #modalVid').empty();
+        $('#dndModal #modalVid').append(_video);
         $('#dndModal #modalCaption a').attr('href', _full_src);
         $('#dndModal').modal('show');
         // Check first and last position, disable buttons
@@ -123,6 +126,17 @@
         }
       });
     }
+
+// Ensure that videos stop on modal dismiss    
+    $(document).ready(function() {
+      var $videoSrc;  
+      $videoSrc = $('iframe').attr( "src" );
+      console.log($videoSrc);
+      $('#dndModal').on('hide.bs.modal', function (e) {
+          // a poor man's stop video
+          $("iframe").attr('src',$videoSrc); 
+      }) 
+    });
 
     $(window).on('scroll', function() {
       $('.target').each(function() {

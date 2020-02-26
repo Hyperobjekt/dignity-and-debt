@@ -5,4 +5,10 @@
     img {
         align-self: center;
     }
+    .project-img.pagemaker img {
+        max-width: 320px;
+    }
+    #modalVid {
+        z-index: 99;
+    }
 }
