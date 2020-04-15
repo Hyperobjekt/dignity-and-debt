@@ -1,9 +1,8 @@
 ---
-title: 'Sociologist Wherry: Studying money and human values'
-author: ''
+title: Interview with Fred Wherry on a Dignified Approach to Digital Credit
+author: ""
 image: /uploads/wherry-seminar-table.jpg
-date: 2019-01-25T18:11:13.000Z
-link: >-
-  https://www.princeton.edu/news/2018/05/10/sociologist-wherry-studying-money-and-human-values
+date: 2020-04-15
+link: https://www.mastercardcenter.org/insights/a-dignified-approach
 ---
-Frederick Wherry, a professor of sociology at Princeton, calls himself an “accidental sociologist.” Growing up in South Carolina with his twin sister and four brothers, he wanted to be a civil rights lawyer. During his undergraduate years, he traveled to Africa, and after graduation, Asia, leading him to aim for a career in international development.
+The Mastercard Center for Inclusive Growth's director of research, Dan Barker, recently interviewed Professor Fred Wherry to discuss how looking at trends in the digital credit industry through a sociological lens can help deliver better products and solutions that overcome the limitations of geography and the lack of universal access to financial products.
