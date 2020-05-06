@@ -1,20 +1,18 @@
 ---
-title: >-
-  Digging Out With Dignity: Solving the Student Loan Crisis and Honoring Meaning
-  at the Margins 
+title: "Digging Out With Dignity: Solving the Student Loan Crisis and Honoring
+  Meaning at the Margins "
 is_index: false
 has_ppl_modal: true
 type: single-meeting
 layout: meetings-single
 date: 2019-07-30T12:05:35.501Z
-display_date: 'October 18, 2019'
-description: >-
-  Student loans from the federal government total $1.5 trillion in the United
-  States with 40 percent of them at risk of default over the next four years.
-  Across the globe, student unrest over fines and fees has destabilized plans
-  for funding higher education and called to account histories of dispossession.
-  While considering what must be done, we must also pay more attention to what
-  is at stake.
+display_date: October 18, 2019
+description: Student loans from the federal government total $1.5 trillion in
+  the United States with 40 percent of them at risk of default over the next
+  four years. Across the globe, student unrest over fines and fees has
+  destabilized plans for funding higher education and called to account
+  histories of dispossession. While considering what must be done, we must also
+  pay more attention to what is at stake.
 hero_image: /uploads/meetings-hero-image-conf.jpg
 small_poster: /uploads/digging-out-conf3-sm.jpg
 full_poster: /uploads/10.18 student loans with dignity.jpg
@@ -25,12 +23,7 @@ shortIntro: >-
 
   **Hosted at Princeton University**  <br/><br/> **Friday, October 18, 2019**
 
-  <br/><br/> On October 18, 2019 the Dignity + Debt Network and the Financial
-  Security Program at the Aspen Institute convened a discussion on the student
-  loan crisis. The event was free and open to the public, and it included
-  journalists and other non-fiction writers as well as sociologists,
-  anthropologists, economists, and representatives from think tanks and
-  nonprofit advocacy organizations. 
+  <br/><br/> On October 18, 2019 the Dignity + Debt Network and the Financial Security Program at the Aspen Institute convened a discussion on the student loan crisis. The event was free and open to the public, and it included journalists and other non-fiction writers as well as sociologists, anthropologists, economists, and representatives from think tanks and nonprofit advocacy organizations. 
 hashighlights: true
 highlightsTitle: HIGHLIGHTS
 recapTitle: Conference Recap
@@ -65,8 +58,7 @@ carouselimages:
   - pic: /uploads/DSCF0401.jpeg
 participantsTitle: Participants
 participants:
-  - blurb: >-
-      Fenaba Addo is the Lorna Jorgensen Wendt Assistant Professor of Money,
+  - blurb: Fenaba Addo is the Lorna Jorgensen Wendt Assistant Professor of Money,
       Relationships, and Equality in the School of Human Ecology at the
       University of Wisconsin-Madison. Her research examines the causes and
       consequences of debt disparities and wealth inequality with a focus on
@@ -81,10 +73,9 @@ participants:
     name: Fenada Abbo
     thumb: /uploads/DO_addo_thumb.jpg
     title: University of Wisconsin-Madison
-  - blurb: >-
-      Rekgotsofetse Chikane (known as Kgotsi for those who are tongue-tied) is
-      the author of "Breaking a Rainbow, Building a Nation: The Politics Behind
-      the #MustFall Movements". He currently works as a Lecturer of Public
+  - blurb: "Rekgotsofetse Chikane (known as Kgotsi for those who are tongue-tied) is
+      the author of \"Breaking a Rainbow, Building a Nation: The Politics Behind
+      the #MustFall Movements\". He currently works as a Lecturer of Public
       Policy at the University of Witwatersrand. He is a graduate of the
       University of Oxford, having completed his Master in Public Policy degree
       in 2017 and is currently completing his Masters in Management at the
@@ -98,13 +89,12 @@ participants:
       #FeesMustFall movements in South Africa that demanded various social and
       economic reforms within the Higher Education system of the country such as
       decolonizing the curriculum, free decolonial education, and transforming
-      spaces to be more inclusive, among others.
+      spaces to be more inclusive, among others."
     image: /uploads/DO_chikane.jpg
     name: Rekgotsofetse Chikane
     thumb: /uploads/DO_chikane_thumb.jpg
     title: University of Witwatersrand
-  - blurb: >-
-      Tressie McMillian Cottom’s research and writing focuses on race, class,
+  - blurb: "Tressie McMillan Cottom’s research and writing focuses on race, class,
       gender, education, and technology in the new economy and has been
       supported by the Microsoft Research Network’s Social Media Collective, the
       American Educational Research Association, and the UC Davis Center for
@@ -125,13 +115,12 @@ participants:
       perspective on celebrity, culture, politics, art, life, love, and more.
       Tressie is a fan of many things but an uber fan of Dolly Parton, fancy
       coffee, brunch, nineties hip-hop, bacon, and the Delta blues. She lives in
-      Richmond, Virginia.
+      Richmond, Virginia."
     image: /uploads/DO_cottom.jpg
-    name: Tressie McMillian Cottom
+    name: Tressie McMillan Cottom
     thumb: /uploads/DO_cottom_thumb.jpg
     title: Author
-  - blurb: >-
-      Danielle Douglas-Gabriel covers student debt for The Washington Post.
+  - blurb: Danielle Douglas-Gabriel covers student debt for The Washington Post.
       Danielle joined the national economy desk in July 2012 from Capital
       Business, a Post publication where she served as the local retail,
       hospitality and banking reporter. Before Capital Business, Danielle was
@@ -144,8 +133,7 @@ participants:
     name: Danielle Douglas-Gabriel
     thumb: /uploads/DO_douglas-gabriel_thumb.jpg
     title: The Washington Post
-  - blurb: >-
-      Rachel Dwyer is Professor of Sociology and Faculty Affiliate of the
+  - blurb: "Rachel Dwyer is Professor of Sociology and Faculty Affiliate of the
       Institute for Population Research at The Ohio State University. She is a
       leading expert on credit, debt, and inequality in the United States. She
       runs “Debt Lab” with a group of OSU students studying how credit and debt
@@ -169,13 +157,12 @@ participants:
       Research, Gender & Society, and Social Problems among other top academic
       outlets. She engages policy discussions about youth indebtedness with
       higher education leaders, public policy makers, financial professionals,
-      and financial education specialists.
+      and financial education specialists."
     image: /uploads/DO_dwyer.jpg
     name: Rachel Dwyer
     thumb: /uploads/DO_dwyer_thumb.jpg
     title: The Ohio State University
-  - blurb: >-
-      Charlie Eaton is Assistant Professor of Sociology at the University of
+  - blurb: Charlie Eaton is Assistant Professor of Sociology at the University of
       California-Merced. His research investigates the role of politics and
       organizations in the interplay between economic elites and disadvantaged
       social groups, with a focus on the relationship between financialization
@@ -188,8 +175,7 @@ participants:
     name: Charlie Eaton
     thumb: /uploads/DO_eaton_thumb.jpg
     title: University of California-Merced
-  - blurb: >-
-      Seth Frotman is the nation’s leading expert on the intersection between
+  - blurb: Seth Frotman is the nation’s leading expert on the intersection between
       higher education finance, consumer protection, and public policy. Seth
       previously served as Assistant Director and Student Loan Ombudsman for the
       Consumer Financial Protection Bureau, where he led a government-wide
@@ -210,8 +196,7 @@ participants:
     name: Seth Frotman
     thumb: /uploads/DO_frotman_thumb.jpg
     title: Expert on higher education finance
-  - blurb: >-
-      Adam Goldstein is an Assistant Professor jointly appointed in the
+  - blurb: Adam Goldstein is an Assistant Professor jointly appointed in the
       Department of Sociology and the Woodrow Wilson School of International and
       Public Affairs at Princeton University. He earned his PhD in Sociology
       from the University of California at Berkeley and was a Robert Wood
@@ -228,8 +213,7 @@ participants:
     name: Adam Goldstein
     thumb: /uploads/DO_goldstein_thumb.jpg
     title: Princeton University
-  - blurb: >-
-      Felipe González López is a professor in the faculty of government at the
+  - blurb: Felipe González López is a professor in the faculty of government at the
       Central University of Chile. His work focuses broadly on the political
       economy of capitalism, economic sociology, and social theory. Much of his
       work focuses on the financialization of the Chilean economy and on the use
@@ -241,8 +225,7 @@ participants:
     name: Felipe González López
     thumb: /uploads/DO_gonzalez_thumb.jpg
     title: Central University of Chile
-  - blurb: >-
-      Fiona Greig is a Managing Director and the Director of Consumer Research
+  - blurb: Fiona Greig is a Managing Director and the Director of Consumer Research
       at the JPMorgan Chase Institute, which delivers data-rich analyses and
       expert insights for the public good. She joined the Institute in 2014
       after serving as the Deputy Budget Director for the City of Philadelphia
@@ -261,9 +244,8 @@ participants:
     name: Fiona Greig
     thumb: /uploads/DO_greig_thumb.jpg
     title: JPMorgan Chase Institute
-  - blurb: >-
-      Darrick Hamilton is the Executive Director of the Kirwan Institute for the
-      Study of Race and Ethnicity at The Ohio State University. In addition,
+  - blurb: Darrick Hamilton is the Executive Director of the Kirwan Institute for
+      the Study of Race and Ethnicity at The Ohio State University. In addition,
       Professor Hamilton holds a primary faculty appointment in the John Glenn
       College of Public Affairs, with courtesy appointments in the departments
       of economics and sociology in the College of Arts and Sciences. Professor
@@ -283,9 +265,8 @@ participants:
     name: Darrick Hamilton
     thumb: /uploads/DO_hamilton_thumb.jpg
     title: The Ohio State University
-  - blurb: >-
-      Jeffrey Himpele directs the Anthropology Department’s VizE Lab, a  unique
-      hub of scholarship and resources for combining person-centered
+  - blurb: "Jeffrey Himpele directs the Anthropology Department’s VizE Lab,
+      a  unique hub of scholarship and resources for combining person-centered
       ethnography, including documentary filmmaking, with the tools of data
       visualization. Jeff is author of *Circuits of Culture: Media, Politics,
       and Indigenous Identity in the Andes*, a book based on years of field
@@ -296,13 +277,12 @@ participants:
       teaching anthropology. His current work in progress is Men of Steel, a
       musical documentary on the adventures of the steel guitar sound from its
       beginnings in Hawaii to the honky-tonks of country music and beyond. He
-      holds a PhD from Princeton.
+      holds a PhD from Princeton."
     image: /uploads/DO_himpele.jpeg
     name: Jeffrey Himpele
     thumb: /uploads/DO_himpele_thumb.jpg
     title: Princeton University
-  - blurb: >-
-      Jason Houle is an Associate Professor of Sociology at Dartmouth College.
+  - blurb: Jason Houle is an Associate Professor of Sociology at Dartmouth College.
       His research primarily focuses on processes of social stratification and
       mobility in the United States, and the social determinants of health and
       mental health across the life course. In much of his current work he asks
@@ -315,8 +295,7 @@ participants:
     name: Jason Houle
     thumb: /uploads/DO_houle_thumb.jpg
     title: Dartmouth College
-  - blurb: >-
-      Jon Marcus is higher-education editor at the Hechinger Report and North
+  - blurb: Jon Marcus is higher-education editor at the Hechinger Report and North
       America correspondent for the Times (U.K.) Higher Education magazine. He
       has also written about higher education for Time, The Atlantic, the
       Washington Post, The New York Times, and other magazines, newspapers, and
@@ -327,9 +306,8 @@ participants:
     image: /uploads/DO_marcus.jpg
     name: Jon Marcus
     thumb: /uploads/DO_marcus_thumb.jpg
-    title: 'Hechinger Report, Times (U.K.) Higher Education '
-  - blurb: >-
-      Katherine Lucas McKay is a Program Manager at the Aspen Institute’s
+    title: "Hechinger Report, Times (U.K.) Higher Education "
+  - blurb: Katherine Lucas McKay is a Program Manager at the Aspen Institute’s
       Financial Security Program (FSP), currently working on the Expanding
       Prosperity Impact Collaborative’s (EPIC) initiative on consumer debt.
       Katherine is an experienced policy researcher and advocate in the fields
@@ -347,9 +325,8 @@ participants:
     image: /uploads/DO_mckay.jpg
     name: Katherine Lucas McKay
     thumb: /uploads/DO_mckay_thumb.jpg
-    title: ' Aspen Institute'
-  - blurb: >-
-      Betsy Levy Paluck is a Professor in the Department of Psychology and in
+    title: " Aspen Institute"
+  - blurb: Betsy Levy Paluck is a Professor in the Department of Psychology and in
       the Woodrow Wilson School of Public and International Affairs at Princeton
       University. Her research is concerned with the reduction of prejudice and
       conflict, including ethnic and political conflict, youth conflict in
@@ -364,8 +341,7 @@ participants:
     name: Betsy Levy Paluck
     thumb: /uploads/DO_paluck_thumb.jpg
     title: Princeton University
-  - blurb: >-
-      Lorena Pérez-Roa is an Assistant Professor of Social Work at the
+  - blurb: Lorena Pérez-Roa is an Assistant Professor of Social Work at the
       University of Chile and a researcher with Chile’s Millennium Initiative on
       Authority and Power Asymmetries. Her research focuses on debt acquisition
       processes and their drivers, the socioeconomic and financial practices of
@@ -383,8 +359,7 @@ participants:
     name: Lorena Pérez-Roa
     thumb: /uploads/DO_perez_thumb.jpg
     title: University of Chile
-  - blurb: >-
-      Ida Rademacher is a vice president at the Aspen Institute and executive
+  - blurb: Ida Rademacher is a vice president at the Aspen Institute and executive
       director of the Aspen Financial Security Program (FSP). Her efforts have
       resulted in the creation of several new cutting-edge initiatives at Aspen,
       including the Expanding Prosperity Impact Collaborative (EPIC), the
@@ -404,11 +379,10 @@ participants:
       from the University of Maryland; and a Bachelor of Science degree in
       anthropology and economics from James Madison University.
     image: /uploads/DO_rademacher.jpg
-    name: 'Ida Rademacher '
+    name: "Ida Rademacher "
     thumb: /uploads/DO_rademacher_thumb.jpg
     title: Aspen Institute
-  - blurb: >-
-      Eldar Shafir is the Class of 1987 Professor of Behavioral Science and
+  - blurb: "Eldar Shafir is the Class of 1987 Professor of Behavioral Science and
       Public Policy, the Inaugural Director of Princeton’s Kahneman-Treisman
       Center for Behavioral Science and Public Policy, and co-founder and
       scientific director at ideas42, a social science R&D lab. He studies
@@ -426,7 +400,7 @@ participants:
       Foundations of Public Policy,” (2012), and co-authored, with economist
       Sendhil Mullainathan, “Scarcity: Why Having Too Little Means So Much,”
       (2013). He received his B.A. from Brown University and his Ph.D. from the
-      Massachusetts Institute of Technology.
+      Massachusetts Institute of Technology."
     image: /uploads/DO_shafir.jpg
     name: Eldar Shafir
     thumb: /uploads/DO_shafir_thumb.jpg
