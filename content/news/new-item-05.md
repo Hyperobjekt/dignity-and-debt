@@ -1,5 +1,5 @@
 ---
-title: Global Forum on Solving the Student Debt Crisis
+title: Global Forum on Student Debt
 author: ""
 image: /uploads/dscf0381.jpeg
 date: 2019-10-18T00:00:00.000Z
