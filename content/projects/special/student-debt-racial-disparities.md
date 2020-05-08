@@ -84,10 +84,10 @@ content4: >-
   Visualizations render data meaningful for people around the world. They are
   able to reveal what might be either changed or strengthened through policy and
   individual action. Enter our contest to envision a meaningful future of
-  financial autonomy and educational inclusion around the world. 
+  financial autonomy and educational inclusion around the world. Submissions are
+  due by September 19, 2020 and awards will be announced in October 2020.
 vizimage2: /uploads/viz-contest-crop-5-2.jpg
-link2: >-
-  https://docs.google.com/forms/d/e/1FAIpQLSckHpk5xJwqW0_sIEnCs-tScxttMV5WVqGjP0Ws8bD0x_LZHA/viewform
+link2: 'https://forms.gle/vz5Keo5oGPtTHRHfA'
 button2: GO
 ---
 

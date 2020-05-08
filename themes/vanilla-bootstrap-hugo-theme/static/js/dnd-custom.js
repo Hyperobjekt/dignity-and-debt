@@ -157,8 +157,6 @@
         indicators.append("<li data-target='#mtgs-carousel' data-slide-to='"+index+"' class='active'></li>") : 
         indicators.append("<li data-target='#mtgs-carousel' data-slide-to='"+index+"'></li>");
     });     
-
-
     $('.carousel').carousel(); 
 
 

@@ -1,9 +1,8 @@
 ---
-title: 'Faculty Book: Frederick Wherry *04 on Extending Credit'
-author: ''
-image: /uploads/Mind_Wherry.jpg
-date: 2019-10-02T18:11:13.000Z
-link: >-
-  https://paw.princeton.edu/article/faculty-book-frederick-wherry-04-extending-credit
+title: Global Forum on Student Debt
+author: ""
+image: /uploads/dscf0381.jpeg
+date: 2019-10-18T00:00:00.000Z
+link: https://www.dignityanddebt.org/meetings/digging-out-with-dignity-solving-the-student-loan-crisis-and-honoring-meaning-at-the-margins/
 ---
-For many borrowers, obtaining a home mortgage, car loan, or credit card is a relatively simple process. A bank looks up their credit score — measured on a scale of 300 to 850 — to determine their past financial behavior. For some 45 million Americans, however, that assessment is not possible.
+(L-R) **Tressie McMillan Cottom**, National Book Award finalist; **Seth Frotman**, former Student Loan Ombuds (CFPB); **Darrick Hamilton**, Exec. Dir. of the Kirmani Institute (The Ohio St. Univ.); **Ida Rademacher**, VP of The Aspen Institute

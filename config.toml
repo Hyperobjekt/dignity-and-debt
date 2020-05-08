@@ -5,6 +5,9 @@ theme = "vanilla-bootstrap-hugo-theme"
 googleAnalytics = ""
 paginate = 5
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [imaging]
 resampleFilter = "box"
 quality = 80
