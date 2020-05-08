@@ -13,7 +13,7 @@
 
 
 {{ range .Pages.ByDate.Reverse }}
-
+{{ if eq .Params.type "single-meeting" }}
   <div class="row projects-page projects project">
     <h2 tabindex="0" class=" col-lg-8 col-md-8 col-xl-7 mx-auto col-sm-10">{{ .Title }}</h2>
     <p class="display-date body-text col-lg-8 col-xl-7 mx-auto col-md-8 col-sm-10 mb-2" tabindex="0">
@@ -30,7 +30,7 @@
       </div>
  
   </div>
-
+{{ end }}
 {{ end }}
 
 {{ end }}

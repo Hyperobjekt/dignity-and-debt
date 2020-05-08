@@ -18,6 +18,6 @@ Of course, there are a number of policy changes that could make a big difference
 
 <i>*Indicators of Higher Education Equity in the United States: 2019 Historical Trend Report. Pell Institute for the Study of Opportunity in Higher Education. Loan amounts are in 2016 dollars.</i>
 
-{{% loancalc overall="30460" black="34630" white="30640" asian="25920" hispanic="27320" %}}
+{{< loancalc overall="30460" black="34630" white="30640" asian="25920" hispanic="27320" >}}
 
 
