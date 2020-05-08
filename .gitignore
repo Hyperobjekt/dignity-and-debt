@@ -1,0 +1,15 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+ 
+# Icon must end with two \r
+Icon
+ 
+# Thumbnails
+._*
+ 
+public/*
+node_modules/
+resources/
+resources/_gen/
