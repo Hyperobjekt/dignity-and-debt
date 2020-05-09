@@ -4,7 +4,7 @@ layout: "variable"
 has_modal: true
 type: projects
 pagemaker:
-  - videoblock:  <iframe width="560" height="315" src="https://www.youtube.com/embed/qk7nL27BxNg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  - videoblock:  <iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1449362/sp/144936200/embedIframeJs/uiconf_id/25624581/partner_id/1449362?iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_kllhufdl&amp;flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&amp;wid=1_nmp11zgw" width="400" height="285" frameborder=“0” title="Kaltura Player"></iframe>
     type: videoblock 
   - image: /uploads/01-access-to-higher-ed-med.jpg
     thumb: /uploads/01-access-to-higher-ed-sm.jpg
