@@ -601,7 +601,7 @@ collections:
       - {label: "Social Media Image", name: "social_image", widget: "image", required: false, hint: "Dimensions: 1200x675. No compression required"}
       - {label: "Social Media Description", name: "social_description", widget: "string", required: false, hint: "Best kept short & sweet!"}
       - {label: "Description", name: "description", widget: "markdown", required: false}
-      - label: "Page Maker"
+      - label: "Page Builder"
         name: pagemaker
         widget: list
         types:
