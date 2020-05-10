@@ -609,7 +609,12 @@ collections:
             name: textblock
             widget: object
             fields:
-              - {label: Paragraph, name: body, widget: markdown} 
+              - {label: Text Block, name: textblock, widget: markdown} 
+          - label: Video Block
+            name: videoblock
+            widget: object
+            fields:
+              - {label: Video embed code, name: videoblock, widget: string}    
           - label: Image Gallery
             name: gallery
             widget: object
