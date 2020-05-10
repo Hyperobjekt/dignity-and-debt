@@ -44,7 +44,7 @@ pagemaker:
 
       - Short-form documentaries may be up to 16 minutes.
     type: textblock 
-  - button: 
+  - custombutton: 
     buttonlabel: ENTER CONTEST
     link: https://forms.gle/vz5Keo5oGPtTHRHfA
     type: custombutton
