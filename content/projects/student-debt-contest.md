@@ -15,7 +15,7 @@ description: Visualizations can render data to make it meaningful for people
   maps, or short documentary films and photography that portray student loan
   debt.
 weight: 4
-date: 2019-07-20
+date: 2019-07-20T00:00:00.000Z
 link_out: true
 pagemaker:
   - videoblock: <iframe id="kaltura_player"
@@ -39,7 +39,8 @@ pagemaker:
 
       3. 1 finalist will be awarded per country. (I.e. their data pertains to a single country or a unique set of countries, not the nationality of the Entrant or team.)
 
-         {{% breaker image="/uploads/close_up_2_men.jpg" %}}
+
+      {{% breaker image="/uploads/close_up_2_men.jpg" %}}
 
 
 
