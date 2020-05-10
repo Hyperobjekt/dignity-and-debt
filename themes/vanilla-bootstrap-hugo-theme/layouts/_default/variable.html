@@ -4,7 +4,7 @@
   </div>
   
   <div class="row heading">
-    <h2 tabindex="0" class="col-md-8 offset-md-2">{{ .Title }}</h2>
+    <h2 tabindex="0" class="col-md-8 offset-md-2 col-xl-6 offset-xl-3">{{ .Title }}</h2>
   </div>
   
   {{ $projects_hero_img := strings.TrimPrefix "/uploads/" .Page.Params.hero_image }}
@@ -28,7 +28,7 @@
 <!-- Default Content -->  
 {{ if .Content }}
   <div class="row content">
-    <div class="col-md-8 offset-md-2">
+    <div class="col-md-8 offset-md-2 col-xl-6 offset-xl-3">
       {{ .Content }}
     </div>
   </div>
@@ -36,7 +36,7 @@
 <!-- Page Builder Content -->  
 {{ if .Params.pagemaker }}
 <div class="row content">
-    <div class="col-12 col-md-8 mx-auto pagemaker">
+    <div class="col-12 col-md-8 col-xl-6 mx-auto pagemaker">
         {{ range .Params.pagemaker }}
             {{ if eq .type "string" }}
                 {{ partial "string.html" . }}

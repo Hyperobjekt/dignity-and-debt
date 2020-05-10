@@ -346,11 +346,11 @@ collections:
             widget: object
             fields:
               - {label: Video embed code, name: videoblock, widget: string}    
-          - label: Image Gallery
-            name: gallery
-            widget: object
-            fields:
-              - {label: images, name: images, widget: image, allow_multiple: true} 
+          #- label: Image Gallery
+          #  name: gallery
+          #  widget: object
+          #  fields:
+          #    - {label: images, name: images, widget: image, allow_multiple: true} 
           - label: Custom Button
             name: custombutton
             widget: object
@@ -588,52 +588,52 @@ collections:
           - {label: "Bio", name: blurb, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]} 
       
   # VARIABLE LIST TEST
-  - label: "Variable list"
-    name: variable-list
-    create: true
-    extension: "md"
-    preview_path: projects/
-    filter: {field: "is_index", value: false}
-    folder: "content/projects" # The path to the folder where the documents are stored
-    fields:  
-      - {label: Title, name: title, widget: string}
-      - {label: Layout, name: layout, widget: hidden, default: "variable"}
-      - {label: Is Index, name: is_index, widget: hidden, default: false}
-      - {label: Has Modal, name: has_modal, widget: hidden, default: true}
-      - {label: Type, name: type, widget: hidden, default: projects}
-      - {label: Subtitle, name: subtitle, required: false, widget: string}
-      - {label: "Publish Date", name: "date", required: false, widget: "datetime"}
-      - {label: "Hero Image", name: "hero_image", required: false, widget: "image"}
-      - {label: "Links Out (from main projects page to individual page", name: "link_out", widget: "boolean", default: false}
-      - {label: "Social Media Image", name: "social_image", widget: "image", required: false, hint: "Dimensions: 1200x675. No compression required"}
-      - {label: "Social Media Description", name: "social_description", widget: "string", required: false, hint: "Best kept short & sweet!"}
-      - {label: "Description", name: "description", widget: "markdown", required: false}
-      - label: "Page Builder"
-        name: pagemaker
-        widget: list
-        types:
-          - label: Text Block
-            name: textblock
-            widget: object
-            fields:
-              - {label: Text Block, name: textblock, widget: markdown} 
-          - label: Video Block
-            name: videoblock
-            widget: object
-            fields:
-              - {label: Video embed code, name: videoblock, widget: string}    
-          - label: Image Gallery
-            name: gallery
-            widget: object
-            fields:
-              - {label: images, name: images, widget: image, allow_multiple: true} 
-          - label: Custom Button
-            name: custombutton
-            widget: object
-            fields:
-              - {label: Button Label, name: buttonlabel, widget: string}  
-              - {label: Link, name: link, widget: string}    
-              - {label: Button alignment, name: align, widget: select, options: ["left", "center"]}                
+  #  - label: "Variable list"
+  #    name: variable-list
+  #    create: true
+  #    extension: "md"
+  #    preview_path: projects/
+  #    filter: {field: "is_index", value: false}
+  #    folder: "content/projects" # The path to the folder where the documents are stored
+  #    fields:  
+  #      - {label: Title, name: title, widget: string}
+  #      - {label: Layout, name: layout, widget: hidden, default: "variable"}
+  #      - {label: Is Index, name: is_index, widget: hidden, default: false}
+  #      - {label: Has Modal, name: has_modal, widget: hidden, default: true}
+  #      - {label: Type, name: type, widget: hidden, default: projects}
+  #      - {label: Subtitle, name: subtitle, required: false, widget: string}
+  #      - {label: "Publish Date", name: "date", required: false, widget: "datetime"}
+  #      - {label: "Hero Image", name: "hero_image", required: false, widget: "image"}
+  #      - {label: "Links Out (from main projects page to individual page", name: "link_out", widget: "boolean", default: false}
+  #      - {label: "Social Media Image", name: "social_image", widget: "image", required: false, hint: "Dimensions: 1200x675. No compression required"}
+  #      - {label: "Social Media Description", name: "social_description", widget: "string", required: false, hint: "Best kept short & sweet!"}
+  #      - {label: "Description", name: "description", widget: "markdown", required: false}
+  #      - label: "Page Builder"
+  #        name: pagemaker
+  #        widget: list
+  #        types:
+  #          - label: Text Block
+  #            name: textblock
+  #            widget: object
+  #            fields:
+  #              - {label: Text Block, name: textblock, widget: markdown} 
+  #          - label: Video Block
+  #            name: videoblock
+  #            widget: object
+  #            fields:
+  #              - {label: Video embed code, name: videoblock, widget: string}    
+  #          - label: Image Gallery
+  #            name: gallery
+  #            widget: object
+  #            fields:
+  #              - {label: images, name: images, widget: image, allow_multiple: true} 
+  #          - label: Custom Button
+  #            name: custombutton
+  #            widget: object
+  #            fields:
+  #              - {label: Button Label, name: buttonlabel, widget: string}  
+  #              - {label: Link, name: link, widget: string}    
+  #              - {label: Button alignment, name: align, widget: select, options: ["left", "center"]}                
 
   
             

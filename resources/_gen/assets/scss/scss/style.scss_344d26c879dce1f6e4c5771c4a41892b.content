@@ -15972,18 +15972,30 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
 
 .pagemaker .videoWrapper {
   position: relative;
-  padding-bottom: 60.25%;
-  padding-top: 30px;
+  padding-bottom: 74.25%;
+  padding-top: 32px;
   height: 0;
   overflow: hidden;
+}
+
+@media (min-width: 1280px) {
+  .pagemaker .videoWrapper {
+    padding-bottom: 60.25%;
+  }
 }
 
 .pagemaker .videoWrapper iframe {
   position: absolute;
   top: 0;
   left: 0;
-  width: 80%;
+  width: 100%;
   height: 100%;
+}
+
+@media (min-width: 1280px) {
+  .pagemaker .videoWrapper iframe {
+    width: 80%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

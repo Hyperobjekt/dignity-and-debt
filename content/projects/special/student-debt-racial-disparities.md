@@ -87,7 +87,7 @@ content4: >-
   financial autonomy and educational inclusion around the world. Submissions are
   due by September 19, 2020 and awards will be announced in October 2020.
 vizimage2: /uploads/viz-contest-crop-5-2.jpg
-link2: 'https://forms.gle/vz5Keo5oGPtTHRHfA'
+link2: '/projects/student-debt-contest'
 button2: GO
 ---
 
