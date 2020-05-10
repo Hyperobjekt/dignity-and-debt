@@ -24,26 +24,38 @@
   </div>
   {{ end }}
   {{ end }}
-    <div class="row content">
-        <div class="col-12 col-md-8 mx-auto pagemaker">
-            {{ range .Params.pagemaker }}
-                {{ if eq .type "string" }}
-                    {{ partial "string.html" . }}
-                {{ end }}
-                {{ if eq .type "gallery" }}
-                    {{ partial "gallery.html" . }}
-                {{ end }}
-                {{ if eq .type "textblock" }}
-                    {{ partial "textblock.html" . }}
-                {{ end }}
-                {{ if eq .type "videoblock"}}
-                    {{ partial "videoblock.html" . }}
-                {{ end }} 
-                {{ if eq .type "custombutton"}}
-                    {{ partial "custombutton.html" . }}
-                {{ end }}    
+
+<!-- Default Content -->  
+{{ if .Content }}
+  <div class="row content">
+    <div class="col-md-8 offset-md-2">
+      {{ .Content }}
+    </div>
+  </div>
+{{ end }}
+<!-- Page Builder Content -->  
+{{ if .Params.pagemaker }}
+<div class="row content">
+    <div class="col-12 col-md-8 mx-auto pagemaker">
+        {{ range .Params.pagemaker }}
+            {{ if eq .type "string" }}
+                {{ partial "string.html" . }}
             {{ end }}
-        </div>
-    </div>              
+            {{ if eq .type "gallery" }}
+                {{ partial "gallery.html" . }}
+            {{ end }}
+            {{ if eq .type "textblock" }}
+                {{ partial "textblock.html" . }}
+            {{ end }}
+            {{ if eq .type "videoblock"}}
+                {{ partial "videoblock.html" . }}
+            {{ end }} 
+            {{ if eq .type "custombutton"}}
+                {{ partial "custombutton.html" . }}
+            {{ end }}    
+        {{ end }}
+    </div>
+</div>    
+{{ end }}          
 
 {{ end }}

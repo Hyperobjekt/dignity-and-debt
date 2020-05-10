@@ -303,36 +303,17 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - label: "Title"
-        name: "title"
-        widget: "string"
-
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: Layout, name: layout, widget: hidden, default: "variable"}
       - {label: "Is Index", name: "is_index", widget: "hidden", default: false}
+      - {label: Has Modal, name: has_modal, widget: hidden, default: true}
       - {label: "Type", name: "type", widget: "hidden", default: "projects"}
       - {label: "Social Media Image", name: "social_image", widget: "image", required: false, hint: "Dimensions: 1200x675. No compression required"}
       - {label: "Social Media Description", name: "social_description", widget: "string", required: false, hint: "Best kept short & sweet!"}
-      
-      - label: "Description"
-        name: "description"
-        widget: "text"
-
-      - label: "Weight (lowest displayed first)"
-        name: "weight"
-        widget: "number"
-        default: 1
-        valueType: "int"
-        min: 1
-        step: 1
-
-      - label: "Publish Date"
-        name: "date"
-        required: false
-        widget: "datetime"
-
-      - label: "Links Out (from main projects page to individual page"
-        name: "link_out"
-        widget: "boolean"
-        default: false
+      - {label: "Description", name: "description", widget: "markdown", required: false}
+      - {label: "Weight (lowest displayed first)", name: "weight", widget: "number", default: 1, valueType: "int", min: 1, step: 1}
+      - {label: "Publish Date", name: "date", required: false, widget: "datetime"}
+      - {label: "Links Out (from main projects page to individual page", name: "link_out", widget: "boolean", default: false}
       - label: "Full Width Hero Image"
         name: "hero_image_fw"
         widget: "image"
@@ -351,6 +332,32 @@ collections:
         name: "body"
         widget: "markdown"
         buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]
+      - label: "Page Builder"
+        name: pagemaker
+        widget: list
+        types:
+          - label: Text Block
+            name: textblock
+            widget: object
+            fields:
+              - {label: Text Block, name: textblock, widget: markdown} 
+          - label: Video Block
+            name: videoblock
+            widget: object
+            fields:
+              - {label: Video embed code, name: videoblock, widget: string}    
+          - label: Image Gallery
+            name: gallery
+            widget: object
+            fields:
+              - {label: images, name: images, widget: image, allow_multiple: true} 
+          - label: Custom Button
+            name: custombutton
+            widget: object
+            fields:
+              - {label: Button Label, name: buttonlabel, widget: string}  
+              - {label: Link, name: link, widget: string}    
+              - {label: Button alignment, name: align, widget: select, options: ["left", "center"]}               
 
   # SPECIAL PROJECT ITEMS    
   - label: "Special Projects"
