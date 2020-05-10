@@ -332,20 +332,22 @@ collections:
         name: "body"
         widget: "markdown"
         buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]
+        required: false
       - label: "Page Builder"
         name: pagemaker
+        required: false
         widget: list
         types:
           - label: Text Block
             name: textblock
             widget: object
             fields:
-              - {label: Text Block, name: textblock, widget: markdown} 
+              - {label: Text Block, name: textblock, widget: markdown, required: false} 
           - label: Video Block
             name: videoblock
             widget: object
             fields:
-              - {label: Video embed code, name: videoblock, widget: string}    
+              - {label: Video embed code, name: videoblock, widget: string, required: false}    
           #- label: Image Gallery
           #  name: gallery
           #  widget: object
