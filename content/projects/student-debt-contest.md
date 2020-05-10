@@ -21,7 +21,8 @@ pagemaker:
 
       Visualizations can render data to make it meaningful for people around the world. Furthermore, they are able to reveal what might be either changed or strengthened through policy and individual action. To draw on this potential, The VizE Lab and Dignity+Debt are calling for data visualizations, maps, or short documentary films and photography that portray student loan debt. Works may depict the complex structural conditions of student debt or more personal experiences among debtors and their families. We are keen to see innovative entries that combine these ways of seeing.
 
-      
+    
+
       AWARDS
 
 

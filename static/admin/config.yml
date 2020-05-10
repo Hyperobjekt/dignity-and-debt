@@ -342,7 +342,7 @@ collections:
             name: textblock
             widget: object
             fields:
-              - {label: Text Block, name: textblock, widget: markdown, required: false} 
+              - {label: Text Block, name: textblock, widget: markdown, required: false, buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list", "heading-one", "heading-two", "heading-three", "heading-four"]} 
           - label: Video Block
             name: videoblock
             widget: object
