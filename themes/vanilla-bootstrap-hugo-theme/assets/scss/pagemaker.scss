@@ -14,9 +14,15 @@
     .videoWrapper {
         position: relative;
         padding-bottom: 74.25%;
-          @include media-breakpoint-up(lg) {
-            padding-bottom: 60.25%;
+            @include media-breakpoint-up(md) {
+            padding-bottom: 59.25%;
             }
+          @include media-breakpoint-up(lg) {
+            padding-bottom: 49.25%;
+            }
+            @include media-breakpoint-up(xl) {
+                padding-bottom: 59.25%;
+                }  
           padding-top: 32px;
           height: 0;
           overflow: hidden;
@@ -26,9 +32,16 @@
         top: 0;
         left: 0;
         width: 100%;
+        @include media-breakpoint-up(md) {
+            width: 80%;
+        }
+        @include media-breakpoint-up(lg) {
+            width: 66%;
+        }
         @include media-breakpoint-up(lg) {
             width: 80%;
         }
+        
         height: 100%;
         
       } 
