@@ -1,2 +1,6 @@
 User-agent: *
 Disallow: /news/
+/projects/global-labs
+/projects/understanding-whats-fair
+/projects/designing-for-dignity
+/projects/getting-respect

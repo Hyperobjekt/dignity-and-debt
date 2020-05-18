@@ -52,7 +52,13 @@
             {{ end }} 
             {{ if eq .type "custombutton"}}
                 {{ partial "custombutton.html" . }}
-            {{ end }}    
+            {{ end }}
+            {{ if eq .type "breaker"}}
+                {{ partial "breaker.html" . }}
+            {{ end }} 
+            {{ if eq .type "normalimage"}}
+                {{ partial "normal-image.html" . }}
+            {{ end }}     
         {{ end }}
     </div>
 </div>    
