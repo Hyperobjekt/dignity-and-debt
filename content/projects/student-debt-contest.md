@@ -5,7 +5,7 @@ social_image: null
 social_description: The VizE Lab and Dignity+Debt are calling for data
   visualizations, maps, or short documentary films and photography that portray
   student loan debt.
-date: 2019-07-20
+date: 2019-07-20T00:00:00.000Z
 link_out: true
 pagemaker:
   - videoblock: <iframe src="https://player.vimeo.com/video/418929780" width="640"
@@ -54,8 +54,12 @@ type: projects
 description: Visualizations can render data to make it meaningful for people
   around the world. Furthermore, they are able to reveal what might be either
   changed or strengthened through policy and individual action. To draw on this
-  potential, The VizE Lab and Dignity+Debt are calling for data visualizations,
-  maps, or short documentary films and photography that portray student loan
-  debt.
+  potential, The [VizE Lab](https://vizelab.princeton.edu) and The Dignity+Debt
+  Network are calling for data visualizations, maps, or short documentary films
+  and photography that portray student loan debt. See our own "[The Problem of
+  Colored
+  Lines](https://www.dignityanddebt.org/projects/student-debt-racial-disparities/)"
+  gallery on racial disparities and the student loan crisis, inspired by the
+  drawings of W.E.B. DuBois.
 weight: 4
 ---
