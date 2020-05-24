@@ -41,14 +41,8 @@ pagemaker:
 
       - Short-form documentaries may be up to 16 minutes.
       
-      
-      ### IMAGE TEST COMPONENTS BELOW:  
+       
     type: textblock
-  - breaker: /uploads/2-men-field-2880-sat.jpg 
-    type: breaker  
-  - normalimage: /uploads/2-men-field-2880-sat.jpg 
-    type: normalimage    
-    alt: "Normal image alt text"
   - custombutton: null
     buttonlabel: ENTER CONTEST
     link: https://forms.gle/vz5Keo5oGPtTHRHfA

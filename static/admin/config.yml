@@ -347,7 +347,20 @@ collections:
             name: videoblock
             widget: object
             fields:
-              - {label: Video embed code, name: videoblock, widget: string, required: false}    
+              - {label: Video embed code, name: videoblock, widget: string, required: false}
+          - label: Image
+            name: normalimage
+            widget: object
+            fields:
+              - {label: Image, name: normalimage, widget: image, required: false} 
+              - {label: Image alt text, name: alt, widget: string, required: false}
+              - {label: Image alignment, name: align, widget: select, required: false, options: ["left", "center"]}     
+          - label: Breaker Image
+            name: breaker
+            widget: object
+            fields:
+              - {label: Breaker Image, name: breaker, hint: 'Optimal image width = 2880 pix. Minimum image width = 1440px. Site will apply compression to image.', widget: image, required: false} 
+              - {label: Breaker Image alt text, name: alt, widget: string, required: false}                     
           #- label: Image Gallery
           #  name: gallery
           #  widget: object
