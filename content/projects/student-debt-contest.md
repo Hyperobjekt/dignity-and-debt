@@ -59,9 +59,8 @@ pagemaker:
     link: https://forms.gle/vz5Keo5oGPtTHRHfA
     type: custombutton
     align: left
-  - type: normalimage
-    normalimage: /uploads/DO_chikane.jpg
-    align: center
+  - type: breaker
+    breaker: /uploads/01-access-to-higher-ed-med.jpg
 hero_image: ""
 subtitle: ""
 ---
