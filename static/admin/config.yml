@@ -311,6 +311,13 @@ collections:
       - {label: "Social Media Image", name: "social_image", widget: "image", required: false, hint: "Dimensions: 1200x675. No compression required"}
       - {label: "Social Media Description", name: "social_description", widget: "string", required: false, hint: "Best kept short & sweet!"}
       - {label: "Description", name: "description", widget: "markdown", required: false}
+      - label: "Index PageProject Links"
+        name: projectlinks
+        widget: list
+        required: false
+        fields: 
+          - {label: Project Title, name: title, widget: string, required: false}
+          - {label: Project Link, name: link, widget: string, required: false}
       - {label: "Weight (lowest displayed first)", name: "weight", widget: "number", default: 1, valueType: "int", min: 1, step: 1}
       - {label: "Publish Date", name: "date", required: false, widget: "datetime"}
       - {label: "Links Out (from main projects page to individual page", name: "link_out", widget: "boolean", default: false}

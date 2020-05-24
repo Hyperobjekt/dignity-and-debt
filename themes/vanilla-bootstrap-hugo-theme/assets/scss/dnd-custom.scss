@@ -1779,6 +1779,18 @@ body.type-projects.kind-section, body.type-meetings {
       line-height: 2.6rem;
     }
 
+    .projectlinks {
+      background-color: #e4f4f5;
+      padding: 2.4rem 4rem 2.4rem 3.2rem;
+      margin-top: 2.4rem;
+     // background-color: #C9E9EA;
+      display: inline-block;
+      color: #0A3D5F;
+      h3 {
+        margin-bottom: 2.4rem;
+      }
+    }
+
     .morelink-parent {
       margin-bottom: 5.6rem;
       @include media-breakpoint-down(sm) {

@@ -7,6 +7,13 @@ social_description: The VizE Lab and Dignity+Debt are calling for data
   student loan debt.
 date: 2019-07-20T00:00:00.000Z
 link_out: true
+projectlinks:
+  - link: /projects/student-debt-calculator/
+    linktitle: Comparing and Calculating Your Student Loan Debt
+  - link: /projects/student-debt-racial-disparities/
+    linktitle: Student Debt and Racial Disparities
+  - link: /projects/student-debt-contest/
+    linktitle: Student Debt Contest
 pagemaker:
   - textblock: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit diam sit amet nunc accumsan, eget euismod sapien euismod. Quisque sit amet luctus lorem. Nam porttitor enim malesuada, iaculis eros non, euismod neque. Curabitur porta vestibulum ex, sit amet faucibus ante dictum a. Cras ligula lacus, varius sit amet semper in, aliquet vitae nibh. Aliquam imperdiet dolor lectus, gravida viverra nunc suscipit nec. Vivamus eleifend pulvinar enim, id maximus libero sodales et. Nunc consectetur urna quis odio tristique ultrices. Aenean ac aliquam neque, quis condimentum nulla. Aliquam a placerat elit. Praesent vestibulum interdum lorem nec volutpat.

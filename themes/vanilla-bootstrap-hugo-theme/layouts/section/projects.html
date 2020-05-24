@@ -23,6 +23,18 @@
     <h2 tabindex="0" class="col-xl-7 mx-auto col-lg-8 col-md-8 col-sm-10">{{ .Title }}</h2>
     <div class="desc col-xl-7 mx-auto col-lg-8 col-md-8 col-sm-10" tabindex="0">
       {{ .Params.description | markdownify | safeHTML }}
+        <div class="w-100"></div>
+        {{ if .Params.projectlinks }}
+        <div class="projectlinks">
+          <h3>Links to projects:</h4>
+          <ul class="">
+            {{ range .Params.projectlinks }}
+            <li><a href="{{ .link }}">{{ .linktitle }}</a> </li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+ 
     </div>
     
       <div class="morelink-parent col-xl-7 mx-auto col-lg-8 col-md-8 col-sm-10">
