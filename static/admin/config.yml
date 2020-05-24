@@ -360,7 +360,16 @@ collections:
             widget: object
             fields:
               - {label: Breaker Image, name: breaker, hint: 'Optimal image width = 2880 pix. Minimum image width = 1440px. Site will apply compression to image.', widget: image, required: false} 
-              - {label: Breaker Image alt text, name: alt, widget: string, required: false}                     
+              - {label: Breaker Image alt text, name: alt, widget: string, required: false}   
+          - label: Link Block With Image
+            name: imagelink
+            widget: object
+            fields:
+              - {label: Image, name: imagelink, widget: image, required: false} 
+              - {label: Image alt text, name: alt, widget: string, required: false}
+              - {label: Background color, name: color, widget: string, required: false, hint: 'Safest bet here is to use hex colors -- e.g. #f6ecdd'}
+              - {label: Text, name: text, widget: markdown, required: false, buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list", "heading-one", "heading-two", "heading-three", "heading-four"]}  
+              - {label: Button Label, name: buttonlabel, widget: string}                                           
           #- label: Image Gallery
           #  name: gallery
           #  widget: object
