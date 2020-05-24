@@ -35,27 +35,35 @@
 {{ end }}
 <!-- Page Builder Content -->  
 {{ if .Params.pagemaker }}
-<div class="row content">
-    <div class="col-12 col-md-8 col-xl-6 mx-auto pagemaker">
-        {{ range .Params.pagemaker }}
-            {{ if eq .type "string" }}
-                {{ partial "string.html" . }}
+<div class="variable-content mb-7">
+    <div class="row content mb-0">
+        <div class="col-12 col-md-8 col-xl-6 mx-auto pagemaker">
+            {{ range .Params.pagemaker }}
+                {{ if eq .type "string" }}
+                    {{ partial "string.html" . }}
+                {{ end }}
+                {{ if eq .type "gallery" }}
+                    {{ partial "gallery.html" . }}
+                {{ end }}
+                {{ if eq .type "textblock" }}
+                    {{ partial "textblock.html" . }}
+                {{ end }}
+                {{ if eq .type "videoblock"}}
+                    {{ partial "videoblock.html" . }}
+                {{ end }} 
+                {{ if eq .type "custombutton"}}
+                    {{ partial "custombutton.html" . }}
+                {{ end }}
+                {{ if eq .type "breaker"}}
+                    {{ partial "breaker.html" . }}
+                {{ end }} 
+                {{ if eq .type "normalimage"}}
+                    {{ partial "normal-image.html" . }}
+                {{ end }}     
             {{ end }}
-            {{ if eq .type "gallery" }}
-                {{ partial "gallery.html" . }}
-            {{ end }}
-            {{ if eq .type "textblock" }}
-                {{ partial "textblock.html" . }}
-            {{ end }}
-            {{ if eq .type "videoblock"}}
-                {{ partial "videoblock.html" . }}
-            {{ end }} 
-            {{ if eq .type "custombutton"}}
-                {{ partial "custombutton.html" . }}
-            {{ end }}    
-        {{ end }}
-    </div>
-</div>    
+        </div>
+    </div> 
+</div>       
 {{ end }}          
 
 {{ end }}
