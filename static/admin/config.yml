@@ -311,12 +311,12 @@ collections:
       - {label: "Social Media Image", name: "social_image", widget: "image", required: false, hint: "Dimensions: 1200x675. No compression required"}
       - {label: "Social Media Description", name: "social_description", widget: "string", required: false, hint: "Best kept short & sweet!"}
       - {label: "Description", name: "description", widget: "markdown", required: false}
-      - label: "Index PageProject Links"
+      - label: "Index Page Project Links"
         name: projectlinks
         widget: list
         required: false
         fields: 
-          - {label: Project Title, name: title, widget: string, required: false}
+          - {label: Project Title, name: linktitle, widget: string, required: false}
           - {label: Project Link, name: link, widget: string, required: false}
       - {label: "Weight (lowest displayed first)", name: "weight", widget: "number", default: 1, valueType: "int", min: 1, step: 1}
       - {label: "Publish Date", name: "date", required: false, widget: "datetime"}
@@ -375,6 +375,7 @@ collections:
               - {label: Image, name: imagelink, widget: image, required: false} 
               - {label: Image alt text, name: alt, widget: string, required: false}
               - {label: Background color, name: color, widget: string, required: false, hint: 'Safest bet here is to use hex colors -- e.g. #f6ecdd'}
+              - {label: Heading, name: heading, widget: string, required: false,}  
               - {label: Text, name: text, widget: markdown, required: false, buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list", "heading-one", "heading-two", "heading-three", "heading-four"]}  
               - {label: Button Label, name: buttonlabel, widget: string}                                           
           #- label: Image Gallery
