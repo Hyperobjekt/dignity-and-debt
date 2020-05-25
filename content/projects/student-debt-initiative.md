@@ -28,6 +28,7 @@ pagemaker:
 
 
     buttonlabel: GO
+    buttonlink:
     color: '#f6ecdd'
     type: imagelink  
   - imagelink: /uploads/loan-calc-crop-440.jpg
@@ -38,6 +39,7 @@ pagemaker:
 
 
     buttonlabel: GO
+    buttonlink:
     color: '#f6ecdd'
     type: imagelink  
 hero_image: ""

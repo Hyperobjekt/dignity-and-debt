@@ -377,7 +377,8 @@ collections:
               - {label: Background color, name: color, widget: string, required: false, hint: 'Safest bet here is to use hex colors -- e.g. #f6ecdd'}
               - {label: Heading, name: heading, widget: string, required: false,}  
               - {label: Text, name: text, widget: markdown, required: false, buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list", "heading-one", "heading-two", "heading-three", "heading-four"]}  
-              - {label: Button Label, name: buttonlabel, widget: string}                                           
+              - {label: Button Label, name: buttonlabel, widget: string}
+              - {label: Button Link, name: buttonlink, widget: string}                                            
           #- label: Image Gallery
           #  name: gallery
           #  widget: object
