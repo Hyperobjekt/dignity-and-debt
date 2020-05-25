@@ -37,7 +37,6 @@ pagemaker:
     text: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit diam sit amet nunc accumsan, eget euismod sapien euismod. Quisque sit amet luctus lorem. Nam porttitor enim malesuada, iaculis eros non, euismod neque. Curabitur porta vestibulum ex, sit amet faucibus ante dictum a. Cras ligula lacus, varius sit amet semper in, aliquet vitae nibh. 
 
-
     buttonlabel: GO
     buttonlink:
     color: '#f6ecdd'
