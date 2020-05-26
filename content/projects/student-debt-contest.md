@@ -7,6 +7,7 @@ social_description: The VizE Lab and Dignity+Debt are calling for data
   student loan debt.
 date: 2019-07-20T00:00:00.000Z
 link_out: true
+indexpage: true
 pagemaker:
   - videoblock: <iframe src="https://player.vimeo.com/video/418929780" width="640"
       height="468" frameborder="0" allow="autoplay; fullscreen"

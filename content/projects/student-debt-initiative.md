@@ -1,6 +1,7 @@
 ---
 layout: variable
 has_modal: true
+indexpage: true
 social_image: null
 social_description: The VizE Lab and Dignity+Debt are calling for data
   visualizations, maps, or short documentary films and photography that portray
