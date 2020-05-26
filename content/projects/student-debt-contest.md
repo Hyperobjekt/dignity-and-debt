@@ -20,8 +20,8 @@ description: Visualizations can render data to make it meaningful for people
   drawings of W.E.B. DuBois.
 weight: 4
 date: 2019-07-20T00:00:00.000Z
+indexpage: false
 link_out: true
-indexpage: true
 pagemaker:
   - videoblock: <iframe src="https://player.vimeo.com/video/418929780" width="640"
       height="468" frameborder="0" allow="autoplay; fullscreen"
