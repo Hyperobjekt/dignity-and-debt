@@ -7,8 +7,8 @@
                 {{ $alt := .alt }}
                 {{ with site.GetPage "uploads/_index.md" }}
                     {{ with .Resources.GetMatch $img }}
-                        {{ $options := "440x440 q70" }} {{/* Options for 1x devices */}}
-                        {{ $options2x := "880x880 q70" }} {{/* Options for 2x devices */}}
+                        {{ $options := "440x440 q80" }} {{/* Options for 1x devices */}}
+                        {{ $options2x := "880x880 q80" }} {{/* Options for 2x devices */}}
                         {{ $sizes := "(min-width: 400px) 100vw, 100vw"}} {{/* Sizes attr options for 2x devices */}}
                         {{ $processed := .Fit $options }} {{/* This line processes the image with the regular res opts */}}
                         {{ $processed2x := .Fit $options2x }} {{/* This line processes the image with the high res opts */}}    
