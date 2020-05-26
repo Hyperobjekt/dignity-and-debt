@@ -23,7 +23,7 @@ pagemaker:
     type: textblock
   - imagelink: /uploads/loan-calc-crop-440.jpg
     heading: Comparing and Calculating Your Student Debt
-    alt:
+    alt:  Comparing and Calculating
     text: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit diam sit amet nunc accumsan, eget euismod sapien euismod. Quisque sit amet luctus lorem. Nam porttitor enim malesuada, iaculis eros non, euismod neque. Curabitur porta vestibulum ex, sit amet faucibus ante dictum a. Cras ligula lacus, varius sit amet semper in, aliquet vitae nibh. 
 
@@ -34,7 +34,7 @@ pagemaker:
     type: imagelink  
   - imagelink: /uploads/loan-calc-crop-440.jpg
     heading: Comparing and Calculating Your Student Debt
-    alt:
+    alt: Comparing and Calculating
     text: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit diam sit amet nunc accumsan, eget euismod sapien euismod. Quisque sit amet luctus lorem. Nam porttitor enim malesuada, iaculis eros non, euismod neque. Curabitur porta vestibulum ex, sit amet faucibus ante dictum a. Cras ligula lacus, varius sit amet semper in, aliquet vitae nibh. 
 
