@@ -1,19 +1,19 @@
 ---
 title: Visualizing Dignity and Debt
 is_index: false
-description: >-
-  How can debt traps be made visually clear while not also rendering those who
-  succumb to those traps as unthinking dupes? And how can the visualization of
-  debt traps and of the indignities of debt collection differentially be used to
-  understand and to change those processes? The Dignity and Debt Network
-  visualization initiative will develop a new set of public goods,
-  visualizations of dignity, respect, and autonomy alongside data on debt, debt
-  traps, and meaningful financial inclusion across the globe. 
+social_image: null
+social_description: null
+description: "How can debt traps be made visually clear while not also rendering
+  those who succumb to those traps as unthinking dupes? And how can the
+  visualization of debt traps and of the indignities of debt collection
+  differentially be used to understand and to change those processes? The
+  Dignity and Debt Network visualization initiative will develop a new set of
+  public goods, visualizations of dignity, respect, and autonomy alongside data
+  on debt, debt traps, and meaningful financial inclusion across the globe. "
 weight: 10
-date: '2019-01-25'
+date: 2019-01-25
+indexpage: true
 link_out: true
-social_image: 
-social_description:
 hero_image_fw: /uploads/growing-money-2880.jpg
 alts:
   hero_alt: Small plants growing atop stacks of coins in soil
