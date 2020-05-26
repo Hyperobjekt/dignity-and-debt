@@ -68,8 +68,8 @@ pagemaker:
   - type: imagelink
     imagelink: /uploads/viz-contest-crop-5-2.jpg
     heading: Student Debt Contest
-    buttonlabel: /projects/student-debt-contest/
-    buttonlink: GO
+    buttonlabel: GO
+    buttonlink: /projects/student-debt-contest/
     color: "#f6ecdd"
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit
       diam sit amet nunc accumsan, eget euismod sapien euismod. Quisque sit amet
