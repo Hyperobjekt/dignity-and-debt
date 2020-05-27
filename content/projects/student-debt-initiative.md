@@ -67,11 +67,12 @@ pagemaker:
     buttonlabel: GO
     buttonlink: /projects/student-debt-contest/
     color: "#f6ecdd"
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit
-      diam sit amet nunc accumsan, eget euismod sapien euismod. Quisque sit amet
-      luctus lorem. Nam porttitor enim malesuada, iaculis eros non, euismod
-      neque. Curabitur porta vestibulum ex, sit amet faucibus ante dictum a.
-      Cras ligula lacus, varius sit amet semper in, aliquet vitae nibh.
+    text: Visualizations render data meaningful for people around the world. They
+      are able to reveal what might be either changed or strengthened through
+      policy and individual action. Enter our contest to envision a meaningful
+      future of financial autonomy and educational inclusion around the world.
+      Submissions are due by September 19, 2020 and awards will be announced in
+      October 2020.
 hero_image: ""
 subtitle: ""
 title: The Student Debt Initiative
