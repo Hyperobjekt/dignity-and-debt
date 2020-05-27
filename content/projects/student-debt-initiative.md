@@ -11,19 +11,11 @@ description: The Dignity + Debt Network is working on a number of fronts to
   explore issues and solutions for student loan debt traps. These include the
   recent “Digging out With Dignity” conference at Princeton University,
   co-presented with the Aspen Insitute’s Financial Security Program (October 18,
-  2019). The “Problem of Colored Lines” gallery is a collaboration between the
-  Dignity + Debt Network and the VizE Lab and is intended to promote data
-  visualization as a medium for depicting racial disparities in student
-  borrowing and repayment, and for rendering data meaningful to wider publics.
-  Taking inspiration from the charts and maps created by sociologist W.E.B Du
-  Bois that depict wealth disparities between blacks and whites, we seek to
-  visualize the color lines and social complexities within urgent issue of
-  student loan debt. With our interactive debt and repayment visualization,
-  users can compare their own student debt with several US groups and explore
-  ways to reduce their total payments and time to payoff. Finally, our
-  visualization contest invites submissions in a range of visual media that can
-  help clarify the complexities and broaden the conversation on the student debt
-  crisis.
+  2019). Our projects in this initiative enable scholars, students, and former
+  students to visualize data on the enduring social inequalities that structure
+  student debt. We offer means to broaden the conversation about the impact of
+  student debt and imagine solutions for the student debt crisis and for
+  financing higher education.
 projectlinks:
   - link: /projects/student-debt-calculator/
     linktitle: Comparing and Calculating Your Student Loan Debt
