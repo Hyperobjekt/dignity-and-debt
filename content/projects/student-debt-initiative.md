@@ -1,5 +1,4 @@
 ---
-title: The Student Debt Initiative
 layout: variable
 is_index: false
 has_modal: true
@@ -8,27 +7,34 @@ social_image: null
 social_description: The VizE Lab and Dignity+Debt are calling for data
   visualizations, maps, or short documentary films and photography that portray
   student loan debt.
-description: Visualizations can render data to make it meaningful for people
-  around the world. Furthermore, they are able to reveal what might be either
-  changed or strengthened through policy and individual action. To draw on this
-  potential, The [VizE Lab](https://vizelab.princeton.edu) and The Dignity+Debt
-  Network are calling for data visualizations, maps, or short documentary films
-  and photography that portray student loan debt. See our own "[The Problem of
-  Colored
-  Lines](https://www.dignityanddebt.org/projects/student-debt-racial-disparities/)"
-  gallery on racial disparities and the student loan crisis, inspired by the
-  drawings of W.E.B. DuBois.
+description: The Dignity + Debt Network is working on a number of fronts to
+  explore issues and solutions for student loan debt traps. These include the
+  recent “Digging out With Dignity” conference at Princeton University,
+  co-presented with the Aspen Insitute’s Financial Security Program (October 18,
+  2019). The “Problem of Colored Lines” gallery is a collaboration between the
+  Dignity + Debt Network and the VizE Lab and is intended to promote data
+  visualization as a medium for depicting racial disparities in student
+  borrowing and repayment, and for rendering data meaningful to wider publics.
+  Taking inspiration from the charts and maps created by sociologist W.E.B Du
+  Bois that depict wealth disparities between blacks and whites, we seek to
+  visualize the color lines and social complexities within urgent issue of
+  student loan debt. With our interactive debt and repayment visualization,
+  users can compare their own student debt with several US groups and explore
+  ways to reduce their total payments and time to payoff. Finally, our
+  visualization contest invites submissions in a range of visual media that can
+  help clarify the complexities and broaden the conversation on the student debt
+  crisis.
 projectlinks:
   - link: /projects/student-debt-calculator/
     linktitle: Comparing and Calculating Your Student Loan Debt
   - link: /projects/student-debt-racial-disparities/
     linktitle: Student Debt and Racial Disparities
   - link: /projects/student-debt-contest/
-    linktitle: Student Debt Contest
+    linktitle: Visualizing Student Debt Contest
 weight: 4
 date: 2019-07-20T00:00:00.000Z
 indexpage: true
-link_out: true
+link_out: false
 pagemaker:
   - textblock: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
       hendrerit diam sit amet nunc accumsan, eget euismod sapien euismod.
@@ -78,4 +84,5 @@ pagemaker:
       Cras ligula lacus, varius sit amet semper in, aliquet vitae nibh.
 hero_image: ""
 subtitle: ""
+title: The Student Debt Initiative
 ---
