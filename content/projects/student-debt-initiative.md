@@ -51,11 +51,12 @@ pagemaker:
   - imagelink: /uploads/04-Student-debt-and-defaults-teaser.jpg
     heading: Student Debt and Racial Disparities
     alt: null
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit
-      diam sit amet nunc accumsan, eget euismod sapien euismod. Quisque sit amet
-      luctus lorem. Nam porttitor enim malesuada, iaculis eros non, euismod
-      neque. Curabitur porta vestibulum ex, sit amet faucibus ante dictum a.
-      Cras ligula lacus, varius sit amet semper in, aliquet vitae nibh. "
+    text: If sociologist W.E.B Du Bois were working on the urgent issue of student
+      loan indebtedness, he would find that enduring racial lines and other
+      social cleavages help predict how debts are obtained and affect whether
+      groups of people are allowed to carry them with dignity.
+      Our  visualization gallery "The Problem of Colored Lines" explores these
+      inequities in Du Bois's evocative style.
     buttonlabel: GO
     buttonlink: /projects/student-debt-racial-disparities/
     color: "#f6ecdd"
