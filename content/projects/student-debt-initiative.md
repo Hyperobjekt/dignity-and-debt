@@ -36,18 +36,14 @@ date: 2019-07-20T00:00:00.000Z
 indexpage: true
 link_out: false
 pagemaker:
-  - textblock: In these interactive charts, you can view how your own cumulative
-      student loan amount compares with average loan amounts among several US
-      groups and you can calculate new paths to financial freedom.
+  - textblock: ""
     type: textblock
   - imagelink: /uploads/loan-calc-crop-440.jpg
     heading: Comparing and Calculating Your Student Debt
     alt: null
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit
-      diam sit amet nunc accumsan, eget euismod sapien euismod. Quisque sit amet
-      luctus lorem. Nam porttitor enim malesuada, iaculis eros non, euismod
-      neque. Curabitur porta vestibulum ex, sit amet faucibus ante dictum a.
-      Cras ligula lacus, varius sit amet semper in, aliquet vitae nibh. "
+    text: In these interactive charts, you can view how your own cumulative student
+      loan amount compares with average loan amounts among several US groups and
+      you can calculate new paths to financial freedom.
     buttonlabel: GO
     buttonlink: /projects/student-debt-calculator/
     color: "#f6ecdd"
