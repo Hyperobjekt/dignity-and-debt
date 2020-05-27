@@ -41,9 +41,11 @@ pagemaker:
   - imagelink: /uploads/loan-calc-crop-440.jpg
     heading: Comparing and Calculating Your Student Debt
     alt: null
-    text: In these interactive charts, you can view how your own cumulative student
-      loan amount compares with average loan amounts among several US groups and
-      you can calculate new paths to financial freedom.
+    text: In these interactive charts, you can compare your own total student loans
+      with the average amounts among several social groups in the US.
+      Recalculate your student loan with changes you can make now. Learn how
+      much you could save by refinancing or pay down your loan faster by paying
+      a little more per month.
     buttonlabel: GO
     buttonlink: /projects/student-debt-calculator/
     color: "#f6ecdd"
