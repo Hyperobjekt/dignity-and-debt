@@ -4,9 +4,8 @@ is_index: false
 has_modal: true
 type: projects
 social_image: null
-social_description: The VizE Lab and Dignity+Debt are calling for data
-  visualizations, maps, or short documentary films and photography that portray
-  student loan debt.
+social_description: The Dignity + Debt Network is working on a number of fronts
+  to explore issues and solutions for student loan debt traps.
 description: The Dignity + Debt Network is working on a number of fronts to
   explore issues and solutions for student loan debt traps. These include the
   recent “Digging out With Dignity” conference at Princeton University,
