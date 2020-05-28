@@ -1,54 +1,44 @@
 ---
-title: The Student Debt Initiative
 layout: variable
 is_index: false
 has_modal: true
 type: projects
 social_image: null
-social_description: The VizE Lab and Dignity+Debt are calling for data
-  visualizations, maps, or short documentary films and photography that portray
-  student loan debt.
-description: Visualizations can render data to make it meaningful for people
-  around the world. Furthermore, they are able to reveal what might be either
-  changed or strengthened through policy and individual action. To draw on this
-  potential, The [VizE Lab](https://vizelab.princeton.edu) and The Dignity+Debt
-  Network are calling for data visualizations, maps, or short documentary films
-  and photography that portray student loan debt. See our own "[The Problem of
-  Colored
-  Lines](https://www.dignityanddebt.org/projects/student-debt-racial-disparities/)"
-  gallery on racial disparities and the student loan crisis, inspired by the
-  drawings of W.E.B. DuBois.
+social_description: The Dignity + Debt Network is working on a number of fronts
+  to explore issues and solutions for student loan debt traps.
+description: The Dignity + Debt Network is working on a number of fronts to
+  explore issues and solutions for student loan debt traps. These include the
+  recent [“Digging out With
+  Dignity”](https://www.dignityanddebt.org/meetings/digging-out-with-dignity-solving-the-student-loan-crisis-and-honoring-meaning-at-the-margins/)
+  conference at Princeton University, co-presented with the Aspen Insitute’s
+  Financial Security Program (October 18, 2019). In collaboratiom with the [VizE
+  Lab](https://vizelab.princeton.edu), our projects in this initiative enable
+  scholars, students, and former students to visualize data on the enduring
+  social inequalities that structure student debt. We offer means to broaden the
+  conversation about the impact of student debt and imagine solutions for the
+  student debt crisis and for financing higher education.
 projectlinks:
   - link: /projects/student-debt-calculator/
     linktitle: Comparing and Calculating Your Student Loan Debt
   - link: /projects/student-debt-racial-disparities/
     linktitle: Student Debt and Racial Disparities
   - link: /projects/student-debt-contest/
-    linktitle: Student Debt Contest
+    linktitle: Visualizing Student Debt Contest
 weight: 4
 date: 2019-07-20T00:00:00.000Z
 indexpage: true
-link_out: true
+link_out: false
 pagemaker:
-  - textblock: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-      hendrerit diam sit amet nunc accumsan, eget euismod sapien euismod.
-      Quisque sit amet luctus lorem. Nam porttitor enim malesuada, iaculis eros
-      non, euismod neque. Curabitur porta vestibulum ex, sit amet faucibus ante
-      dictum a. Cras ligula lacus, varius sit amet semper in, aliquet vitae
-      nibh. Aliquam imperdiet dolor lectus, gravida viverra nunc suscipit nec.
-      Vivamus eleifend pulvinar enim, id maximus libero sodales et. Nunc
-      consectetur urna quis odio tristique ultrices. Aenean ac aliquam neque,
-      quis condimentum nulla. Aliquam a placerat elit. Praesent vestibulum
-      interdum lorem nec volutpat.
+  - textblock: ""
     type: textblock
   - imagelink: /uploads/loan-calc-crop-440.jpg
     heading: Comparing and Calculating Your Student Debt
     alt: null
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit
-      diam sit amet nunc accumsan, eget euismod sapien euismod. Quisque sit amet
-      luctus lorem. Nam porttitor enim malesuada, iaculis eros non, euismod
-      neque. Curabitur porta vestibulum ex, sit amet faucibus ante dictum a.
-      Cras ligula lacus, varius sit amet semper in, aliquet vitae nibh. "
+    text: In these interactive charts, you can compare your own total student loans
+      with the average amounts among several social groups in the US.
+      Recalculate your student loan with changes you can make now. Learn how
+      much you could save by refinancing or pay down your loan faster by paying
+      a little more per month.
     buttonlabel: GO
     buttonlink: /projects/student-debt-calculator/
     color: "#f6ecdd"
@@ -56,11 +46,12 @@ pagemaker:
   - imagelink: /uploads/04-Student-debt-and-defaults-teaser.jpg
     heading: Student Debt and Racial Disparities
     alt: null
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit
-      diam sit amet nunc accumsan, eget euismod sapien euismod. Quisque sit amet
-      luctus lorem. Nam porttitor enim malesuada, iaculis eros non, euismod
-      neque. Curabitur porta vestibulum ex, sit amet faucibus ante dictum a.
-      Cras ligula lacus, varius sit amet semper in, aliquet vitae nibh. "
+    text: If sociologist W.E.B Du Bois were working on the urgent issue of student
+      loan indebtedness, he would find that enduring racial lines and other
+      social cleavages help predict how debts are obtained and affect whether
+      groups of people are allowed to carry them with dignity.
+      Our  visualization gallery "The Problem of Colored Lines" explores these
+      inequities in Du Bois's evocative style.
     buttonlabel: GO
     buttonlink: /projects/student-debt-racial-disparities/
     color: "#f6ecdd"
@@ -71,11 +62,13 @@ pagemaker:
     buttonlabel: GO
     buttonlink: /projects/student-debt-contest/
     color: "#f6ecdd"
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit
-      diam sit amet nunc accumsan, eget euismod sapien euismod. Quisque sit amet
-      luctus lorem. Nam porttitor enim malesuada, iaculis eros non, euismod
-      neque. Curabitur porta vestibulum ex, sit amet faucibus ante dictum a.
-      Cras ligula lacus, varius sit amet semper in, aliquet vitae nibh.
+    text: Visualizations render data meaningful for people around the world. They
+      are able to reveal what might be either changed or strengthened through
+      policy and individual action. Enter our contest to envision a meaningful
+      future of financial autonomy and educational inclusion around the world.
+      Submissions are due by September 19, 2020 and awards will be announced in
+      October 2020.
 hero_image: ""
 subtitle: ""
+title: The Student Debt Initiative
 ---
