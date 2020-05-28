@@ -44,7 +44,7 @@ pagemaker:
     buttonlink: /projects/student-debt-calculator/
     color: "#f6ecdd"
     type: imagelink
-  - imagelink: /uploads/04-Student-debt-and-defaults-teaser.jpg
+  - imagelink: /uploads/04-student-debt-and-defaults-med-crop.png
     heading: Student Debt and Racial Disparities
     alt: null
     text: If sociologist W.E.B Du Bois were working on the urgent issue of student
