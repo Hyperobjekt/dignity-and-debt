@@ -1,4 +1,5 @@
 ---
+title: The Student Debt Initiative
 layout: variable
 is_index: false
 has_modal: true
@@ -27,7 +28,7 @@ projectlinks:
 weight: 4
 date: 2019-07-20T00:00:00.000Z
 indexpage: true
-link_out: false
+link_out: true
 pagemaker:
   - textblock: ""
     type: textblock
@@ -70,5 +71,4 @@ pagemaker:
       October 2020.
 hero_image: ""
 subtitle: ""
-title: The Student Debt Initiative
 ---
