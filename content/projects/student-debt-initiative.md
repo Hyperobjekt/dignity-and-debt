@@ -6,9 +6,9 @@ type: projects
 social_image: null
 social_description: The Dignity + Debt Network is working on a number of fronts
   to explore issues and solutions for student loan debt traps.
-description: The Dignity + Debt Network is working on a number of fronts to
-  reveal the structures and and meanings of student loans and to find solutions
-  to the debt traps.
+description: The Dignity + Debt Network is working on a number of related
+  project intended to reveal the structures and and meanings of student loans
+  and to find solutions to the debt traps.
 projectlinks:
   - link: /projects/student-debt-calculator/
     linktitle: Comparing and Calculating Your Student Loan Debt
