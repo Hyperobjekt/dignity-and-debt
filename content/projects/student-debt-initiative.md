@@ -21,7 +21,17 @@ date: 2019-07-20T00:00:00.000Z
 indexpage: true
 link_out: true
 pagemaker:
-  - textblock: ""
+  - textblock: The Dignity + Debt Network is exploring issues and solutions for
+      student loan debt traps on a number of fronts. These include the recent
+      [“Digging out With
+      Dignity”](https://www.dignityanddebt.org/meetings/digging-out-with-dignity-solving-the-student-loan-crisis-and-honoring-meaning-at-the-margins/)
+      conference at Princeton University, co-presented with the Aspen Insitute’s
+      Financial Security Program (October 18, 2019). In collaboratiom with the
+      [VizE Lab](https://vizelab.princeton.edu), our projects in this initiative
+      enable scholars, students, and former students to visualize data on the
+      enduring social inequalities that structure student debt. We offer means
+      to broaden the conversation about the impact of student debt and imagine
+      solutions for the student debt crisis and for financing higher education.
     type: textblock
   - imagelink: /uploads/loan-calc-crop-440.jpg
     heading: Comparing and Calculating Your Student Debt
