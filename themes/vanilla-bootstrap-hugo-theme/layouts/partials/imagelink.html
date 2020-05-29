@@ -20,7 +20,7 @@
             <div class="col-12 col-md-7 d-flex flex-column">
                 <h3 class="mt-0 mb-3 ">{{ .heading }}</h3>
                 {{ .text | markdownify | safeHTML }}
-                <a class="btn btn-custom d-block mt-3 mx-auto mx-md-0" href="{{ $.Page.Params.link1 }}" tabindex="0" aria-label="Go to calculator">{{ .buttonlabel }}</a>
+                <a class="btn btn-custom d-block mt-3 mx-auto mx-md-0" href="{{ .buttonlink }}" tabindex="0" aria-label="Go to project">{{ .buttonlabel }}</a>
             </div>
       </div>
 </div>
