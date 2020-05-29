@@ -8,15 +8,7 @@ social_description: The Dignity + Debt Network is working on a number of fronts
   to explore issues and solutions for student loan debt traps.
 description: The Dignity + Debt Network is working on a number of fronts to
   reveal the structures and and meanings of student loans and to find solutions
-  to the debt traps. These include the recent [“Digging out With
-  Dignity”](https://www.dignityanddebt.org/meetings/digging-out-with-dignity-solving-the-student-loan-crisis-and-honoring-meaning-at-the-margins/)
-  conference at Princeton University, co-presented with the Aspen Insitute’s
-  Financial Security Program (October 18, 2019). In collaboratiom with the [VizE
-  Lab](https://vizelab.princeton.edu), our projects in this initiative enable
-  scholars, students, and former students to visualize data on the enduring
-  social inequalities that structure student debt. We offer means to broaden the
-  conversation about the impact of student debt and imagine solutions for the
-  student debt crisis and for financing higher education.
+  to the debt traps.
 projectlinks:
   - link: /projects/student-debt-calculator/
     linktitle: Comparing and Calculating Your Student Loan Debt
