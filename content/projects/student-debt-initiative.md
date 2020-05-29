@@ -1,5 +1,4 @@
 ---
-title: The Student Debt Initiative
 layout: variable
 is_index: false
 has_modal: true
@@ -8,8 +7,8 @@ social_image: null
 social_description: The Dignity + Debt Network is working on a number of fronts
   to explore issues and solutions for student loan debt traps.
 description: The Dignity + Debt Network is working on a number of fronts to
-  explore issues and solutions for student loan debt traps. These include the
-  recent [“Digging out With
+  reveal the structures and and meanings of student loans and to find solutions
+  to the debt traps. These include the recent [“Digging out With
   Dignity”](https://www.dignityanddebt.org/meetings/digging-out-with-dignity-solving-the-student-loan-crisis-and-honoring-meaning-at-the-margins/)
   conference at Princeton University, co-presented with the Aspen Insitute’s
   Financial Security Program (October 18, 2019). In collaboratiom with the [VizE
@@ -71,4 +70,5 @@ pagemaker:
       October 2020.
 hero_image: ""
 subtitle: ""
+title: The Student Debt Initiative
 ---
