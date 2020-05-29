@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  branch: sd-initiative # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
 
@@ -311,9 +311,17 @@ collections:
       - {label: "Social Media Image", name: "social_image", widget: "image", required: false, hint: "Dimensions: 1200x675. No compression required"}
       - {label: "Social Media Description", name: "social_description", widget: "string", required: false, hint: "Best kept short & sweet!"}
       - {label: "Description", name: "description", widget: "markdown", required: false}
+      - label: "Index Page Project Links"
+        name: projectlinks
+        widget: list
+        required: false
+        fields: 
+          - {label: Project Title, name: linktitle, widget: string, required: false}
+          - {label: Project Link, name: link, widget: string, required: false}
       - {label: "Weight (lowest displayed first)", name: "weight", widget: "number", default: 1, valueType: "int", min: 1, step: 1}
       - {label: "Publish Date", name: "date", required: false, widget: "datetime"}
-      - {label: "Links Out (from main projects page to individual page", name: "link_out", widget: "boolean", default: false}
+      - {label: "Appears on Projects index page", name: "indexpage", widget: "boolean", default: true, required: false}
+      - {label: "Links Out (from main projects page to individual page", name: "link_out", widget: "boolean", default: false, required: false}
       - label: "Full Width Hero Image"
         name: "hero_image_fw"
         widget: "image"
@@ -360,7 +368,18 @@ collections:
             widget: object
             fields:
               - {label: Breaker Image, name: breaker, hint: 'Optimal image width = 2880 pix. Minimum image width = 1440px. Site will apply compression to image.', widget: image, required: false} 
-              - {label: Breaker Image alt text, name: alt, widget: string, required: false}                     
+              - {label: Breaker Image alt text, name: alt, widget: string, required: false}   
+          - label: Link Block With Image
+            name: imagelink
+            widget: object
+            fields:
+              - {label: Image, name: imagelink, widget: image, required: false} 
+              - {label: Image alt text, name: alt, widget: string, required: false}
+              - {label: Background color, name: color, widget: string, required: false, hint: 'Safest bet here is to use hex colors -- e.g. #f6ecdd'}
+              - {label: Heading, name: heading, widget: string, required: false,}  
+              - {label: Text, name: text, widget: markdown, required: false, buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list", "heading-one", "heading-two", "heading-three", "heading-four"]}  
+              - {label: Button Label, name: buttonlabel, widget: string}
+              - {label: Button Link, name: buttonlink, widget: string}                                            
           #- label: Image Gallery
           #  name: gallery
           #  widget: object
@@ -420,6 +439,7 @@ collections:
             name: "link_out"
             widget: "boolean"
             default: false
+          - {label: "Appears on Projects index page", name: "indexpage", widget: "boolean", default: true, required: false}  
           - label: "Full Width Hero Image"
             name: "hero_image"
             widget: "image"

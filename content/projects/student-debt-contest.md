@@ -6,7 +6,8 @@ social_description: The VizE Lab and Dignity+Debt are calling for data
   visualizations, maps, or short documentary films and photography that portray
   student loan debt.
 date: 2019-07-20T00:00:00.000Z
-link_out: true
+indexpage: false
+link_out: false
 pagemaker:
   - videoblock: <iframe src="https://player.vimeo.com/video/418929780" width="640"
       height="468" frameborder="0" allow="autoplay; fullscreen"

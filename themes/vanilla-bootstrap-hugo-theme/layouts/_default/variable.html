@@ -3,8 +3,10 @@
     {{ partial "breadcrumb.html" . }}
   </div>
   
-  <div class="row heading">
-    <h2 tabindex="0" class="col-md-8 offset-md-2 col-xl-6 offset-xl-3">{{ .Title }}</h2>
+  <div class="row heading mx-md-2">
+     <div class="col-md-7 col-xl-6 mx-auto mb-0">
+        <h2 tabindex="0" class="mb-0">{{ .Title }}</h2>
+    </div> 
   </div>
   
   {{ $projects_hero_img := strings.TrimPrefix "/uploads/" .Page.Params.hero_image }}
@@ -28,16 +30,16 @@
 <!-- Default Content -->  
 {{ if .Content }}
   <div class="row content">
-    <div class="col-md-8 offset-md-2 col-xl-6 offset-xl-3">
+    <div class="col-md-7 col-xl-6 mx-auto">
       {{ .Content }}
     </div>
   </div>
 {{ end }}
 <!-- Page Builder Content -->  
 {{ if .Params.pagemaker }}
-<div class="variable-content mb-7">
+<div class="variable-content mb-10">
     <div class="row content mb-0">
-        <div class="col-12 col-md-8 col-xl-6 mx-auto pagemaker">
+        <div class="col-12 col-md-7 col-xl-6 mx-auto pagemaker">
             {{ range .Params.pagemaker }}
                 {{ if eq .type "string" }}
                     {{ partial "string.html" . }}
@@ -59,6 +61,9 @@
                 {{ end }} 
                 {{ if eq .type "normalimage"}}
                     {{ partial "normal-image.html" . }}
+                {{ end }} 
+                {{ if eq .type "imagelink"}}
+                    {{ partial "imagelink.html" . }}
                 {{ end }}     
             {{ end }}
         </div>
