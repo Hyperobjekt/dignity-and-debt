@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: sd-initiative # Branch to update (optional; defaults to master)
+  branch: master # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
 
@@ -99,10 +99,7 @@ collections:
             media_library:
               config:
                 multiple: false
-          - label: "Body"
-            name: "body"
-            widget: "hidden"
-            buttons: ["bold", "italic", "code", "link", "quote", "code-block", "bulleted-list", "numbered-list"]
+  
       # PROJECTS PAGE - QA'D not tested 
       - label: "Projects Page"
         name: "projects"
