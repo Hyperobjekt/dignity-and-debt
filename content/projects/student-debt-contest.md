@@ -27,9 +27,9 @@ pagemaker:
 
       * Among these 4 finalists, one entrant (or team) will be awarded an additional $1,000 by lottery
 
-      * 1 finalist from Princeton University will win an award of $1,000 
+      * NEW! 1 finalist from Princeton University will win an award of $1,000 
 
-      * 1 finalist will be awarded per country. (i.e. their data pertains to a single country or a unique set of countries, not the nationality of the Entrant or team.)
+      * 1 finalist will be awarded per country (i.e. their data pertains to a single country or a unique set of countries, not the nationality of the Entrant or team)
 
 
       **GUIDELINES FOR ENTRANTS**
