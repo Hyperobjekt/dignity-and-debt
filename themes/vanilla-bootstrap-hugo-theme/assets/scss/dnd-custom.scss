@@ -1721,7 +1721,7 @@ body.about {
 
 ////// Projects & Meetings List Pages
 // Projects section page
-body.type-projects.kind-section, body.type-meetings {
+body.type-projects.kind-section, body.type-meetings, body.type-news {
   .row.projects-page > * {
    // max-width: 840px;
    // margin: auto;
@@ -2889,6 +2889,45 @@ body.type-meeting.kind-section {
       }
       &:last-child {
         margin-bottom: 10.2rem;
+      }
+    }
+  }
+}
+
+// News
+
+body.type-news {
+  .news-banner {
+    @include media-breakpoint-up(md) {
+      padding-left: 3.2rem;
+      padding-right: 3.2rem;
+    }
+    span {
+      display: block;
+      @include media-breakpoint-up(lg) {
+        max-width: 80%;
+      }
+    }
+  }
+  .news-list {
+    .newsheader {
+      h2 {
+        @include media-breakpoint-up(lg) {
+          max-width: 80%;
+        }
+      }
+    }
+    .desc {
+      p {
+        @include media-breakpoint-up(lg) {
+          max-width: 80%;
+        }
+      }
+    }
+    .morelink-parent {
+      margin-bottom: 2.4rem;
+      a {
+        margin-top: 2.4rem;
       }
     }
   }
