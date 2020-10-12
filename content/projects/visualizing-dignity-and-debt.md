@@ -3,6 +3,7 @@ title: Visualizing Dignity and Debt
 is_index: false
 social_image: null
 social_description: null
+thumb: /uploads/growing-money-2880.jpg
 description: "How can debt traps be made visually clear while not also rendering
   those who succumb to those traps as unthinking dupes? And how can the
   visualization of debt traps and of the indignities of debt collection

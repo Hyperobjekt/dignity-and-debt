@@ -1719,8 +1719,24 @@ body.about {
   }
 }
 
-////// Projects & Meetings List Pages
+////// Projects, News & Meetings List Pages
 // Projects section page
+body.type-projects.kind-section, body.type-news {
+  .news-banner {
+    @include media-breakpoint-up(md) {
+      padding-left: 3.2rem;
+      padding-right: 3.2rem;
+    }
+    span {
+      display: block;
+      @include media-breakpoint-up(lg) {
+       // max-width: 80%;
+      }
+    }
+  }
+}
+
+
 body.type-projects.kind-section, body.type-meetings, body.type-news {
   .row.projects-page > * {
    // max-width: 840px;
@@ -2898,17 +2914,13 @@ body.type-meeting.kind-section {
 
 body.type-news {
   .news-banner {
-    @include media-breakpoint-up(md) {
-      padding-left: 3.2rem;
-      padding-right: 3.2rem;
-    }
     span {
-      display: block;
-      @include media-breakpoint-up(lg) {
+      @include media-breakpoint-up(md) {
         max-width: 80%;
       }
     }
   }
+
   .news-list {
     .newsheader {
       h2 {

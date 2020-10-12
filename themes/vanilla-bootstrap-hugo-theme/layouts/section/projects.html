@@ -10,7 +10,7 @@
 {{ end }}
 
 <div class="row projects-page news-banner projectstitle">
-    <div class="column col-xl-7 mx-auto col-lg-8 col-md-8 col-sm-10">
+    <div class="column mx-auto col-sm-10 col-md-8 col-lg-7 col-xl-7">
       <h3 tabindex="0">{{ .Page.Params.display_title }}</h3>
       <span class="center-span" tabindex="0">{{ .Content | plainify }}</span>
     </div>
@@ -20,8 +20,21 @@
 {{ range .Pages.ByWeight }}
   {{ if eq .Params.indexpage true  }} 
   <div class="row projects-page projects project">
-    <h2 tabindex="0" class="col-xl-7 mx-auto col-lg-8 col-md-8 col-sm-10">{{ .Title }}</h2>
-    <div class="desc col-xl-7 mx-auto col-lg-8 col-md-8 col-sm-10" tabindex="0">
+    {{ $img := strings.TrimPrefix "/uploads/" .Params.thumb }}
+    {{ if .Params.thumb }}
+      <div class="news-img col-xl-7 mx-auto col-sm-10 col-md-9 col-mmd-8 col-lg-7 mb-3 mb-md-4">
+          {{ with $.Site.GetPage "page" "uploads/_index.md" }}
+              {{ with .Resources.GetMatch $img }}
+                    {{$img400 := .Fill "592x370 Center"}}
+                    <img class="" src="{{ $img400.RelPermalink }}" width="296" height="185" alt="News announcement photo">
+              {{ end }}
+          {{ end }}
+      </div>
+    {{ end }}  
+    <div class="newsheader col-sm-10  mx-auto col-md-9 col-mmd-8 col-lg-7 col-xl-7">
+      <h2 tabindex="0" class="">{{ .Title }}</h2>
+    </div>     
+    <div class="desc mx-auto col-sm-10 col-md-9 col-mmd-8 col-lg-7 col-xl-7 mw-50" tabindex="0">
       {{ .Params.description | markdownify | safeHTML }}
         <div class="w-100"></div>
         {{ if .Params.projectlinks }}
@@ -37,7 +50,7 @@
  
     </div>
     
-      <div class="morelink-parent col-xl-7 mx-auto col-lg-8 col-md-8 col-sm-10">
+      <div class="morelink-parent col-xl-7 mx-auto col-md-9 col-mmd-8 col-lg-7 col-sm-10">
         {{ if eq .Params.link_out true }}
           <a class="btn btn-custom" href="{{ .Permalink }}" tabindex="0" aria-label="Go to About">READ MORE</a>
         {{ end }}  
