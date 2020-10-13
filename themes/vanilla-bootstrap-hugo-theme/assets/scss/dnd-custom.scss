@@ -2913,6 +2913,9 @@ body.type-meeting.kind-section {
 // News
 
 body.type-news {
+  .row.jumbotron {
+    background-position-y: top;
+  }
   .news-banner {
     span {
       @include media-breakpoint-up(md) {
