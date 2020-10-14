@@ -1,11 +1,11 @@
 {{ if .image }}   
-   <div class="project-img pagemaker column-project-img mb-4 launch-modal" 
+   <div class="project-img pagemaker column-project-img mt-4 mt-md-5 mt-xl-6 mb-0 launch-modal" 
     aria-label="Launch full sized image" data-img="{{ .image }}" 
     data-fullimg="{{ .fullimage }}" tabindex="0" role="button">
         <img class="gallery" src="{{ .thumb }}" />
     </div>    
 {{ else if .video }}   
-   <div class="project-img pagemaker column-project-img mb-4 launch-modal" 
+   <div class="project-img pagemaker column-project-img mt-4 mt-md-5 mt-xl-6 mb-0 launch-modal" 
     aria-label="Launch full sized image" data-img="{{ .image }}" 
     data-fullimg="" data-video="{{ .video }}" tabindex="0" role="button">
         <img class="gallery" src="{{ .thumb }}" />

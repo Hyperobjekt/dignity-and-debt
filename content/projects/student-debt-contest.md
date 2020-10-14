@@ -62,6 +62,9 @@ pagemaker:
     link: https://forms.gle/vz5Keo5oGPtTHRHfA
     type: custombutton
     align: left
+  - video: <iframe src="https://drive.google.com/file/d/1ManJVx7IvwUzFSrrX0RWXb0C6r_rPTU2/preview" width="640" height="480"></iframe>
+    thumb: /uploads/skyler-video.png
+    type: gallery  
 hero_image: ""
 subtitle: ""
 ---
