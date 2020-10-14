@@ -92,15 +92,16 @@
 
 
 <div class="row news-blocks pb-7">
-  <h3 class="" tabindex="0">NEWS</h3>
+  <h3 class="" tabindex="0">IN THE NEWS</h3>
   <div class="w-100"></div>
 
   {{ partial "three-col-news" . }}
 
   <div class="w-100"></div>
-  <!-- <div class="col"> -->
-    <!--<a class="btn btn-custom" href="{{ "/news/" | absURL }}" tabindex="0" aria-label="Go to About">VIEW ALL</a>-->
-  <!-- </div> -->
+
+  <div class="col d-flex justify-content-center"> 
+    <a class="no-button-link-lg my-0" href="{{ "/news/" | absURL }}" tabindex="0" aria-label="Go to About">VIEW ALL <img src="/images/right-arrow2.svg"/></a>
+  </div> 
 
 </div>
 

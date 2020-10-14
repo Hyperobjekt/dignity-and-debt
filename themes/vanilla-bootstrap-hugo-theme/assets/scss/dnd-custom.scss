@@ -67,6 +67,24 @@ a {
     line-height: 2.6rem;
 }
 
+a.no-button-link-lg {
+    text-transform: uppercase;
+    font-family: $brandongrotesque-bold;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    text-align: center;
+    color: $darkblue;
+    font-weight: 700;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+    img {
+      position: relative;
+      top: -3px;
+    }
+}
+
 // Page container
 .container.parent {
   padding-right: 0;
@@ -1100,6 +1118,7 @@ h3.who-we-are,
       height: auto;
       display: flex;
       flex-direction: column;
+      justify-content: space-between;
       a {
         text-decoration: none;
       }
