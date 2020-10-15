@@ -131,7 +131,7 @@
     $(document).ready(function() {
       var $videoSrc;  
       $videoSrc = $('iframe').attr( "src" );
-      console.log($videoSrc);
+      // console.log($videoSrc);
       $('#dndModal').on('hide.bs.modal', function (e) {
           // a poor man's stop video
           $("iframe").attr('src',$videoSrc); 
