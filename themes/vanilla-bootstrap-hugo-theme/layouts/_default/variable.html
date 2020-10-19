@@ -38,9 +38,8 @@
 <!-- Page Builder Content -->  
 {{ if .Params.pagemaker }}
 <div class="variable-content mb-10">
-    <div class="row content mb-0">
-        <div class="col-12 col-md-7 col-xl-6 mx-auto pagemaker">
-            {{ range .Params.pagemaker }}
+    <div class="row content mb-0 mx-md-10">
+            {{ range .Params.pagemaker   }}
                 {{ if eq .type "string" }}
                     {{ partial "string.html" . }}
                 {{ end }}
@@ -66,9 +65,9 @@
                     {{ partial "imagelink.html" . }}
                 {{ end }}     
             {{ end }}
-        </div>
-    </div> 
+        </div>    
 </div>       
-{{ end }}          
+{{ end }}
+
 
 {{ end }}

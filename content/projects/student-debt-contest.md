@@ -22,10 +22,8 @@ weight: 4
 date: 2019-07-20T00:00:00.000Z
 indexpage: false
 link_out: false
-pagemaker:
-  - videoblock: <iframe src="https://player.vimeo.com/video/418929780" width="640"
-      height="468" frameborder="0" allow="autoplay; fullscreen"
-      allowfullscreen></iframe>
+pagemaker: 
+  - videoblock: <iframe src="https://player.vimeo.com/video/418929780" width="640" height="468" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     type: videoblock
   - textblock: >-
       ### Can Visualizations Help Solve the Student Loan Debt Crisis?
@@ -62,9 +60,36 @@ pagemaker:
     link: https://forms.gle/vz5Keo5oGPtTHRHfA
     type: custombutton
     align: left
-  - video: <iframe src="https://drive.google.com/file/d/1ManJVx7IvwUzFSrrX0RWXb0C6r_rPTU2/preview" width="640" height="480"></iframe>
-    thumb: /uploads/skyler-video.png
-    type: gallery  
+  - textblock: >- 
+      ### Entries
+    type: textblock   
+  - textblock: >- 
+      **THE STATE OF EDUCATION**
+
+      
+      In this data visualization by Skyler Liu, lorem ipsum dolor sit amet.
+    type: textblock
+  - normalimage: /uploads/skyler-video.png
+    overlaytext: Click to view the visualization site
+    imagelink: 'https://public.tableau.com/profile/skyler.liu#!/vizhome/TheStateofEducation/TheStateofEducation'
+    type: normalimage
+  - textblock: >-
+      **Disparate Debts: How Student Loans Drive Racial Inequality Across American Cities**
+      
+
+      In this data visualization by lorem ipsum dolor sit amet.
+    type: textblock
+  - type: gallery
+    image: /uploads/Benjamin-Kaufman-1.png
+    thumb: /uploads/Benjamin-Kaufman-1.png
+  - type: gallery
+    image: /uploads/Benjamin-Kaufman-2.png
+    thumb: /uploads/Benjamin-Kaufman-2.png
+  - type: gallery  
+    image: /uploads/Benjamin-Kaufman-3.png
+    thumb: /uploads/Benjamin-Kaufman-3.png          
+
+
 hero_image: ""
 subtitle: ""
 ---

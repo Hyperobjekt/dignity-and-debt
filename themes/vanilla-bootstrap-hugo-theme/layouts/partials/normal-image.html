@@ -1,22 +1,32 @@
-<div class="w-100 d-flex justify-content-{{ .align }} mx-auto mt-4 mt-md-5 mt-xl-6 mb-0">
-  <!-- <img src="{{ .normalimage }}" class="mw-100" style="" /> -->
-  {{/*
+<div class="col-12 col-md-7 col-xl-6 mx-auto pagemaker">
+  <div class="w-100 d-flex justify-content-{{ .align }} mx-auto mt-4 mt-md-5 mt-xl-6 mb-0">
+    <!-- <img src="{{ .normalimage }}" class="mw-100" style="" /> -->
+    {{/*
 
-    * Follows srcset strategy outlined here: https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/
-    * `sizes` attribute usage outlined here: https://css-tricks.com/responsive-images-css/
-    * Uses Hugo image processing option "fit" as outlined here: https://gohugo.io/content-management/image-processing/
+      * Follows srcset strategy outlined here: https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/
+      * `sizes` attribute usage outlined here: https://css-tricks.com/responsive-images-css/
+      * Uses Hugo image processing option "fit" as outlined here: https://gohugo.io/content-management/image-processing/
 
-  */}}
-  {{ $img := strings.TrimPrefix "/uploads/" .normalimage }}
-  {{ $alt := .alt }}
-  {{ with site.GetPage "uploads/_index.md" }}
-    {{ with .Resources.GetMatch $img }}
-      {{ $options := "800x800 q70" }} {{/* Options for 1x devices */}}
-      {{ $options2x := "1600x1600 q70" }} {{/* Options for 2x devices */}}
-      {{ $sizes := "(min-width: 400px) 100vw, 80vw"}} {{/* Sizes attr options for 2x devices */}}
-      {{ $processed := .Fit $options }} {{/* This line processes the image with the regular res opts */}}
-      {{ $processed2x := .Fit $options2x }} {{/* This line processes the image with the high res opts */}}
-      <img class="img-fluid" src="{{ $processed.RelPermalink }}" sizes="{{ $sizes }}" width="{{ $processed.Width }}" height="{{ $processed.Height}}" alt="{{ $alt }}" srcset="{{ $processed.RelPermalink }}, {{ $processed2x.RelPermalink }} 2x">
-    {{ end }}
-  {{ end }}
+    */}}
+          <div class="normal-img-wrapper">
+            {{ if .imagelink }} <a href="{{ .imagelink }}" target="_blank">{{ end }}
+              {{ $img := strings.TrimPrefix "/uploads/" .normalimage }}
+              {{ $alt := .alt }}
+              {{ with site.GetPage "uploads/_index.md" }}
+                {{ with .Resources.GetMatch $img }}
+                  {{ $options := "800x800 q70" }} {{/* Options for 1x devices */}}
+                  {{ $options2x := "1600x1600 q70" }} {{/* Options for 2x devices */}}
+                  {{ $sizes := "(min-width: 400px) 100vw, 80vw"}} {{/* Sizes attr options for 2x devices */}}
+                  {{ $processed := .Fit $options }} {{/* This line processes the image with the regular res opts */}}
+                  {{ $processed2x := .Fit $options2x }} {{/* This line processes the image with the high res opts */}}
+                    <img class="img-fluid" src="{{ $processed.RelPermalink }}" sizes="{{ $sizes }}" width="{{ $processed.Width }}" height="{{ $processed.Height}}" alt="{{ $alt }}" srcset="{{ $processed.RelPermalink }}, {{ $processed2x.RelPermalink }} 2x">
+                  {{ end }}
+                {{ end }}
+          {{ if .overlaytext }}
+            <div class="img-hover-overlay">{{ .overlaytext }}</div>
+          {{ end }}  
+          {{ if .imagelink }}</a>{{ end }}  
+          </div>
+  </div>
 </div>
+<div class="w-100"></div>  
