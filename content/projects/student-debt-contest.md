@@ -63,31 +63,32 @@ pagemaker:
   - textblock: >- 
       ### Entries
     type: textblock   
-  - textblock: >- 
-      **THE STATE OF EDUCATION**
-
-      
-      In this data visualization by Skyler Liu, lorem ipsum dolor sit amet.
-    type: textblock
   - normalimage: /uploads/skyler-video.png
     overlaytext: Click to view the visualization site
     imagelink: 'https://public.tableau.com/profile/skyler.liu#!/vizhome/TheStateofEducation/TheStateofEducation'
-    type: normalimage
-  - textblock: >-
-      **Disparate Debts: How Student Loans Drive Racial Inequality Across American Cities**
-      
-
-      In this data visualization by lorem ipsum dolor sit amet.
-    type: textblock
-  - type: gallery
-    image: /uploads/Benjamin-Kaufman-1.png
-    thumb: /uploads/Benjamin-Kaufman-1.png
-  - type: gallery
-    image: /uploads/Benjamin-Kaufman-2.png
-    thumb: /uploads/Benjamin-Kaufman-2.png
-  - type: gallery  
-    image: /uploads/Benjamin-Kaufman-3.png
-    thumb: /uploads/Benjamin-Kaufman-3.png          
+    type: two-block
+    header: The State of Education
+    description: In this data visualization by Skyler Liu, lorem ipsum dolor sit amet.
+  - type: two-block
+    header: 'Disparate Debts: How Student Loans Drive Racial Inequality Across American Cities'
+    description: In this data visualization by lorem ipsum dolor sit amet.
+    normalimage: /uploads/Benjamin-Kaufman-3.png
+    overlaytext: Click to view the report
+    imagelink: 'https://public.tableau.com/profile/skyler.liu#!/vizhome/TheStateofEducation/TheStateofEducation'
+    alignimage: 
+  - normalimage: /uploads/affluent-universities.png
+    overlaytext: Click to view the entry at Pacific Standard Magazine
+    imagelink: 'https://psmag.com/education/how-affluent-private-universities-act-as-tax-shelters-for-the-rich'
+    type: two-block
+    header: How Affluent Private Universities Act as Tax Shelters for the Rich
+    description: In this data visualization by lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id tempor tellus. Donec rhoncus iaculis ultricies.   
+  - type: two-block
+    normalimage: /uploads/debt-society-static.png
+    overlaytext: Click to view the video
+    video: <iframe src="https://player.vimeo.com/video/93340366" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><p><a href="https://vimeo.com/93340366">Debt And Society</a> from <a href="https://vimeo.com/seesprinkle">Christopher Sprinkle</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    header: Debt and Society
+    description: In this data visualization by lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id tempor tellus. Donec rhoncus iaculis ultricies. 
+    alignimage:   
 
 
 hero_image: ""

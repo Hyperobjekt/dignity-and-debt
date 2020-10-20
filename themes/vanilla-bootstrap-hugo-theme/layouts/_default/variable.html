@@ -46,6 +46,9 @@
                 {{ if eq .type "gallery" }}
                     {{ partial "gallery.html" . }}
                 {{ end }}
+                {{ if eq .type "two-block" }}
+                    {{ partial "two-block.html" . }}
+                {{ end }}
                 {{ if eq .type "textblock" }}
                     {{ partial "textblock.html" . }}
                 {{ end }}
