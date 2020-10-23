@@ -62,33 +62,70 @@ pagemaker:
     align: left
   - textblock: >- 
       ### Entries
-    type: textblock   
-  - normalimage: /uploads/skyler-video.png
+    type: textblock
+    textalign: center   
+  - header: The State of Education
+    entrant: Skyler Liu, Princeton University
+    normalimage: /uploads/state-of-education-screen.png
     overlaytext: Click to view the visualization site
     imagelink: 'https://public.tableau.com/profile/skyler.liu#!/vizhome/TheStateofEducation/TheStateofEducation'
     type: two-block
-    header: The State of Education
     description: In this data visualization by Skyler Liu, lorem ipsum dolor sit amet.
+    target: true
   - type: two-block
     header: 'Disparate Debts: How Student Loans Drive Racial Inequality Across American Cities'
+    entrant: Katherine Welbeck (class of '09) & Ben Kaufman, <a href="protectborrowers.org">Student Borrower Protection Center</a>
     description: In this data visualization by lorem ipsum dolor sit amet.
     normalimage: /uploads/Benjamin-Kaufman-3.png
     overlaytext: Click to view the report
-    imagelink: 'https://public.tableau.com/profile/skyler.liu#!/vizhome/TheStateofEducation/TheStateofEducation'
-    alignimage: 
+    imagelink: 'https://protectborrowers.org/new-report-finds-severe-racial-disparities-for-student-loan-borrowers-across-american-cities/'
+    alignimage: center
+    target: true
   - normalimage: /uploads/affluent-universities.png
     overlaytext: Click to view the entry at Pacific Standard Magazine
     imagelink: 'https://psmag.com/education/how-affluent-private-universities-act-as-tax-shelters-for-the-rich'
     type: two-block
     header: How Affluent Private Universities Act as Tax Shelters for the Rich
-    description: In this data visualization by lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id tempor tellus. Donec rhoncus iaculis ultricies.   
+    entrant: Leighton Woodhouse and Armando Aparicio, <a href="https://weareadamant.org">Adamant Media</a> and <a href="http://debtandsociety.ucmerced.edu">Debt & Society at UC Merced</a>
+    description: In this data visualization by lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id tempor tellus. Donec rhoncus iaculis ultricies.
+    target: true
+    alignimage: center   
   - type: two-block
     normalimage: /uploads/debt-society-static.png
     overlaytext: Click to view the video
-    video: <iframe src="https://player.vimeo.com/video/93340366" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><p><a href="https://vimeo.com/93340366">Debt And Society</a> from <a href="https://vimeo.com/seesprinkle">Christopher Sprinkle</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-    header: Debt and Society
+    imagelink: 'https://vimeo.com/93340366'
+    header: Wall Street's Higher Education Skim
+    entrant: Leighton Woodhouse, <a href="http://debtandsociety.ucmerced.edu">Debt & Society at UC Merced</a> and <a href="https://weareadamant.org">Adamant Media</a>
     description: In this data visualization by lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id tempor tellus. Donec rhoncus iaculis ultricies. 
-    alignimage:   
+    alignimage: center
+    target: true
+  - normalimage: /uploads/Francis Tseng-map.png
+    overlaytext: Click to view the entry at Jain Family Institute
+    imagelink: 'https://hef.jfiresearch.org/millenial-student-debt/'
+    type: two-block
+    header: 'Unceasing Debt, Disparate Burdens: Student Debt and Young America'
+    entrant: Laura Beamer, Francis Tseng, Eduard Nilaj, Jack Gross, Maya Adereth, and Marshall Steinbaum, Jain Family Institute
+    description: In this data visualization by lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id tempor tellus. Donec rhoncus iaculis ultricies.
+    target: true
+    alignimage: center
+  - normalimage: /uploads/hidden-racial-wealth-gap.png
+    overlaytext: Click to view the PDF
+    imagelink: '/uploads/wealthgapstudentaid - Jay Colond.pdf'
+    type: two-block
+    header: 'Student debt and the hidden racial wealth gap in federal aid formulas'
+    entrant: Charlie Eaton, Waleed Rajabally, Luis Ruben Gonzalez, Jay Colond, UC Merced
+    description: In this data visualization by lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id tempor tellus. Donec rhoncus iaculis ultricies.
+    target: true
+    alignimage: center 
+  - normalimage: /uploads/stagnant-income-levels.png
+    overlaytext: Click to view the image
+    imagelink: '/uploads/DIGNITY IN DEBT FINAL AFHARMON - Austin Harmon.jpg'
+    type: two-block
+    header: 'Stagnant Income Levels Fail to Account for Rising Tuition Prices'
+    entrant: Austin Harmon, Princeton University
+    description: In this data visualization by lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id tempor tellus. Donec rhoncus iaculis ultricies.   
+    target: true
+    alignimage: center        
 
 
 hero_image: ""

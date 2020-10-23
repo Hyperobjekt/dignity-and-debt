@@ -84,10 +84,16 @@
 
 .two-block {
     background-color:#ecf2f3;
+    min-height: 240px;
     &.align-right {
         .pagemaker {
             order: 2;
         }
+    }
+    .two-block-bg {
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 240px;
     }
     .two-block-header {
         text-transform: none !important;

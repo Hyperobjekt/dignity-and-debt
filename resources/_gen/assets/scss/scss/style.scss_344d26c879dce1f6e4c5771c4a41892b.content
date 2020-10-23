@@ -12262,6 +12262,14 @@ a:hover {
   line-height: 2.6rem;
 }
 
+.title {
+  font-family: "brandon-grotesque", "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
+  font-size: 1.8rem;
+  color: #1C6F81;
+  font-style: italic;
+  line-height: 1.5;
+}
+
 .container.parent {
   padding-right: 0;
   padding-left: 0;
@@ -14088,7 +14096,7 @@ body.type-projects.kind-page .row h2 {
   body.type-projects.kind-page .row h2 {
     font-size: 2.8rem;
     margin-top: 4rem;
-    padding: 0 24px;
+    padding: 0 8px;
   }
 }
 
@@ -16069,10 +16077,17 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
 
 .two-block {
   background-color: #ecf2f3;
+  min-height: 240px;
 }
 
 .two-block.align-right .pagemaker {
   order: 2;
+}
+
+.two-block .two-block-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 240px;
 }
 
 .two-block .two-block-header {

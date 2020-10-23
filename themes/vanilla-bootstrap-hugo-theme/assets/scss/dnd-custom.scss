@@ -67,6 +67,14 @@ a {
     line-height: 2.6rem;
 }
 
+.title {
+  font-family: $brandongrotesque-reg;
+  font-size: 1.8rem;
+  color: $dnd-darkgreen;
+  font-style: italic;
+  line-height: 1.5;
+}
+
 // Page container
 .container.parent {
   padding-right: 0;
@@ -1872,7 +1880,7 @@ body.type-projects {
         @include media-breakpoint-down(sm) {
           font-size: 2.8rem;
           margin-top: 4rem;
-          padding: 0 24px;
+          padding: 0 8px;
         }
       }
       &.content {

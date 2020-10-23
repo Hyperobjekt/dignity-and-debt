@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  branch: contestgallery # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
 
@@ -388,7 +388,20 @@ collections:
             fields:
               - {label: Button Label, name: buttonlabel, widget: string}  
               - {label: Link, name: link, widget: string}    
-              - {label: Button alignment, name: align, widget: select, options: ["left", "center"]}               
+              - {label: Button alignment, name: align, widget: select, options: ["left", "center"]} 
+          - label: Contest entry
+            name: two-block
+            widget: object
+            fields:
+              - {label: Heading, name: header, widget: string, required: false,}
+              - {label: Entrant, name: entrant, widget: markdown, required: false,}
+              - {label: Description, name: description, widget: markdown, required: false,} 
+              - {label: Image thumbnail, name: normalimage, widget: image, required: false,}
+              - {label: Image hover text, name: overlaytext, widget: string, required: false,}
+              - {label: Project link, name: imagelink, widget: string, required: false,}
+              - {label: 'Should link open new tab?', name: target, widget: boolean, required: false,}       
+              - {label: Image horizontal alignment, name: alignimage, widget: select, options: ["left", "center", "right"]} 
+                    
 
   # SPECIAL PROJECT ITEMS    
   - label: "Special Projects"
