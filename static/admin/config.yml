@@ -395,12 +395,14 @@ collections:
             fields:
               - {label: Heading, name: header, widget: string, required: false,}
               - {label: Entrant, name: entrant, widget: markdown, required: false,}
+              - {label: Princeton Entry, name: princetonentry, widget: boolean, default: false,}
               - {label: Description, name: description, widget: markdown, required: false,} 
               - {label: Image thumbnail, name: normalimage, widget: image, required: false,}
               - {label: Image hover text, name: overlaytext, widget: string, required: false,}
               - {label: Project link, name: imagelink, widget: string, required: false,}
               - {label: 'Should link open new tab?', name: target, widget: boolean, required: false,}       
               - {label: Image horizontal alignment, name: alignimage, widget: select, options: ["left", "center", "right"]} 
+              - {label: Winner, name: winner, widget: boolean, default: false,}
                     
 
   # SPECIAL PROJECT ITEMS    

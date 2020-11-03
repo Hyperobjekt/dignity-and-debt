@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="135px" height="134px" viewBox="0 0 135 134" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Winner banner</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F7981A" offset="0%"></stop>
+            <stop stop-color="#D66209" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-274.000000, -452.000000)">
+            <g id="Winner-banner" transform="translate(243.686292, 420.343146)">
+                <rect id="Rectangle" fill="#474747" x="158.35741" y="31.89953" width="6.14185068" height="5.77539062"></rect>
+                <rect id="Rectangle" fill="#474747" x="31.3137085" y="154.656854" width="5" height="11"></rect>
+                <polygon id="Rectangle" fill="url(#linearGradient-1)" transform="translate(82.278175, 83.000000) rotate(-45.000000) translate(-82.278175, -83.000000) " points="31.6707441 61.3348015 132.43564 61 176.556349 105 -12 105"></polygon>
+                <polygon id="Star" fill="#FFFFFF" transform="translate(54.563708, 112.097980) rotate(26.000000) translate(-54.563708, -112.097980) " points="54.5637085 116.22298 49.7144802 118.77237 50.6406004 113.372675 46.7174922 109.54859 52.1390943 108.760785 54.5637085 103.84798 56.9883227 108.760785 62.4099248 109.54859 58.4868166 113.372675 59.4129368 118.77237"></polygon>
+                <text id="WINNER" transform="translate(91.813708, 79.156854) rotate(-45.000000) translate(-91.813708, -79.156854) " font-family="BrandonGrotesque-Bold" font-size="19" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="53.3137085" y="82.6568542">WINNER</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

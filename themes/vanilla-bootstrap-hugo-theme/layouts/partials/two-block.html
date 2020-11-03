@@ -28,7 +28,10 @@
                         {{ end }}
                         {{ if .overlaytext }}
                             <div class="img-hover-overlay">{{ .overlaytext }}</div>
-                        {{ end }}  
+                        {{ end }}
+                        {{ if eq .winner true }} 
+                            <div class="winner-banner"></div> 
+                        {{ end }}    
                     </a> 
                 </div>
            
@@ -80,6 +83,9 @@
 
     <div class="col-12 col-mmd-7 justify-content-left align-items-start pb-4">
         <h3 class="two-block-header mt-3 mt-md-4 mb-2">{{ .header }}</h3>
+        {{ if eq .princetonentry true }}
+            <div class="princeton-entry"><img src="/images/princeton-logomark.svg">&nbsp;&nbsp;Princeton entry</div>
+        {{ end }}    
         <div class="title">{{ .entrant | safeHTML }}</div>
         <p class="two-block-description mb-2">{{ .description | markdownify | safeHTML }}</p>
         {{ if or (.video) (.image) }}
