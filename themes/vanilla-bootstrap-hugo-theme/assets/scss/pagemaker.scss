@@ -111,11 +111,11 @@
         height: 100%;
         position: absolute;
         z-index: 99;
-        top: -2%;
+        top: -1%;
         left: -1%;
         @include media-breakpoint-up(lg) {
-            left: -1.5%;
-            top: -1.5%;
+            left: -1.2%;
+            top: -1.2%;
         }
         background-repeat: no-repeat;
 
