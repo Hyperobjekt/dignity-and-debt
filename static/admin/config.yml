@@ -395,7 +395,7 @@ collections:
             fields:
               - {label: Heading, name: header, widget: string, required: false,}
               - {label: Entrant, name: entrant, widget: markdown, required: false,}
-              - {label: Princeton Entry, name: princetonentry, widget: boolean, default: false,}
+              - {label: Princeton Entry, name: princetonentry, widget: boolean, default: false, required: false,}
               - {label: Description, name: description, widget: markdown, required: false,} 
               - {label: Image thumbnail, name: normalimage, widget: image, required: false,}
               - {label: Image hover text, name: overlaytext, widget: string, required: false,}
