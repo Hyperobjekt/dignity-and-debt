@@ -401,7 +401,7 @@ collections:
               - {label: Image hover text, name: overlaytext, widget: string, required: false,}
               - {label: Project link, name: imagelink, widget: string, required: false,}
               - {label: 'Should link open new tab?', name: target, widget: boolean, required: false,}       
-              - {label: Image horizontal alignment, name: alignimage, widget: select, options: ["left", "center", "right"]} 
+              - {label: Image horizontal alignment, name: alignimage, widget: select, options: ["left", "center", "right"], required: false,} 
               - {label: Winner, name: winner, widget: boolean, default: false,}
                     
 
