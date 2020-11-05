@@ -82,7 +82,7 @@ pagemaker:
     winner: false
   - entrant: Katherine Welbeck (class of '09) & Ben Kaufman, <a
       href="protectborrowers.org">Student Borrower Protection Center</a>
-    princetonentry: true
+    princetonentry: false
     header: "Disparate Debts: How Student Loans Drive Racial Inequality Across
       American Cities"
     target: true
@@ -164,6 +164,7 @@ pagemaker:
     overlaytext: Click to view the PDF
     winner: false
   - entrant: Austin Harmon, Princeton University
+    princetonentry: true
     header: Stagnant Income Levels Fail to Account for Rising Tuition Prices
     target: true
     normalimage: /uploads/stagnant-income-levels.png
