@@ -17,7 +17,7 @@ pagemaker:
       ### Can Visualizations Help Solve the Student Loan Debt Crisis?
 
 
-      Visualizations can render data to make it meaningful for people around the world. Furthermore, they are able to reveal what might be either changed or strengthened through policy and individual action. To draw on this potential, The [VizE Lab](https://vizelab.princeton.edu) and The Dignity+Debt Network are calling for data visualizations, maps, or short documentary films and photography that portray student loan debt. See our own "[The Problem of Colored Lines](https://www.dignityanddebt.org/projects/student-debt-racial-disparities/)" gallery on racial disparities and the student loan crisis, inspired by the drawings of W.E.B. DuBois.
+      Visualizations can render data to make it meaningful for people around the world. Furthermore, they are able to reveal what might be either changed or strengthened through policy and individual action. To draw on this potential, The [VizE Lab](https://vizelab.princeton.edu) and The Dignity+Debt Network have called for data visualizations, maps, or short documentary films and photography that portray student loan debt. See our own "[The Problem of Colored Lines](https://www.dignityanddebt.org/projects/student-debt-racial-disparities/)" gallery on racial disparities and the student loan crisis, inspired by the drawings of W.E.B. DuBois.
 
 
       **AWARDS**
@@ -43,11 +43,6 @@ pagemaker:
 
       * Short-form documentaries may be up to 16 minutes.
     type: textblock
-  - custombutton: null
-    buttonlabel: ENTER CONTEST
-    link: https://forms.gle/vz5Keo5oGPtTHRHfA
-    type: custombutton
-    align: left
   - textblock: "### Entries"
     type: textblock
     textalign: center
@@ -76,17 +71,11 @@ pagemaker:
     imagelink: https://protectborrowers.org/new-report-finds-severe-racial-disparities-for-student-loan-borrowers-across-american-cities/
     alignimage: center
     type: two-block
-    description: In this data visualization by Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit. In dictum tellus consequat, dignissim lorem
-      a, feugiat erat. Quisque molestie orci ac nunc elementum, in tempor metus
-      aliquam. Morbi lobortis rhoncus tristique. Maecenas feugiat hendrerit
-      erat, id iaculis nunc laoreet id. Proin non nisi malesuada, scelerisque
-      sem sed, faucibus lectus.
+    description: ""
     overlaytext: Click to view the report
     winner: false
-  - entrant: Leighton Woodhouse and Armando Aparicio, <a
-      href="https://weareadamant.org">Adamant Media</a> and <a
-      href="http://debtandsociety.ucmerced.edu">Debt & Society at UC Merced</a>
+  - entrant: Katherine Welbeck (Class of '09) & Ben Kaufman, <a
+      href="protectborrowers.org">Student Borrower Protection Center</a>
     header: How Affluent Private Universities Act as Tax Shelters for the Rich
     target: true
     normalimage: /uploads/affluent-universities.png
@@ -135,7 +124,7 @@ pagemaker:
     overlaytext: Click to view the entry at Jain Family Institute
     winner: false
   - entrant: Charlie Eaton, Waleed Rajabally, Luis Ruben Gonzalez, Jay Colond, UC Merced
-    header: Student debt and the hidden racial wealth gap in federal aid formulas
+    header: Student Debt and the Hidden Racial Wealth Gap in Federal Aid Formulas
     target: true
     normalimage: /uploads/hidden-racial-wealth-gap.png
     imagelink: /uploads/wealthgapstudentaid - Jay Colond.pdf
@@ -147,7 +136,7 @@ pagemaker:
       aliquam. Morbi lobortis rhoncus tristique. Maecenas feugiat hendrerit
       erat, id iaculis nunc laoreet id. Proin non nisi malesuada, scelerisque
       sem sed, faucibus lectus.
-    overlaytext: Click to view the PDF
+    overlaytext: Click to view the full image
     winner: false
   - entrant: Austin Harmon, Princeton University
     princetonentry: true
@@ -157,12 +146,7 @@ pagemaker:
     imagelink: /uploads/DIGNITY IN DEBT FINAL AFHARMON - Austin Harmon.jpg
     alignimage: center
     type: two-block
-    description: In this data visualization by Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit. In dictum tellus consequat, dignissim lorem
-      a, feugiat erat. Quisque molestie orci ac nunc elementum, in tempor metus
-      aliquam. Morbi lobortis rhoncus tristique. Maecenas feugiat hendrerit
-      erat, id iaculis nunc laoreet id. Proin non nisi malesuada, scelerisque
-      sem sed, faucibus lectus.
+    description: ""
     overlaytext: Click to view the image
     winner: false
 hero_image: ""
