@@ -1,13 +1,35 @@
-{{ if .image }}   
-   <div class="project-img pagemaker column-project-img mb-4 launch-modal" 
-    aria-label="Launch full sized image" data-img="{{ .image }}" 
-    data-fullimg="{{ .fullimage }}" tabindex="0" role="button">
-        <img class="gallery" src="{{ .thumb }}" />
-    </div>    
-{{ else if .video }}   
-   <div class="project-img pagemaker column-project-img mb-4 launch-modal" 
-    aria-label="Launch full sized image" data-img="{{ .image }}" 
-    data-fullimg="" data-video="{{ .video }}" tabindex="0" role="button">
-        <img class="gallery" src="{{ .thumb }}" />
-    </div>    
-{{ end }}   
+
+    {{ if .image }}   
+    <div class="project-img pagemaker column-project-img px-2 px-md-3 px-xl-4 mt-4 mt-md-5 mt-xl-6 mb-0 launch-modal" 
+        aria-label="Launch full sized image" data-img="{{ .image }}" 
+        data-fullimg="{{ .fullimage }}" tabindex="0" role="button">
+
+        {{ $img := strings.TrimPrefix "/uploads/" .image }}
+                {{ $alt := .alt }}
+                {{ with site.GetPage "uploads/_index.md" }}
+                {{ with .Resources.GetMatch $img }}
+                    {{ $options := "400x800 q90" }} {{/* Options for 1x devices */}}
+                    {{ $options2x := "800x1600 q90" }} {{/* Options for 2x devices */}}
+                    {{ $sizes := "(min-width: 400px) 100vw, 80vw"}} {{/* Sizes attr options for 2x devices */}}
+                    {{ $processed := .Fit $options }} {{/* This line processes the image with the regular res opts */}}
+                    {{ $processed2x := .Fit $options2x }} {{/* This line processes the image with the high res opts */}}
+                        <img class="gallery" src="{{ $processed.RelPermalink }}" sizes="{{ $sizes }}" width="{{ $processed.Width }}" height="{{ $processed.Height}}" alt="{{ $alt }}" srcset="{{ $processed.RelPermalink }}, {{ $processed2x.RelPermalink }} 2x"/>
+
+                    {{ end }}
+                    {{ end }}
+
+
+        </div>    
+    {{ else if .video }}   
+    <div class="project-img pagemaker column-project-img mt-4 mt-md-5 mt-xl-6 mb-0 launch-modal" 
+        aria-label="Launch full sized image" data-img="{{ .image }}" 
+        data-fullimg="" data-video="{{ .video }}" tabindex="0" role="button">
+            <div class="gallery-img-wrapper">
+                <img class="gallery" src="{{ .thumb }}" />
+                <div class="img-hover-overlay">TEST</div>
+            </div>
+        </div>    
+    {{ end }}   
+
+
+  
