@@ -17,7 +17,7 @@ pagemaker:
       ### Can Visualizations Help Solve the Student Loan Debt Crisis?
 
 
-      Visualizations can render data to make it meaningful for people around the world. Furthermore, they are able to reveal what might be either changed or strengthened through policy and individual action. To draw on this potential, The [VizE Lab](https://vizelab.princeton.edu) and The Dignity+Debt Network have called for data visualizations, maps, or short documentary films and photography that portray student loan debt. See our own "[The Problem of Colored Lines](https://www.dignityanddebt.org/projects/student-debt-racial-disparities/)" gallery on racial disparities and the student loan crisis, inspired by the drawings of W.E.B. DuBois.
+      Visualizations can render data to make it meaningful for people around the world. Furthermore, they are able to reveal what might be either changed or strengthened through policy and individual action. To draw on this potential, The [VizE Lab](https://vizelab.princeton.edu) and The Dignity+Debt Network called for data visualizations, maps, or short documentary films and photography that portray student loan debt. See our own "[The Problem of Colored Lines](https://www.dignityanddebt.org/projects/student-debt-racial-disparities/)" gallery on racial disparities and the student loan crisis, inspired by the drawings of W.E.B. DuBois.
 
 
       **AWARDS**
@@ -158,8 +158,8 @@ description: Visualizations can render data to make it meaningful for people
   around the world. Furthermore, they are able to reveal what might be either
   changed or strengthened through policy and individual action. To draw on this
   potential, The [VizE Lab](https://vizelab.princeton.edu) and The Dignity+Debt
-  Network have called for data visualizations, maps, or short documentary films
-  and photography that portray student loan debt. See our own "[The Problem of
+  Network called for data visualizations, maps, or short documentary films and
+  photography that portray student loan debt. See our own "[The Problem of
   Colored
   Lines](https://www.dignityanddebt.org/projects/student-debt-racial-disparities/)"
   gallery on racial disparities and the student loan crisis, inspired by the
