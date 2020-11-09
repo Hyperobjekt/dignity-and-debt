@@ -53,12 +53,7 @@ pagemaker:
     normalimage: /uploads/state-of-education-screen.png
     imagelink: https://public.tableau.com/profile/skyler.liu#!/vizhome/TheStateofEducation/TheStateofEducation
     type: two-block
-    description: In this data visualization by Skyler Liu, Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. In dictum tellus consequat, dignissim
-      lorem a, feugiat erat. Quisque molestie orci ac nunc elementum, in tempor
-      metus aliquam. Morbi lobortis rhoncus tristique. Maecenas feugiat
-      hendrerit erat, id iaculis nunc laoreet id. Proin non nisi malesuada,
-      scelerisque sem sed, faucibus lectus.
+    description: ""
     overlaytext: Click to view the visualization site
     winner: false
   - entrant: Katherine Welbeck (class of '09) & Ben Kaufman, <a
