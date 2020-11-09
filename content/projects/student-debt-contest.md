@@ -69,7 +69,7 @@ pagemaker:
     description: ""
     overlaytext: Click to view the report
     winner: false
-  - entrant: Leighton Woodhouse and Armando Aparicio, <a
+  - entrant: Leighton Woodhouse and Armando Aparicio,<a
       href="https://weareadamant.org">Adamant Media</a> and <a
       href="http://debtandsociety.ucmerced.edu">Debt & Society at UC Merced</a>
     header: How Affluent Private Universities Act as Tax Shelters for the Rich
