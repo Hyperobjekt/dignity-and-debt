@@ -56,7 +56,7 @@ pagemaker:
     description: ""
     overlaytext: Click to view the visualization site
     winner: false
-  - entrant: Katherine Welbeck (class of '09) & Ben Kaufman, <a
+  - entrant: Katherine Welbeck (Class of '09) & Ben Kaufman, <a
       href="protectborrowers.org">Student Borrower Protection Center</a>
     princetonentry: false
     header: "Disparate Debts: How Student Loans Drive Racial Inequality Across
@@ -69,8 +69,9 @@ pagemaker:
     description: ""
     overlaytext: Click to view the report
     winner: false
-  - entrant: Katherine Welbeck (Class of '09) & Ben Kaufman, <a
-      href="protectborrowers.org">Student Borrower Protection Center</a>
+  - entrant: Leighton Woodhouse and Armando Aparicio, [Adamant
+      Media](https://weareadamant.org) and [Debt & Society, UC
+      Merced](http://debtandsociety/ucmerced.edu)
     header: How Affluent Private Universities Act as Tax Shelters for the Rich
     target: true
     normalimage: /uploads/affluent-universities.png
@@ -103,7 +104,8 @@ pagemaker:
     description: ""
     overlaytext: Click to view the entry at Jain Family Institute
     winner: false
-  - entrant: Charlie Eaton, Waleed Rajabally, Luis Ruben Gonzalez, Jay Colond, UC Merced
+  - entrant: Charlie Eaton, Waleed Rajabally, Luis Ruben Gonzalez, and Jay Colond,
+      UC Merced
     header: Student Debt and the Hidden Racial Wealth Gap in Federal Aid Formulas
     target: true
     normalimage: /uploads/hidden-racial-wealth-gap.png
