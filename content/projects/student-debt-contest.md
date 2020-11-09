@@ -46,19 +46,14 @@ pagemaker:
   - textblock: "### Entries"
     type: textblock
     textalign: center
-  - entrant: Skyler Liu, Princeton University
+  - entrant: Skyler Liu '21, Princeton University
     princetonentry: true
     header: The State of Education
     target: true
     normalimage: /uploads/state-of-education-screen.png
     imagelink: https://public.tableau.com/profile/skyler.liu#!/vizhome/TheStateofEducation/TheStateofEducation
     type: two-block
-    description: In this data visualization by Skyler Liu, Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. In dictum tellus consequat, dignissim
-      lorem a, feugiat erat. Quisque molestie orci ac nunc elementum, in tempor
-      metus aliquam. Morbi lobortis rhoncus tristique. Maecenas feugiat
-      hendrerit erat, id iaculis nunc laoreet id. Proin non nisi malesuada,
-      scelerisque sem sed, faucibus lectus.
+    description: ""
     overlaytext: Click to view the visualization site
     winner: false
   - entrant: Katherine Welbeck (class of '09) & Ben Kaufman, <a
@@ -82,12 +77,7 @@ pagemaker:
     imagelink: https://psmag.com/education/how-affluent-private-universities-act-as-tax-shelters-for-the-rich
     alignimage: center
     type: two-block
-    description: In this data visualization by Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit. In dictum tellus consequat, dignissim lorem
-      a, feugiat erat. Quisque molestie orci ac nunc elementum, in tempor metus
-      aliquam. Morbi lobortis rhoncus tristique. Maecenas feugiat hendrerit
-      erat, id iaculis nunc laoreet id. Proin non nisi malesuada, scelerisque
-      sem sed, faucibus lectus.
+    description: ""
     overlaytext: Click to view the entry at Pacific Standard Magazine
     winner: false
   - entrant: Leighton Woodhouse, <a href="http://debtandsociety.ucmerced.edu">Debt &
@@ -99,12 +89,7 @@ pagemaker:
     imagelink: https://vimeo.com/93340366
     alignimage: center
     type: two-block
-    description: In this data visualization by Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit. In dictum tellus consequat, dignissim lorem
-      a, feugiat erat. Quisque molestie orci ac nunc elementum, in tempor metus
-      aliquam. Morbi lobortis rhoncus tristique. Maecenas feugiat hendrerit
-      erat, id iaculis nunc laoreet id. Proin non nisi malesuada, scelerisque
-      sem sed, faucibus lectus.
+    description: ""
     overlaytext: Click to view the video
     winner: false
   - entrant: Laura Beamer, Francis Tseng, Eduard Nilaj, Jack Gross, Maya Adereth,
@@ -115,12 +100,7 @@ pagemaker:
     imagelink: https://hef.jfiresearch.org/millenial-student-debt/
     alignimage: center
     type: two-block
-    description: In this data visualization by lLorem ipsum dolor sit amet,
-      consectetur adipiscing elit. In dictum tellus consequat, dignissim lorem
-      a, feugiat erat. Quisque molestie orci ac nunc elementum, in tempor metus
-      aliquam. Morbi lobortis rhoncus tristique. Maecenas feugiat hendrerit
-      erat, id iaculis nunc laoreet id. Proin non nisi malesuada, scelerisque
-      sem sed, faucibus lectus.
+    description: ""
     overlaytext: Click to view the entry at Jain Family Institute
     winner: false
   - entrant: Charlie Eaton, Waleed Rajabally, Luis Ruben Gonzalez, Jay Colond, UC Merced
@@ -130,15 +110,10 @@ pagemaker:
     imagelink: /uploads/wealthgapstudentaid - Jay Colond.pdf
     alignimage: center
     type: two-block
-    description: In this data visualization by Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit. In dictum tellus consequat, dignissim lorem
-      a, feugiat erat. Quisque molestie orci ac nunc elementum, in tempor metus
-      aliquam. Morbi lobortis rhoncus tristique. Maecenas feugiat hendrerit
-      erat, id iaculis nunc laoreet id. Proin non nisi malesuada, scelerisque
-      sem sed, faucibus lectus.
+    description: ""
     overlaytext: Click to view the full image
     winner: false
-  - entrant: Austin Harmon, Princeton University
+  - entrant: Austin Harmon '22, Princeton University
     princetonentry: true
     header: Stagnant Income Levels Fail to Account for Rising Tuition Prices
     target: true
