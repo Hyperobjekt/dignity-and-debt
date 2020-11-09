@@ -2,7 +2,7 @@
 layout: variable
 has_modal: true
 social_image: null
-social_description: The VizE Lab and Dignity+Debt have called for data
+social_description: The VizE Lab and Dignity+Debt called for data
   visualizations, maps, or short documentary films and photography that portray
   student loan debt.
 date: 2019-07-20T00:00:00.000Z
