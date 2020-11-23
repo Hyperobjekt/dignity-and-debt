@@ -511,9 +511,11 @@ collections:
     folder: "content/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "YYYY-MM-DD-title.md" # Filename template, e.g., YYYY-MM-DD-title.md
+    filter: {field: "is_index", value: false}
     fields:
       - {label: Title, name: title, widget: string}
       - {label: Author, name: author, widget: string, required: false}
+      - {label: "Is Index", name: "is_index", widget: "hidden", default: false}
       # image
       - label: "News Item Image"
         name: "image"
