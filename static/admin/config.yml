@@ -509,7 +509,7 @@ collections:
   - label: "News Items"
     name: "news"
     folder: "content/news" # The path to the folder where the documents are stored
-    create: false # Allow users to create new documents in this collection
+    create: true # Allow users to create new documents in this collection
     slug: "YYYY-MM-DD-title.md" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - {label: Title, name: title, widget: string}
