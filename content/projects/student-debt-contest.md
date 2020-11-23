@@ -105,7 +105,7 @@ pagemaker:
     header: Student Debt and the Hidden Racial Wealth Gap in Federal Aid Formulas
     target: true
     normalimage: /uploads/hidden-racial-wealth-gap.png
-    imagelink: /uploads/wealthgapstudentaid - Jay Colond.pdf
+    imagelink: /uploads/wealthgapstudentaid2.pdf
     alignimage: center
     type: two-block
     description: ""
