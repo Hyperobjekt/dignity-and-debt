@@ -508,6 +508,7 @@ collections:
   # NEWS ITEMS 
   - label: "News Items"
     name: "news"
+    preview_path: news/  
     folder: "content/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "YYYY-MM-DD-title.md" # Filename template, e.g., YYYY-MM-DD-title.md

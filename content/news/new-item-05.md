@@ -2,7 +2,7 @@
 title: Global Forum on Student Debt
 author: ""
 image: /uploads/dscf0381.jpeg
-date: 2019-10-18T00:00:00.000Z
+date: 2020-01-12T00:00:00.000Z
 is_index: false
 link: https://www.dignityanddebt.org/meetings/digging-out-with-dignity-solving-the-student-loan-crisis-and-honoring-meaning-at-the-margins/
 ---

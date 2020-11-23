@@ -2,7 +2,7 @@
 title: Interview with Fred Wherry on a Dignified Approach to Digital Credit
 author: ""
 image: /uploads/wherry-seminar-table.jpg
-date: 2020-04-15
+date: 2020-01-11
 is_index: false
 link: https://www.mastercardcenter.org/insights/a-dignified-approach
 ---

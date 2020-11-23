@@ -16,7 +16,7 @@
     </div>
   </div>
 
-    {{ $paginator := .Paginate (where .Pages.ByPublishDate "Date.Unix" "lt" now.Unix) 10 }}
+    {{ $paginator := .Paginate (where .Pages.ByPublishDate.Reverse "Date.Unix" "lt" now.Unix) 10 }}
 
     {{ range $paginator.Pages }}
   <div class="row projects-page news-list projects project">
