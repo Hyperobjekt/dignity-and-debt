@@ -100,7 +100,7 @@ pagemaker:
     description: ""
     overlaytext: Click to view the entry at Jain Family Institute
     winner: false
-  - entrant: Charlie Eaton, Waleed Rajabally, Luis Ruben Gonzalez, and Jay Colond,
+  - entrant: Jay Colond, Charlie Eaton, Luis Ruben Gonzalez, and Waleed Rajabally,
       UC Merced
     header: Student Debt and the Hidden Racial Wealth Gap in Federal Aid Formulas
     target: true
