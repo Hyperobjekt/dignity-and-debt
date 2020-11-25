@@ -1,5 +1,5 @@
 ---
-title: "Fred Wherry on Fair Bartering When Supplies Are Lacking "
+title: "Fred Wherry on Fair Bartering When Resouces Are Lacking "
 is_index: false
 image: /uploads/barter_192379240.jpeg
 date: 2020-11-25
