@@ -51,7 +51,7 @@ pagemaker:
     type: two-block
     description: ""
     overlaytext: Click to view the visualization site
-    winner: false
+    winner: true
   - entrant: Katherine Welbeck (Class of '09) & Ben Kaufman, <a
       href="protectborrowers.org">Student Borrower Protection Center</a>
     princetonentry: false
@@ -64,7 +64,7 @@ pagemaker:
     type: two-block
     description: ""
     overlaytext: Click to view the report
-    winner: false
+    winner: true
   - entrant: Leighton Woodhouse and Armando Aparicio,<a
       href="https://weareadamant.org">Adamant Media</a> and <a
       href="http://debtandsociety.ucmerced.edu">Debt & Society at UC Merced</a>
@@ -76,7 +76,7 @@ pagemaker:
     type: two-block
     description: ""
     overlaytext: Click to view the entry at Pacific Standard Magazine
-    winner: false
+    winner: true
   - entrant: Leighton Woodhouse, <a href="http://debtandsociety.ucmerced.edu">Debt &
       Society at UC Merced</a> and <a href="https://weareadamant.org">Adamant
       Media</a>
@@ -88,7 +88,7 @@ pagemaker:
     type: two-block
     description: ""
     overlaytext: Click to view the video
-    winner: false
+    winner: true
   - entrant: Laura Beamer, Francis Tseng, Eduard Nilaj, Jack Gross, Maya Adereth,
       and Marshall Steinbaum, Jain Family Institute
     header: "Unceasing Debt, Disparate Burdens: Student Debt and Young America"
@@ -99,9 +99,10 @@ pagemaker:
     type: two-block
     description: ""
     overlaytext: Click to view the entry at Jain Family Institute
-    winner: false
+    winner: true
   - entrant: Jay Colond, Charlie Eaton, Luis Ruben Gonzalez, and Waleed Rajabally,
       UC Merced
+    princetonentry: false
     header: Student Debt and the Hidden Racial Wealth Gap in Federal Aid Formulas
     target: true
     normalimage: /uploads/hidden-racial-wealth-gap.png
@@ -110,7 +111,7 @@ pagemaker:
     type: two-block
     description: ""
     overlaytext: Click to view the full image
-    winner: false
+    winner: true
   - entrant: Austin Harmon '22, Princeton University
     princetonentry: true
     header: Stagnant Income Levels Fail to Account for Rising Tuition Prices
@@ -121,7 +122,7 @@ pagemaker:
     type: two-block
     description: ""
     overlaytext: Click to view the image
-    winner: false
+    winner: true
 hero_image: ""
 subtitle: ""
 title: Visualizing Student Debt Contest
