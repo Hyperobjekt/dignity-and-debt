@@ -1,23 +1,20 @@
 header: Latest Updates
 teasercontent:
-  - body: >-
-      View a series of original data visualizations exploring facets of student
+  - body: Envisioning a meaningful future of financial autonomy and educational
+      inclusion around the world.
+    button: LEARN MORE
+    heading: Student Debt Visualization Contest Winners Announced
+    image: /uploads/viz-contest-crop-5-2.jpg
+    link: /projects/student-debt-contest/
+  - body: View a series of original data visualizations exploring facets of student
       loan debt, created in homage to W.E.B. Du Bois.
     button: LEARN MORE
     heading: Student Debt and Racial Disparities
     image: /uploads/04-Student-debt-and-defaults-teaser.jpg
     link: /projects/student-debt-racial-disparities/
-  - body: >-
-      Use this interactive tool to calculate your student debt, compare it with
+  - body: Use this interactive tool to calculate your student debt, compare it with
       various demographic groups, and explore options for refinancing.
     button: LEARN MORE
     heading: Student Loan Debt Calculator
     image: /uploads/loan-calc-crop-440.jpg
     link: /projects/student-debt-calculator/
-  - body: >-
-      Enter and help envision a meaningful future of financial autonomy and
-      educational inclusion around the world.
-    button: LEARN MORE
-    heading: Student Debt and Dignity Visualization Contest
-    image: /uploads/viz-contest-crop-5-2.jpg
-    link: /projects/student-debt-contest/
