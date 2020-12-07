@@ -33,7 +33,7 @@ pagemaker:
     overlaytext: Click to view the visualization site
     winner: true
   - entrant: Katherine Welbeck (Class of '09) & Ben Kaufman, <a
-      href="protectborrowers.org">Student Borrower Protection Center</a>
+      href="https://protectborrowers.org">Student Borrower Protection Center</a>
     princetonentry: false
     header: "Disparate Debts: How Student Loans Drive Racial Inequality Across
       American Cities"
