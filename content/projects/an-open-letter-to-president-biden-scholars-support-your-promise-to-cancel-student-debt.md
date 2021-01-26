@@ -1,5 +1,5 @@
 ---
-title: "**An Open Letter to President Biden:** Scholars support your promise to
+title: "An Open Letter to President Biden: Scholars support your promise to
   cancel student debt"
 layout: variable
 is_index: false
