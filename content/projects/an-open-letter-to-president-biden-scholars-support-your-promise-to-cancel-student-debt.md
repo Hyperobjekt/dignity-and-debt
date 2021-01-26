@@ -9,7 +9,7 @@ weight: 1
 date: 2021-01-26T21:43:45.923Z
 indexpage: false
 link_out: false
-hero_image_fw: /uploads/projects.png
+hero_image_fw: ""
 pagemaker: []
 ---
 **An Open Letter to President Biden:** Scholars support your promise to cancel student debt
