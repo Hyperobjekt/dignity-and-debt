@@ -5,7 +5,7 @@ image: /uploads/studentborrower_119083745.jpeg
 date: 2021-01-26
 link: https://drive.google.com/file/d/1cpo75uY8L7R4PNN37O2_JZJ9dHNAAYWN/view?usp=sharing
 ---
-**An Open Letter to President Biden:** Scholars support your promise to cancel student debt.
+**An Open Letter to President Biden:**
 
 Dear President Biden,
 
