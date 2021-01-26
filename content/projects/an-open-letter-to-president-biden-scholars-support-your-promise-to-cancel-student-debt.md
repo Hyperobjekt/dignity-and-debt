@@ -16,6 +16,8 @@ To add your signature, visit: [https://forms.gle/nZxJsMYSyQkoA8yC7](https://url
 
  
 
+{{% breaker image="undefined" %}}
+
 Dear President Biden,
 
 We are scholars who study student debt, higher education, and racial inequality. We write to urge you to use your executive authority to cancel student debt as soon as possible. Doing so will address racial debt disparities, provide urgent economic relief for all Americans, further stimulate the economic recovery, and right a series of wrongs.
@@ -150,7 +152,7 @@ Naomi Zewde, Assistant Professor of Health Policy, City University of New York
 
 Kathrin Zippel, Professor of Sociology and Anthropology, Northeastern University
 
- 
+  
 
 **Endnotes**
 
