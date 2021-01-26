@@ -1,5 +1,5 @@
 ---
-title: "Network Scholars Write Biden to Support Cancelling Student Debt "
+title: "Scholars Write Biden to Support Cancelling Student Debt "
 is_index: false
 image: /uploads/studentborrower_119083745.jpeg
 date: 2021-01-26
