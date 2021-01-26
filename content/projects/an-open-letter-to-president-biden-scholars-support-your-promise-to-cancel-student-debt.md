@@ -16,7 +16,7 @@ To add your signature, visit: [https://forms.gle/nZxJsMYSyQkoA8yC7](https://url
 
  
 
-{{% breaker image="undefined" %}}
+ 
 
 Dear President Biden,
 
