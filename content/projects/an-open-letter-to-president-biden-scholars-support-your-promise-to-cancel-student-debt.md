@@ -8,7 +8,7 @@ type: projects
 weight: 1
 date: 2021-01-26T21:43:45.923Z
 indexpage: false
-link_out: false
+link_out: true
 hero_image_fw: ""
 pagemaker: []
 ---
