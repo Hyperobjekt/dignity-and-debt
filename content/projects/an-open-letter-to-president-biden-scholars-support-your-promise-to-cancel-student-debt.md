@@ -5,9 +5,11 @@ layout: variable
 is_index: false
 has_modal: true
 type: projects
+projectlinks:
+  - {}
 weight: 1
 date: 2021-01-26T21:43:45.923Z
-indexpage: true
+indexpage: false
 link_out: false
 hero_image_fw: ""
 pagemaker: []
