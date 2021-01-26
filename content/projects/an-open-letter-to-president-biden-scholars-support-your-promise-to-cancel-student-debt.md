@@ -1,6 +1,6 @@
 ---
-title: "An Open Letter to President Biden: Scholars support your promise to
-  cancel student debt"
+title: "An Open Letter to President Biden: Scholars Support Your Promise to
+  Cancel Student Debt"
 layout: variable
 is_index: false
 has_modal: true
