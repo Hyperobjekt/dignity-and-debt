@@ -38,7 +38,7 @@ A strong majority of Americans support student debt cancellation.\[10] It is not
 
 With urgency,
 
-**569 total signers as of 12:46 pm Pacific time, January 27th, 2021.**
+**716 total signers as of 8:45 am Pacific time, January 28th, 2021.**
 
 \[INITIAL SIGNERS – subsequent signers listed after endnotes]
 
@@ -173,15 +173,23 @@ Kathrin Zippel, Professor of Sociology and Anthropology, Northeastern University
 \[10] https://thehill.com/hilltv/what-americas-thinking/527464-poll-60-percent-support-biden-cancelling-up-to-50000-of-student
 
 \
-\[SUBSEQUENT SIGNERS]\
-\
+\[SUBSEQUENT SIGNERS]
+
+ 
+
 Melissa Abad, Research Associate/ Sociologist, Stanford University
 
 Brianna Abate, Associate Professor of Communication, Prairie State College
 
+Judith Abbott, Professor Emer. of History, Sonoma State University
+
+Emily Acosta Lewis, Associate Professor of Communication and Media Studies, Sonoma State University
+
 Alexandrina Agloro, Assistant Professor of Science, Technology, and Innovation in the Borderlands, University of Arizona
 
 Barbara Aguirre, Administrator, Mexican American Civil Rights Institute
+
+Kaleem Ahmid, MPH candidate, Northeastern University
 
 Alan Aja, Professor of Public & Urban Policy/Puerto Rican & Latino Studies, Brooklyn College (CUNY)
 
@@ -217,6 +225,8 @@ Ashley Armendariz, MSW Student, University of Texas at El Paso
 
 Ron Avi Astor, Professor of Social Work and Education, University of California, Los Angeles
 
+Karen August, Lecturer, Humboldt State Unversity
+
 Natalie Avalos, Assistant Professor of Ethnic Studies, University of Colorado Boulder
 
 Freddie Avant, Associate Dean & Director, Stephen F. Austin State University
@@ -229,7 +239,11 @@ Crystal Baik, Associate Professor of Gender and Sexuality Studie, UC Riverside
 
 Tahnee Baker, Lecturer, School of Social Work, Arizona State University
 
+Louanne Bakk, Clinical Associate Professor, Social Work, State University of New York, University at Buffalo
+
 Marianne Balton, Field instructor, Wayne State University
+
+John Balza, Student, UC Hastings College of the Law
 
 Ariana Barajas, Outreach Specialist, OHSU
 
@@ -239,11 +253,15 @@ Cassie Barnhardt, Associate Professor of Higher Education, University of Iowa
 
 Bernadette Barton, Professor of Sociology, Morehead State University
 
+Brittany Battle, Assistant Professor of Sociology, Wake Forest University
+
 Pinar Batur, Professor, Vassar College
 
 Irenee Beattie, Associate Professor of Sociology, University of California, Merced
 
 Natalie Beck, Assistant Professor of Social Work, St. Edward's University
+
+Stacey Bellone, Lecturer of Social Work, CSU East Bay
 
 Emmaline Bennett, Graduate student in Social Studies Education, Columbia Teachers College
 
@@ -257,9 +275,15 @@ Ryan Bergstrom, Associate Professor of Geography, University of Minnesota Duluth
 
 Asmeret Asefaw Berhe, Professor of Soil Biogeochemistry, University of California, Merced
 
+Dr. Zemed Berhe, Faculty Psychologist, SDSU
+
 Lucy Bernholz, Senior Research Scholar, Stanford University
 
+Emily Berquist Soule, Professor of History, California State University, Long Beach
+
 Marquis Bey, Assistant Professor of African American Studies & English, Northwestern University
+
+Kristine (Kris) Bezdecny, Assistant Professor of Geography, California State University, Los Angeles
 
 Frank Biafora, Professor of Sociology, University of South Florida
 
@@ -267,7 +291,7 @@ Danniel Birchok, Assistant Professor of Anthropology, University of Michigan-Fli
 
 Jalil Bishop, Postdoc Scholar, University of Pennsylvania
 
-Jalil Bishop, Postdoc Scholar, University of Pennsylvania
+Mary Block, art instructor, Root Division
 
 Heidi Blocker, Assistant Professor of Psychology, Eastern Oregon University
 
@@ -303,15 +327,21 @@ Kelly Britt, Assistant Prof of Urban Archaeology, Brooklyn College
 
 Akissi Britton, Assistant Professor of Africana Studies, Rutgers University, New Brunswick
 
+Stephen Brotebeck, Associate Professor of Musical Theatre, San Diego State University
+
 Hana Brown, Associate Professor of Sociology, Wake Forest University
 
 Letisha Brown, Assistant Professor of Sociology, Virginia Tech
 
 Bailey Brown, Assistant Professor of Sociology, Spelman College
 
+Tiffany Brown, Associate Professor of Child Development, California State University, Long Beach
+
 Tyler Bruefach, Doctoral Candidate in Sociology, Florida State University
 
 Sunny Brysch, Deaf Studies faculty, University of Minnesota- Duluth
+
+Shelia Bunch, Professor Emeritus of Social Work, East Carolina University
 
 Lisa Butler, Associate Professor of Social Work, University at Buffalo
 
@@ -330,6 +360,8 @@ Stephanie Canizales, Assistant Professor of Sociology, University of California,
 Lucia Cantero, Assistant professor of anthropology, University of San Francisco
 
 Dale Carrico, Senior Lecturer, Lecturer, San Francisco Art Institute, UC Berkeley, Depatment of Rhetoric
+
+Jacqueline Carrigan, Professor of Sociology, Sacramento State University
 
 Peter Catron, Assistant Professor of Sociology, University of Washington
 
@@ -359,19 +391,31 @@ Caitlyn Collins, Assistant Professor of Sociology, Washington University in St. 
 
 Ryan Cook, Former Assistant Professor, Emory University
 
+Tanya Cook, Sociology Faculty, Community College of Aurora
+
 Laurie Cook Heffron, Assistant Professor of Social Work, St. Edward's University
 
 LaRochelle Cook Wilcox, Clinical Social Worker, WSU
+
+Judy Corey, Adjunct Professor of Religion, California State University, Los Angeles
 
 Lucius Couloute, Assistant Professor of Sociology and Criminal Justice, Suffolk University
 
 Jaih Craddock, Assistant Professor, University of Maryland, Baltimore
 
+Katya Crawford, Associate Professor of Landscape Architecture, University of New Mexico
+
 S. L. Crawley, Associate Professor of Sociology, University of South Florida
 
 S.L. Crawley, Associate Professor of Sociology, University of South Florida
 
+Catherine Crisp, Associate Professor of Social Work, University of Arkansas Little Rock
+
 Beatriz Cruz-Sotomayor, Associate Professor of Spanish, Universidad Ana G. Méndez
+
+sharon cullity, Lecturer professor of socology, Ca State Univ San marcos
+
+Kristiana Cullum, Assistant Professor of Nursing, San Diego State University
 
 Sara Curran, Professor of Sociology, University of Washington
 
@@ -401,9 +445,9 @@ Robin DeLugan, Associate Professor of Anthropology, University of California, Me
 
 David DeMatteo, Professor of Psychology & Professor of Law, Drexel University
 
-Patrick Denice, Assistant Professor of Sociology, University of Western Ontario
+Denise Demers, Associate Professor of Health Promotion, University of Central Arkansas
 
-Hayley Depew, MSW Student, University of Texas at El Paso
+Patrick Denice, Assistant Professor of Sociology, University of Western Ontario
 
 Hayley Depew, MSW Student, University of Texas at El Paso
 
@@ -413,6 +457,8 @@ Patricia Desert, Live Support specialist, Columbia university
 
 Mathieu Despard, Associate Professor of Social Work, University of North Carolina Greensboro
 
+Colin Dewey, Associate Professor and Department Chair, Cal State University Maritime Academy
+
 Nadine Diaz, Doctor of Social Work, University of Southern California Alzheimer's Disease Research Center (USC ADRC)
 
 Alexa Dietrich, Research Associate Professor, Wagner College
@@ -421,9 +467,13 @@ Kyle Dodson, Associate Professor of Sociology, UC-Merced
 
 Ilhan Dögüs, PhD in Economics, Independent Economist
 
+John R Donaldson, Emeritus Professor of Physics, Cal State University, Fresno
+
 Kira Donnell, Lecturer Faculty of Ethnic Studies and Asian Asian American Studies, San Francisco State University
 
 Sean Downey, Associate Professor of Anthropology, The Ohio State University
+
+Nicole Dubus, Associate Professor of Social Work, San Jose State University
 
 Larthia Dunham, Professor of Field Education, UCLA
 
@@ -441,6 +491,10 @@ Sharon Elise, Professor of Sociology, Calif State Univ San Marcos
 
 Sharon Elise, Professor of Sociology, Calif State Univ San Marcos
 
+Diane Elze, Associate Professor, Social Work, University at Buffalo School of Social Work
+
+Liesl Erb, Professor of Conservation Biology, Warren Wilson College
+
 Nina Esaki, Assistant Professor of Social Work, Springfield College
 
 Melanie Escue, Doctoral Student in Sociology, University of South Florida
@@ -451,6 +505,8 @@ Heather Evans, Assistant Teaching Professor of Sociology, University of Washingt
 
 Carla Fagan, Associate Professor of Social Work, Methodist University
 
+Phil Farmer, Department chair, behavioral and social sciences, Jarvis Christian College
+
 Shumaila Fatima, PhD Student and Graduate Instructional Assistant, University of South Florida
 
 Susan Feiner, Professor of Economics, retired, University of Southern Maine
@@ -458,6 +514,8 @@ Susan Feiner, Professor of Economics, retired, University of Southern Maine
 Lisa Feldstein, Researcher, Freelance
 
 John Felt, Postdoctoral Fellow, Penn State
+
+Renee Fentress, Faculty Field Liaison, California State University, East Bay
 
 Scott Ferguson, Associate Professor, Humanities & Cultural Studies, University of South Florida
 
@@ -481,6 +539,8 @@ Edward Flores, Associate Professor of Sociology, University of California, Merce
 
 melissa Floyd-Pickard, Professor of Social Work, University of NC Greensboro
 
+Linda Ford, Adjunct Professor, Community College of Rhode Island
+
 Elizabeth Fowler, MSW Field Coordinator, University of Arkansas at Little Rock
 
 Cybelle Fox, Professor of Sociology, University of California, Berkeley
@@ -491,15 +551,21 @@ John Fox, Professor of Sociology, Foothill College
 
 Brittany Fox-Williams, Assistant Professor of Sociology, Lehman College, City University of New York
 
+Rebecca Franko, Lecturer, Communication Department, Cal Poly, Pomona
+
 Terri Friedline, Associate Professor of Social Work, University of Michigan
 
 Jennifer Friedman, Associate Professor of Sociology, University of South Florida
 
 Bruce Friedman, Endowed Professor of Health Sciences, University of Texas at El Paso
 
+Ann Frost, Assistant Teaching Professor, University of Washington
+
 Samantha Fuld, Clinical Assistant Professor of Social Work, University of Maryland, Baltimore
 
 Scott Fullwiler, Associate Professor of Economics, University of Missouri-Kansas City
+
+Michelle Gallegos, Program Coordinator, University of New Mexico
 
 Christina Gallup, Associate Professor of Earth and Environmental Science, University of Minnesota Duluth
 
@@ -513,9 +579,13 @@ Daniela Garcia, MSW Student, University of Texas at El Paso
 
 Andrew Gardner-Northrop, LMSW, Saginaw Valley State University
 
+Claire Garrido-Ortega, Lecturer, California State University, Long Beach
+
 Natalie Gatlin, IV-E Principal Investigator/Coordinator/Professor of SW, Arkansas State University
 
 Danielle Geary, Associate Professor of Social Work and Women’s and Gender Studies, Carthage College
+
+Laurie Gelardi, Assistant Professor of Nursing, California State University Northridge
 
 Judith Gerson, Associate Professor of Sociology and Women's, Gender, Sexuality Studies, Rutgers University
 
@@ -537,11 +607,17 @@ Jennifer Gomez, Professor, University of Minnesota Duluth
 
 Melody Gomez, Executive Director Square Peg Youth, Student MSW - UTEP, University of Texas at El Paso
 
+Jocelyn Gomez, Graduate student, University of New Mexico
+
+Myrriah Gomez, Assistant Professor, Honors College, University of New Mexico
+
 Jennifer M. Gómez, Assistant Professor of Psychology, Wayne State University
 
 Andrea Gomez Cervantes, Assistant Professor of Sociology, Wake Forest University
 
 Teresa Gonzales, Assistant Professor of Sociology, University of Massachusetts Lowell
+
+Trisha Gonzales-Waters, Graduate College of Education Lecturer/ Student Teaching Supervisor, San Francisco State University
 
 Anna Gonzalez, Graduate Student, University of Texas at El Paso
 
@@ -549,9 +625,15 @@ Jessica Graham, Associate Professor of History, University of California, San Di
 
 Kareema Gray, BSW Department Chair & Program Director - Assistant Professor, Johnson C. Smith University
 
+Candice Greathouse, Assistant Professor of Art, California State University Northridge
+
 Susan Green, Chair of Multicultural and Gender Studies, California State University Chico
 
 Tremel Green, Clinical Social Worker, Wayne State Alumni
+
+Margo Greicar, Lecturer, Kinesiology, San Diego State University
+
+Lindsey Grubbs, Assistant Professor of Health Sciences, California State. University, East Bay
 
 Paula Gudmundson, Associate Professor of Music, University of Minnesota Duluth
 
@@ -559,13 +641,25 @@ Katja Guenther, Associate Professor of Gender & Sexuality Studies, University of
 
 Kaaryn Gustafson, Professor of Law, University of California, Irvine
 
+Daniel Guzman, Assistant Professor of Social Work, Azusa Pacific University
+
 Jaren Haber, Post-doctoral Fellow, Georgetown University
+
+Mecia Hale, Contact Tracer, Saginaw Valley State University
+
+Leilani Hall, Professor of English, California State University Northridge
 
 Samniqueka Halsey, Assistant Professor of Ecosystem Health, University of Missouri
 
 Darrick Hamilton, University Professor, Henry Cohen Professor of Economics and Urban Policy, The New School
 
 Scott Hamilton, Lecturer, University of North Texas
+
+Stephanie Hamm, Associate Professor of Social Work, Abilene Christian University
+
+Alexandria Hansen, Assistant Professor of STEM Education, Fresno State
+
+Alexandria Hansen, Assistant Professor of STEM Education, Fresno State
 
 Daria Hanssen, Chair of Social Work Department, Marist College
 
@@ -575,13 +669,29 @@ Sydney Hart, Professor of Sociology and Anthropology, Wilbur Wright College
 
 Erica Hartwell, Associate Professor of Family Therapy, Fairfield University
 
+Art Hazelwood, Lecturer Printmaking, San Francisco Art Institute
+
+Megan Heinicke, Associate Professor of Psychology, California State University, Sacramento
+
+Shawn Heiser, Assistant Librarian, San Francisco State University
+
+Andrea Helzer, Sociology Instructor, CSULB
+
 Youhung Her-Xiong, Research Specialist, University of Wisconsin
 
+Ellyn Herb, Lecturer, San Jose State University
+
 Robb Hernandez, Associate Professor of English, Fordham University
+
+Chrissy Hernandez, Assistant Professor of Service Learning and Social Action, California State University, Monterey Bay
+
+Kellen Hernandez, Professor of American Indian Studies, San Diego State University
 
 Michael Heron, Assistant Professor of Social Work, Saginaw Valley State University
 
 Luke Herrine, PhD Candidate, Yale Law School
+
+Silke Higgins, Associate Librarian, San Jose State University
 
 Jasmine Hill, Incoming Assistant Professor of Public Policy, University of California, Los Angeles
 
@@ -596,6 +706,8 @@ Heather Hlavka, Associate Professor, Marquette University
 Mary Hodorowicz, Clinical Assistant Professor, University of Maryland School of Social Work
 
 Michael Hoffmeister, Social Work Field Faculty, University of Wisconsin
+
+Keith Hollingsworth, Instructor for Media and Entertainment Arts, University of Southern Mississippi
 
 Larisa Honey, Associate Professor of Anthropology, Queensborough Community College, CUNY
 
@@ -615,6 +727,14 @@ Anne Hughes, Associate Professor of Social Work, Michigan State University
 
 Anneeth Kaur Hundle, Assistant Professor of Anthropology and Dhan Kaur Sahota Presidential Chair of Sikh Studies, University of California, Irvine
 
+Chetina Hunter, Counselor Faculty, Cal State University-East Bay
+
+Toby Hur, Field Education Faculty in Social Welfare, UCLA Luskin Social Welfare
+
+Ivan Iannoli, Lecturer, San Francisco Art Institute
+
+Jasmin Ilkay, Lecturer of Nutrition and Food Science, California State Polytechnic University, Pomona and NEw York University
+
 Josh Inwood, Associate Professor of Geography, Penn state
 
 Josh Inwood, Associate Professor of Geography, Penn state
@@ -628,6 +748,8 @@ Whitney Jacobson, Assistant Professor of English, Linguistics, and Writing Studi
 Sophie James, Graduate Student, University of South Florida
 
 Tranishia James, Field Work Consultant, University of California Los Angeles
+
+Francesca Jandasek, Part Time Lecturer, Dance, California State University Los Angeles
 
 WOOMENDY JEAN, Marriage and family therapist, Capella university
 
@@ -669,7 +791,15 @@ Ivy Ken, Associate Professor of Sociology, George Washington University
 
 Tasha Seneca Keyes, Assistant Professor of Social Work, University of Utah
 
+Noha Khalafawi, Therapist, Wayne State University
+
 Athena Kheibari, Assistant Professor of Social Work, Wayne State University
+
+Patti Kilroy, Assistant Professor, California State University, Los Angeles
+
+Sasha Kimel, Assistant Professor, California State University San Marcos
+
+Tamara Kincaid, Associate Professor - Social Work, UW-River Falls
 
 Lisa King, Associate Professor of Philosophy, Edgewood College
 
@@ -689,13 +819,19 @@ Rory Kramer, Associate Professor of Sociology, Villanova University
 
 Jaime Kucinskas, Assistant Professor, Hamilton College
 
+Steph Kudisch, Teaching Artist & Faculty, San Francisco Art Institute
+
 Richard Lachmann, Professor of Sociology, University at Albany- SUNY
 
 Scott Laderman, Professor of History, University of Minnesota, Duluth
 
+Aja LaDuke, Associate Professor of Education, Sonoma State University
+
 Mirella Landriscina, Professor of Sociology, St. Joseph's College
 
 Yvette Lares, Master of Social Work student, University of Texas at El Paso
+
+Dominika Laster, Associate Professor of Theatre and Performance Studies, University of New Mexico
 
 Heather Laube Laube, Associate Professor of Sociology, University of Michigan-Flint
 
@@ -713,6 +849,8 @@ Lisa Lefler, Director, Culturally Based Native Health Programs, Western Carolina
 
 Victoria Lehman, Assistant Professor of Art & Design, University of Minnesota, Duluth
 
+Anika Singh Lemar, Clinical Professor of Law, Yale Law School
+
 Jennifer Lena, Associate Professor of Arts Administration and Sociology, Teachers College, Columbia University
 
 Margarita Levine, Graduate Teaching Assistant, California State University, Nothridge
@@ -720,6 +858,8 @@ Margarita Levine, Graduate Teaching Assistant, California State University, Noth
 Amanda Lewis, Professor of sociology and Black Studies, University of Illinois at Chicago
 
 Ericka Lewis, Assistant Professor of Social Work, University of Maryland, Baltimore
+
+Brittany Lewis, Master of Social Work Student, University of Texas El Paso
 
 Morgan Leyenberger, Admission Coordinator of Social Work, University of Arkansas at Little Rock
 
@@ -739,9 +879,13 @@ Lee Little, Research and Instructional Services Librarian, Indiana University
 
 Matthew Liu, Director of Forensics, University of Wyoming
 
+Patricia Logan-Greene, Associate Professor of Social Work, University at Buffalo
+
 Yang Lor, Assistant Teaching Professor, University of California, Merced
 
 Chris Loss, Associate Professor of Education, Vanderbilt University
+
+Maureen Loughran, field representative, CFA
 
 Norma Love-Schropshire, Lecturer & BSW Program Director, Wayne State University
 
@@ -749,15 +893,29 @@ Ashley Lucas, Associate Professor of Theatre & Drama and the Residential College
 
 Aliza Luft, Assistant Professor of Sociology, University of California, Los Angeles
 
+Lois Lupica, Maine Law Foundation Professor of Law, Emerita, University of Maine School of Law
+
+Michael Lynch, Clinical Assistant Professor of Social Work, University at Buffalo
+
 Catherine Macomber, Associate Professor of Social Work, Saginaw Valley State University
 
+Robert Madden, Professor of Social Work, University of Saint Joseph
+
 Sara Magin, Museum conservator, The Frick Collection
+
+Jennifer Maguire, Associate Professor of Social Work, Humboldt State University
+
+abdi Majlessi, part-time lecturer, cal State University, Dominguez Hills
 
 Philip Maloney, Professor of Philosophy, Christian Brothers University
 
 Ronald Manderscheid, Adjunct Professor, University of Southern California
 
 Michelle Maroto, Associate Professor of Sociology, University of Alberta
+
+Jennifer Marshall, Lecturer, CSU, Northridge
+
+Elizabeth Marshall, Former student and ally, UCR and UCLA
 
 Suzanne Martindale, Lecturer, Student Loan Law, University of California, Berkeley School of Law
 
@@ -767,9 +925,17 @@ Laura Mason, PhD candidate, Ohio State University
 
 Christian Matheis, Visiting Assistant Professor of Justice and Policy Studies, Guilford College
 
+Allison Mattheis, Associate Professor of Education, California State University Los Angeles
+
+Justin L. Matthews, Associate Professor of Psychology, California State University, Monterey Bay
+
 December Maxwell, Assistant Professor of Social Work, University of Hawaii
 
 Janice McCabe, Associate Professor of Sociology, Dartmouth College
+
+Bryn McCabe-Kelly, Supervisor, Academic Advisement, University of New Mexico
+
+Robin McCauley, Professor of Art, California State University
 
 Shane McClain, Teaching Assistant in History and Writing, University of California, San Diego
 
@@ -780,6 +946,8 @@ Natasha McClendon, Doctoral Candidate, Georgia State University
 Patricia McCoy, Professor of Law, Boston College Law School
 
 Elana McDermott, Research and Policy Analyst, Massachusetts Department of Elementary and Secondary Education
+
+Tracey McElwee, Assistant Professor of Social Work, University of Arkansas at Little Rock
 
 Elena McGrath, Assistant Professor of History, Union College
 
@@ -811,7 +979,19 @@ Joshua Mitchell, Lecturer of American Studies and Ethnicity, University of South
 
 Natalie Monden, Director of HCBS Waivers, New York University
 
+Khadija Monk, Assistant Professor, School of Criminal Justice & Criminalistics, California State University, Los Angeles
+
 Melissa Montanez, Graduate student of Social work (Contact Tracer Covid-19), University of Texas at El Paso
+
+Michael Moodispaw, Graduate Research Associate, The Ohio State University
+
+Jayne Mooney, Professor of Sociology, City University of New York
+
+Andrea Moore, Associate Prof Ethnic Studies, Sacramento State
+
+Matthew Moore, Lecturer, Humanities, San Jose State University
+
+Kelly Moore, LCSW, Instructor- School of Social Work, University of AR Little Rock
 
 Robert Moorehead, Associate Professor of Sociology, College of DuPage
 
@@ -819,9 +999,19 @@ Willem Morris, YDSA Organizer, Columbia University
 
 Patricia Morton, Associate Professor of Architectural History, University of California, Riverside
 
+Larry Morton II, Associate Professor of Social Worrk, Arkansas State University
+
+Angela MOSCATELLO, Student, Houston Baptist University
+
+Carmela Muzio Dormani, Assistant Professor of Sociology, Mercy College
+
 Anwar Najor-Durack, Assistant Professor of Social Work, Wayne State University
 
+Yunju Nam, Associate Professor of Social Work, University at Buffalo, SUNY
+
 Ruby Nancy, Assistant Professor of Business Communication, University of Minnesota Duluth
+
+Payman Nasr, Associate Professor, California State University
 
 Jessica Nastal, Associate Professor of English, Prairie State College
 
@@ -831,15 +1021,23 @@ Adria E Navarro, Associate Professor, Azusa Pacific University
 
 Daniel Navon, Associate Professor of Sociology, University of California, San Diego
 
+Jay Needham, Professor of Audio Arts, Southern Illinois University Carbondale
+
 Akasemi Newsome, Associate Director, Institute of European Studies, University of California, Berkeley
 
 Xuan-Thao Nguyen, Gerald L. Bepko Chair in Law, Indiana University McKinney School of Law
 
 Teresa Nicholson, Social Worker, Wayne State University
 
+Felicita Norris, Professor of Art, University of California, Berkeley
+
+Felicita Norris, Professor of Art, University of California, Berkeley
+
 Michael Nyman, Graduate Student, University of South Florida
 
 Lisa O'Donnell, Assistant Professor, Wayne State University
+
+Virginia Olivas, Assistant Professor- Social Work, Azusa Pacific University
 
 Kristopher Oliveira, PhD Candidate, University of South Florida
 
@@ -851,15 +1049,21 @@ Chrystin Ondersma, Professor of Law, Rutgers Law School
 
 Dr. Argelis Ortiz, Adjunct Professor, CSULA, APU, CSUDH
 
+Jennifer Ortiz, Assistant Professor of Criminology, Indiana University
+
 Stephen Ostertag, Associate Professor of Sociology, Tulane University
 
 Josh Pacewicz, Associate professor of sociology, Brown university
+
+Myrna Pacheco, Counselor, California State University, Fresno
 
 Hector Palencia, MSW Field Education Faculty, UCLA
 
 Diana Pan, Associate Professor of Sociology, CUNY - Brooklyn College
 
 Reena Parambath, Professor and Director of Co-op Program, Kline School of Law at Drexel University
+
+Jamie Parker, Clinical Assistant Professor of Social Work, University of Houston
 
 June Paul, Assistant Professor, Social Work, Skidmore College
 
@@ -868,6 +1072,10 @@ Jaime Peña, Mental Health Clinician, John F. Kennedy University
 Bertha Perez, Council Woman Perez, City of Merced
 
 Elizabeth Perez, Associate Professor of Religious Studies, University of California, Santa Barbara
+
+Emily Perez, Lecturer in the Department of Cinema, San Francisco State University
+
+Tam Perry, Associate Professor, School of Social Work, Wayne State University
 
 Jessica Pestlin, K9 handler, UW-Milwaukee, ITT tech
 
@@ -879,6 +1087,8 @@ Joanna Picciotto, Associate Professor of English, UC Berkeley
 
 Whitney Pirtle, Assistant Professor of Sociology, University of California Merced
 
+Jon Pluskota, Associate Professor of Media and Entertainment Arts, The University of Southern Mississippi
+
 Mya Poe, Associate professor of english, Northeastern university
 
 Andrew Polonsky, Assistant Professor of Computer Science, Appalachian State University
@@ -888,6 +1098,8 @@ caroline ponder, assistant professor of geography, florida state university
 Joshua Potter-Efron, Field Director/Clinical Assistant Professor, University of Wisconsin - Eau Claire
 
 Regina Praetorius, Professor of Social Work, University of Texas Arlington
+
+Daicia Price, Assistant Clinical Professor of Social Work, University of Michigan
 
 Anna Proffit, Assistant Professor of Spanish and Humanities, Wilbur Wright College, Chicago
 
@@ -903,11 +1115,17 @@ Rhea Rahman, Assistant Professor of Anthropology, Brooklyn College - City Univer
 
 Michael Ralph, Professor, NYU
 
+Erin Ramirez, Assistant Professor of Teacher Education, California State University Monterey Bay
+
+Jenilee Ramirez, Teacher, New York City board of educatikn
+
 Mary Rawlings, Chair, Department of Social Work, Azusa Pacific University
 
 Timothy Recuber, Assistant Professor of Sociology, Smith College
 
 Briana Reed, Field Education Assistant, Saginaw Valley State University
+
+Daniel Reed, Counselor-Faculty, California State University Monterey Bay
 
 Ellen Reese, Professor of Sociology, University of California, Riverside
 
@@ -917,19 +1135,31 @@ Carolina Reid, Associate Professor of City and Regional Planning, University of 
 
 Anthony Reid, Director of Field Education, Meredith College
 
+Casey Reid, Academic and Tutoring Services Lead Coordinator, Lane Community College
+
 Kelley Reinsmith-Jones, Associate Professor of Social Work/MSW Director, East Carolina University
 
 Michael Reisch, Distinguished Professor Emeritus of Social Justice, University of Maryland, Baltimore
+
+Michael Reisch, Distinguished Professor Emeritus of Social Justice, University of Maryland, Baltimore
+
+Sam Retton, Alumna, California State University, Fresno
 
 Victoria Reyes, Assistant Professor of Sociology, University of California, Riverside
 
 Jill Richardson, PhD Candidate, University of Wisconsin-Madison
 
+Elizabeth Ridder, Associate Professor, Geography, California State University San Marcos
+
 Corteasia Riddick, Adjunct Instructor, Johnson C. Smith University
 
 Joanne Riebschleger, Associate Professor, Social Work, Michigan State University
 
+Nancy Riley, Lecturer, Cinema Television Arts Dept., California State University Northridge (also Pepperdine U. and Montclair State U.)
+
 Belinda Rincon, Associate Professor of Latinx Studies, John Jay College of Criminal Justice, CUNY
+
+Lee Ritscher, Lecturer in Humanities and Communication, CSU Monterey Bay
 
 Zelideth Rivas, Professor of Japanese, Marshall University
 
@@ -937,11 +1167,15 @@ Yanira Rivas Pineda, Adjunct Faculty, Santa Monica College
 
 Kathleen Rivera, Administrative Assistant Department of Social Work, Western Carolina University
 
+Karisman Roberts-Douglass, Counselor Faculty, San Jose State University
+
 Shaniekqa Robinson, special education teacher, School district of philadelphia
 
 Lori Rodriguez, Assistant Professor of Humanities and Mexican American Studies, Palo Alto College, San Antonio, TX
 
 Elizabeth Rodriguez, Trauma Informed Care Coordinator, El Paso Child Guidance Center
+
+Cesar Rodriguez, Assistant Professor of Criminal Justice Studies, San Francisco State University
 
 Florence Roisman, William F. Harvey Professor of Law & Chancellor's Professor, Indiana University Robert H. McKinney School of Law
 
@@ -973,7 +1207,13 @@ Lindsay Ruhr, Assistant Professor of Social Work, University of Arkansas at Litt
 
 Matthew Ryg, Community Faculty, Metropolitan State University
 
+Lia Ryland, Librarian, San Francisco State University
+
+Florence Saint-Jean, Professor of School Psychology, City University of New York - Brooklyn College
+
 Kaliris Salas-Ramirez, Distinguished Medical Lecturer, CUNY School of Medicine
+
+Sara Salazar Hughes, Assistant Professor of Global Studies, CSU Monterey Bay
 
 Amrah Salomón J., Assistant Professor of English, University of California Santa Barbara
 
@@ -987,6 +1227,8 @@ Gerard Sandoval, Associate Professor, University of Oregon
 
 Solen Sanli Vasquez, Sociology Instructor, Santa Rosa Junior College
 
+Michael Christopher Sardo, Non Tenure Track Assistant Professor of Politics, Occidental College
+
 Ariela Schachter, Assistant Professor of Sociology, Washington University in St Louis
 
 Maria Scharron-del Rio, Professor of School Counseling, Brooklyn College, CUNY
@@ -995,13 +1237,19 @@ Matthew Schneider, Assistant Professor of Sociology, University of North Carolin
 
 Kristen Schorpp, Assistant Professor of Sociology, Roanoke College
 
+Sarah Schrank, Professor of History, California State University Long Beach
+
 Tracy Schroepfer, Professor of Social Work, University of Wisconsin-Madison
+
+Malcolm Scott, Assistant Professor of Social Work, Abilene Christian University
 
 Caleb Scoville, Assistant Professor of Sociology, Tufts University
 
 Annette Semanchin Jones, Associate Professor of Social Work, University at Buffalo
 
 Jason Serrano, International Student Services Assistant, MPS Humanistic/Multicultural Education, SUNY New Paltz
+
+Bri Serrano, Adjunct Faculty, Ethnic and Women's Studies, California State Polytechnic University, Pomona
 
 Wendy Shaia, Clinical Associate Professor, Social Work, University of Maryland Baltimore
 
@@ -1015,9 +1263,15 @@ Michael Sherraden, George Warren Brown Distinguished Univesity Professor, Washin
 
 Snehal Shingavi, Associate Professor of English, The University of Texas at Austin
 
+Mechele Shipman, Adjunct Faculty, University of Wisconsin-Madison
+
+Mechele Shipman, Adjunct Faculty, University of Wisconsin-Madison
+
 Deirdre Shires, Assistant Professor of Social Work, Michigan State University
 
 Asheesh Siddique, Assistant Professor of History, University of Massachusetts-Amherst
+
+Gabriela Simon-Cereijido, Professor, California State University, Los Angeles
 
 Jonathan Singer, Associate Professor of Social Work, Loyola University Chicago
 
@@ -1041,6 +1295,8 @@ Jenna Soleo-Shanks, Assistant Professor of Theatre, University of Minnesota Dulu
 
 Dean Spade, Associate Professor of Law, Seattle University
 
+Mickey Sperlich, Assistant Professor of Social Work, University at Buffalo
+
 Nicole Stevens, Graduate Teaching Associate, Ohio State University
 
 Abby Stivers, Adjunct Professor of Sociology, College of the Atlantic
@@ -1057,6 +1313,8 @@ Andrew Sutton, Assistant Professor of Computer Science, University of Minnesota 
 
 Stacey Sutton, Associate Professor of Urban Planning and Policy, University of Illinois at Chicago
 
+Byron Swain, Program Manager, Cal State East Bay
+
 Kevin Swanberg, Instructor of Writing, University of Minnesota Duluth
 
 Laura Szech, Assistant Professor of Language and Literacy, University of North Carolina Wilmington
@@ -1071,9 +1329,17 @@ Henriette Taylor, Assistant Dean of Student Services, University of Maryland, Sc
 
 Jay Taylor, Professor of Social Work, Fairfield University
 
+Kristin Taylor, Assistant Professor of Art Education, California State University, Northridge
+
+Sarah Taylor, Professor and Department Chair, California State University East Bay
+
 Michael Teeples, Freelance, csun
 
+Shifra Teitelbaum, lecturer, Cal State LA
+
 Arien Telles, Graduate Student, University of Minnesota
+
+Leslie Temme, Clinical Assistant Professor of Social Work, East Tennessee State University
 
 Deborah Thibeault, Assistant Professor of Social Work, East Tennessee State University
 
@@ -1085,11 +1351,17 @@ Tina Timm, Associate Professor, School of Social Work, Michigan State University
 
 Emilia Tineo, Alumni, St. John's University
 
+Marya Toledo-Yildiz, Lecturer, csusm
+
 Janice Toliver-King, Assistant Professor/ Program Director, Jarvis Christian College
 
 Charles Toombs, Professor of Africana Studies, San Diego State University
 
 Meral Topcu, Professor of Psychology, Ferris State University
+
+Sarah Tosh, Assistant Professor of Criminal Justice, Rutgers University
+
+Sarah Tosh, Assistant Professor of Criminal Justice, Rutgers University
 
 Sarah Tosh, Assistant Professor of Criminal Justice, Rutgers University
 
@@ -1106,6 +1378,10 @@ DJ Trela, Professor of English, University of Michigan--Flint
 John Tropman, Professor Emeritus of Social Work, University of Michigan
 
 Joseph Trumino, Associate Professor of Sociology, St. John's University
+
+Jennifer Tucker, Assistant Professor of Community & Regional Planning, University of New Mexico
+
+Brandon Turner, Office Manager, CFA
 
 Charity Urbanski, Associate Teaching Professor of History, University of Washington
 
@@ -1131,6 +1407,8 @@ Daniel Velez Ortiz, Associate Professor of Social Work, Michigan State Universit
 
 Bharat Venkat, Assistant Professor at the Institute for Society & Genetics and History, UCLA
 
+Michele Villagran, Assistant Professor, School of Information, San Jose State University
+
 Roberta Villslon, Professor of Sociology, St. John's University
 
 Jessica Visnesky, Part-time faculty, Criminal Justice, Northern Vermont University
@@ -1139,11 +1417,15 @@ Daniel Vitkus, Professor of Literature, UC San Diego
 
 Shyra Wade, Hope Housing Case Manager, Fordham University
 
+Rashele Wade, Instructor of Social Work, Arkansas state university
+
 Alicia Walker, Assistant Professor of Sociology, Missouri State University
 
 Katrina Walsemann, Roger C. Lipitz Chair in Health Policy, University of Maryland
 
 Michael Walters, Adjunct Prof., Passaic County Community College
+
+Kyla Walters, Assistant Professor of Sociology, Sonoma State University
 
 Jennifer Webb, Associate Professor of Art History, University of Minnesota Duluth
 
@@ -1159,11 +1441,15 @@ Kendra Wells, Manager of Social Work Research Support, Wayne State University
 
 Joel Wendland-Liu, Associate Professor, Grand Valley State University
 
+Phylis West, Professor and Director of Journalism & Mass Communications, San Jose State University
+
 Lee Westgate, Clinical Instructor, University of MD School of Social Work
 
 Tracy Wharton, Associate Professor of social work and medicine, University of Central Florida
 
 Mia White, Assistant Professor of Geography & Environmental Studies, The New School
+
+Joseph Wiggett, Prof. of Music, CSU Stanislaus
 
 Deadric Williams, Assistant Professor of Sociology, University of Tennessee
 
@@ -1174,6 +1460,8 @@ Benjamin Wilson, Associate Professor of Economics, SUNY Cortland
 Anastasia Wilson, Assistant Professor, Hobart and William Smith Colleges
 
 Catherine Wilson, Associate Professor of Law, University of Nebraska - Lincoln
+
+Carmen Winant, Associate Professor of Art, Ohio State University
 
 Liliane Windsor, Associate Professor, The University of Illinois at Urbana-Champaign
 
@@ -1195,18 +1483,22 @@ Joseph Wronka, Professor of Social Work, Springfield College, MA
 
 Colleen Wynn, Assistant Professor of Sociology, University of Indianapolis
 
+Dilara Yarbrough, Assistant Professor of Criminal Justice Studies, San Francisco State University
+
+Hajar Yazdiha, Assistant Professor of Sociology, University of Southern California
+
 Patricia Ybarra, Professor of Theatre Arts and Performance Studies, Brown University
+
+Intae Yoon, Associate Professor of Social Work, North Carolina State University
 
 Dominique Young, PhD Candidate, University of Maryland, College Park
 
 Michael Young, Assistant Professor of Education, University of Minnesota Duluth
 
-Emily Zackin, Associate Professor of Political Science, Johns Hopkins University
-
-Naomi Zewde, Assistant Professor of Health Policy, City University of New York
-
 Elizabeth Ziff, Assistant Professor of Sociology, University of Indianapolis
 
 Kimberley Zittel Barr, Chairperson of Social Work Department, Buffalo State College
+
+
 
 To add your signature, visit: <https://forms.gle/nZxJsMYSyQkoA8yC7>
