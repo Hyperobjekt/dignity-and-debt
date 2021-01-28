@@ -30,7 +30,7 @@ Student debt cancellation would be highly progressive. The reason for this progr
 
 Debt cancellation also would benefit disproportionately those students who have lower income jobs after college. Among the students who began college in 2012, 55 percent of those with incomes below $30,000 in 2017 had debt compared to just 28 percent of those with incomes above $125,000 that year.\[7] Similarly, one survey found that 49 percent of retail workers have student debt.\[8] We lack comparable data for investment bankers or hedge fund managers. But we do know that high earners in those professions graduate disproportionately from top private universities where an average of just 18 percent of all undergraduates borrow at all.\[9] This disparity in student debt is why debt cancellation is supported by SEIU, the nation’s largest service workers union, but not the American Bankers Association.
 
-Using an executive order would ensure that student debt cancellation is accomplished in a progressive way. An executive would avoid asking student borrowers to jump through unnecessary hoops, to complete yet another round of paperwork, and to endure the humiliation of being treated as if they are trying to acquire something they don’t deserve. With a design focused on fairness and dignity, the only thing debtors would have to do is receive notification that justice has been done, that they need not do anything unless they want to opt out. In this way, everyone will be doing better and feeling better about it.
+Using an executive order would ensure that student debt cancellation is accomplished in a progressive way. An executive order would avoid asking student borrowers to jump through unnecessary hoops, to complete yet another round of paperwork, and to endure the humiliation of being treated as if they are trying to acquire something they don’t deserve. With a design focused on fairness and dignity, the only thing debtors would have to do is receive notification that justice has been done, that they need not do anything unless they want to opt out. In this way, everyone will be doing better and feeling better about it.
 
 Separate tax reform legislation from Congress could “claw-back” income gains from the cancellation of any debt made to wealthier borrowers. A more progressive tax code is a more effective and popular way to assure a progressive income distribution than through financial aid policy.
 
@@ -1208,7 +1208,5 @@ Naomi Zewde, Assistant Professor of Health Policy, City University of New York
 Elizabeth Ziff, Assistant Professor of Sociology, University of Indianapolis
 
 Kimberley Zittel Barr, Chairperson of Social Work Department, Buffalo State College
-
- 
 
 To add your signature, visit: <https://forms.gle/nZxJsMYSyQkoA8yC7>
