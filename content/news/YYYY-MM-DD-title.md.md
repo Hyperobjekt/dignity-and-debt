@@ -9,9 +9,7 @@ link: https://www.dignityanddebt.org/projects/an-open-letter-to-president-biden-
 
 Dear President Biden,
 
-We are scholars who study student debt, higher education, and racial inequality. We write to urge you to use your executive authority to cancel student debt as soon as possible. Doing so will address racial debt disparities, provide urgent economic relief for all Americans, further stimulate the economic recovery, and right a series of wrongs.
-
-([Continued...](https://www.dignityanddebt.org/projects/an-open-letter-to-president-biden-scholars-support-your-promise-to-cancel-student-debt/))
+We are scholars who study student debt, higher education, and racial inequality. We write to urge you to use your executive authority to cancel student debt as soon as possible. Doing so will address racial debt disparities, provide urgent economic relief for all Americans, further stimulate the economic recovery, and right a series of wrongs... .
 
 To see the letter published in the *Chronicle of Higher Education*, [click here](https://www.chronicle.com/blogs/letters/an-open-letter-to-president-biden-urging-student-debt-cancellation).
 
