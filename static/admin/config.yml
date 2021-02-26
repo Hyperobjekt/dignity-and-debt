@@ -321,6 +321,7 @@ collections:
       - {label: "Publish Date", name: "date", required: false, widget: "datetime"}
       - {label: "Appears on Projects index page", name: "indexpage", widget: "boolean", default: true, required: false}
       - {label: "Links Out (from main projects page to individual page", name: "link_out", widget: "boolean", default: false, required: false}
+      - {label: "Display title on project page?", name: displaytitle, widget: boolean}
       - label: "Full Width Hero Image"
         name: "hero_image_fw"
         widget: "image"
