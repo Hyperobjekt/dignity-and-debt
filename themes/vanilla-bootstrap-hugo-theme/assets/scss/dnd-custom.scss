@@ -92,6 +92,20 @@ a.no-button-link-lg {
   line-height: 1.5;
 }
 
+// Utilities
+
+.video-responsive-64 {
+  position: relative; 
+  padding-bottom: 56.25%; 
+  padding-top: 30px; 
+  height: 0; 
+  overflow: hidden;
+  iframe, .video-container object, .video-container embed {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  }
+}
+
+
 // Page container
 .container.parent {
   padding-right: 0;

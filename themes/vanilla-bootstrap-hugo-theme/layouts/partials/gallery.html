@@ -14,7 +14,6 @@
                     {{ $processed := .Fit $options }} {{/* This line processes the image with the regular res opts */}}
                     {{ $processed2x := .Fit $options2x }} {{/* This line processes the image with the high res opts */}}
                         <img class="gallery" src="{{ $processed.RelPermalink }}" sizes="{{ $sizes }}" width="{{ $processed.Width }}" height="{{ $processed.Height}}" alt="{{ $alt }}" srcset="{{ $processed.RelPermalink }}, {{ $processed2x.RelPermalink }} 2x"/>
-
                     {{ end }}
                     {{ end }}
 

@@ -1,0 +1,37 @@
+</div>
+<div class="row content justify-content-center mb-0">
+    {{ range .images }}
+    <div class="project-img pagemaker flex-column column-project-img  col-md-6 col-mmd-4 col-lg-4 justify-content-center mt-4 mt-md-5 mt-xl-6 mb-0" 
+        aria-label="Launch full sized image" data-img="{{ .image }}" 
+        data-fullimg="{{ .fullimage }}" tabindex="0" role="button">
+
+        {{ $img := strings.TrimPrefix "/uploads/" .image }}
+                {{ $alt := .alt }}
+                {{ $link := .link }}
+                {{ $overlay := .overlaytext }}
+                {{ $caption := .caption }}
+                {{ with site.GetPage "uploads/_index.md" }}
+                {{ with .Resources.GetMatch $img }}
+                    {{ $options := "400x800 q90" }} {{/* Options for 1x devices */}}
+                    {{ $options2x := "800x1600 q90" }} {{/* Options for 2x devices */}}
+                    {{ $sizes := "(min-width: 400px) 100vw, 80vw"}} {{/* Sizes attr options for 2x devices */}}
+                    {{ $processed := .Fit $options }} {{/* This line processes the image with the regular res opts */}}
+                    {{ $processed2x := .Fit $options2x }} {{/* This line processes the image with the high res opts */}}
+                    <div class="normal-img-wrapper d-flex justify-content-center">
+                        <a href="{{ $link }}" target="_blank" rel="noopener noreferrer">
+                            <img class="gallery mw-100" src="{{ $processed.RelPermalink }}" sizes="{{ $sizes }}" width="{{ $processed.Width }}" height="{{ $processed.Height}}" alt="{{ $alt }}" srcset="{{ $processed.RelPermalink }}, {{ $processed2x.RelPermalink }} 2x"/>
+                            {{ if $overlay }}
+                                <div class="img-hover-overlay">{{ $overlay }}</div>
+                            {{ end }}
+                        </a>
+                    </div>  
+                    <p class="text-center d-block">{{ $caption }}</p>
+                    {{ end }}
+                    {{ end }}
+
+
+        </div>   
+        {{ end }}
+        
+    </div>
+<div class="row content mb-0 px-5 px-md-3">    

@@ -377,7 +377,16 @@ collections:
               - {label: Heading, name: heading, widget: string, required: false,}  
               - {label: Text, name: text, widget: markdown, required: false, buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list", "heading-one", "heading-two", "heading-three", "heading-four"]}  
               - {label: Button Label, name: buttonlabel, widget: string}
-              - {label: Button Link, name: buttonlink, widget: string}                                            
+              - {label: Button Link, name: buttonlink, widget: string}
+          - label: Image gallery with external links
+            name: linkgallery
+            widget: object
+            fields:
+              - {label: Image, name: image, widget: image, required: false} 
+              - {label: Alt text, name: alt, widget: string, required: false, hint: 'Alt text for image, for disabled users'} 
+              - {label: Link, name: link, widget: string, required: false}
+              - {label: Overlay Text, name: overlaytext, widget: string, required: false, hint: 'Appears on image hover'}
+              - {label: Caption, name: caption, widget: string, required: false,}                                                
           #- label: Image Gallery
           #  name: gallery
           #  widget: object

@@ -2,21 +2,24 @@
 <div class="row breadcrumb-parent" aria-label="breadcrumb navigation" tabindex="0">
     {{ partial "breadcrumb.html" . }}
   </div>
-  
+  {{ if eq .Params.displaytitle false }}
+  {{else }}
   <div class="row heading mx-md-2">
      <div class="col-md-7 col-xl-6 mx-auto mb-0">
         <h2 tabindex="0" class="mb-0">{{ .Title }}</h2>
     </div> 
   </div>
-  
+  {{ end }}
+
   {{ $projects_hero_img := strings.TrimPrefix "/uploads/" .Page.Params.hero_image }}
-  {{ with $.Site.GetPage "page" "uploads/_index.md" }}
-  {{ with .Resources.GetMatch $projects_hero_img }}
-  {{$projects_hero := .Fill "1024x310 TopLeft"}}
-  <div id="" class="jumbotron row" style="background-image: url('{{ $projects_hero.RelPermalink }}');">
-  </div>
-  {{ end }}
-  {{ end }}
+    {{ with $.Site.GetPage "page" "uploads/_index.md" }}
+    {{ with .Resources.GetMatch $projects_hero_img }}
+    {{$projects_hero := .Fit "2440x932 q50"}}
+    <!--<div id="" class="jumbotron row" style="height: 0; width: 100%; padding-top: 38%; background-image: url('{{ $projects_hero.RelPermalink }}');">
+    </div>-->
+    <img class="mw-100" src="{{ $projects_hero.RelPermalink }}" />
+    {{ end }}
+    {{ end }}
   
   {{ $projects_hero_img_fw := strings.TrimPrefix "/uploads/" .Page.Params.hero_image_fw }}
   {{ with $.Site.GetPage "page" "uploads/_index.md" }}
@@ -66,7 +69,10 @@
                 {{ end }} 
                 {{ if eq .type "imagelink"}}
                     {{ partial "imagelink.html" . }}
-                {{ end }}     
+                {{ end }}   
+                {{ if eq .type "linkgallery"}}
+                    {{ partial "linkgallery.html" . }}
+                {{ end }}    
             {{ end }}
             
         </div>    
