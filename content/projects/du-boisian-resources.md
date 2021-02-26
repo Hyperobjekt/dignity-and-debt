@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: The Du Boisian Visualization Toolkit
 layout: variable
 is_index: false
