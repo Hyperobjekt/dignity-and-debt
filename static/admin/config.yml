@@ -300,6 +300,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
+      - {label: "Draft", name: "draft", widget: boolean, default: false, hint: If activated, will not be published to site}
       - {label: "Title", name: "title", widget: "string"}
       - {label: Layout, name: layout, widget: hidden, default: "variable"}
       - {label: "Is Index", name: "is_index", widget: "hidden", default: false}
@@ -309,7 +310,7 @@ collections:
       - {label: "Social Media Image", name: "social_image", widget: "image", required: false, hint: "Dimensions: 1200x675. No compression required"}
       - {label: "Social Media Description", name: "social_description", widget: "string", required: false, hint: "Best kept short & sweet!"}
       - {label: "Thumbnail", name: "thumb", widget: "image", required: false, hint: Appears on Projects index page}
-      - {label: "Description", name: "description", widget: "markdown", required: false}
+      - {label: "Description", name: "description", widget: "markdown", required: false, hint: Appears on Projects index page}
       - label: "Index Page Project Links"
         name: projectlinks
         widget: list
