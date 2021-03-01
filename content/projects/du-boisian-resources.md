@@ -42,14 +42,14 @@ pagemaker:
         link: https://github.com/charlieeatonphd/dubois-data-portraits/tree/master/statascheme
         caption: Stata Scheme and Examples
         alt: ""
-      - image: /uploads/cat4.png
-        link: https://github.com
+      - image: /uploads/compare27.png
+        link: https://github.com/ajstarks/dubois-data-portraits
         overlaytext: Click to view on Github
-        caption: "Dubois Classic Github "
-      - image: /uploads/cat9.png
-        link: https://github.com
+        caption: Recreations of W.E.B Dubois's Data Portraits
+      - image: /uploads/modern-plate27.png
+        link: https://github.com/ajstarks/modern-dubois-viz
         overlaytext: Click to view on Github
-        caption: Dubois Modern github
+        caption: Dubois-style Visualizations using Modern Data
       - image: /uploads/c-00002.png
         link: /uploads/dubois-style.pdf
         overlaytext: Click to download PDF
