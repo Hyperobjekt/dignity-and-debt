@@ -7,6 +7,7 @@ has_modal: false
 type: projects
 social_image: /uploads/duboisian-viz-toolkit-thumb.jpg
 social_description: ""
+thumb: /uploads/duboisian-viz-toolkit-thumb.jpg
 description: An expanding project with design specifications and coding tools to
   help designers, artists, developers, writers, and scholars who want to
   visualize their data in the "Dubois Style" of graphs created by sociologist W.
@@ -16,7 +17,7 @@ weight: 4
 date: 2019-07-20T00:00:00.000Z
 indexpage: true
 link_out: true
-displaytitle: false
+hero_image_fw: /uploads/duboisian-viz-toolkit-hero.jpg
 pagemaker:
   - textblock: >-
       <div class="video-responsive-64">
@@ -36,22 +37,25 @@ pagemaker:
     type: textblock
   - type: linkgallery
     images:
-      - image: 01-access-to-higher-ed-sm.jpg
+      - image: /uploads/duboisforprofitsvspopulation19701890.png
         overlaytext: Click to view on Github
-        link: https://github.com
-        caption: Lorem ipsum dolor sit amet
-      - image: 03-Expanding-racial-wealth-gap-sm.jpg
-        link: https://github.com
-        overlaytext: Click to view on Github
-        caption: Lorem ipsum dolor sit amet
-      - image: 04-Student-debt-and-defaults-sm.jpg
-        link: https://github.com
-        overlaytext: Click to view on Github
-        caption: Lorem ipsum dolor sit amet
-      - image: 04-Student-debt-and-defaults-sm.jpg
+        link: https://github.com/charlieeatonphd/dubois-data-portraits/tree/master/statascheme
+        caption: Install the Du Bois scheme in Stata using the *ssc install dubois*
+          command. After installing, find tips and examples using the Du Bois
+          scheme with the *help dubois* command and at this website.
+        alt: ""
+      - image: /uploads/cat4.png
         link: https://github.com
         overlaytext: Click to view on Github
-        caption: Lorem ipsum dolor sit amet
+        caption: "Dubois Classic Github "
+      - image: /uploads/cat9.png
+        link: https://github.com
+        overlaytext: Click to view on Github
+        caption: Dubois Modern github
+      - image: /uploads/c-00002.png
+        link: /dubois-style.pdf
+        overlaytext: Click to view on Github
+        caption: Du Boisian Style Guide
   - textblock: >-
       ### **Additional Resources and Contributions**
 
@@ -80,9 +84,9 @@ pagemaker:
       [](https://bipocdesignhistory.com/)[Black Design in America: African Americans and the African Diaspora in Graphic Design](<https://bipocdesignhistory.com/>)
 
 
-      **Du Boisian Style Guide** at [github](https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf) from AJ Starks (see above)
+      Du Boisian **Style Guide** at [github](https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf) from AJ Starks (see above)
     type: textblock
 hero_image: /uploads/duboisian-viz-toolkit-hero.jpg
-thumb: /uploads/duboisian-viz-toolkit-thumb.jpg
+displaytitle: false
 subtitle: ""
 ---
