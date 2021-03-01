@@ -53,13 +53,13 @@ pagemaker:
         overlaytext: Click to view on Github
         caption: Lorem ipsum dolor sit amet
   - textblock: >-
-      ### **Links to Additional Resources and Contributions**
+      ### **Additional Resources and Contributions**
 
 
-      [Du Boisian replication using **Excel**](< <https://osf.io/vqnjm/>>)fromPhilip Cohen
+      Du Boisian [replication using **Excel**](https://osf.io/vqnjm/)fromPhilip Cohen
 
 
-      Du Boisian [replication using **Python**](<https://github.com/calvarez55/duboischallenge/blob/main/Challenge1.ipynb>)for Challenge #1 fromCamila Alvarez [](https://github.com/calvarez55/duboischallenge/blob/main/Challenge1.ipynb)
+      Du Boisian [replication using **Python**](https://github.com/calvarez55/duboischallenge/blob/main/Challenge1.ipynb)fromCamila Alvarez [](https://github.com/calvarez55/duboischallenge/blob/main/Challenge1.ipynb)
 
 
       **[R theme](<[https://github.com/vladmedenica/themedubois](https://github.com/vladmedenica/themedubois "https\://github.com/vladmedenica/themedubois">)** fromVlad Enrique Medenica [](https://github.com/vladmedenica/themedubois "https\://github.com/vladmedenica/themedubois")
