@@ -7,7 +7,6 @@ has_modal: false
 type: projects
 social_image: /uploads/duboisian-viz-toolkit-thumb.jpg
 social_description: ""
-thumb: /uploads/duboisian-viz-toolkit-thumb.jpg
 description: An expanding project with design specifications and coding tools to
   help designers, artists, developers, writers, and scholars who want to
   visualize their data in the "Dubois Style" of graphs created by sociologist W.
@@ -17,6 +16,7 @@ weight: 4
 date: 2019-07-20T00:00:00.000Z
 indexpage: true
 link_out: true
+displaytitle: false
 hero_image_fw: /uploads/duboisian-viz-toolkit-hero.jpg
 pagemaker:
   - textblock: >-
@@ -60,13 +60,13 @@ pagemaker:
       ### **Additional Resources and Contributions**
 
 
-      Du Boisian [replication using **Excel**](https://osf.io/vqnjm/)fromPhilip Cohen
+      Du Boisian [replication using **Excel** ](https://osf.io/vqnjm/)fromPhilip Cohen
 
 
-      Du Boisian [replication using **Python**](https://github.com/calvarez55/duboischallenge/blob/main/Challenge1.ipynb)fromCamila Alvarez [](https://github.com/calvarez55/duboischallenge/blob/main/Challenge1.ipynb)
+      Du Boisian [replication using **Python** ](https://github.com/calvarez55/duboischallenge/blob/main/Challenge1.ipynb)fromCamila Alvarez [](https://github.com/calvarez55/duboischallenge/blob/main/Challenge1.ipynb)
 
 
-      **[R theme](<[https://github.com/vladmedenica/themedubois](https://github.com/vladmedenica/themedubois "https://github.com/vladmedenica/themedubois">)** fromVlad Enrique Medenica [](https://github.com/vladmedenica/themedubois "https\://github.com/vladmedenica/themedubois")
+      **[R theme](<[https://github.com/vladmedenica/themedubois](https://github.com/vladmedenica/themedubois "https://github.com/vladmedenica/themedubois">)** from Vlad Enrique Medenica [](https://github.com/vladmedenica/themedubois "https\://github.com/vladmedenica/themedubois")
 
 
       The #TidyTuesday database of tweets in 2021 featuring [dozens of images and links to **R code**](<[https://www.notion.so/8cfed86c707e4974b2f483716c35bac3?v=94b0d46822234f899b6206a3bec5c767](https://www.notion.so/8cfed86c707e4974b2f483716c35bac3?v=94b0d46822234f899b6206a3bec5c767 "https://www.notion.so/8cfed86c707e4974b2f483716c35bac3?v=94b0d46822234f899b6206a3bec5c767")>) for Du Boisian replications. [](https://www.notion.so/8cfed86c707e4974b2f483716c35bac3?v=94b0d46822234f899b6206a3bec5c767 "https\://www.notion.so/8cfed86c707e4974b2f483716c35bac3?v=94b0d46822234f899b6206a3bec5c767")
@@ -87,6 +87,6 @@ pagemaker:
       Du Boisian **Style Guide** at [github](https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf) from AJ Starks (see above)
     type: textblock
 hero_image: /uploads/duboisian-viz-toolkit-hero.jpg
-displaytitle: false
+thumb: /uploads/duboisian-viz-toolkit-thumb.jpg
 subtitle: ""
 ---
