@@ -60,10 +60,10 @@ pagemaker:
       ### **Additional Resources and Contributions**
 
 
-      Du Boisian [replication using **Excel**](https://osf.io/vqnjm/) from Philip Cohen
+      Du Boisian [replication using **Excel**](https://osf.io/vqnjm/)from Philip Cohen
 
 
-      Du Boisian [replication using **Python**](https://github.com/calvarez55/duboischallenge/blob/main/Challenge1.ipynb) from Camila Alvarez [](https://github.com/calvarez55/duboischallenge/blob/main/Challenge1.ipynb)
+      Du Boisian [replication using **Python**](https://github.com/calvarez55/duboischallenge/blob/main/Challenge1.ipynb)from Camila Alvarez [](https://github.com/calvarez55/duboischallenge/blob/main/Challenge1.ipynb)
 
 
       **[R theme](<[https://github.com/vladmedenica/themedubois](https://github.com/vladmedenica/themedubois "https://github.com/vladmedenica/themedubois">)** from Vlad Enrique Medenica [](https://github.com/vladmedenica/themedubois "https\://github.com/vladmedenica/themedubois")
