@@ -46,7 +46,7 @@ pagemaker:
         link: https://github.com/ajstarks/dubois-data-portraits
         overlaytext: Click to view on Github
         caption: Recreations of W.E.B Dubois's Data Portraits
-      - image: /uploads/modern-plate27-3.png
+      - image: /uploads/modern-compare27.png
         link: https://github.com/ajstarks/modern-dubois-viz
         overlaytext: Click to view on Github
         caption: Dubois-style Visualizations using Modern Data
