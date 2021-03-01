@@ -66,13 +66,13 @@ pagemaker:
       Du Boisian [replication using **Python**](https://github.com/calvarez55/duboischallenge/blob/main/Challenge1.ipynb)fromCamila Alvarez [](https://github.com/calvarez55/duboischallenge/blob/main/Challenge1.ipynb)
 
 
-      **[R theme](<[https://github.com/vladmedenica/themedubois](https://github.com/vladmedenica/themedubois "https\://github.com/vladmedenica/themedubois">)** fromVlad Enrique Medenica [](https://github.com/vladmedenica/themedubois "https\://github.com/vladmedenica/themedubois")
+      **[R theme](<[https://github.com/vladmedenica/themedubois](https://github.com/vladmedenica/themedubois "https://github.com/vladmedenica/themedubois">)** fromVlad Enrique Medenica [](https://github.com/vladmedenica/themedubois "https\://github.com/vladmedenica/themedubois")
 
 
-      The #TidyTuesday database of tweets in 2021 featuring [dozens of images and links to **R code**](<[https://www.notion.so/8cfed86c707e4974b2f483716c35bac3?v=94b0d46822234f899b6206a3bec5c767](https://www.notion.so/8cfed86c707e4974b2f483716c35bac3?v=94b0d46822234f899b6206a3bec5c767 "https\://www.notion.so/8cfed86c707e4974b2f483716c35bac3?v=94b0d46822234f899b6206a3bec5c767")>) for Du Boisian replications. [](https://www.notion.so/8cfed86c707e4974b2f483716c35bac3?v=94b0d46822234f899b6206a3bec5c767 "https\://www.notion.so/8cfed86c707e4974b2f483716c35bac3?v=94b0d46822234f899b6206a3bec5c767")
+      The #TidyTuesday database of tweets in 2021 featuring [dozens of images and links to **R code**](<[https://www.notion.so/8cfed86c707e4974b2f483716c35bac3?v=94b0d46822234f899b6206a3bec5c767](https://www.notion.so/8cfed86c707e4974b2f483716c35bac3?v=94b0d46822234f899b6206a3bec5c767 "https://www.notion.so/8cfed86c707e4974b2f483716c35bac3?v=94b0d46822234f899b6206a3bec5c767")>) for Du Boisian replications. [](https://www.notion.so/8cfed86c707e4974b2f483716c35bac3?v=94b0d46822234f899b6206a3bec5c767 "https\://www.notion.so/8cfed86c707e4974b2f483716c35bac3?v=94b0d46822234f899b6206a3bec5c767")
 
 
-      [How To **video** series](<https://www.youtube.com/watch?v=W2IDKrGaYJU&feature=youtu.be>) for Du Boisian Data Viz in **Tableau**[](https://www.youtube.com/watch?v=W2IDKrGaYJU&feature=youtu.be)
+      [How To **video** series](https://www.youtube.com/watch?v=W2IDKrGaYJU&feature=youtu.be) for Du Boisian Data Viz in **Tableau**[](https://www.youtube.com/watch?v=W2IDKrGaYJU&feature=youtu.be)
 
 
       **[The DuBoisChallenge](https://twitter.com/search?q=%23DuBoisChallenge&src=recent_search_click)** on Twitter
@@ -81,7 +81,7 @@ pagemaker:
       **[R Code](https://github.com/Ijeamakaanyene/tidytuesday/blob/master/scripts/2021_06_dubois_data.Rmd)** by #DuBoisChallenge Contributors
 
 
-      [](https://bipocdesignhistory.com/)[Black Design in America: African Americans and the African Diaspora in Graphic Design](<https://bipocdesignhistory.com/>)
+      [](https://bipocdesignhistory.com/)[Black Design in America: African Americans and the African Diaspora in Graphic Design](https://bipocdesignhistory.com/)
 
 
       Du Boisian **Style Guide** at [github](https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf) from AJ Starks (see above)
