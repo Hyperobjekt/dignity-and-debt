@@ -80,7 +80,7 @@ pagemaker:
       [](https://bipocdesignhistory.com/)[Black Design in America: African Americans and the African Diaspora in Graphic Design](<https://bipocdesignhistory.com/>)
 
 
-      <https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf>
+      Du Boisian Style Guide at [github](https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf) (see above) from AJ Starks
     type: textblock
 hero_image: /uploads/duboisian-viz-toolkit-hero.jpg
 thumb: /uploads/duboisian-viz-toolkit-thumb.jpg
