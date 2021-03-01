@@ -49,16 +49,7 @@ pagemaker:
         link: https://github.com
         overlaytext: Click to view on Github
         caption: Lorem ipsum dolor sit amet
-  - textblock: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus faucibus
-      lacus dui, vitae consequat nisl imperdiet sit amet. Etiam ante velit,
-      aliquam eget fringilla ac, imperdiet in odio. Ut lobortis nunc eget
-      feugiat tristique. Phasellus nisl justo, porta ac ornare non, ornare vel
-      metus. Sed sed feugiat lacus, nec sollicitudin ex. Aliquam mattis nulla
-      eget lorem malesuada mattis. Morbi luctus luctus risus, interdum aliquet
-      turpis condimentum suscipit.
-
-      Aenean in lectus scelerisque, blandit justo non, vehicula odio. Duis porta, sapien ut commodo imperdiet, tellus odio hendrerit eros, vel mattis nulla felis sed enim. Fusce ultrices nulla ac elit sagittis tristique. Sed sodales metus velit, vel gravida sem blandit ullamcorper. Praesent efficitur congue auctor. Duis fringilla sapien quis eros fermentum, et efficitur felis volutpat. Ut a ipsum id quam ullamcorper faucibus sit amet eu ligula. Pellentesque efficitur, diam iaculis volutpat facilisis, nulla eros eleifend velit, quis bibendum tellus ipsum maximus nisi. Fusce porttitor leo ut dapibus gravida. Curabitur consectetur massa sodales ex gravida dictum.
+  - textblock: ""
     type: textblock
 hero_image: /uploads/duboisian-viz-toolkit-hero.jpg
 subtitle: ""
