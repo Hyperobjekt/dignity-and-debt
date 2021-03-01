@@ -74,7 +74,7 @@ pagemaker:
       **[The DuBoisChallenge](https://twitter.com/search?q=%23DuBoisChallenge&src=recent_search_click)** on Twitter
 
 
-      **[R Code ](https://github.com/Ijeamakaanyene/tidytuesday/blob/master/scripts/2021_06_dubois_data.Rmd)**by #DuBoisChallenge Contributors
+      **[R Code](https://github.com/Ijeamakaanyene/tidytuesday/blob/master/scripts/2021_06_dubois_data.Rmd)** by #DuBoisChallenge Contributors
 
 
       [](https://bipocdesignhistory.com/)[Black Design in America: African Americans and the African Diaspora in Graphic Design](<https://bipocdesignhistory.com/>)
