@@ -385,11 +385,16 @@ collections:
             widget: object
             create: true
             fields:
-              - {label: Image, name: image, widget: image, required: false} 
-              - {label: Alt text, name: alt, widget: string, required: false, hint: 'Alt text for image, for disabled users'} 
-              - {label: Link, name: link, widget: string, required: false}
-              - {label: Overlay Text, name: overlaytext, widget: string, required: false, hint: 'Appears on image hover'}
-              - {label: Caption, name: caption, widget: string, required: false,}                                                
+              - label: Images
+                name: images
+                widget: list
+                create: true
+                fields:
+                - {label: Image, name: image, widget: image, required: false} 
+                - {label: Alt text, name: alt, widget: string, required: false, hint: 'Alt text for image, for disabled users'} 
+                - {label: Link, name: link, widget: string, required: false}
+                - {label: Overlay Text, name: overlaytext, widget: string, required: false, hint: 'Appears on image hover'}
+                - {label: Caption, name: caption, widget: string, required: false,}                                                
           #- label: Image Gallery
           #  name: gallery
           #  widget: object
