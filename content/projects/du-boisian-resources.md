@@ -53,8 +53,8 @@ pagemaker:
         overlaytext: Click to view on Github
         caption: Dubois Modern github
       - image: /uploads/c-00002.png
-        link: /dubois-style.pdf
-        overlaytext: Click to view on Github
+        link: /uploads/dubois-style.pdf
+        overlaytext: Click to download PDF
         caption: Du Boisian Style Guide
   - textblock: >-
       ### **Additional Resources and Contributions**
