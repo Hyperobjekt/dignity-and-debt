@@ -40,7 +40,7 @@ pagemaker:
       - image: /uploads/duboisforprofitsvspopulation19701890.png
         overlaytext: Click to view on Github
         link: https://github.com/charlieeatonphd/dubois-data-portraits/tree/master/statascheme
-        caption: Untitled
+        caption: Stata Scheme and Examples
         alt: ""
       - image: /uploads/cat4.png
         link: https://github.com
