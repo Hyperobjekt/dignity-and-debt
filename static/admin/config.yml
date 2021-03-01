@@ -383,6 +383,7 @@ collections:
           - label: Image gallery with external links
             name: linkgallery
             widget: object
+            create: true
             fields:
               - {label: Image, name: image, widget: image, required: false} 
               - {label: Alt text, name: alt, widget: string, required: false, hint: 'Alt text for image, for disabled users'} 
