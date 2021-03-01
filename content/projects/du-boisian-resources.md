@@ -49,7 +49,7 @@ pagemaker:
         link: https://github.com
         overlaytext: Click to view on Github
         caption: Lorem ipsum dolor sit amet
-  - textblock: ""
+  - textblock: "### **Links to Additional Resources**"
     type: textblock
 hero_image: /uploads/duboisian-viz-toolkit-hero.jpg
 subtitle: ""
