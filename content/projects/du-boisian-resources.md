@@ -68,13 +68,13 @@ pagemaker:
       The #TidyTuesday database of tweets in 2021 featuring [dozens of images and links to **R code**](<[https://www.notion.so/8cfed86c707e4974b2f483716c35bac3?v=94b0d46822234f899b6206a3bec5c767](https://www.notion.so/8cfed86c707e4974b2f483716c35bac3?v=94b0d46822234f899b6206a3bec5c767 "https\://www.notion.so/8cfed86c707e4974b2f483716c35bac3?v=94b0d46822234f899b6206a3bec5c767")>) for Du Boisian replications. [](https://www.notion.so/8cfed86c707e4974b2f483716c35bac3?v=94b0d46822234f899b6206a3bec5c767 "https\://www.notion.so/8cfed86c707e4974b2f483716c35bac3?v=94b0d46822234f899b6206a3bec5c767")
 
 
-      [How To video series](<https://www.youtube.com/watch?v=W2IDKrGaYJU&feature=youtu.be>) for Du Boisian Data Viz in **Tableau**[](https://www.youtube.com/watch?v=W2IDKrGaYJU&feature=youtu.be)
+      [How To **video** series](<https://www.youtube.com/watch?v=W2IDKrGaYJU&feature=youtu.be>) for Du Boisian Data Viz in **Tableau**[](https://www.youtube.com/watch?v=W2IDKrGaYJU&feature=youtu.be)
 
 
       **[R Code ](https://github.com/Ijeamakaanyene/tidytuesday/blob/master/scripts/2021_06_dubois_data.Rmd)**by #DuBoisChallenge Contributors
 
 
-      [](https://bipocdesignhistory.com/)[**Black Design in America:** African Americans and the African Diaspora in Graphic Design](<https://bipocdesignhistory.com/>)
+      [](https://bipocdesignhistory.com/)[Black Design in America: African Americans and the African Diaspora in Graphic Design](<https://bipocdesignhistory.com/>)
 
 
       <https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf>
