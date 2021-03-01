@@ -40,9 +40,7 @@ pagemaker:
       - image: /uploads/duboisforprofitsvspopulation19701890.png
         overlaytext: Click to view on Github
         link: https://github.com/charlieeatonphd/dubois-data-portraits/tree/master/statascheme
-        caption: Install the Du Bois scheme in Stata using the *ssc install dubois*
-          command. After installing, find tips and examples using the Du Bois
-          scheme with the *help dubois* command and at this website.
+        caption: Untitled
         alt: ""
       - image: /uploads/cat4.png
         link: https://github.com
