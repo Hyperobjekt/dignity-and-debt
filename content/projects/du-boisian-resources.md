@@ -33,7 +33,7 @@ pagemaker:
       This toolkit expands the Du Boisian-inspired work in our [Student Debt Initiative](https://www.dignityanddebt.org/projects/student-debt-initiative/). As part of that project, the Dignity and Network and the **[VizE Lab](https://vizelab.princeton.edu/)** at Princeton adopted the style of Du Bois in a series of charts "[The Problem of the Colored Lines](https://www.dignityanddebt.org/projects/student-debt-racial-disparities/)" and an [interactive student loan re-calculator](https://www.dignityanddebt.org/projects/student-debt-calculator/) that depict contemporary research on how racial color lines organize data on student loan debt. 
 
 
-      Several Network members spent February assembling this initial set of tools to honor Black History Month 2021. These tools offers design specifications and coding tools to help designers, artists, developers, writers, and scholars who want to visualize their data in the "Dubois Style" of graphs created by sociologist W. E. B Dubois' and his team for the 1900 Paris exposition.
+      Several Network members spent February assembling this initial set of tools to honor Black History Month 2021. These tools offer design specifications and coding tools to help designers, artists, developers, writers, and scholars who want to visualize their data in the "Dubois Style" of graphs created by sociologist W. E. B Dubois' and his team for the 1900 Paris exposition.
     type: textblock
   - type: linkgallery
     images:
