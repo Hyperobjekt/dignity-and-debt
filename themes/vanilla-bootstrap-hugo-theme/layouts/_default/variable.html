@@ -12,12 +12,15 @@
   {{ end }}
 
   {{ $projects_hero_img := strings.TrimPrefix "/uploads/" .Page.Params.hero_image }}
+  {{ $hero_alt := .Params.hero_alt }}
+  {{ $hero_title := .Params.hero_title }}
     {{ with $.Site.GetPage "page" "uploads/_index.md" }}
     {{ with .Resources.GetMatch $projects_hero_img }}
-    {{$projects_hero := .Fit "2440x932 q70"}}
+    {{$projects_hero := .Fit "2440x932 q80"}}
+    
     <!--<div id="" class="jumbotron row" style="height: 0; width: 100%; padding-top: 38%; background-image: url('{{ $projects_hero.RelPermalink }}');">
     </div>-->
-    <img class="mw-100" src="{{ $projects_hero.RelPermalink }}" />
+    <img class="mw-100 projects_hero" src="{{ $projects_hero.RelPermalink }}" alt="{{ $hero_alt }}" title="{{ $hero_title }}" />
     {{ end }}
     {{ end }}
   

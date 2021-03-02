@@ -323,7 +323,7 @@ collections:
       - {label: "Links Out (from main projects page to individual page", name: "link_out", widget: "boolean", default: false, required: false}
       - {label: "Display title on project page?", name: displaytitle, widget: boolean}
       - label: "Full Width Hero Image"
-        name: "hero_image_fw"
+        name: "hero_image"
         widget: "image"
         default: "/uploads/projects.png"
         required: false

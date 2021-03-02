@@ -1,0 +1,9 @@
+.the-du-boisian-visualization-toolkit {
+    img.mw-100.projects_hero {
+        @include media-breakpoint-down(sm) {
+            max-width: 170% !important;
+            margin-left: -35%;
+            overflow: hidden;
+        }
+    }
+}
