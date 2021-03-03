@@ -62,7 +62,7 @@ pagemaker:
 
       <br />
 
-      Du Boisian \[replication using \*\*Excel\*\*](https://osf.io/vqnjm/) from Philip Cohen
+      Du Boisian \\[replication using \\*\\*Excel\\*\\*](https://osf.io/vqnjm/) from Philip Cohen
 
 
       Du Boisian [replication using **Python**](https://github.com/calvarez55/duboischallenge/blob/main/Challenge1.ipynb) from Camila Alvarez
@@ -87,6 +87,9 @@ pagemaker:
 
 
       Du Boisian **Style Guide** at [github](https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf) from AJ Starks (see above)
+
+
+      Du Boisian style **fonts** from [Vocal Type](https://www.vocaltype.co/wip)
     type: textblock
 subtitle: ""
 hero_image_fw: /uploads/duboisian-viz-toolkit-hero.jpg
