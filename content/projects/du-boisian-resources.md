@@ -53,8 +53,8 @@ pagemaker:
         overlaytext: Click to view on Github
         caption: Dubois-style Visualizations using Modern Data
       - image: /uploads/c-00002.png
-        link: content/uploads/dubois-style2.pdf
-        overlaytext: Click to download PDF
+        link: https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf
+        overlaytext: Click for PDF on GitHub
         caption: Du Boisian Style Guide
   - textblock: >-
       ### **Additional Resources and Contributions**
