@@ -62,7 +62,7 @@ pagemaker:
 
       <br />
 
-      Du Boisian \\[replication using \\*\\*Excel\\*\\*](https://osf.io/vqnjm/) from Philip Cohen
+      Du Boisian [replication using **Excel**](https://osf.io/vqnjm/) from Philip Cohen
 
 
       Du Boisian [replication using **Python**](https://github.com/calvarez55/duboischallenge/blob/main/Challenge1.ipynb) from Camila Alvarez
@@ -86,7 +86,7 @@ pagemaker:
       [](https://bipocdesignhistory.com/)[Black Design in America: African Americans and the African Diaspora in Graphic Design](https://bipocdesignhistory.com/)
 
 
-      Du Boisian **Style Guide** at [github](https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf) from AJ Starks (see above)
+      Du Boisian **Style Guide** at [github](https://github.com/ajstarks/dubois-data-portraits/blob/master/dubois-style.pdf) from AJ Starks
 
 
       Du Boisian style **fonts** from [Vocal Type](https://www.vocaltype.co/wip)
