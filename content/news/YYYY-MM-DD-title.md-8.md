@@ -1,7 +1,7 @@
 ---
 title: CBS News Features Network Members on Student Loans
 is_index: false
-image: /uploads/cbs-loan-debt-issue.png
+image: /uploads/cbs-loan-debt-issue2.png
 date: 2021-03-29
 link: https://www.cbsnews.com/news/student-loan-debt-forgiveness-dilemma/
 ---
