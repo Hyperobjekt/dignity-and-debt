@@ -1900,6 +1900,10 @@ body.type-meetings .row {
 body.type-projects {
   &.kind-page {
     .row {
+      .hero-container {
+        max-height: 400px;
+        overflow: hidden;
+      }
       &.jumbotron {
         height: 469px;
         background-repeat: no-repeat;
@@ -1908,7 +1912,7 @@ body.type-projects {
       }
       &.jumbotron_fw {
         display: block;
-        margin-bottom: 3.8rem;
+        //margin-bottom: 3.8rem;
         img {
           max-width: 100%;
           height: auto;
