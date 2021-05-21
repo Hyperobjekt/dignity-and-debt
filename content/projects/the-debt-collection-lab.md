@@ -19,6 +19,8 @@ indexpage: true
 link_out: false
 displaytitle: true
 hero_image: /uploads/projects.png
+alts:
+  hero_alt: Hero image
 pagemaker:
   - type: imagelink
     imagelink: /uploads/read-more-dcl.png
