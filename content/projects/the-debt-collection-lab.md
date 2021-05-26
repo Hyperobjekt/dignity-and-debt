@@ -27,7 +27,7 @@ pagemaker:
   - type: normalimage
     normalimage: '/uploads/dcl-page-body-image.png'
     alt: test
-  - textblock: The Lab features a **Debt Collection Lawsuit Tracker** so that debtors and their advocates can monitor in real-time the monthly updates to the number of debt cases being filed across the United States. Live charts track the number of lawsuits and default judgements over time and maps plot the denser concentrations of lawsuits in certain neighborhoods.
+  - textblock: The Lab features a **Debt Collection Lawsuit Tracker** so that debtors and their advocates can monitor in real-time the monthly updates to the number of debt cases being filed in the states and counties we are tracking. Live charts track the number of lawsuits and default judgements over time and maps plot the denser concentrations of lawsuits in certain neighborhoods.
     type: textblock  
   - link: https://debtcollectionlab.org
     buttonlabel: GO TO THE WEBSITE
