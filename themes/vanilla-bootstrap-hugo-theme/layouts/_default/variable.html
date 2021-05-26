@@ -8,7 +8,7 @@
   {{ $hero_title := .Params.hero_title }}
     {{ with $.Site.GetPage "page" "uploads/_index.md" }}
     {{ with .Resources.GetMatch $projects_hero_img }}
-    {{$projects_hero := .Fit "2440x932 q80"}}
+    {{$projects_hero := .Fit "2880x932 q70 jpg"}}
     
     <!--<div id="" class="jumbotron row" style="height: 0; width: 100%; padding-top: 38%; background-image: url('{{ $projects_hero.RelPermalink }}');">
     </div>-->
@@ -43,7 +43,7 @@
 {{ if .Content }}
   <div class="row content">
     <div class="col-md-7 col-xl-6 mx-auto">
-      {{ .Content }}
+      {{ .Content | markdownify }}
     </div>
   </div>
 {{ end }}
