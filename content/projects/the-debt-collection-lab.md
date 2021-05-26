@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: The Debt Collection Lab
 layout: variable
 is_index: false
