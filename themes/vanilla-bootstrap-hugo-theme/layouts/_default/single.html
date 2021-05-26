@@ -4,9 +4,7 @@
   {{ partial "breadcrumb.html" . }}
 </div>
 
-<div class="row heading">
-  <h2 tabindex="0" class="col-md-8 offset-md-2">{{ .Title }}</h2>
-</div>
+
 
 {{ $projects_hero_img := strings.TrimPrefix "/uploads/" .Page.Params.hero_image }}
 {{ with $.Site.GetPage "page" "uploads/_index.md" }}
@@ -25,6 +23,10 @@
 </div>
 {{ end }}
 {{ end }}
+
+<div class="row heading">
+  <h2 tabindex="0" class="col-md-8 offset-md-2">{{ .Title }}</h2>
+</div>
 
 <div class="row content">
   <div class="col-md-8 offset-md-2">
