@@ -6,7 +6,7 @@ is_index: false
 has_modal: false
 type: projects
 social_description: Track debt collection lawsuits in real time.
-thumb: /uploads/dct-icon.png
+thumb: /uploads/default-judgments-dcl-hero.png
 description: The Debt Collection Lab visualizes the increasingly uneven
   distribution of debt collection lawsuits in the US by neighborhood and race.
   People who already had trouble paying their bills saw those troubles multiply
