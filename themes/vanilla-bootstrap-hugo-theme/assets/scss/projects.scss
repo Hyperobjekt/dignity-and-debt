@@ -1,3 +1,17 @@
+// Global styles
+
+.body-copy img {
+    @include media-breakpoint-up(md) {
+        width: 118%;
+        margin-left: -9% !important;
+        max-width: 118% !important;
+    }
+}
+
+
+
+// Individual pages
+
 .the-du-boisian-visualization-toolkit {
     img.mw-100.projects_hero {
         @include media-breakpoint-down(sm) {
