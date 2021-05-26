@@ -3,7 +3,7 @@ draft: true
 title: The Debt Collection Lab
 layout: variable
 is_index: false
-has_modal: true
+has_modal: false
 type: projects
 social_description: Track debt collection lawsuits in real time.
 thumb: /uploads/dct-icon.png
@@ -16,7 +16,7 @@ description: The Debt Collection Lab visualizes the increasingly uneven
 weight: 1
 date: 2021-05-21T16:03:40.888Z
 indexpage: true
-link_out: false
+link_out: true
 displaytitle: true
 hero_image: /uploads/projects.png
 alts:
