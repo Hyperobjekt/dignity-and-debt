@@ -18,9 +18,9 @@ date: 2021-05-21T16:03:40.888Z
 indexpage: true
 link_out: true
 displaytitle: true
-hero_image: /uploads/projects.png
+hero_image: /uploads/default-judgments-dcl-hero.png
 alts:
-  hero_alt: Hero image
+  hero_alt: Painting of a defendant in a debt collection lawsuit being given a default judgment on their case.
 pagemaker:
   - type: imagelink
     imagelink: /uploads/read-more-dcl.png
