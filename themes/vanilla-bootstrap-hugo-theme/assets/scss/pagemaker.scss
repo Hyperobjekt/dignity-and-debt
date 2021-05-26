@@ -64,6 +64,16 @@
     height: auto;
 }
 
+.pagemaker .normal-img-wrapper {
+    img {
+        @include media-breakpoint-up(md) {
+            width: 118%;
+            margin-left: -9%;
+            max-width: 118%;
+        }
+    }
+}
+
 .pagemaker.project-img.three-col {
         width: 33.3333333%;
         img {

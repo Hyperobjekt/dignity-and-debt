@@ -12316,6 +12316,12 @@ a.no-button-link-lg img {
   margin-left: 0;
 }
 
+@media (max-width: 767.98px) {
+  .type-projects main {
+    overflow-x: hidden;
+  }
+}
+
 .nav-wrapper {
   max-width: 1440px;
 }
@@ -14105,6 +14111,11 @@ body.type-meetings .row .display-date {
   border-bottom: none;
 }
 
+body.type-projects.kind-page .row .hero-container {
+  max-height: 400px;
+  overflow: hidden;
+}
+
 body.type-projects.kind-page .row.jumbotron {
   height: 469px;
   background-repeat: no-repeat;
@@ -14114,7 +14125,6 @@ body.type-projects.kind-page .row.jumbotron {
 
 body.type-projects.kind-page .row.jumbotron_fw {
   display: block;
-  margin-bottom: 3.8rem;
 }
 
 body.type-projects.kind-page .row.jumbotron_fw img {
@@ -16128,6 +16138,14 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
   height: auto;
 }
 
+@media (min-width: 768px) {
+  .pagemaker .normal-img-wrapper img {
+    width: 118%;
+    margin-left: -9%;
+    max-width: 118%;
+  }
+}
+
 .pagemaker.project-img.three-col {
   width: 33.3333333%;
 }
@@ -16230,6 +16248,23 @@ body.comparing-and-calculating-your-student-loan-debt .row.content:last-of-type 
 .two-block .two-block-header {
   text-transform: none !important;
   text-align: left;
+}
+
+@media (min-width: 768px) {
+  .body-copy img {
+    width: 118%;
+    margin-left: -9% !important;
+    max-width: 118% !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .the-du-boisian-visualization-toolkit img.mw-100.projects_hero {
+    max-width: 170% !important;
+    margin-left: -35%;
+    overflow: hidden;
+    width: unset !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
