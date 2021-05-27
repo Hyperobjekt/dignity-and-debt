@@ -32,7 +32,7 @@
   {{ if eq .Params.displaytitle false }}
   {{else }}
   <div class="row heading mx-md-2">
-     <div class="col-md-7 col-xl-6 mx-auto pl-1">
+     <div class="col-md-7 col-xl-6 col-xxl-5 mx-auto pl-1">
         <h2 tabindex="0" class="mb-0">{{ .Title }}</h2>
     </div> 
   </div>
@@ -42,7 +42,7 @@
 <!-- Default Content -->  
 {{ if .Content }}
   <div class="row content body-copy">
-    <div class="col-md-7 col-xl-6 mx-auto">
+    <div class="col-md-7 col-xl-6 col-xxl-5 mx-auto">
       {{ .Content | markdownify }}
     </div>
   </div>
